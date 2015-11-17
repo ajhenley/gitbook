@@ -7,4 +7,5 @@
    * [Meaningful Names](meaningful_names.md)
    * [Designing Programs](designing_programs.md)
    * [Pseudocode and Algorithms](pseudocode_and_algorithms.md)
+   * Developing an Algorithm
 
