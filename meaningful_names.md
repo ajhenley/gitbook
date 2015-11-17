@@ -1,2 +1,2 @@
-# Program Design
+# Naming Conventions
 
