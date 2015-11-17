@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Meaningful Names](meaningful_names.md)
 * [1. Program Design](chapter1.md)
    * [Meaningful Names](meaningful_names.md)
    * [Program Design](program_design.md)
