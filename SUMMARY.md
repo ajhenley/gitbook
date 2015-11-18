@@ -18,4 +18,5 @@
    * [Change Activity: Process Student Records](change_activity_process_student_records.md)
    * [Completion Activity: Process a pair of numbers](completion_activity_process_a_pair_of_numbers.md)
    * [Produce Sales Report](produce_sales_report.md)
+   * Arrays
 
