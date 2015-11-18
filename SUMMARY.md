@@ -8,4 +8,5 @@
    * [Designing Programs](designing_programs.md)
    * [Pseudocode and Algorithms](pseudocode_and_algorithms.md)
    * [Developing an Algorithm](developing_an_algorithm.md)
+   * What is a defining diagram?
 
