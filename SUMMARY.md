@@ -28,5 +28,5 @@
    * [Modularization Activity](modularization_activity.md)
    * [Another Modularization Activity](another_modularization_activity.md)
    * [Algorithms Final Project](algorithms_final_project.md)
-   * Measuring Complexity
+   * [Measuring Complexity](measuring_complexity.md)
 
