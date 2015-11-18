@@ -15,5 +15,5 @@
    * [Repetition Control Structures](repetition_control_structures.md)
    * [Can't get enough of Program Design, Pseudocode and Algorithms](cant_get_enough_of_program_design,_pseudocode_and_algorithms.md)
    * [Debugging Activity: Print Student Records](debugging_activity_print_student_records.md)
-   * Change Activity: Process Student Records
+   * [Change Activity: Process Student Records](change_activity_process_student_records.md)
 
