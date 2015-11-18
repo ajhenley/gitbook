@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-   * Using Git
+   * [Using Git](using_git.md)
 * [1. Program Design](chapter1.md)
    * [Program Design](program_design.md)
    * [The Structure Theorem](the_structure_theorem.md)
