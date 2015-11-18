@@ -23,5 +23,5 @@
    * [Array Processing](array_processing.md)
    * [Finding the largest and smallest elements of an array](finding_the_largest_and_smallest_elements_of_an_ar.md)
    * [Bubble Sort](bubble_sort.md)
-   * Modularization
+   * [Modularization](modularization.md)
 
