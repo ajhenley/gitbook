@@ -21,4 +21,5 @@
    * [Arrays](arrays.md)
    * [Searching and Printing an Array](searching_and_printing_an_array.md)
    * [Array Processing](array_processing.md)
+   * Finding the largest and smallest elements of an array
 
