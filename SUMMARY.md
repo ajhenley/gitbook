@@ -13,4 +13,5 @@
    * [Selection Control Structures](selection_control_structures.md)
    * [More Selection Control Structures](more_selection_control_structures.md)
    * [Repetition Control Structures](repetition_control_structures.md)
+   * Can't get enough of Program Design, Pseudocode and Algorithms
 
