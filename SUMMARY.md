@@ -30,4 +30,5 @@
    * [Algorithms Final Project](algorithms_final_project.md)
    * [Measuring Complexity](measuring_complexity.md)
 * [2. Using Git](using_git.md)
+* [3. Unit Testing with JUnit](unit_testing_with_junit.md)
 
