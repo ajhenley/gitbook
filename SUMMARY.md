@@ -25,4 +25,5 @@
    * [Bubble Sort](bubble_sort.md)
    * [Modularization](modularization.md)
    * [Hierarchy Charts](hierarchy_charts.md)
+   * Modularization Activity
 
