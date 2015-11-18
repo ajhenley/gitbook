@@ -9,4 +9,4 @@
 <li>Processing &ndash; a list of actions needed to produce the required outputs</li>
 </ul>
 <p>&nbsp;</p>![](def_diag.png)
-<p><img src="/courses/970783/files/37088185/preview" alt="def_diag.png" data-api-endpoint="https://canvas.instructure.com/api/v1/courses/970783/files/37088185" data-api-returntype="File" /></p>
+<p>
