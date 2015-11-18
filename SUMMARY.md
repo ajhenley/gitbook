@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * [Using Git](using_git.md)
 * [1. Program Design](chapter1.md)
    * [Program Design](program_design.md)
    * [The Structure Theorem](the_structure_theorem.md)
@@ -30,4 +29,6 @@
    * [Another Modularization Activity](another_modularization_activity.md)
    * [Algorithms Final Project](algorithms_final_project.md)
    * [Measuring Complexity](measuring_complexity.md)
-
+* [2. Using Git](using_git.md)
+* [3. The Software Required for this course (software_requirements.md)]
+* [4. Unit Testing with JUnit(unit_testing.md)]
