@@ -26,4 +26,5 @@
    * [Modularization](modularization.md)
    * [Hierarchy Charts](hierarchy_charts.md)
    * [Modularization Activity](modularization_activity.md)
+   * Another Modularization Activity
 
