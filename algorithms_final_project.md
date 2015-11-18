@@ -20,3 +20,4 @@ Bonus: Choose one of the following and write an algorithm for it:
 2. Solving a Rubik's cube
 3. Finding a word in a dictionary (not online dictionary... the paper kind)
 4. Printing a copy of an article about you online and mailing that copy to your Grandma who doesn't have a computer.
+5. Opening a document in Microsoft Word and searching for all instances of a word and replacing with another word.
