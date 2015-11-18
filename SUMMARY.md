@@ -14,4 +14,5 @@
    * [More Selection Control Structures](more_selection_control_structures.md)
    * [Repetition Control Structures](repetition_control_structures.md)
    * [Can't get enough of Program Design, Pseudocode and Algorithms](cant_get_enough_of_program_design,_pseudocode_and_algorithms.md)
+   * Debugging Activity: Print Student Records
 
