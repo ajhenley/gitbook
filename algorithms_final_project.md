@@ -18,5 +18,5 @@ If not, change your algorithm.
 Bonus: Choose one of the following and write an algorithm for it:
 1. Solving a Sudoku puzzle
 2. Solving a Rubik's cube
-3. Finding a word in a dictionary
+3. Finding a word in a dictionary (not online dictionary... the paper kind)
 4. Printing a copy of an article about you online and mailing that copy to your Grandma who doesn't have a computer.
