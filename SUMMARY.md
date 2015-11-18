@@ -30,5 +30,6 @@
    * [Algorithms Final Project](algorithms_final_project.md)
    * [Measuring Complexity](measuring_complexity.md)
 * [2. Using Git](using_git.md)
-* [3. The Software Required for this course (software_requirements.md)]
+* [[3. The Software Required for this course (software_requirements.md)]]([3_the_software_required_for_this_course_softwarer.md)
 * [4. Unit Testing with JUnit(unit_testing.md)]
+
