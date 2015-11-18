@@ -27,4 +27,5 @@
    * [Hierarchy Charts](hierarchy_charts.md)
    * [Modularization Activity](modularization_activity.md)
    * [Another Modularization Activity](another_modularization_activity.md)
+   * Algorithms Final Project
 
