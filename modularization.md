@@ -1,6 +1,8 @@
 # Modularization
 
-Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
+Modular programming emphasizes separating the functionality of a program into independent, interchangeable modules. Each module contains everything necessary to perform its functionality. 
+
+When creating programs in Java these modules will become either methods, classes or packages. A method is a unit of code that performs one task and is invoked by name. A class is generally contains fields and methods to describe the behavior of an object. A package is a collection of related classes.
 
 ###What is the interface of a module?
 Inputs, outputs and processing steps
