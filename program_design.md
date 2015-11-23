@@ -2,13 +2,20 @@
 
 Programmers need to have a good understanding of the data to be processed. This includes the data variables, constants and literals. It also includes elementary data items, data structures, files and data validation.
 
-###Seven steps in program development
-* Define the problem.
-* Outline the solution.
+###Overview: Developing software solutions
+
+####Planning phase:
+* Define the problem to be solved.
+* Outline your solution on paper.
 * Develop the outline into an algorithm.
 * Test the algorithm for correctness.
+* Document your solution.
+####Coding phase:
 * Code the algorithm into a specific programming language.
 * Run the program on the computer.
+* Test your program, make corrections. 
+* Repeat.
+####Maintenance phase:
 * Document and maintain the program.
 
 ###Three different approaches to program design: 
