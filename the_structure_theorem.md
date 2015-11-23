@@ -6,9 +6,8 @@ The Structure Theorem states that a computer program can be constructed using ju
 ####The three basic control structures
 #####Sequence
 
-The sequence control structure is the straightforward execution of one
-processing step after another. In pseudocode, this construct is represented as
-a sequence of pseudocode statements:
+The sequence control structure is the straightforward execution of one processing step after another. In pseudocode, this construct is represented as a sequence of pseudocode statements:
+
 
 statement a<br/>
 statement b<br/>
@@ -27,7 +26,7 @@ fashion. Each instruction will be executed in the order in which it appears.
 
 #####Selection
 
-The selection control structure is the presentation of a condition and the choice between two actions, the choice depending on whether the condition is true or false. This construct represents the decision-making abilities of the computer and is used to illustrate the fifth basic computer operation, namely to compare two variables and select one of two alternative actions.
+The selection control structure presents and expression or condition as the choice between two actions. The choice depends on whether the expression evaluates to true or false. This construct represents the decision-making abilities of the computer. 
 
 In pseudocode, selection is represented by the keywords IF,THEN,ELSE and ENDIF:
 
@@ -37,7 +36,7 @@ ELSE<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;statement(s)in false case<br/>
 ENDIF<br/><br/>
 
-If condition p is true, then the statement or statements in the true case will be executed, and the statements in the false case will be skipped. Otherwise (the ELSE statement) the statements in the true case will be skipped and statements in the false case will be executed. In either case, control then passes to the next processing step after the delimiter ENDIF.
+If the expression evaluates to true, then the statement(s) that follow the true case will be executed. And the statements following the false case will not be executed. Otherwise (the ELSE statement) the statements in the true case will be skipped and statements in the false case will be executed. In either case, control then passes to the next processing step after the delimiter ENDIF.
 
 ###A typical pseudocode example might read:
 
