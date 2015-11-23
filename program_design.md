@@ -4,13 +4,13 @@ Programmers need to have a good understanding of the data to be processed. This 
 
 ###Overview: Developing software solutions
 
-####Planning phase:
+####Requirements and design phase:
 * Define the problem to be solved.
 * Outline your solution on paper.
 * Develop the outline into an algorithm.
 * Test the algorithm for correctness.
 * Document your solution.
-####Coding phase:
+####Implementation and verification phase:
 * Code the algorithm into a specific programming language.
 * Run the program on the computer.
 * Test your program, make corrections. 
@@ -19,18 +19,22 @@ Programmers need to have a good understanding of the data to be processed. This 
 * Document and maintain the program.
 
 ###Three different approaches to program design: 
-* procedure-driven
-* event-driven
-* data-driven program design.
+* Procedural-driven
+    * Example: C, Fortran, Basic
+* object-oriented / event-driven
+    * Example: Java, C#
+* data-driven program design (called symbolic programming)
+    * Example: LISP
 
 
 ##Procedural programming
 
 ##Object-oriented programming
 
+##Symbolic programming
+
 ##Top-down development
 
-##Modular design
 
 
 ###Algorithm
