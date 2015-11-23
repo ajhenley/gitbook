@@ -1,5 +1,11 @@
 # Modularization
 
+Modular programming is a software design technique that emphasizes separating the functionality of a program into independent, interchangeable modules, such that each contains everything necessary to execute only one aspect of the desired functionality.
+
+###What is the interface of a module?
+Inputs, outputs and processing steps
+
+
 <p>Modularization is the process of dividing a problem into separate tasks, each with a single purpose.&nbsp;</p>
 <p>Top-down design methodology allows the programmer to concentrate on the overall design of the algorithm without getting too involved with the details of the lower-level modules.&nbsp;&nbsp;&nbsp;</p>
 <p>&nbsp;</p>
