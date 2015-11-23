@@ -1,10 +1,10 @@
-# The Structure Theorem
+#The Structure Theorem
 
-The Structure Theorem
-The Structure Theorem revolutionized program design by establishing a structured framework for representing a solution algorithm. The Structure Theorem states that it is possible to write any computer program by using only three basic control structures that are easily represented in pseudocode: sequence, selection and repetition.
+###The Structure Theorem
+The Structure Theorem states that a computer program can be constructed using just sequence, selection or repetition control structures. Each control structure is easily represented in pseudocode.
 
-The three basic control structures
-Sequence
+####The three basic control structures
+#####Sequence
 
 The sequence control structure is the straightforward execution of one
 processing step after another. In pseudocode, this construct is represented as
@@ -25,10 +25,7 @@ Read customer record<br/><br/>
 These instructions illustrate the sequence control structure as a straightforward list of steps written one after the other, in a top-to-bottom
 fashion. Each instruction will be executed in the order in which it appears.
 
-##Selection
-
-
-
+#####Selection
 
 The selection control structure is the presentation of a condition and the choice between two actions, the choice depending on whether the condition is true or false. This construct represents the decision-making abilities of the computer and is used to illustrate the fifth basic computer operation, namely to compare two variables and select one of two alternative actions.
 
@@ -51,9 +48,7 @@ ELSE<br/>
 ENDIF
  
 
-## Repetition
-
-
+##### Repetition
 
 The repetition control structure can be defined as the presentation of a set of instructions to be performed repeatedly, as long as a condition is true. The basic idea of repetitive code is that a block of statements is executed again and again, until a terminating condition occurs. This construct represents the sixth basic computer operation, namely to repeat a group of actions.
 
