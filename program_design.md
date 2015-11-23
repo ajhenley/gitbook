@@ -34,11 +34,11 @@ Programmers need to have a good understanding of the data to be processed. This 
 ##Symbolic programming
 
 ##Top-down development
-
+Top-down development is an approach to software development. The designer formulates an overview of the problem. The designer then determines the necessary subsystems or components required to solve the problem. Each component is further refined in greater detail. At some point a solution emerges. Top-down development emphasizes planning. 
 
 
 ###Algorithm
-An algorithm is a set of detailed, unambiguous and ordered instructions developed to describe the processes necessary to produce the desired output from the given input.
+An algorithm is a set of detailed, unambiguous and ordered instructions. An algorithm illustrates steps to convert given input into the desired output. 
 
 ###Pseudocode
 Pseudocode is an English language-like way of representing the algorithm
