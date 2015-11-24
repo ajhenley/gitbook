@@ -1,8 +1,11 @@
 # Developing an Algorithm
 
-<h3><strong>Defining the Problem </strong></h3>
+##Defining the Problem
 
-{% em color="#ff0000" %}highlighted with a custom color!{% endem %}
+{% em %}
+highlighted with a custom color!
+{% endem %}
+
 
 IF THE ALGORITHM IS NOT CORRECT, THE PROGRAM NEVER WILL BE
 
