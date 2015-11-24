@@ -13,15 +13,15 @@ statement a
 statement b
 statement c
 
-For example, a typical sequence of statements in an algorithm might read:
+A sequence of statements in an algorithm might read:
 
-add 1 to pageCount<br/>
-Print heading line1<br/>
-Print heading line2<br/>
-Set lineCount to zero<br/>
-Read customer record<br/><br/>
-These instructions illustrate the sequence control structure as a straightforward list of steps written one after the other, in a top-to-bottom
-fashion. Each instruction will be executed in the order in which it appears.
+add 1 to pageCount
+Print heading line1
+Print heading line2
+Set lineCount to zero
+Read customer record
+
+These instructions illustrate the sequence control structure as a list of steps. Each is written one after the other, from start to finish. Each instruction will be executed as it appears.
 
 ####Selection
 
