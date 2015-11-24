@@ -21,6 +21,6 @@ You can document this thought process in a Systems Diagram.
 |checksOutstanding|receive checksOutstanding||
 |bankFees|receive bankFees||
 |checkbookBalance|receive checkbookBalance||
-||Add statementBalance to depositsInTransit<br/>Subtract checksOutstanding from above total<br/>subtract bankFees from checkbookBalance|
-|||Display message if your checkbook is balanced or not|
+||Add statementBalance to depositsInTransit<br/>Subtract checksOutstanding from above total<br/>subtract bankFees from checkbookBalance||
+|||Display message<br/>indicating if<br/>your checkbook<br/>is balanced or not|
 
