@@ -13,17 +13,14 @@ You can document this thought process in a Systems Diagram.
 * Output &ndash; a list of the outputs required
 * Processing &ndash; a list of actions needed to produce the required outputs. This is also your algorithm!
 
-|Solution to Balance my checkbook|
-|--|--|--|
+
 |Input|Processing|Output|
 |--|--|--|
 |statementBalance|receive statementBalance||
 |depositsInTransit|receive depositsInTransit||
 |checksOutstanding|receive checksOutstanding||
 |bankFees|receive bankFees||
-|||checkbookBalance|
-||Add statementBalance to depositsInTransit<br/>Subtract checksOutstanding from above total<br/>subtract bankFees from checkbookBalance
-|||message if your checkbook is balanced or not
+|checkbookBalance|receive checkbookBalance||
+||Add statementBalance to depositsInTransit<br/>Subtract checksOutstanding from above total<br/>subtract bankFees from checkbookBalance|
+|||Display message if your checkbook is balanced or not|
 
-<p>&nbsp;</p>![](def_diag.png)
-<p>
