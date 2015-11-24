@@ -1,7 +1,7 @@
 #The Structure Theorem
 
 ###The Structure Theorem
-The Structure Theorem states that a solution consists of a combination of three constructs. They are sequence, selection and repetition control structures. You can represent each control structure in pseudocode.
+The Structure Theorem states that a solution can consist of a combination of just three constructs. They are sequence, selection and repetition control structures. You can represent each control structure in pseudocode.
 
 ###Three control structures
 ####Sequence
@@ -25,26 +25,28 @@ These instructions illustrate the sequence control structure as a list of steps.
 
 ####Selection
 
-The selection control structure presents and expression or condition as the choice between two actions. The choice depends on whether the expression evaluates to true or false. This construct represents the decision-making abilities of the computer. 
+The selection control structure presents an expression or condition as the choice between two actions. The choice depends on whether the expression evaluates to true or false. This construct represents the decision-making abilities of the computer. 
 
 In pseudocode, selection is represented by the keywords IF,THEN,ELSE and ENDIF:
 
 IF condition x is true THEN
-&nbsp;&nbsp;&nbsp;&nbsp;perform statement(s)in the true case
+    perform statement(s)in the true case
 ELSE
-&nbsp;&nbsp;&nbsp;&nbsp;perform statement(s)in the false case
+    perform statement(s)in the false case
 ENDIF
 
-If the expression evaluates to true, then the statement(s) that follow the true case will be executed. And the statements following the false case will not be executed. Otherwise (the ELSE statement) the statements in the true case will be skipped and statements in the false case will be executed. In either case, control then passes to the next processing step after the delimiter ENDIF.
+If the expression evaluates to true, then the statement(s) that follow the true case will be executed. The statements following the false case will not be executed.
 
-###A typical pseudocode example might read:
+In either case, control then passes to the next processing step after the delimiter ENDIF.
 
-IF student_attendance_status is part_time THEN<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;add 1 to part_time_count<br/>
-ELSE<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;add 1 to full_time_count<br/>
+###A pseudocode example might read:
+'''
+IF employmentStatus is PART_TIME THEN
+&nbsp;&nbsp;&nbsp;&nbsp;add 1 to partTimeCount
+ELSE
+&nbsp;&nbsp;&nbsp;&nbsp;add 1 to fullTimeCount
 ENDIF
- 
+'''
 
 ####Repetition
 
