@@ -2,20 +2,8 @@
 
 ##Defining the Problem
 
-{% em %}
-highlighted with a custom color!
-{% endem %}
 
-This text is {% em %}highlighted !{% endem %}
- 
-This text is {% em type="green" %}highlighted in green!{% endem %}
- 
-This text is {% em type="red" %}highlighted in red!{% endem %}
- 
-This text is {% em color="#ff0000" %}highlighted with a custom color!{% endem %}
-
-
-IF THE ALGORITHM IS NOT CORRECT, THE PROGRAM NEVER WILL BE
+**IF THE ALGORITHM IS NOT CORRECT, THE PROGRAM NEVER WILL BE**
 
 <p>To help with the initial analysis, the problem should be divided into three separate components:</p>
 <p>&nbsp;</p>
