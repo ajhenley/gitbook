@@ -29,11 +29,11 @@ The selection control structure presents and expression or condition as the choi
 
 In pseudocode, selection is represented by the keywords IF,THEN,ELSE and ENDIF:
 
-IF condition p is true THEN<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;statement(s)in true case<br/>
-ELSE<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;statement(s)in false case<br/>
-ENDIF<br/><br/>
+IF condition x is true THEN
+&nbsp;&nbsp;&nbsp;&nbsp;perform statement(s)in the true case
+ELSE
+&nbsp;&nbsp;&nbsp;&nbsp;perform statement(s)in the false case
+ENDIF
 
 If the expression evaluates to true, then the statement(s) that follow the true case will be executed. And the statements following the false case will not be executed. Otherwise (the ELSE statement) the statements in the true case will be skipped and statements in the false case will be executed. In either case, control then passes to the next processing step after the delimiter ENDIF.
 
