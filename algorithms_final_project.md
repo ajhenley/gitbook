@@ -10,8 +10,6 @@ Your algorithm should allow any other person to achieve the same result by follo
 
 Would it be possible to automate the calculation by writing a program that follows the same steps? If not, change your algorithm.
 
-
-
 Bonus (if you're finished early): Choose one of the following and write an algorithm for it:
 1. Solving a Sudoku puzzle
 2. Solving a Rubik's cube
