@@ -1,7 +1,9 @@
 # What is a systems diagram?
 
 ###A Systems Diagram
-To help you develop an understanding of a problem you should read and re-read the problem statement. Then attempt to divide the problem into it's components. The solution is often to take the inputs, apply your algorithm and generate the output.
+To help you develop an understanding of a problem you should read the problem statement. You may need to ask follow-up questions before proceeding. Next, divide the problem into its components.
+
+The solution is often to take the inputs, apply your algorithm and generate the output.
 
 You can document this thought process in a Systems Diagram.
 
@@ -9,7 +11,7 @@ You can document this thought process in a Systems Diagram.
 
 * Input &ndash; a list of the source data provided to the problem
 * Output &ndash; a list of the outputs required
-* Processing &ndash; a list of actions needed to produce the required outputs
+* Processing &ndash; a list of actions needed to produce the required outputs. This is also your algorithm!
 
 
 |Input|Processing|Output|
