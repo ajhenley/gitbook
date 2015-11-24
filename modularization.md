@@ -1,13 +1,13 @@
 # Modularization
 
-Modular programming emphasizes separating the functionality of a program into independent, interchangeable modules. Each module contains everything necessary to perform its functionality. 
+Modular programming deals with organizing the functionality of a program. After modularization your program becomes a collection of independent, interchangeable components. Each component contains the code necessary to perform its specific functionality. 
 
-When creating programs in Java these modules will become either methods, classes or packages. A method is a unit of code that performs one task and is invoked by name. A class generally contains fields and methods to describe the behavior of an object. A package is a collection of related classes.
+When creating programs in Java these modules will become either methods, classes or packages. A method is a unit of code that performs one task. A class generally contains fields and methods which describe the behavior of an object. A package is a collection of related classes. A method in Java will never exist outside of a class.
 
 ###What is the interface of a module?
-Inputs, outputs and processing steps
+The interface of a method consists of the inputs, outputs, and required processing steps. The interface of a class are those members and methods which are visible to the calling program.
 
-Modular programming refers to the task of decomposing your algorithm into independent units (modules). Each module can potentially be reused within the current program or perhaps in other programs. Each method of each module can also be independently tested in unit tests.
+Modular programming refers to the task of decomposing your algorithm into modules. Each module may be reused within the current program or even in other programs. Each method of each module can also be independently tested/verified with unit tests.
 
 
 <p>Modularization is the process of dividing a problem into separate tasks, each with a single purpose.&nbsp;</p>
