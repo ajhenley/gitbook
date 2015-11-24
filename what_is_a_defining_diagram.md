@@ -1,12 +1,26 @@
-# What is a defining diagram?
+# What is a systems diagram?
 
-<h3>A Defining Diagram</h3>
-<p>When defining the problem be sure you understand it clearly before you continue. This may involve asking questions or re-reading the problem statement.</p>
-<p>Divide the problem into three separate components:</p>
-<ul>
-<li>Input &ndash; a list of the source data provided to the problem</li>
-<li>Output &ndash; a list of the outputs required</li>
-<li>Processing &ndash; a list of actions needed to produce the required outputs</li>
-</ul>
+###A Systems Diagram
+To help you develop an understanding of a problem you should read and re-read the problem statement. Then attempt to divide the problem into it's components. The solution is often to take the inputs, apply your algorithm and generate the output.
+
+You can document this thought process in a Systems Diagram.
+
+####Divide the problem into three components:
+
+* Input &ndash; a list of the source data provided to the problem
+* Output &ndash; a list of the outputs required
+* Processing &ndash; a list of actions needed to produce the required outputs
+
+
+|Input|Processing|Output|
+|--|--|
+|statementBalance|receive statementBalance||
+|depositsInTransit|receive depositsInTransit||
+|checksOutstanding|receive checksOutstanding||
+|bankFees|receive bankFees||
+|||checkbookBalance|
+||Add statementBalance to depositsInTransit<br/>Subtract checksOutstanding from above total<br/>subtract bankFees from checkbookBalance
+|||message if your checkbook is balanced or not
+
 <p>&nbsp;</p>![](def_diag.png)
 <p>
