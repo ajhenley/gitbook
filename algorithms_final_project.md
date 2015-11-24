@@ -5,7 +5,6 @@ You've just been hired by Alton's Hardware Store. Your job is to develop a tool 
 Go to http://bit.ly/FenceCost
 This link should direct you to a fence cost calculator.
 
-
 Your algorithm should allow any other person to achieve the same result by following your steps. They should not have to think about what they are doing.
 
 Would it be possible to automate the calculation by writing a program that follows the same steps? If not, change your algorithm.
