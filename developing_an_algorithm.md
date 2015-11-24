@@ -10,7 +10,7 @@
 <ol>
 <li><strong>Input</strong>: a list of the source data provided to the problem.</li>
 <li><strong>Output</strong>: a list of the outputs required.</li>
-<li><strong>Processing</strong>: a list of the actions needed to produce the required outputs.</li>
+<li><strong>Processing Steps</strong>: a list of the actions needed to produce the required outputs.</li>
 </ol>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
