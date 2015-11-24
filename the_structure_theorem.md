@@ -34,7 +34,11 @@ IF condition x is true THEN
 ELSE
     perform statement(s)in the false case
 ENDIF
-
+```IF condition x is true THEN
+    perform statement(s)in the true case
+ELSE
+    perform statement(s)in the false case
+ENDIF```
 If the expression evaluates to true, then the statement(s) that follow the true case will be executed. The statements following the false case will not be executed.
 
 In either case, control then passes to the next processing step after the delimiter ENDIF.
@@ -47,6 +51,8 @@ ELSE
 &nbsp;&nbsp;&nbsp;&nbsp;add 1 to fullTimeCount
 ENDIF
 '''
+
+
 
 ####Repetition
 
