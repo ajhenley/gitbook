@@ -1,18 +1,17 @@
 #The Structure Theorem
 
 ###The Structure Theorem
-The Structure Theorem states that a computer program can be constructed using just sequence, selection or repetition control structures. Each control structure is easily represented in pseudocode.
+The Structure Theorem states that a solution consists of a combination of three constructs. They are sequence, selection and repetition control structures. You can represent each control structure in pseudocode.
 
-###The three basic control structures
+###Three control structures
 ####Sequence
 
-The sequence control structure is the straightforward execution of one processing step after another. In pseudocode, this construct is represented as a sequence of pseudocode statements:
+The sequence control structure describes the linear execution of one step after another. In pseudocode, this construct is represented as a sequence of pseudocode statements:
 
 
-statement a<br/>
-statement b<br/>
+statement a
+statement b
 statement c
-
 
 For example, a typical sequence of statements in an algorithm might read:
 
