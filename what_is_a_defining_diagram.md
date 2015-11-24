@@ -13,9 +13,10 @@ You can document this thought process in a Systems Diagram.
 * Output &ndash; a list of the outputs required
 * Processing &ndash; a list of actions needed to produce the required outputs. This is also your algorithm!
 
-
+|Solution to Balance my checkbook|
+|--|--|--|
 |Input|Processing|Output|
-|--|--|
+|--|--|--|
 |statementBalance|receive statementBalance||
 |depositsInTransit|receive depositsInTransit||
 |checksOutstanding|receive checksOutstanding||
