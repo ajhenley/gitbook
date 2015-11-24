@@ -33,3 +33,13 @@ The signature of the main routine in a Java program is:<br/>
 <li>Ease of testing &ndash; unit tests can confirm the functionality of each method in your module.
 </ul>
 <p>&nbsp;</p>
+
+####Side Note:
+Java doesn't yet contain the concept of a module. This is proposed for a future release. A module would be a collection of Java Archives (JARs) the purpose of which would be to handle versioning issues.
+
+The proposed specification change would be a ... "distribution format (i.e., a Java module) and its metadata as a unit of delivery for packaging collections of Java code and related resources. The metadata would contain information about a module, the resources within the module, and its dependencies upon other modules. The metadata would also include an export list to restrict resources from being exposed outside the module unintentionally. The metadata may allow subset of exposed resources to be used by other modules selectively."
+
+Apparently the issues they're trying to resolve are:
+1. Version conflicts with updated dependencies.
+2. No uniform deployment model for Java application and extensions. 
+3. No means to share Java extensions among different JREs on the same system. 
