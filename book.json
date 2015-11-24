@@ -1,5 +1,5 @@
 {
-    "plugins": ["emphasize"]
+    "plugins": ["emphasize"],
     
     "pluginsConfig": {}
 }
