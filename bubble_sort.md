@@ -6,19 +6,18 @@
 
 The algorithm repeatedly traverses the unsorted part of the array, comparing consecutive elements. They are swapped using temporary variable when they are out of order. The name of the algorithm refers to the fact that the largest element "sinks" to the bottom and the smaller elements "float" to the top. The bubble sort will continue until the list is sorted and no swaps have occurred. 
 
-Note that N represents the number of elements in the list and temp represents the temporary (swap) variable.
+Note that <b>a</b> is the list, <b>n</b> represents the number of elements in the list and <b>temp</b> represents the temporary (swap) variable.
 <pre> 
-For I = 0 to N
-    For J = 1 to N - 1
-        If (A(J) &gt; A(J + 1))
-            temp = A(J)
-            A(J) = A(J + 1)
-            A(J + 1) = temp
+For i = 0 to n - 1
+    For j = 1 to n 
+        If (a(j) &gt; a(j + 1))
+            temp = a(j)
+            a(j) = a(j + 1)
+            a(j + 1) = temp
         End-If
     End-For
 End-For
 </pre>
-<p>Bubble Sort does roughly N**2 / 2 comparisons and does up to N**2 / 2 swaps.</p>
 
 Test the bubble sort algorithm by having it sort the letters in your first and last name.
 
