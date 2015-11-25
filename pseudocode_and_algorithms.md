@@ -14,7 +14,7 @@ There is not a standard format for pseudocode. It tends to be a cross between so
 
 Pseudocode allows one to include all the constructs of the Structure Theorem. That means that pseudocode can include sequence, selection and repetition needed to perform the algorithm.
 
-###Pseudocode Conventions</span>
+###Pseudocode Conventions
 * Statements are written in simple English.
 * Each instruction is written on a separate line.
 * Keywords and indentation are used to signify particular control structures.
