@@ -36,6 +36,4 @@ compute celciusTemp = (fahreheitTemp &ndash; 32)* 5/9
 Display celciusTemp</pre>
 
 Which one would you rather have in front of you when you're ready to write a program to convert temperatures?
-Notice that the pseudocode example has made several decisions for the programmer including the order of operations (note the parenthesis which ensure the calculation is correct), the variable names and the steps to follow. The programmer can now spend time focusing on programming and not thinking about the business problem. Many times as programmers you will be asked&nbsp;to develop solutions for problems you do not fully understand. For the example above, it is unlikely that you are a&nbsp;meteorologist&nbsp;yet you wouldn't need to be because that person&nbsp;already figured&nbsp;out the formula and gave you the algorithm. You just have to program it.</em></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+Notice that the pseudocode example has made several decisions for the programmer including the order of operations (note the parenthesis which ensure the calculation is correct), the variable names and the steps to follow. <i>The programmer can now focus on programming and not the business problem</i>. Programmers are often asked to develop solutions for problems they do not fully understand. For the example above, it is unlikely that you are a meteorologist yet you wouldn't need to be because that person already figured out the formula and gave you the algorithm. You just have to program it.
