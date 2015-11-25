@@ -1,5 +1,8 @@
 # Designing Software Soutions
 
+"The hardest single part of building a software system is deciding precisely what to build." —Fred Brooks
+
+
 When writing a program you need to begin with a solid understanding of the problem you intend to solve. Then, move on to understanding the data you will be using in your solution. Your program will use data in variables, constants and literals. Your program will also contain data structures, files and data validation.
 
 ###Overview: Developing software solutions
