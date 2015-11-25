@@ -7,19 +7,16 @@ The Structure Theorem states that a solution can consist of a combination of jus
 ####Sequence
 
 The sequence control structure describes the linear execution of one step after another. In a sequence of statements represents this construct.
-<pre>
-statement a
+<pre>statement a
 statement b
-statement c
-</pre>
+statement c</pre>
 
 A sequence of statements in an algorithm might read:
-<pre>
-add 1 to pageCount
+<pre>add 1 to pageCount
 Print heading line1
 Print heading line2
 Set lineCount to zero
-Read customer record
+Read customer record</pre>
 
 These instructions illustrate the sequence control structure as a list of steps. Each is written one after the other, from start to finish. Each instruction will be executed as it appears.
 
