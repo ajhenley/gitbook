@@ -1,6 +1,6 @@
 # More Selection Control Structures
 
-<p>For this assignment you will&nbsp;define the problem by constructing a defining diagram, a solution algorithm using pseudocode, and a desk check of the solution algorithm using two valid test cases.</p>
+
 <h4>Problem definition</h4>
 <ul>
 <li>Divide the problem into its three components: <strong>input, output, </strong>and<strong> processing</strong>.&nbsp;</li>
