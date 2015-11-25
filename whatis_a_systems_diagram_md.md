@@ -1,11 +1,12 @@
-# What is a systems diagram?
+# What is an IPO diagram?
+An IPO diagram shows the Inputs, Processing Steps and Outputs for a system. The inputs generally come from the user via the keyboard. They can also come from a file. The processing steps are the steps for your algorithm. The outputs are the results shown to the user on the screen or paper. Outputs can also be written to a file.
 
-###A Systems Diagram
+###An IPO diagram
 To help you develop an understanding of a problem you should read the problem statement. You may need to ask follow-up questions before proceeding. Next, divide the problem into its components.
 
 The solution is often to take the inputs, apply your algorithm and generate the output.
 
-You can document this thought process in a Systems Diagram.
+You can document this thought process in an input/output diagram or, Systems Diagram.
 
 ####Divide the problem into three components:
 
