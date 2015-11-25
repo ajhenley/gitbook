@@ -27,10 +27,14 @@ An algorithm is the solution to the problem. It presents a well defined sequence
 
 ###Finally! The example:
 ####Algorithm:
-To convert a temperature from Fahrenheit to Celsius you would subtract 32 from the Fahrenheit temperature and then multiply that value by 5/9.
+Our local weatherman tells us how to convert a temperature from Fahrenheit to Celsius. She says to subtract 32 from the Fahrenheit temperature and then multiply that value by 5/9. That's the algorithm.
 
-Pseudocode:
-Prompt operator for f_temp<br />Get f_temp<br />compute c_temp = (f_temp &ndash; 32)* 5/9<br />Display c_temp</p>
+From that we derive the pseudocode:
+<pre>Prompt user for fahreheitTemp 
+Get fahreheitTemp
+compute celciusTemp = (fahreheitTemp &ndash; 32)* 5/9
+Display celciusTemp</pre>
+
 <p><em>Which one would you rather have in front of you when you're ready to write a program to convert temperatures?</em></p>
 <p><em>Notice that the pseudocode example has made several decisions for the programmer including the order of operations (note the parenthesis which ensure the calculation is correct), the variable names and the steps to follow. The programmer can now spend time focusing on programming and not thinking about the business problem. Many times as programmers you will be asked&nbsp;to develop solutions for problems you do not fully understand. For the example above, it is unlikely that you are a&nbsp;meteorologist&nbsp;yet you wouldn't need to be because that person&nbsp;already figured&nbsp;out the formula and gave you the algorithm. You just have to program it.</em></p>
 <p>&nbsp;</p>
