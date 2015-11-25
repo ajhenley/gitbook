@@ -9,10 +9,10 @@
 * Show a check of your solution with test data for at least two valid test cases
 
 
-<h4>1.&nbsp;Read three characters</h4>
-<p>Design an algorithm that will prompt a terminal operator for three characters, accept&nbsp;those characters as input, sort them into acending sequence and output them to the&nbsp;screen</p>
-<p>&nbsp;</p>
-<h4>2.&nbsp;Process customer record</h4>
+####1. Read and sort letters
+<p>Design an algorithm that will prompt a terminal operator for five letters, receive those letters as input, sort them into acending sequence and display them to the monitor</p>
+
+####2. Process customer record
 <p>A program is required to read a customer&rsquo;s name, a purchase amount and a tax code. <br />The tax code has been validated and will be one of the following:<br />&nbsp; &nbsp; 0 &nbsp;tax exempt (0%)<br />&nbsp; &nbsp; 1 &nbsp;state sales tax only (3%)<br />&nbsp; &nbsp; 2 &nbsp;federal and state sales tax (5%)<br />&nbsp; &nbsp; 3 &nbsp;special sales tax (7%)<br />The program must then compute the sales tax and the total amount due,and print&nbsp;the customer&rsquo;s name, purchase amount, sales tax and total amount due.</p>
 <p>&nbsp;</p>
 <h4>3.&nbsp;Calculate employee's pay</h4>
