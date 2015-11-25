@@ -12,7 +12,7 @@ Pseudo code is a human readable representation of an algorithm. It is not writte
 
 There is not a standard format for pseudocode. It tends to be a cross between some of the more widely used programming languages and natural language. Pseudocode can generally be read by programmers who are familiar with different programming languages.
 
-Pseudocode allows one to include control structures such as IF-THEN-ELSE, DOWHILE, REPEAT-UNTIL which are present in many high level languages.
+Pseudocode allows one to include all the constructs of the Structure Theorem. That means that pseudocode can .
 <p><strong><span style="text-decoration: underline;">Pseudocode Conventions</span></strong></p>
 <ul>
 <li>Statements are written in simple English.</li>
