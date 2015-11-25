@@ -31,7 +31,7 @@
    * [Another Modularization Activity](another_modularization_activity.md)
    * [Algorithms Final Project](algorithms_final_project.md)
    * [Measuring Complexity](measuring_complexity.md)
-   * Show Me Some Psuedocode!
+   * [Show Me Some Psuedocode!](show_me_some_psuedocode.md)
 * [2. Using Git](using_git.md)
 * [3. Unit Testing with JUnit](unittesting_with_junit_md.md)
 
