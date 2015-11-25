@@ -43,4 +43,4 @@ Notice that the pseudocode example has made several decisions for the programmer
 
 <i>The programmer can now focus on programming and not the business problem</i>. 
 
-Programmers are often asked to develop solutions for problems they do not fully understand. It is unlikely that you are a meteorologist. You wouldn't need to be because that person already figured out the formula and gave you the algorithm. You just have to program it. And the project manager would like you to get that done yesterday.
+Programmers are often asked to develop solutions for problems they do not fully understand. It is unlikely that you are a meteorologist. You wouldn't need to be because that person already figured out the formula and gave you the algorithm. You just have to program it. And the project manager has already told the client you did that yesterday.
