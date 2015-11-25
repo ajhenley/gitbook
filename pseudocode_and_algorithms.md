@@ -1,9 +1,15 @@
 # Pseudocode and Algorithms
 
 ***Algorithm
- An algorithm represents the sequence of steps required to solve a problem. The algorithm consists of the actions that, when completed, in the order specified, result in the solution. When a computer is to solve a particular problem, the steps to the solution get communicated to the computer. This makes the study of algorithms an important part of computer science. An algorithm is executed in a computer by combining lot of elementary operations such as addition and subtraction to perform more complex mathematical operations.
-<p>But translating the idea of the algorithm to computer code is not straight forward so you take the next step and translate the algorithm into pseudocode. The pseudocode will then more easily translate into Java or any other programming language.</p>
-<h3>Pseudocode</h3>
+ An algorithm represents the sequence of steps required to solve a problem. The algorithm consists of the actions that, when completed, in the order specified, result in the solution. When a computer is to solve a particular problem, the steps to the solution get communicated to the computer. This makes the study of algorithms an important part of computer science. 
+ 
+ An algorithm is executed in a computer by combining lot of elementary operations such as addition and subtraction to perform more complex mathematical operations.
+ 
+ The algorithm is translated to a programming language, such as Java. The Java compiler will translate the program into instructions that the computer can execute. This will produce the required output from the given input.
+ 
+ But translating the algorithm to computer code is not straight forward. So you take the next step and translate the algorithm into pseudocode. The pseudocode will then more easily translate into Java or any other programming language.
+
+Pseudocode
 <p><span>Pseudo code is a human readable representation of an algorithm.&nbsp;</span>It is not written in a specific syntax that is used by a programming language and so it can't&nbsp;be executed on a computer. However, a programmer can more easily translate pseudocode to Java because the pseudocode is the algorithm plus any considerations for making it into a program.&nbsp;</p>
 <p>There is not a standard format for pseudocode but it tends to be a cross between some of the more widely used programming languages and natural language. Pseudocode can generally be read by programmers who are familiar with different programming languages.</p>
 <p>Pseudocode allows one to include control structures such as IF-THEN-ELSE, DOWHILE, REPEAT-UNTIL which are present in many high level languages.</p>
