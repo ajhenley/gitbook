@@ -6,15 +6,15 @@ The Structure Theorem states that a solution can consist of a combination of jus
 ###Three control structures
 ####Sequence
 
-The sequence control structure describes the linear execution of one step after another. In pseudocode, this construct is represented as a sequence of pseudocode statements:
-
-
+The sequence control structure describes the linear execution of one step after another. In a sequence of statements represents this construct.
+<pre>
 statement a
 statement b
 statement c
+</pre>
 
 A sequence of statements in an algorithm might read:
-
+<pre>
 add 1 to pageCount
 Print heading line1
 Print heading line2
