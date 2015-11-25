@@ -25,7 +25,7 @@
    * [Finding the largest and smallest elements of an array](finding_the_largest_and_smallest_elements_of_an_ar.md)
    * [Bubble Sort](bubble_sort.md)
    * [Modularization](modularization.md)
-   * Communicating between Modules
+   * [Communicating between Modules](communicating_between_modules.md)
    * [Hierarchy Charts](hierarchy_charts.md)
    * [Modularization Activity](modularization_activity.md)
    * [Another Modularization Activity](another_modularization_activity.md)
