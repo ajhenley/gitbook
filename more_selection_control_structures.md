@@ -1,19 +1,14 @@
 # More Selection Control Structures
 
 
-<h4>Problem definition</h4>
-<ul>
-<li>Divide the problem into its three components: <strong>input, output, </strong>and<strong> processing</strong>.&nbsp;</li>
-<li>What control structures (sequence, selection and repetition) are required?</li>
-<li>What variables are required?</li>
-</ul>
-<h4>Solution Algorithm using pseudocode</h4>
-<p>Having defined the problem and determined the required control structures, devise a solution algorithm and represent it using pseudocode.&nbsp;</p>
-<h4>Desk Check of your solution</h4>
-<p>You need to desk check each of the algorithms with two or more test cases.&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h4></h4>
+###Objective
+* Define the problem by constructing an algorithm using pseudocode
+* Create an IPO diagram showing <strong>input, output, </strong>and<strong> processing steps</strong>
+* What control structures (sequence, selection and repetition) are required?
+* What variables are required?
+* Show a check of your solution with test data for at least two valid test cases
+
+
 <h4>1.&nbsp;Read three characters</h4>
 <p>Design an algorithm that will prompt a terminal operator for three characters, accept&nbsp;those characters as input, sort them into acending sequence and output them to the&nbsp;screen</p>
 <p>&nbsp;</p>
