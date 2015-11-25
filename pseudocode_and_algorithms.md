@@ -12,15 +12,16 @@ Pseudo code is a human readable representation of an algorithm. It is not writte
 
 There is not a standard format for pseudocode. It tends to be a cross between some of the more widely used programming languages and natural language. Pseudocode can generally be read by programmers who are familiar with different programming languages.
 
-Pseudocode allows one to include all the constructs of the Structure Theorem. That means that pseudocode can .
-<p><strong><span style="text-decoration: underline;">Pseudocode Conventions</span></strong></p>
-<ul>
-<li>Statements are written in simple English.</li>
-<li>Each instruction is written on a separate line.</li>
-<li>Keywords and indentation are used to signify particular control&nbsp;structures.</li>
-<li>Each set of instructions is written from top to bottom, with only one entry&nbsp;and one exit.</li>
-<li>Groups of statements may be formed into modules, and that module given&nbsp;a name.</li>
-</ul>
+Pseudocode allows one to include all the constructs of the Structure Theorem. That means that pseudocode can include sequence, selection and repetition needed to perform the algorithm.
+
+###Pseudocode Conventions</span>
+* Statements are written in simple English.
+* Each instruction is written on a separate line.
+* Keywords and indentation are used to signify particular control structures.
+* Each set of instructions is written from top to bottom, with only one entry point and one exit point.
+* Groups of statements may be grouped into named modules.
+
+
 <h3>So what's the difference?</h3>
 <p>An algorithm is the solution to the problem. It presents a well defined sequence of steps that provides a solution for a given problem. Pseudocode is a method that represents the algorithm in a format that resembles a programming language.</p>
 <p>Pseudocode does not use specific programming language syntax so it is&nbsp;understood by programmers who are familiar with different programming languages. Additionally, transforming an algorithm presented in pseudocode to programming code could be much easier than converting an algorithm written in natural language.</p>
