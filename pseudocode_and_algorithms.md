@@ -34,7 +34,7 @@ Our local weatherperson tells us how to convert a temperature from Fahrenheit to
 From that we derive the pseudocode:
 <pre>Prompt user for fahreheitTemp 
 Get fahreheitTemp
-compute celciusTemp = (fahreheitTemp &ndash; 32)* 5/9
+Calculate celciusTemp = (fahreheitTemp &ndash; 32)* 5/9
 Display celciusTemp</pre>
 
 Which description would you rather have in front of you when you're ready to write a program to convert temperatures? The algorithm or the pseudocode?
