@@ -1,8 +1,7 @@
 # Pseudocode and Algorithms
 
-<h3>Algorithm</h3>
-<p>An algorithm is a procedure for solving a problem in terms of the actions to be executed and the order in which those actions are to be executed. An algorithm is merely the sequence of steps taken to solve a problem.&nbsp;An algorithm gives a solution to a particular problem as a well defined set of steps. A recipe in a cookbook is a good example of an algorithm.</p>
-<p>When a computer is used for solving a particular problem, the steps to the solution should be communicated to the computer. This makes the study of algorithms a very important part of&nbsp;computer science. An algorithm is executed in a computer by combining lot of elementary operations such as addition and subtraction to perform more complex mathematical operations.</p>
+***Algorithm
+ An algorithm represents the sequence of steps required to solve a problem. The algorithm consists of the actions that, when completed, in the order specified, result in the solution. When a computer is to solve a particular problem, the steps to the solution get communicated to the computer. This makes the study of algorithms an important part of computer science. An algorithm is executed in a computer by combining lot of elementary operations such as addition and subtraction to perform more complex mathematical operations.
 <p>But translating the idea of the algorithm to computer code is not straight forward so you take the next step and translate the algorithm into pseudocode. The pseudocode will then more easily translate into Java or any other programming language.</p>
 <h3>Pseudocode</h3>
 <p><span>Pseudo code is a human readable representation of an algorithm.&nbsp;</span>It is not written in a specific syntax that is used by a programming language and so it can't&nbsp;be executed on a computer. However, a programmer can more easily translate pseudocode to Java because the pseudocode is the algorithm plus any considerations for making it into a program.&nbsp;</p>
