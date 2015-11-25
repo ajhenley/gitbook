@@ -34,7 +34,7 @@ Our local weatherperson tells us how to convert a temperature from Fahrenheit to
 From that we derive the pseudocode:
 <pre>Prompt user for fahreheitTemp 
 Get fahreheitTemp
-Calculate celciusTemp = (fahreheitTemp &ndash; 32)* 5/9
+Calculate celciusTemp = (fahreheitTemp &ndash; 32) * 5/9
 Display celciusTemp</pre>
 
 Which description would you rather have in front of you when you're ready to write a program to convert temperatures? The algorithm or the pseudocode?
@@ -43,4 +43,4 @@ Notice that the pseudocode example has made several decisions for the programmer
 
 <i>The programmer can now focus on programming and not the business problem</i>. 
 
-Programmers are often asked to develop solutions for problems they do not fully understand. It is unlikely that you are a meteorologist. Yet you wouldn't need to be because that person already figured out the formula and gave you the algorithm. You just have to program it. And the project manager would like you to get that done yesterday.
+Programmers are often asked to develop solutions for problems they do not fully understand. It is unlikely that you are a meteorologist. You wouldn't need to be because that person already figured out the formula and gave you the algorithm. You just have to program it. And the project manager would like you to get that done yesterday.
