@@ -1,25 +1,22 @@
 # Debugging Activity: Print Student Records
 
-<p>A file of student records consists of &lsquo;S&rsquo; records and&lsquo;U&rsquo; records. An &lsquo;S&rsquo; record contains&nbsp;the student&rsquo;s number, name, age, gender, address and attendance pattern &ndash; full-time&nbsp;(F/T)or part-time (P/T). A &lsquo;U&rsquo; record contains the number and name of the unit or units&nbsp;in which the student has enrolled. There maybe more than one &lsquo;U&rsquo; record for each &lsquo;S&rsquo;&nbsp;record. Design a solution algorithm that will read the file of student records and print only the student&rsquo;s number, name and address on a &lsquo;STUDENT LIST&rsquo;</p>
-<p>&nbsp;</p>
-<h3>Defining diagram</h3>
-<p>![](2.7.png)</p>
-<h3>Control structures required</h3>
-<ol>
+Chanchal is the project manager for a small software development project. She needs a weekly report of the employees who have worked on her project, separated by full-time and part-time.
+
+She has developed the pseudocode below but since she is the project manager and not the programmer it has an error in it. It's your job to fix the error to make her look good to the team. She plans to present the report at the standing meeting tomorrow morning. If you succeed she will look good and remember you when assigning new tasks.
+
 <li>a DOWHILE loop to control the repetition</li>
 <li>An IF statement to select &lsquo;S&rsquo; records</li>
 </ol>
 <h3>Incorrect Results - find and fix the error</h3>
-<pre>Print_student_records
-Print &lsquo;STUDENT LIST&rsquo; heading
-Read student record
-        DOWHILE morerecords exist
-                        IF student record = &lsquo;S&rsquo; record THEN
-                             Print student_number, name, address
-                        ENDIF
-        ENDDO
-        Read student record
 
+<pre>Print_student_records
+Print &lsquo;Employee List&rsquo; heading
+Read timesheet record
+    DOWHILE morerecords exist
+        IF timesheet_status = &lsquo;FT&rsquo; THEN
+            Print EmployeeID, Department, Billing Rate, Hours Worked
+        ENDIF
+    ENDDO
+    Read student record
 END
 </pre>
-<p>&nbsp;</p>
