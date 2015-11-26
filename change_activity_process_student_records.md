@@ -3,7 +3,7 @@
 
 In true project manager fashion Chanchal has asked you to also print the PT employees but they should be separate from the full-time employees. So, the report she wants looks like this:
 
-###Incorrect Results - find and fix the error</h3>
+###Incorrect Results - find and fix the error<
 <pre>Print_Hours_Billed_To_Project
 Print &lsquo;Employee Hours Billed to Project&lsquo; heading
     Read timesheet record
