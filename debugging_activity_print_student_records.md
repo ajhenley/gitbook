@@ -20,3 +20,8 @@ Print &lsquo;Employee Hours Billed to Project&lsquo; heading
 END
 </pre>
 
+Employee Hours Billed to Project
+Full-Time employees
+    10335 Finance    Smithers  $110.00/hour 24 hours
+    21555 Marketing  Wiggims   $75.00/hour  10 hours
+    31004 IT         Burns     $150.00/hour 20 hours
