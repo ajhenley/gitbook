@@ -7,7 +7,7 @@ She has developed the pseudocode below but since she is the project manager and 
 You had told her that she would need a DOWHILE loop to control the repetition
 And an IF statement to select &lsquo;FT&rsquo; records
 
-###Incorrect Results - find and fix the error</h3>
+###Incorrect Results - find and fix the error
 <pre>Print_Hours_Billed_To_Project
 Print &lsquo;Employee Hours Billed to Project&lsquo; heading
     Read timesheet record
