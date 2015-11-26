@@ -1,22 +1,13 @@
 # Change Activity: Process Student Records
 
-<h2>Print selected students</h2>
-<p>Design a solution algorithm that will read the student file and produce a report of all female students who are enrolled part-time. The report is to be headed &lsquo;FEMALE PART-TIME STUDENTS&rsquo; and is to show the student&rsquo;s number, name, address&nbsp; and age.</p>
-<h2>A.&nbsp;&nbsp;&nbsp;&nbsp; Defining diagram</h2>
-<p>![](2.8.png)</p>
-<h2>B.&nbsp;&nbsp;&nbsp;&nbsp; Control structures required</h2>
-<h2>C.&nbsp;&nbsp;&nbsp;&nbsp; Incorrect Results&hellip; find and fix the error</h2>
-<p>&nbsp;</p>
-<pre>Produce_part_time_female_list
-	Print &lsquo;FEMALE PART-TIME STUDENTS&rsquo; heading
-	Read student record
-	DOWHILE more records
-		IF student record = &lsquo;S&rsquo; record THEN
-			IF attendance_pattern = F/T THEN
-				Print student_number, name, address, age
-			ENDIF
-		ENDIF
-		Read student  record
-	ENDDO
-END
-</pre>
+In true project manager fashion Chanchal has asked you to also print the PT employees but they should be separate from the full-time employees. So, the report she wants looks like this:
+
+Employee Hours Billed to Project
+Full-Time employees
+    10335 Finance    Smithers  $110.00/hour 24 hours
+    21555 Marketing  Wiggims   $75.00/hour  10 hours
+    31004 IT         Burns     $150.00/hour 20 hours
+Part-Time employees
+   20045 Finance     Flanders  $25.00/hour  10 hours
+   
+   
