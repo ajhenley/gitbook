@@ -1,5 +1,6 @@
 # Change Activity: Process Student Records
 
+
 In true project manager fashion Chanchal has asked you to also print the PT employees but they should be separate from the full-time employees. So, the report she wants looks like this:
 
 Employee Hours Billed to Project
@@ -10,4 +11,5 @@ Full-Time employees
 Part-Time employees
    20045 Finance     Flanders  $25.00/hour  10 hours
    
+Modify the previous activity to print the report as shown above.
    
