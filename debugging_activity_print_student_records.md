@@ -10,13 +10,13 @@ She has developed the pseudocode below but since she is the project manager and 
 <h3>Incorrect Results - find and fix the error</h3>
 
 <pre>Print_student_records
-Print &lsquo;Employee List&rsquo; heading
-Read timesheet record
+Print &lsquo;Employee Hours Billed to Project&lsquo; heading
+    Read timesheet record
     DOWHILE morerecords exist
         IF timesheet_status = &lsquo;FT&rsquo; THEN
             Print EmployeeID, Department, Billing Rate, Hours Worked
         ENDIF
     ENDDO
-    Read student record
+    Read timesheet record
 END
 </pre>
