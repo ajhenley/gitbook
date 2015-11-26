@@ -4,12 +4,11 @@ Chanchal is the project manager for a small software development project. She ne
 
 She has developed the pseudocode below but since she is the project manager and not the programmer it has an error in it. It's your job to fix the error to make her look good to the team. She plans to present the report at the standing meeting tomorrow morning. If you succeed she will look good and remember you when assigning new tasks.
 
-<li>a DOWHILE loop to control the repetition</li>
-<li>An IF statement to select &lsquo;S&rsquo; records</li>
-</ol>
-<h3>Incorrect Results - find and fix the error</h3>
+You had told her that she would need a DOWHILE loop to control the repetition
+And an IF statement to select &lsquo;FT&rsquo; records
 
-<pre>Print_student_records
+###Incorrect Results - find and fix the error</h3>
+<pre>Print_Hours_Billed_To_Project
 Print &lsquo;Employee Hours Billed to Project&lsquo; heading
     Read timesheet record
     DOWHILE morerecords exist
@@ -20,3 +19,15 @@ Print &lsquo;Employee Hours Billed to Project&lsquo; heading
     Read timesheet record
 END
 </pre>
+
+In true project manager fashion Chanchal has asked you to also print the PT employees but they should be separate from the full-time employees. So, the report she wants looks like this:
+
+Employee Hours Billed to Project
+Full-Time employees
+    10335 Finance    Smithers  $110.00/hour 24 hours
+    21555 Marketing  Wiggims   $75.00/hour  10 hours
+    31004 IT         Burns     $150.00/hour 20 hours
+Part-Time employees
+   20045 Finance     Flanders  $25.00/hour  10 hours
+   
+   
