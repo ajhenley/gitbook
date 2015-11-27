@@ -20,15 +20,12 @@ The signature of the main routine in a Java program is:<br/>
     <pre>public static void main(String args[])</pre>
 
 
-<h3>Benefits of Modular Design</h3>
-<ul>
-<li>Ease of understanding &ndash; each module performs only one function</li>
-<li>Reusable code &ndash; the single function can be used by multiple other modules</li>
-<li>Elimination of redundancy &ndash; no need to repeat writing the same code</li>
-<li>Maintenance &ndash; changes to one module should not impact other modules</li>
-<li>Ease of testing &ndash; unit tests can confirm the functionality of each method in your module.
-</ul>
-<p>&nbsp;</p>
+####Benefits of Modular Design
+* Logical organization &ndash; each module performs only one function
+* Code Reuse &ndash; the methods in your module can be used by other modules
+* Elimination of redundancy &ndash; no need to repeat writing the same code
+* Maintenance &ndash; changes to one module should not impact other modules
+* Ease of testing &ndash; unit tests can confirm the functionality of each method in your module.
 
 ####Side Note:
 Java doesn't yet contain the concept of a module. This is proposed for a future release. A module would be a collection of Java Archives (JARs) the purpose of which would be to handle versioning issues.
