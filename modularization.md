@@ -25,7 +25,7 @@ The signature of the main routine in a Java program is:<br/>
 <li>Ease of understanding &ndash; each module performs only one function</li>
 <li>Reusable code &ndash; the single function can be used by multiple other modules</li>
 <li>Elimination of redundancy &ndash; no need to repeat writing the same code</li>
-<li>Efficiency of maintenance &ndash; changes to the logic of one module will have little or no effect on other modules</li>
+<li>Maintenance &ndash; changes to one module should not impact other modules</li>
 <li>Ease of testing &ndash; unit tests can confirm the functionality of each method in your module.
 </ul>
 <p>&nbsp;</p>
