@@ -1,6 +1,6 @@
 # Modularization
 
-Modular programming occurs when you organize your program into separate modules grouped by functionality. After modularization your program becomes a collection of independent, reusable components. The process reduces redundant code. Each component contains just the code to perform its specific functionality. 
+Modular programming occurs when you organize your program into separate modules. Modularization makes your program  collection of independent, reusable components. The process reduces redundant code. Each component contains just the code to perform its specific functionality. 
 
 Modular programming refers to the task of decomposing your algorithm into modules. You can reuse each module within the current program or even in other programs. Each method of each module can be independently tested/verified with unit tests.
 
