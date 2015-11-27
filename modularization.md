@@ -4,11 +4,12 @@ Modular programming occurs when you organize your program(or algorithm) into sep
 
 When creating programs in Java modules will become either methods, classes or packages. A method, sometimes called a function, is a unit of code that performs one task. A method in Java will never exist outside of a class. A class generally contains fields and methods modeled after the behavior of an object. A package is a collection of related classes. 
 
-###What is the interface of a module?
-The interface of a method consists of the inputs, outputs, and required processing steps. The interface of a class are those members and methods which are visible to the calling program.
+####The Modularization Process
+Write down the tasks or processing steps which solve your problem. Some tasks may naturally belong together and could be candidates for inclusion in a module. 
 
-<h3>The Modularization Process</h3>
-<p>When you are defining the problem, write down the tasks or processing steps which would solve your problem. A module must be large enough to perform its single task, and must include only the operations that contribute to the performance of that task.&nbsp;It should have a single entry, and a single exit with a top-to-bottom sequence of instructions. &nbsp;The name of the module should describe the work to be done as a single specific function.&nbsp; Name each module by using a verb, followed by a one or two-word object.&nbsp;One module can call or evoke another module.&nbsp; This passes control the called module.&nbsp; When the called module terminates control is passed back to the calling module.</p>
+It should have a single entry, and a single exit with a top-to-bottom sequence of instructions.The name of the module should describe the work to be done as a single specific function.
+
+Name each module by using a verb, followed by a one or two-word object.&nbsp;One module can call or evoke another module.&nbsp; This passes control the called module.&nbsp; When the called module terminates control is passed back to the calling module.</p>
 <p>&nbsp;</p>
 <h3>The Main Routine - your starting point</h3>
 <p>The main routine is the starting point for your program. The main routine ties all the modules together and coordinates their activity. The main routine contains the main processing functions, and the order in which they will execute. It also shows the flow of data and the major control structures. The main program should be easy to read, be of manageable length and show the logic structure of the program.</p>
