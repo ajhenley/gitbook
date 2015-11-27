@@ -1,4 +1,16 @@
-# Completion Activity: Process a pair of numbers
+###Blackjack
+Design an algorithm that will prompt the user for the numerical value of two cards. The program will receive the two numbers and display their sum on the screen. If the calculated sum is 21, an asterisk is to be displayed beside the sum.
+The program shall end when two zeros are entered.
+
+
+###Objective
+* Define the problem by constructing an algorithm using pseudocode
+* Create an IPO diagram showing <strong>input, output, </strong>and<strong> processing steps</strong>
+* What control structures (sequence, selection and repetition) are required?
+* What variables are required?
+* Show a check of your solution with test data for at least two valid test cases
+
+
 
 <h2>Process number pairs</h2>
 <p>Design an algorithm that will prompt for and receive pairs of numbers from an operator&nbsp;at a terminal and display their sum, product and average on the screen. If the calculated sum is over 200, an asterisk is to be displayed beside the sum.</p>
