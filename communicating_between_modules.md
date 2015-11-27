@@ -1,2 +1,2 @@
-# Communicating between Modules
+# Communicating between Methods and Modules
 
