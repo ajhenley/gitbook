@@ -1,4 +1,4 @@
-# Debugging Activity: Print Student Records
+# Debugging Activity: Timesheet Records
 
 Chanchal is the project manager for a small software development project. She needs a weekly report of the employees who have worked on her project, separated by full-time and part-time.
 
