@@ -2,9 +2,6 @@
 
 ###Objective
 * Define the problem by constructing an algorithm using pseudocode
-* Create an IPO diagram showing <strong>input, output, </strong>and<strong> processing steps</strong>
-* What control structures (sequence, selection and repetition) are required?
-* What variables are required?
 * Show a check of your solution with test data for at least two valid test cases
 
 ####Find the largest element of an array
