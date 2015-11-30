@@ -3,6 +3,16 @@
 
 In true project manager fashion Chanchal has asked you to also print the PT employees but they should be separate from the full-time employees. So, the report she wants looks like this:
 
+<pre>
+Employee Hours Billed to Project
+Full-Time employees
+    10335 Finance    Smithers  $110.00/hour 24 hours
+    21555 Marketing  Wiggims   $75.00/hour  10 hours
+    31004 IT         Burns     $150.00/hour 20 hours
+Part-Time employees
+   20045 Finance     Flanders  $25.00/hour  10 hours
+</pre>
+
 ###Incorrect Results - find and fix the error
 <pre>Print_Hours_Billed_To_Project
 Print &lsquo;Employee Hours Billed to Project&lsquo; heading
@@ -15,14 +25,6 @@ Print &lsquo;Employee Hours Billed to Project&lsquo; heading
     Read timesheet record
 END
 </pre>
-
-Employee Hours Billed to Project
-Full-Time employees
-    10335 Finance    Smithers  $110.00/hour 24 hours
-    21555 Marketing  Wiggims   $75.00/hour  10 hours
-    31004 IT         Burns     $150.00/hour 20 hours
-Part-Time employees
-   20045 Finance     Flanders  $25.00/hour  10 hours
    
 Modify the previous activity to print the report as shown above.
    
