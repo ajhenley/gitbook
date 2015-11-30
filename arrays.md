@@ -15,15 +15,14 @@ An array is a container object that allows you to use a single variable name to 
 
 ###Typical operations on arrays
 * Initialize the initial values of the array elements
-<li>Processing the elements of the array</li>
-<li>Searching an array for a particular element</li>
-<li>Writing the contents of an array to a report</li>
-</ul>
-<p>&nbsp;</p>
-<h3>Simple algorithms that manipulate arrays</h3>
-<ul>
-<li>Find the sum of the elements of an array</li>
-<li>Find the mean (average) of the elements of an array</li>
+* Processing the elements of the array
+* Searching an array for a particular element
+* Writing the contents of an array to a report
+
+
+###Common algorithms that manipulate arrays
+* Find the sum of the elements of an array
+* Find the mean (average) of the elements of an array
 <li>Find the largest of the elements of an array</li>
 <li>Find the smallest of the elements of an array</li>
 <li>Find the range of the elements of an array</li>
