@@ -10,8 +10,10 @@ The scope of a variable refers to the visiblity of the variable. When is the var
 
 Some programming languages allow you to declare global variables. Java is not one of those languages. This will save you endless heart-ache of your variable changing when you least expect it. 
 
+###Returning values
+Modules (when they represent functions) can return values. When modules represent classes the class can contain methods that return values. A method can return a single value. That single value can be a class which would allow the method to return a complex value. But still a single value.
 
-###Example: Converting miles/hour to kilometers/hour
+####Example: Converting miles/hour to kilometers/hour
 <pre>ConvertMph2Kmh
     prompt user "Enter miles/hour"
     get milesPerHour
