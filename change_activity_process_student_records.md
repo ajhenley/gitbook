@@ -26,5 +26,5 @@ Print &lsquo;Employee Hours Billed to Project&lsquo; heading
 END
 </pre>
    
-Modify the previous activity to print the report as shown above.
+Alter the previous activity to print the report as shown above.
    
