@@ -1,5 +1,5 @@
 ###Arrays
-An array is a container object that allows you to use a single variable name to be associated with all instances of that variable.
+An array is a variable that allows you to use a single variable name to be associated with all instances of that variable.
 * holds a fixed number of values of a single type
 * Length of an array is established when the array is created
 * After creation, its length is fixed
@@ -14,10 +14,10 @@ An array is a container object that allows you to use a single variable name to 
  
 
 ###Typical operations on arrays
-* Initialize the initial values of the array elements
-* Processing the elements of the array
-* Searching an array for a particular element
-* Writing the contents of an array to a report
+* Initialize values of the array elements
+* Process each elements of the array
+* Search the array for a particular element
+* Write the contents of an array to a report
 
 
 ###Common algorithms that manipulate arrays
@@ -28,7 +28,5 @@ An array is a container object that allows you to use a single variable name to 
 * Find the range of the elements of an array
 
 ###Initializing the elements of an array
-* Loading constant values into an array
-* Lading initial values into an array from an input file
-* Arrays of variable size
-* Paired arrays
+* Load constant values into an array
+* Laad initial values into an array from an input file
