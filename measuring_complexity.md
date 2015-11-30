@@ -32,8 +32,7 @@ def many(word):
 Without knowing anything about the computers involved, it’s obvious which of the above programs will run faster. This also shows that number of steps does not equal lines of code.
 Idea 2: You can represent the number of steps with algebra.
 For the two examples above, the number of steps are 1 and 100. But what if it runs a variable amount of time?
-
-def show(n)
+<pre>def show(n)
     for i in range(n):
         print(‘Word’)
 The function above will run n times. There can also be powers of n, such as:
@@ -42,19 +41,22 @@ def squared(n):
         for j in range(n):
             print(‘Word’)
 The function above will run in n2 time.
+
 def show(n):
     for i in range(n):
         for j in range(n):
             print(‘Word’)
-
     for k in range(n):
         print(‘Word’)
-        print(‘Word’)
+        print(‘Word’)</pre>
+
 This function will run in n2 + 2n time.
+
 Idea 3: The most critical part of the representation is the greatest power of n.
 Consider 3n + 5. As n increases in value, the 5 part becomes less and less important. 100005 is pretty close to 100000. The same can be said of the 3 in the equation.
 In the case of n2 + n, the lone n becomes less important.
 Big O notation is the logical continuation of these three ideas. The number of steps is converted to a formula, then only the highest power of n is used to represent the entire algorithm.
+<pre>
 def multi(n):
     for i in n:
         print(n)
@@ -71,8 +73,6 @@ def show(n):
     print(n)
     print(n)
     print(n)
+</pre>
 There are 3 steps. Runs in O(1) time. It does not change with the size of n.
 Other common ones are O(n!), O(log n) and O(n log n).
-Hope this helps!
-EDIT:
-I was compulsively watching this post for two hours getting a few upvotes and no comments. I go code for 3 hours and come back to awesome conversations! I have to take every opportunity to say I'm currently looking for a junior programming job in San Francisco. If you know of anything great, let me know!
