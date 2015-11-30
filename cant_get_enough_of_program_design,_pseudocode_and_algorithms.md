@@ -10,7 +10,7 @@
 
 
 ####1.Receive 15 measurements (DOWHILE)
-Every day, a researcher receives 15 measurements. He needs a program written that will accept each measurement and convert it to it's metric equivalent. The result shall display on the monitor. After all 15 measurements are entered, the words "All measurements processed" shall be displayed on the screen.
+Every day, a researcher receives 15 measurements. He needs a program written that will accept each measurement and convert it to its metric equivalent. The result shall display on the monitor. After all 15 measurements are entered, the words "All measurements processed" shall be displayed on the screen.
 
 ####2. Read 15 measurements (REPEAT...UNTIL)
 
