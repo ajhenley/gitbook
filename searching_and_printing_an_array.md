@@ -1,15 +1,10 @@
 # Searching and Printing an Array
 
-<h3>Searching an array</h3>
-<ul>
-<li>A linear search of an array
-<ul>
-<li>look at each element starting with first</li>
-</ul>
-</li>
-</ul>
-<h3>Linear search of an array</h3>
-<pre> Linear_search_of_an_array
+###Searching an array
+* A linear search of an array (look at each element starting with first)
+
+###Linear search of an array
+<pre>Linear_search_of_an_array
    Set max_num_elements to required value
    Set element_found to false
    Set index to 1
@@ -29,16 +24,13 @@
    ENDIF
 END
 </pre>
-<h3></h3>
-<h3>Binary search of an array</h3>
-<ul>
-<li></li>
-<li>faster than linear search for arrays with &gt; 25 elements</li>
-<li>first, sort elements into ascending sequence</li>
-<li>next, locate the middle element</li>
-<li>then determine if your element is in the first half or second</li>
-<li>repeat the process with the selected half of the array</li>
-</ul>
+###Binary search of an array
+* faster than linear search for arrays with &gt; 25 elements
+* first, sort elements into ascending sequence
+* next, locate the middle element
+* then determine if your element is in the first half or second
+* repeat the process with the selected half of the array
+
 <pre>Binary_search_of_an_array
 
    Set element_found to false
