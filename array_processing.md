@@ -8,8 +8,8 @@
 * What variables are required?
 * Show a check of your solution with test data for at least two valid test cases
 
-
+####Create three algorithms to:
 1. Find the sum of the elements of an array
-2. Find the mean (average) of the elements of an array.&nbsp;
+2. Find the mean (average) of the elements of an array.
 3. Find the largest of the elements of an array
 
