@@ -23,17 +23,12 @@ An array is a container object that allows you to use a single variable name to 
 ###Common algorithms that manipulate arrays
 * Find the sum of the elements of an array
 * Find the mean (average) of the elements of an array
-<li>Find the largest of the elements of an array</li>
-<li>Find the smallest of the elements of an array</li>
-<li>Find the range of the elements of an array</li>
-</ul>
-<p>&nbsp;</p>
-<h3>Initializing the elements of an array</h3>
-<ul>
-<li>Loading constant values into an array</li>
-<li>Loading initial values into an array from an input file</li>
-<li>Arrays of variable size</li>
-<li>Paired arrays</li>
-</ul>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+* Find the largest of the elements of an array
+* Find the smallest of the elements of an array
+* Find the range of the elements of an array
+
+###Initializing the elements of an array
+* Loading constant values into an array
+* Lading initial values into an array from an input file
+* Arrays of variable size
+* Paired arrays
