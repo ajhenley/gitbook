@@ -1,12 +1,18 @@
 # Communicating between Methods and Modules
+So far you've considered division of labor in your program. That's why you created modules. Now it's time to consider information flow.
+
 Often you will need to send data to your modules as an input. You may then receive that data back as the output and all the processing steps would occur within the module.
 
 You can accomplish this by passing parameters and returning values.
+ 
+###Scope of a variable
+The scope of a variable refers to the visiblity of the variable. When is the variable available to your program or module? A variable declared inside a method or loop is available just to that method or loop; it does not exist elsewhere in your program. 
+
+Some programming languages allow you to declare global variables. Java is not one of those languages. This will save you endless heart-ache of your variable changing when you least expect it. 
 
 
-Example: Converting miles/hour to kilometers/hour
-
-ConvertMPH2KMH
+###Example: Converting miles/hour to kilometers/hour
+<pre>ConvertMph2Kmh
     prompt user "Enter miles/hour"
     get milesPerHour
     result = calculateKilometersPerHour(milesPerHour)
@@ -14,6 +20,6 @@ ConvertMPH2KMH
     END
 calculateKilometersPerHour(milesPerHour)
     kph = milesPerHour * 0.62137119
-    return kph
+    return kph</pre>
     
     
