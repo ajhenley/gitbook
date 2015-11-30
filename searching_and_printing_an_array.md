@@ -24,6 +24,7 @@
    ENDIF
 END
 </pre>
+
 ###Binary search of an array
 * faster than linear search for arrays with &gt; 25 elements
 * first, sort elements into ascending sequence
@@ -59,12 +60,12 @@ IF element_found THEN
    ENDIF
 END
 </pre>
-<h3>Writing out contents of an array</h3>
-<ul>
-<li>use DO loop</li>
-<li>start with first element</li>
-<li>write each element until done</li>
-</ul>
+
+###Writing out contents of an array
+* use DO loop
+* start with first element
+* write each element until done
+
 <pre>Write_values_of_array
      DO index = 1 to number_of_elements
           Print array(index)
