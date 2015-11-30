@@ -8,7 +8,7 @@
 
 
 ####How much should a fence cost?
-You've just been hired by Alton's Hardware Store. Your job is to develop a tool which will allow his customers to calculate the cost for installing a fence. First you need to determine the algorithm to calculate the cost of installing the fence. 
+You've just been hired by Alton's Hardware Store. Your job is to develop a tool which will allow his customers to calculate the cost for installing a fence. Start by determining the algorithm to calculate the cost of installing the fence. 
 
 Create a program that will calculate the cost with tax of fencing a rectangular yard. The cost of the
 fencing will depend on the amount of fencing required (the perimeter of the yard), and the type of fencing
