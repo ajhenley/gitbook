@@ -30,5 +30,5 @@ Design a program that will read a file of sales records and produce a sales repo
 </tbody>
 </table>
 
-The report is to print a heading "SALES REPORT", and detail lines listing the customer number, name, sales amount, sales tax and the total amount owed.
+The report must print a heading, "Sales Report", followed by detail lines. Each detail line must list the customer number, name, sales amount, sales tax and the total amount due.
 
