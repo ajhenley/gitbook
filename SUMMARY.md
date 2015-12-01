@@ -33,6 +33,6 @@
    * [Measuring Complexity](measuring_complexity.md)
    * [Show Me Some Psuedocode!](show_me_some_psuedocode.md)
 * [2. Using Git](using_git.md)
-   * Git Walkthrough
+   * [Git Walkthrough](git_walkthrough.md)
 * [3. Unit Testing with JUnit](unittesting_with_junit_md.md)
 
