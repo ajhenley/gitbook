@@ -35,6 +35,6 @@
 * [2. Using Git](using_git.md)
    * [Git Walkthrough](git_walkthrough.md)
        * [Create a GitHub account](create_a_github_account.md)
-   * Fork a repository on GitHub
+   * [Fork a repository on GitHub](fork_a_repository_on_github.md)
 * [3. Unit Testing with JUnit](unittesting_with_junit_md.md)
 
