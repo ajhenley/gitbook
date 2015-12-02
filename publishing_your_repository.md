@@ -22,10 +22,12 @@ Next, you need to tell your local version of Git about the remote repository. Yo
 You do this by typing:<br/>
 ```git remote add origin https://github.com/<your GitHub user name>/Products```
 
-The ```git remote``` command will add a new remote section called origin to our configuration.  To check if you have the remote repository initialized you can view the git configuration with git config --list as described here.
+The ```git remote``` command will add a new remote section called origin to our configuration.  
 
-Running git remote without any arguments will show you the remote repository aliases.
+View the git configuration with ```git config --list``` to check if your remote repository is initialized.
 
-If you run the command with the -v option, as git remote -v, you can see the actual URL for each alias.
+Running ```git remote``` without any arguments will show you the remote repository aliases.
 
-If you want to share a locally created repository, or you want to take contributions from someone else's repository it's generally easiest to add it as a remote.
+If you run the command with the -v option, as 
+```git remote -v```, you can see the actual URL for each alias.
+
