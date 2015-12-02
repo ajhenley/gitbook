@@ -51,5 +51,5 @@
    * [Creating a test suite](creating_a_test_suite.md)
    * [Creating a parameterized test](creating_a_parameterized_test.md)
    * [How to run unit tests from the command line](how_to_run_unit_tests_from_the_command_line.md)
-   * Comparing classes
+   * [Comparing classes](comparing_classes.md)
 
