@@ -39,5 +39,6 @@
    * [Clone an existing repository](clone_an_existing_repository.md)
    * [Publishing your repository](publishing_your_repository.md)
    * [Checking Status](checking_status.md)
+   * Configure the Git author
 * [3. Unit Testing with JUnit](unittesting_with_junit_md.md)
 
