@@ -44,7 +44,7 @@
    * [View your Git configuration](view_your_git_configuration.md)
 * [3. Unit Testing with JUnit](unittesting_with_junit_md.md)
    * [What is unit testing?](what_is_unit_testing.md)
-   * When do I write unit tests?
+   * [When do I write unit tests?](when_do_i_write_unit_tests.md)
    * What is test coverage?
    * Annotations and Assertions
    * Show me an complete example (with Eclipse)
