@@ -46,7 +46,7 @@
    * [What is unit testing?](what_is_unit_testing.md)
    * [When do I write unit tests?](when_do_i_write_unit_tests.md)
    * [What is test coverage?](what_is_test_coverage.md)
-   * Annotations and Assertions
+   * [Annotations and Assertions](annotations_and_assertions.md)
    * Show me an complete example (with Eclipse)
    * Creating a test suite
    * Creating a parameterized test
