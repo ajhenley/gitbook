@@ -49,7 +49,7 @@
    * [Annotations and Assertions](annotations_and_assertions.md)
    * [Show me an complete example (with Eclipse)](show_me_an_complete_example_with_eclipse.md)
    * [Creating a test suite](creating_a_test_suite.md)
-   * Creating a parameterized test
+   * [Creating a parameterized test](creating_a_parameterized_test.md)
    * How to run unit tests from the command line
    * Comparing classes
 
