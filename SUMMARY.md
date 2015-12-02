@@ -43,7 +43,7 @@
    * [View your commits with Git log](view_your_commits_with_git_log.md)
    * [View your Git configuration](view_your_git_configuration.md)
 * [3. Unit Testing with JUnit](unittesting_with_junit_md.md)
-   * What is unit testing?
+   * [What is unit testing?](what_is_unit_testing.md)
    * When do I write unit tests?
    * What is test coverage?
    * Annotations and Assertions
