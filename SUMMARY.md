@@ -34,7 +34,7 @@
    * [Show Me Some Psuedocode!](show_me_some_psuedocode.md)
 * [2. Using Git](using_git.md)
    * [Git Walkthrough](git_walkthrough.md)
-       * [Create a GitHub account](create_a_github_account.md)
+   * [Create a GitHub account](create_a_github_account.md)
    * [Fork a repository on GitHub](fork_a_repository_on_github.md)
    * [Clone an existing repository](clone_an_existing_repository.md)
    * [Publishing your repository](publishing_your_repository.md)
