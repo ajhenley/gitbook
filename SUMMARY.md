@@ -45,7 +45,7 @@
 * [3. Unit Testing with JUnit](unittesting_with_junit_md.md)
    * [What is unit testing?](what_is_unit_testing.md)
    * [When do I write unit tests?](when_do_i_write_unit_tests.md)
-   * What is test coverage?
+   * [What is test coverage?](what_is_test_coverage.md)
    * Annotations and Assertions
    * Show me an complete example (with Eclipse)
    * Creating a test suite
