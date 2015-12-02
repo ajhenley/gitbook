@@ -41,6 +41,6 @@
    * [Checking Status](checking_status.md)
    * [Configure the Git author](configure_the_git_author.md)
    * [View your commits with Git log](view_your_commits_with_git_log.md)
-   * View your Git configuration
+   * [View your Git configuration](view_your_git_configuration.md)
 * [3. Unit Testing with JUnit](unittesting_with_junit_md.md)
 
