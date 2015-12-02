@@ -38,5 +38,6 @@
    * [Fork a repository on GitHub](fork_a_repository_on_github.md)
    * [Clone an existing repository](clone_an_existing_repository.md)
    * [Publishing your repository](publishing_your_repository.md)
+   * Checking Status
 * [3. Unit Testing with JUnit](unittesting_with_junit_md.md)
 
