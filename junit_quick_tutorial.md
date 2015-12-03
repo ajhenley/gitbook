@@ -16,7 +16,7 @@ JUnit will report how many of the test methods in C test succeed, and how many f
 * Select JUnit.
  
 
-### How to create unit tests
+###How to create unit tests
 * Create a new source folder called UnitTests
 * Add your unit tests as a class to that folder.
  
@@ -24,32 +24,8 @@ JUnit will report how many of the test methods in C test succeed, and how many f
 ###The example
 We want to test the class below. Why? So when we make changes to it we can verify that our tests still pass. The class is called Avatar. An instance of the Avatar class represents a player in our game. Each player has a name, a birthday, eye color and a gender. Each player probably has other qualities but they're not important for this example.
 
-public class Avatar {
-    private String name;
-    private Date birthday;
-    private int eyeColor;
-    private int gender;
-    
-   public Subscription(int p, int n) {
-     price = p ;
-     length = n ;
-   }
 
-  /**
-   * Calculate the monthly subscription price in dollars,
-   * rounded up to the nearest cent.
-   */
-   public double pricePerMonth() {
-     double r = (double) price / (double) length ;
-      return r ;
-   }
 
-  /**
-   * Call this to cancel/nulify this subscription.
-   */
-   public void cancel() { length = 0 ; }
-
-}
 For example, new Subscription(1000,2) will create a new subscription of 1000 cents for the total period of 2 months.
 
 By the way, the class has a number of bugs; e.g. pricePerMonth is supposed to return the price per month in dollars. However it calculates the price in cent.
