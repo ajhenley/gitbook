@@ -53,4 +53,5 @@
    * [How to run unit tests from the command line](how_to_run_unit_tests_from_the_command_line.md)
    * [Comparing classes](comparing_classes.md)
    * What is integration testing?
+   * Junit Quick Tutorial
 
