@@ -52,6 +52,6 @@
    * [Creating a parameterized test](creating_a_parameterized_test.md)
    * [How to run unit tests from the command line](how_to_run_unit_tests_from_the_command_line.md)
    * [Comparing classes](comparing_classes.md)
-   * What is integration testing?
+   * [What is integration testing?](what_is_integration_testing.md)
    * [Junit Quick Tutorial](junit_quick_tutorial.md)
 
