@@ -1,10 +1,12 @@
 # What is test coverage?
 
-The idea of test coverage is the same as when the 
+Coverage works like this: Print your code. Using a highlighter mark all the methods that your unit tests have checked. They're covered. Any methods that are still white aren't covered. Write a test for them. Private methods count as covered when the public method that calls them is tested.
 
-Most people think of full coverage as an insurance policy that combines their State required liability, Collision and Comprehensive (vandalism and theft). But does that really cover everything that could happen to your car? What is your car is swept away in a flood? Or disappears during the night in a sinkhole?
+It's not good enough to have just one test per method. You may need three, five or more. You should cover all the possibilities. What about the user passing a zero-length password? What about one with only one character? Or starts with a number? Or starts with a space? Or one that's 75 words long? That's five unit tests and we haven't even considered the normal eight character password.
+
+Most people think of full coverage as an insurance policy. It combines their State required liability, Collision and Comprehensive (vandalism and theft). But does that cover everything that could happen to your car? What if a flood takes your car for a swim? Or a sinkhole enjoys it for a midnight snack?
 
 Unit tests work the same way. No, you don't pay some Gecko to make cute promises. Unit tests are insurance that your application functions. The more coverage you have the more confident you can be that the application works as expected.
 
-It's not uncommon to put a lot of effort into an application only to find that something that was previously tested needs a new feature or modification. Unit testing allows you to ensure that the fix you implement doesn't negatively impact some other aspect of your application.
+
 
