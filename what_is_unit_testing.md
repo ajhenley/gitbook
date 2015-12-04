@@ -24,7 +24,9 @@ If you design your application to be testable then you'll design a better applic
 
 Better yet, if you write the unit tests FIRST then you have a goal. And you'll focus on writing code to pass the unit tests. This encourages you to work faster. 
 
+###What should you unit test?
+All the public methods in all the classes that your have developed. The private methods are called by the public methods, right? They'll get tested that  way. Don't unit test the Java API. It's been done already. It works fine. Your most likely source of errors is your code. Test that. Your tests should cover at least 70% of your code. Less than that  means you're not writing enough tests.
 
+###The #1 reason you should use unit  tests
+Insurance. Do you need to add a feature? Refactor some code? Allow someone else to modify your application? How do you know if your program still works after the changes have been implemented? If you say anything other than unit testing then you've failed yourself and this course. If the unit tests still pass then your code must still work. A concept so simple a cavemen could understand it.
 
-Most importantly, unit testing provides a very important safety net for you. If you want to add a feature, refactor some code or hand your app off to another maintainer, there's a very clear signal if something breaks and the broken unit test will tell you where it's broken and how it's supposed to work.
-The trick to unit testing is finding a good balance. If you're building a one-off app that you'll never touch once published, you can probably get away with little to no unit tests (it may not be worth it). Just know that going back and adding unit tests after the fact is not nearly as useful as writing it when you write the code you're testing (before or immediately after). If you're building a product that you plan to grow and maintain, unit testing will be invaluable, even if the app is simple. Just don't over-do it. Writing too many unit tests can be crippling in that the smallest change can require fixing hundreds of unit tests (EDIT: see further thoughts on this in the replies below). In general don't shoot for more than 70% line or branch coverage or you're probably overdoing it.
