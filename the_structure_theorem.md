@@ -6,8 +6,7 @@ The Structure Theorem states that a solution can consist of a combination of jus
 ###Three control structures
 ####Sequence
 
-The sequence control structure describes the linear execution of one step after another. A sequence of statements is represented by this construct
-.
+The sequence control structure describes the linear execution of one step after another. A sequence of statements is represented by this construct.
 <pre>statement a
 statement b
 statement c</pre>
@@ -55,6 +54,7 @@ It is written in pseudocode as:
 <pre>DOWHILE condition p is true
 &nbsp;&nbsp;&nbsp;&nbsp;statement block
 ENDDO</pre>
+
 The DOWHILE loop is a leading decision loop. That means, the condition is tested before any statements are executed. If the condition is true, the block of statements following that statement is executed once. The delimiter ENDDO then triggers a return of control to the retesting of the condition. If the condition is still true, the statements are executed again. The repetition process continues until the condition is false.
 
 Once control exits the loop, control then passes to the statement that follows the ENDDO statement.It is vital somewhere in the statement block you alter the condition to be false. If not your logic may result in an endless loop. A loop that runs forever.
