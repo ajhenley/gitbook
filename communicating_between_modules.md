@@ -6,7 +6,7 @@ Often you will need to send data to your modules as an input. You may then recei
 You can accomplish this by passing parameters and returning values.
  
 ###Scope of a variable
-The scope of a variable refers to the visiblity of the variable. When is the variable available to your program or module? A variable declared inside a method or loop is available just to that method or loop; it does not exist elsewhere in your program. 
+The scope of a variable refers to the visibility of the variable. When is the variable available to your program or module? A variable declared inside a method or loop is available just to that method or loop; it does not exist elsewhere in your program. 
 
 Some programming languages allow you to declare global variables. Java is not one of those languages. This will save you endless heart-ache of your variable changing when you least expect it. 
 
