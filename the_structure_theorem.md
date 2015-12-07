@@ -78,10 +78,10 @@ ENDDO
 
 ###This example illustrates a number of points:
 
-* The variable student_total is initialized before the DOWHILE condition is executed.
-* As long as student_total is less than 50 (that is, the DOWHILE condition is true), the statement block will be repeated.
-* Each time the statement block is executed,one instruction within that block will cause the variable student_total to be incremented.
-* After 50 iterations, student_total will equal 50, which causes the DOWHILE condition to become false and the repetition to cease.
+* The variable **student_total** is initialized before the DOWHILE condition is evaluated.
+* As long as **student_total** is less than 50 (that is, the DOWHILE condition is true), the statement block will be repeated.
+* Each time the statement block is executed,one instruction within that block will cause the variable **student_total** to be incremented.
+* After 50 iterations, **student_total** will equal 50, which causes the DOWHILE condition to become false and the repetition to cease.
 * It is important to realize that the initializing and subsequent incrementing of the variable tested in the condition is an essential feature of the DOWHILE construct.
 
  
