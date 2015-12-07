@@ -4,7 +4,7 @@ To design a solution algorithm, the programmer has to create variables and objec
 
 Often a name describes the type of data stored in a particular variable. For instance, a variable may be one of three simple data types: an integer, a real number or a character. You should pick a name that describes the variable. For example, if you need three numbers, number1, number2 and number3 are more meaningful than A, B and C. However taxRate, income, and nmbrDependents are even better names.
 
-If more than one word is used in the name of a variable, then underscores are useful as word separators, for example sales_tax and word_count. If an underscore is not desirable, then words can be joined together with the use of a capital letter as a word separator, for example salesTax and wordCount. The latter is more common and is known as Camel Case.
+If variable consists of more than one word, use underscores as word separators, for example **sales_tax** and **word_count**. If you don't want an underscore, then words can be joined together with the use of a capital letter as a word separator, for example salesTax and wordCount. The latter is more common and is known as Camel Case.
 
 Most programming languages do not tolerate a space in a variable name, as a space would signal the end of the variable name and thus imply that there were two variables. 
 
