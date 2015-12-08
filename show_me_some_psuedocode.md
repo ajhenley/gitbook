@@ -27,15 +27,16 @@ Then open up the .csv file and loop through each line.
 If the project number is the one entered then add that line to the final report. You shall extract the number, name, hours,  rate and calculate total hours. Write each employee line to the to a file, also .csv which will open in Excel.
 <pre>Print_weekly_report
 Begin
-prompt for project_number
-prompt for input_filename
-prompt for output_filename
-open input_filename
-printHeader
+declare TotalPay = 0.0
+prompt for CurrentProjectNumber
+prompt for inputFilename
+prompt for outputFilename
+open inputFilename
+printHeader(CurrentProjectNumber)
 DO while not EOF
-    if projectNumber = project_number then
-        read  employeeNumber, employeeName, hoursBilled,      hourlyRate
-        printWeeklyReport(employeeNumber,employeeName,hoursBilled,hourlyRate)
+    if projectNumber = CurrentProjectNumber then
+        read  employeeNumber, employeeName, hoursBilled, hourlyRate
+        TotalPay = TotalPay + printWeeklyReport(employeeNumber,employeeName,hoursBilled,hourlyRate)
     end if
  
 
@@ -48,13 +49,16 @@ END</pre>
 <pre>printWeeklyReport(employeeNumber,employeeName,hoursBilled,hourlyRate)
     weeklyPay = calculateWeeklyPay(hoursBilled,hourlyRate)
         write to output_filename employeeNumber, employeeName, weeklyPay
+        return weeklyPay
 </pre>
 <pre>calculateWeeklyPay(hoursBilled,hourlyRate)
     return hoursBilled * hourlyRate
 </pre>
 
-<pre>printHeader()
+<pre>printHeader(CurrentProjectNumber)
+    print "Weekly Report for " + CurrentProjectNumber to outputFilename
 </pre>    
 
 <pre>printFooter(totalHours)
+    
 </pre>
