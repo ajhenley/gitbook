@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Basic Java
 * [1. Program Design](chapter1.md)
    * [Program Design](program_design.md)
    * [The Structure Theorem](the_structure_theorem.md)
@@ -43,7 +42,9 @@
    * [Configure the Git author](configure_the_git_author.md)
    * [View your commits with Git log](view_your_commits_with_git_log.md)
    * [View your Git configuration](view_your_git_configuration.md)
-* [3. Unit Testing with JUnit](unittesting_with_junit_md.md)
+* [3. Basic Java](basic_java.md)
+* [4. Object-Oriented Java](object_oriented_java.md)
+* [5. Unit Testing with JUnit](unittesting_with_junit_md.md)
    * [What is unit testing?](what_is_unit_testing.md)
    * [When do I write unit tests?](when_do_i_write_unit_tests.md)
    * [What is test coverage?](what_is_test_coverage.md)
@@ -56,4 +57,5 @@
    * [What is integration testing?](what_is_integration_testing.md)
    * [Junit Quick Tutorial](junit_quick_tutorial.md)
    * [Different types of testing](different_types_of_testing.md)
+
 
