@@ -28,6 +28,8 @@ If the project number is the one entered then add that line to the final report.
 <pre>Print_weekly_report
 Begin
 declare TotalPay = 0.0
+declare employeeNumber,employeeName,hoursBilled,hourlyRate
+
 prompt for CurrentProjectNumber
 prompt for inputFilename
 prompt for outputFilename
@@ -36,12 +38,13 @@ printHeader(CurrentProjectNumber)
 DO while not EOF
     if projectNumber = CurrentProjectNumber then
         read  employeeNumber, employeeName, hoursBilled, hourlyRate
+        
         TotalPay = TotalPay + printWeeklyReport(employeeNumber,employeeName,hoursBilled,hourlyRate)
     end if
  
 
 LOOP
-printFooter
+printFooter(TotalPay)
 close input_filename
 close output_filename
 END</pre>
@@ -59,6 +62,6 @@ END</pre>
     print "Weekly Report for " + CurrentProjectNumber to outputFilename
 </pre>    
 
-<pre>printFooter(totalHours)
-    print totalHours + " charged to project" to outputFilename
+<pre>printFooter(totalPay)
+    print totalPay + " charged to project" to outputFilename
 </pre>
