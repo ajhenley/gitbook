@@ -13,6 +13,14 @@ Your client requests a program that will print the weekly timesheet report. The 
 ####External to your program:
 The project manager will log in to the timekeeping system and download a .csv file of all the hours charged by all employees for the week. The .csv will contain each employee number, name # hours, billing rate, project number for all charges for the week. The project manager will save this .csv file to a known directory.
 
+####The Algorithm
+
+####Inputs, Processing Steps, Outputs
+Inputs|Processing Steps|Outputs
+--|--|--
+.csv file of all hours for all projects|print header<br>read file |write to output file
+
+
 ####Your program
 You shall write a program which will prompt the project manager to enter the project number for the current project.
 Then open up the .csv file and loop through each line. 
