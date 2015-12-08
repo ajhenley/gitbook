@@ -35,6 +35,7 @@ prompt for inputFilename
 prompt for outputFilename
 open inputFilename
 printHeader(CurrentProjectNumber)
+
 DO while not EOF
     if projectNumber = CurrentProjectNumber then
         read  employeeNumber, employeeName, hoursBilled, hourlyRate
