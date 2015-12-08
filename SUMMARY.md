@@ -44,7 +44,7 @@
    * [View your Git configuration](view_your_git_configuration.md)
 * [3. Basic Java](basicjava_md.md)
    * [Your first java program](your_first_java_program.md)
-   * More Printing
+   * [More Printing](more_printing.md)
    * Identifiers
 * [4. Object-Oriented Java](objectoriented_java_md.md)
 * [5. Unit Testing with JUnit](unittesting_with_junit_md.md)
