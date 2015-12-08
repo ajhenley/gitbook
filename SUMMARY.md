@@ -49,7 +49,7 @@
    * [Comments](comments.md)
    * [A program for yourself](a_program_for_yourself.md)
    * [Variables](variables.md)
-   * Coding arithmetic statements
+   * [Coding arithmetic statements](coding_arithmetic_statements.md)
 * [4. Object-Oriented Java](objectoriented_java_md.md)
 * [5. Unit Testing with JUnit](unittesting_with_junit_md.md)
    * [What is unit testing?](what_is_unit_testing.md)
