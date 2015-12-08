@@ -4,27 +4,28 @@
 <p>Now that we have practiced creating variables for a bit, we are going to look at the other part of interactive programs: letting the human who is running our program have a chance to type something.</p>
 <p>Go ahead and type this up, but notice that the first line in the program is <em>not</em> the public class line. This time we start with an &ldquo;import&rdquo; statement.</p>
 <p>Not every program needs to get interactive input from a human using the keyboard, so this is not part of the core of the Java language. Just like a Formula 1 race car does not include an air conditioner, programming languages usually have a small core and then lots of optional libraries<a id="id1" class="footnote-reference" href="#libs">[1]</a> that can be included if desired.</p>
-<pre><span class="ln"> 1 </span><span class="keyword namespace">import</span> <span class="name namespace">java.util.Scanner</span><span class="operator">;</span>
-<span class="ln"> 2 </span>
-<span class="ln"> 3 </span><span class="keyword declaration">public</span> <span class="keyword declaration">class</span> <span class="name class">ForgetfulMachine</span>
-<span class="ln"> 4 </span><span class="operator">{</span>
-<span class="ln"> 5 </span>    <span class="keyword declaration">public</span> <span class="keyword declaration">static</span> <span class="keyword type">void</span> <span class="name function">main</span><span class="operator">(</span> <span class="name">String</span><span class="operator">[]</span> <span class="name">args</span> <span class="operator">)</span>
-<span class="ln"> 6 </span>    <span class="operator">{</span>
-<span class="ln"> 7 </span>        <span class="name">Scanner</span> <span class="name">keyboard</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="name">Scanner</span><span class="operator">(</span><span class="name">System</span><span class="operator">.</span><span class="name attribute">in</span><span class="operator">);</span>
-<span class="ln"> 8 </span>
-<span class="ln"> 9 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"What city is the capital of France?"</span> <span class="operator">);</span>
-<span class="ln">10 </span>        <span class="name">keyboard</span><span class="operator">.</span><span class="name attribute">next</span><span class="operator">();</span>
-<span class="ln">11 </span>
-<span class="ln">12 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"What is 6 multiplied by 7?"</span> <span class="operator">);</span>
-<span class="ln">13 </span>        <span class="name">keyboard</span><span class="operator">.</span><span class="name attribute">nextInt</span><span class="operator">();</span>
-<span class="ln">14 </span>
-<span class="ln">15 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"What is your favorite number between 0.0 and 1.0?"</span> <span class="operator">);</span>
-<span class="ln">16 </span>        <span class="name">keyboard</span><span class="operator">.</span><span class="name attribute">nextDouble</span><span class="operator">();</span>
-<span class="ln">17 </span>
-<span class="ln">18 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"Is there anything else you would like to tell me?"</span> <span class="operator">);</span>
-<span class="ln">19 </span>        <span class="name">keyboard</span><span class="operator">.</span><span class="name attribute">next</span><span class="operator">();</span>
-<span class="ln">20 </span>    <span class="operator">}</span>
-<span class="ln">21 </span><span class="operator">}</span>
+<pre>
+1 import java.util.Scanner;
+ 2 
+ 3 public class ForgetfulMachine
+ 4 {
+ 5     public static void main( String[] args )
+ 6     {
+ 7         Scanner keyboard = new Scanner(System.in);
+ 8 
+ 9         System.out.println( "What city is the capital of France?" );
+10         keyboard.next();
+11 
+12         System.out.println( "What is 6 multiplied by 7?" );
+13         keyboard.nextInt();
+14 
+15         System.out.println( "What is your favorite number between 0.0 and 1.0?" );
+16         keyboard.nextDouble();
+17 
+18         System.out.println( "Is there anything else you would like to tell me?" );
+19         keyboard.next();
+20     }
+21 }
 </pre>
 <p>When you first run this program, it will only print the first line:</p>
 <pre class="literal-block">What city is the capital of France?
