@@ -42,9 +42,9 @@ DO while not EOF
         
         TotalPay = TotalPay + printWeeklyReport(employeeNumber,employeeName,hoursBilled,hourlyRate)
     end if
- 
-
+    
 LOOP
+
 printFooter(TotalPay)
 close input_filename
 close output_filename
