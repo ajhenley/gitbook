@@ -60,5 +60,5 @@ END</pre>
 </pre>    
 
 <pre>printFooter(totalHours)
-    
+    print totalHours + " charged to project" to outputFilename
 </pre>
