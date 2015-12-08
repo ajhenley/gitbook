@@ -67,6 +67,7 @@
    * [Mowing time programming activity](mowing_time_programming_activity.md)
    * [More mowing time](more_mowing_time.md)
    * [Boolean expressions](boolean_expressions.md)
+   * Comparing strings
 * [4. Object-Oriented Java](objectoriented_java_md.md)
 * [5. Unit Testing with JUnit](unittesting_with_junit_md.md)
    * [What is unit testing?](what_is_unit_testing.md)
