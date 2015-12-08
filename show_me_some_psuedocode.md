@@ -10,18 +10,18 @@ Your client requests a program that will print the weekly timesheet report. The 
 ####External to your program:
 The project manager will log in to the timekeeping system and download a .csv file of all the hours charged by all employees for the week. The .csv will contain each employee number, name # hours, billing rate, project number for all charges for the week. The project manager will save this .csv file to a known directory.
 
-####The Algorithm
 
 ####Inputs, Processing Steps, Outputs
 Inputs|Processing Steps|Outputs
 --|--|--
 .csv file of all hours for all projects|open input file<br/>open output file<br/>print heading<br/>read timesheet records<br/>if project number = current project then print record<br/>print footer<br/>close input file<br/>close output file<br/>|write to output file
 
-
-####Your program
+####Requirements
 You shall write a program which will prompt the project manager to enter the project number for the current project.
 Then open up the .csv file and loop through each line. 
 If the project number is the one entered then add that line to the final report. You shall extract the number, name, hours,  rate and calculate total hours. Write each employee line to the to a file, also .csv which will open in Excel.
+
+####Your program
 <pre>Print_weekly_report
 BEGIN
     declare TotalPay = 0.0
