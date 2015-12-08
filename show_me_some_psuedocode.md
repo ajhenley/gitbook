@@ -4,6 +4,47 @@ Nothing teaches like a good example, right?
 
 helps decrease the gap between developers and non-technical guys on a project, so you can make sure that the software will match the customers expectations.
 
-Pseudocode (also called Structured English) is an informal high-level description of the operating principle of a computer program or other algorithm.
 
-It uses the structural conventions of a programming language, but is intended for human reading rather than machine reading. Pseudocode typically omits details that are essential for machine understanding of the algorithm, such as variable declarations, system-specific code and some subroutines. The programming language is augmented with natural language description details, where convenient, or with compact mathematical notation. The purpose of using pseudocode is that it is easier for people to understand than conventional programming language code, and that it is an efficient and environment-independent description of the key principles of an algorithm. 
+Here is a complete example of a modular program using pseudocode.
+
+In this case the client requests a program that will print the weekly timesheet report. The project manager (client) needs to log on to the timekeeping system every week and download the report. The report contains all the employees and is not filtered by the particular project. Employees charge their hours to each project. This allows the program to exclude records for other projects.
+
+####External to your program:
+The project manager will log in to the timekeeping system and download a .csv file of all the hours charged by all employees for the week. The .csv will contain each employee number, name # hours, billing rate, project number for all charges for the week. The project manager will save this .csv file to a known directory.
+
+####Your program
+You shall write a program which will prompt the project manager to enter the project number for the current project.
+Then open up the .csv file and loop through each line. 
+If the project number is the one entered then add that line to the final report. You shall extract the number, name, hours,  rate and calculate total hours. Write each employee line to the to a file, also .csv which will open in Excel.
+
+Print_weekly_report
+Begin
+prompt for project_number
+prompt for input_filename
+prompt for output_filename
+open input_filename
+DO while not EOF
+    if projectNumber = project_number then
+        read  employeeNumber, employeeName, hoursBilled,      hourlyRate
+        printWeeklyReport(employeeNumber,employeeName,hoursBilled,hourlyRate)
+    end if
+ 
+
+LOOP
+close input_filename
+close output_filename
+END
+
+
+printWeeklyReport(employeeNumber,employeeName,hoursBilled,hourlyRate)
+    weeklyPay = calculateWeeklyPay(hoursBilled,hourlyRate)
+        write to output_filename employeeNumber, employeeName, weeklyPay
+
+
+calculateWeeklyPay(hoursBilled,hourlyRate)
+    return hoursBilled * hourlyRate
+
+printHeader
+    
+
+printFooter(totalHours)
