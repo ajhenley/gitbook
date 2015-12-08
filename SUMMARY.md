@@ -66,6 +66,7 @@
    * [Input output change assignment](input_output_change_assignment.md)
    * [Mowing time programming activity](mowing_time_programming_activity.md)
    * [More mowing time](more_mowing_time.md)
+   * Boolean expressions
 * [4. Object-Oriented Java](objectoriented_java_md.md)
 * [5. Unit Testing with JUnit](unittesting_with_junit_md.md)
    * [What is unit testing?](what_is_unit_testing.md)
