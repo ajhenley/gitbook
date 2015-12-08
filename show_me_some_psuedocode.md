@@ -1,9 +1,6 @@
 # Show Me Some Psuedocode!
 
-Nothing teaches like a good example, right?
-
-helps decrease the gap between developers and non-technical guys on a project, so you can make sure that the software will match the customers expectations.
-
+Nothing teaches like an example, right?
 
 Here is a complete example of a modular program using pseudocode.
 
