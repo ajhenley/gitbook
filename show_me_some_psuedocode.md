@@ -18,7 +18,7 @@ The project manager will log in to the timekeeping system and download a .csv fi
 ####Inputs, Processing Steps, Outputs
 Inputs|Processing Steps|Outputs
 --|--|--
-.csv file of all hours for all projects|print header<br>read file |write to output file
+.csv file of all hours for all projects|open input file<br/>open output file<br/>print heading<br/>read timesheet records<br/>if project number = current project then print record<br/>print footer<br/>close input file<br/>close output file<br/>|write to output file
 
 
 ####Your program
