@@ -61,6 +61,7 @@
    * [Special characters assignment](special_characters_assignment.md)
    * [Scanner assignment](scanner_assignment.md)
    * [Output assignment](output_assignment.md)
+   * Input output debugging assignment
 * [4. Object-Oriented Java](objectoriented_java_md.md)
 * [5. Unit Testing with JUnit](unittesting_with_junit_md.md)
    * [What is unit testing?](what_is_unit_testing.md)
