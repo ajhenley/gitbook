@@ -54,4 +54,5 @@
    * [Comparing classes](comparing_classes.md)
    * [What is integration testing?](what_is_integration_testing.md)
    * [Junit Quick Tutorial](junit_quick_tutorial.md)
+   * Different types of testing
 
