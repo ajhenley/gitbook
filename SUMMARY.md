@@ -59,7 +59,7 @@
    * [String assignment](string_assignment.md)
    * [Special characters](special_characters.md)
    * [Special characters assignment](special_characters_assignment.md)
-   * Formatting numbers
+   * [Formatting numbers](formatting_numbers.md)
    * [Scanner assignment](scanner_assignment.md)
    * [Output assignment](output_assignment.md)
    * [Input output debugging assignment](input_output_debugging_assignment.md)
