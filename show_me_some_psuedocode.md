@@ -16,8 +16,7 @@ The project manager will log in to the timekeeping system and download a .csv fi
 You shall write a program which will prompt the project manager to enter the project number for the current project.
 Then open up the .csv file and loop through each line. 
 If the project number is the one entered then add that line to the final report. You shall extract the number, name, hours,  rate and calculate total hours. Write each employee line to the to a file, also .csv which will open in Excel.
-
-Print_weekly_report
+<pre>Print_weekly_report
 Begin
 prompt for project_number
 prompt for input_filename
@@ -33,18 +32,18 @@ DO while not EOF
 LOOP
 close input_filename
 close output_filename
-END
+END</pre>
 
-
-printWeeklyReport(employeeNumber,employeeName,hoursBilled,hourlyRate)
+<pre>printWeeklyReport(employeeNumber,employeeName,hoursBilled,hourlyRate)
     weeklyPay = calculateWeeklyPay(hoursBilled,hourlyRate)
         write to output_filename employeeNumber, employeeName, weeklyPay
-
-
-calculateWeeklyPay(hoursBilled,hourlyRate)
+</pre>
+<pre>calculateWeeklyPay(hoursBilled,hourlyRate)
     return hoursBilled * hourlyRate
+</pre>
 
-printHeader
-    
+<pre>printHeader
+</pre>    
 
-printFooter(totalHours)
+<pre>printFooter(totalHours)
+</pre>
