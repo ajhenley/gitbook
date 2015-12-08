@@ -71,6 +71,7 @@
    * [Compound boolean expressions](compound_boolean_expressions.md)
    * [What if](what_if.md)
    * [What if debugging activity](what_if_debugging_activity.md)
+   * What if change activity
 * [4. Object-Oriented Java](objectoriented_java_md.md)
 * [5. Unit Testing with JUnit](unittesting_with_junit_md.md)
    * [What is unit testing?](what_is_unit_testing.md)
