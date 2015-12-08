@@ -1,0 +1,2 @@
+# String completion assignment
+
