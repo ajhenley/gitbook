@@ -42,7 +42,7 @@
    * [Configure the Git author](configure_the_git_author.md)
    * [View your commits with Git log](view_your_commits_with_git_log.md)
    * [View your Git configuration](view_your_git_configuration.md)
-* [3. Basic Java](basic_java.md)
+* [3. Basic Java](basicjava_md.md)
 * [4. Object-Oriented Java](object_oriented_java.md)
 * [5. Unit Testing with JUnit](unittesting_with_junit_md.md)
    * [What is unit testing?](what_is_unit_testing.md)
@@ -57,5 +57,4 @@
    * [What is integration testing?](what_is_integration_testing.md)
    * [Junit Quick Tutorial](junit_quick_tutorial.md)
    * [Different types of testing](different_types_of_testing.md)
-
 
