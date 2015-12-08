@@ -7,7 +7,8 @@ helps decrease the gap between developers and non-technical guys on a project, s
 
 Here is a complete example of a modular program using pseudocode.
 
-In this case the client requests a program that will print the weekly timesheet report. The project manager (client) needs to log on to the timekeeping system every week and download the report. The report contains all the employees and is not filtered by the particular project. Employees charge their hours to each project. This allows the program to exclude records for other projects.
+####The problem
+Your client requests a program that will print the weekly timesheet report. The project manager (client) needs to log on to the timekeeping system every week and download the report. The report contains all the employees. The timesheet report is not filtered by the particular project. Employees charge their hours to each project. This allows the program to exclude records for other projects.
 
 ####External to your program:
 The project manager will log in to the timekeeping system and download a .csv file of all the hours charged by all employees for the week. The .csv will contain each employee number, name # hours, billing rate, project number for all charges for the week. The project manager will save this .csv file to a known directory.
@@ -22,6 +23,7 @@ prompt for project_number
 prompt for input_filename
 prompt for output_filename
 open input_filename
+printHeader
 DO while not EOF
     if projectNumber = project_number then
         read  employeeNumber, employeeName, hoursBilled,      hourlyRate
@@ -30,6 +32,7 @@ DO while not EOF
  
 
 LOOP
+printFooter
 close input_filename
 close output_filename
 END</pre>
@@ -42,7 +45,7 @@ END</pre>
     return hoursBilled * hourlyRate
 </pre>
 
-<pre>printHeader
+<pre>printHeader()
 </pre>    
 
 <pre>printFooter(totalHours)
