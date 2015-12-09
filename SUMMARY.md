@@ -77,6 +77,19 @@
    * [Randomness](randomness.md)
    * [Monopoly dice](monopoly_dice.md)
    * [Choose your own adventure!](choose_your_own_adventure.md)
+   * [Repeating yourself with the while loop]
+   * [Twenty questions]
+   * [Guessing game]
+   * [Do while swimming]
+   * [For loops]
+   * [Nested for loops]
+   * [Loop debugging activity]
+   * [Loop completion activity]
+   * [Zork]
+   * [Switch statements]
+   * [String formatting example]
+   * [Date formatting]
+   * [Display a calendar at the console]
 * [4. Object-Oriented Java](objectoriented_java_md.md)
 * [5. Unit Testing with JUnit](unittesting_with_junit_md.md)
    * [What is unit testing?](what_is_unit_testing.md)
