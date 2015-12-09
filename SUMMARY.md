@@ -77,7 +77,7 @@
    * [Randomness](randomness.md)
    * [Monopoly dice](monopoly_dice.md)
    * [Choose your own adventure!](choose_your_own_adventure.md)
-   * [Repeating yourself with the while loop]
+   * [[Repeating yourself with the while loop]]([repeating_yourself_with_the_while_loop].md)
    * [Twenty questions]
    * [Guessing game]
    * [Do while swimming]
