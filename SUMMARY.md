@@ -1,6 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
+   * [About this course](about_this_course)
+   * [Recommended resources](recommended_resources)
+   * [Obtaining the Oracle Virtual Machine](obtaining_the_oracle_virtual_machine)
 * [Program Design](chapter1.md)
    * [Program Design](program_design.md)
    * [The Structure Theorem](the_structure_theorem.md)
@@ -32,7 +35,7 @@
    * [Algorithms Final Project](algorithms_final_project.md)
    * [Measuring Complexity](measuring_complexity.md)
    * [Show Me Some Psuedocode!](show_me_some_psuedocode.md)
-* [2. Using Git](using_git.md)
+* [Using Git](using_git.md)
    * [Git Walkthrough](git_walkthrough.md)
    * [Create a GitHub account](create_a_github_account.md)
    * [Fork a repository on GitHub](fork_a_repository_on_github.md)
@@ -283,4 +286,5 @@
    * [Integration Testing](integration_testing)
 *[Bonus Topics!](bonus_topics)
    * [Regular Expressions](regular_expressions)
+   * [Tips on developing your career](tips_on_developing_your_career)
 
