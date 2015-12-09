@@ -88,7 +88,7 @@
    * [Zork](zork)
    * [Switch statements](switch_statements)
    * [String formatting example](string_formatting_example)
-   * [Date formatting](date_formatting)
+   * [Date formatting](dateformatting.md)
    * [Display a calendar at the console](displaya_calendar_at_the_console.md)
 * [4. Object-Oriented Java](objectoriented_java_md.md)
 * [5. Unit Testing with JUnit](unittesting_with_junit.md)
