@@ -87,7 +87,7 @@
    * [Loop completion activity](loop_completion_activity)
    * [Zork](zork)
    * [Switch statements](switch_statements)
-   * [String formatting example](string_formatting_example)
+   * [String formatting example](stringformatting_example.md)
    * [Date formatting](dateformatting.md)
    * [Display a calendar at the console](displaya_calendar_at_the_console.md)
 * [4. Object-Oriented Java](objectoriented_java_md.md)
