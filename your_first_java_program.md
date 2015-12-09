@@ -2,7 +2,7 @@
 
 In this exercise you will write a working program in Java to display an important message on the screen.
 
-If you are not used to typing detailed instructions for a computer then this could be one of the harder exercises in the book. Computers are very stupid and if you don’t get every detail right, the computer won’t understand your instructions. But if you can get this exercise done and working, then there is a good chance that you will be able to handle every exercise in the book as long as you work on it every day and don’t quit.
+If you are not used to typing detailed instructions for a computer then this could be one of the harder exercises in the book. Computers are idiots.If you don’t get the instuctions right, the computer won’t do what you want it to. But if you can get this exercise done, then the rest of the book should be no problem. Just work on it every day and don’t quit.
 
 Open Eclipse, create a Java Project called MyFirstJavaProgram. Now create a new class named FirstProg. In this class, type the following text. Make sure to match what I have written exactly, including spacing, punctuation, and capitalization.
 <pre>
@@ -64,16 +64,22 @@ Make sure the file name matches mine exactly: the ‘F’ in “First” is capi
 Compiling Your First Program
 Now that the program has been written and hopefully contains no mistakes (we’ll see soon enough), run your program. Go to the Run menu and select Run this will compile and run your application. You will see the output from the application in the Console tab.
 
-What You Should See
-I am determined to learn how to code.
-Today's date is
+
+### What You Should See
+
+
+<pre>I am determined to learn how to code.
+Today's date is</pre>
 Are you stoked? You just wrote your first Java program and ran it! If you made it this far, then you almost certainly have what it takes to finish the course as long as you work on it every day and don’t quit.
 
-Study Drills
-After most of the exercises, I will list some additional tasks you should try after typing up the code and getting it to compile and run. Some study drills will be fairly simple and some will be more challenging, but you should always give them a shot.
+### Study Drills
+After most of the exercises, I will list some additional tasks you should try after typing up the code and getting it to compile and run. Some study drills will be  simple and some will be  challenging, but you should always give them a shot.
 
-Change what is inside the quotes on line 6 to include today’s date. Save the file once you have made your changes, compile the file and run it again.
-Change what is inside the quotes on line 5 to have the computer display your name.
-What You Should See After Completing the Study Drills
-I, Alton Henley, am determined to learn how to code.
-Today's date is Friday, July 19, 2015.
+* Change what is inside the quotes on line 6 to include today’s date. Save the file once you have made your changes, compile the file and run it again.
+* Change what is inside the quotes on line 5 to have the computer display your name.
+
+
+### What You Should See After Completing the Study Drills
+
+<pre>I, Alton Henley, am determined to learn how to code.
+Today's date is Friday, July 19, 2015.</pre>
