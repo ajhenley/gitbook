@@ -89,7 +89,7 @@
    * [Switch statements](switch_statements)
    * [String formatting example](string_formatting_example)
    * [Date formatting](date_formatting)
-   * [Display a calendar at the console](display_a_calendar_at_the_console)
+   * [Display a calendar at the console](displaya_calendar_at_the_console.md)
 * [4. Object-Oriented Java](objectoriented_java_md.md)
 * [5. Unit Testing with JUnit](unittesting_with_junit.md)
    * [What is unit testing?](what_is_unit_testing.md)
