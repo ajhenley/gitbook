@@ -81,7 +81,7 @@
    * [Twenty questions](twentyquestions.md)
    * [Guessing game](guessinggame.md)
    * [Do while swimming](do_while_swimming)
-   * [For loops](for_loops)
+   * [For loops](for_loops.md)
    * [Nested for loops](nested_for_loops.md)
    * [Loop debugging activity](loop_debugging_activity.md)
    * [Loop completion activity](loopcompletion_activity.md)
