@@ -104,7 +104,7 @@
    * [Line item invoice assignment](line_item_invoice_assignment)
    * [Overriding equals](overriding_equals)
    * [Inheritance](inheritance)
-   * [create a book class and app](create_a_book_class_and_app)
+   * [Create a book class and app](create_a_book_class_and_app)
    * [Create abstract vehicle class](create_abstract_vehicle_class)
    * [Inheritance debugging activity](inheritance_debugging_activity)
    * [Inheritance completion activity](inheritance_completion_activity)
