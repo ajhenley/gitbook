@@ -43,6 +43,7 @@
    * [View your commits with Git log](view_your_commits_with_git_log.md)
    * [View your Git configuration](view_your_git_configuration.md)
 * [3. Basic Java](basicjava_md.md)
+   * [Choose your own adventure!](choose_your_own_adventure.md)
    * [Your first java program](your_first_java_program.md)
    * [More Printing](more_printing.md)
    * [Identifiers](identifiers.md)
