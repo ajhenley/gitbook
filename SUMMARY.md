@@ -76,6 +76,7 @@
    * [What if activity](what_if_activity.md)
    * [Randomness](randomness.md)
    * [Monopoly dice](monopoly_dice.md)
+       * Choose your own adventure!
 * [4. Object-Oriented Java](objectoriented_java_md.md)
 * [5. Unit Testing with JUnit](unittesting_with_junit_md.md)
    * [What is unit testing?](what_is_unit_testing.md)
