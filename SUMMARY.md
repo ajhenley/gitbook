@@ -80,7 +80,7 @@
    * [Repeating yourself with the while loop](repeatingyourself_with_the_while_loop_md)
    * [Twenty questions](twentyquestions.md)
    * [Guessing game](guessinggame.md)
-   * [Do while swimming](do_while_swimming)
+   * [Do while swimming](do_while_swimming.md)
    * [For loops](for_loops.md)
    * [Nested for loops](nested_for_loops.md)
    * [Loop debugging activity](loop_debugging_activity.md)
