@@ -86,7 +86,7 @@
    * [Loop debugging activity](loop_debugging_activity)
    * [Loop completion activity](loop_completion_activity)
    * [Zork](zork)
-   * [Switch statements](switch_statements)
+   * [Switch statements](switchstatements.md)
    * [String formatting example](stringformatting_example.md)
    * [Date formatting](dateformatting.md)
    * [Display a calendar at the console](displaya_calendar_at_the_console.md)
