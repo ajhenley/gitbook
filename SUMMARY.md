@@ -80,16 +80,16 @@
    * [Repeating yourself with the while loop](repeatingyourself_with_the_while_loop_md)
    * [Twenty questions](twentyquestions.md)
    * [Guessing game](guessinggame.md)
-   * [Do while swimming]
-   * [For loops]
-   * [Nested for loops]
-   * [Loop debugging activity]
-   * [Loop completion activity]
-   * [Zork]
-   * [Switch statements]
-   * [String formatting example]
-   * [Date formatting]
-   * [Display a calendar at the console]
+   * [Do while swimming](do_while_swimming)
+   * [For loops](for_loops)
+   * [Nested for loops](nested_for_loops)
+   * [Loop debugging activity](loop_debugging_activity)
+   * [Loop completion activity](loop_completion_activity)
+   * [Zork](zork)
+   * [Switch statements](switch_statements)
+   * [String formatting example](string_formatting_example)
+   * [Date formatting](date_formatting)
+   * [Display a calendar at the console](display_a_calendar_at_the_console)
 * [4. Object-Oriented Java](objectoriented_java_md.md)
 * [5. Unit Testing with JUnit](unittesting_with_junit.md)
    * [What is unit testing?](what_is_unit_testing.md)
