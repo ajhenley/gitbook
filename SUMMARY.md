@@ -83,7 +83,7 @@
    * [Do while swimming](do_while_swimming)
    * [For loops](for_loops)
    * [Nested for loops](nested_for_loops)
-   * [Loop debugging activity](loop_debugging_activity)
+   * [Loop debugging activity](loop_debugging_activity.md)
    * [Loop completion activity](loopcompletion_activity.md)
    * [Zork](zork.md)
    * [Switch statements](switchstatements.md)
