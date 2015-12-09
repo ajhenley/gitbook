@@ -112,7 +112,7 @@
    * [How to run unit tests from the command line](how_to_run_unit_tests_from_the_command_line.md)
    * [Comparing classes](comparing_classes.md)
    * [What is integration testing?](what_is_integration_testing.md)
-   * [Junit Quick Tutorial](junit_quick_tutorial.md)
+   * [JUnit Quick Tutorial](junit_quick_tutorial.md)
    * [Different types of testing](different_types_of_testing.md)
 * [6. Object-Oriented Java - the sequel](object_oriented_java_the_sequel)
    * [Line item invoice assignment](line_item_invoice_assignment)
