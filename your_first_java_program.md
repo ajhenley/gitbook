@@ -5,16 +5,14 @@ In this exercise you will write a working program in Java to display an importan
 If you are not used to typing detailed instructions for a computer then this could be one of the harder exercises in the book. Computers are idiots.If you don’t get the instuctions right, the computer won’t do what you want it to. But if you can get this exercise done, then the rest of the book should be no problem. Just work on it every day and don’t quit.
 
 Open Eclipse, create a Java Project called MyFirstJavaProgram. Now create a new class named FirstProg. In this class, type the following text. Make sure to match what I have written exactly, including spacing, punctuation, and capitalization.
-<pre>
-public class FirstProg
+<pre>public class FirstProg
  {
      public static void main( String[] args )
      {
          System.out.println( "I am determined to learn how to code." );
          System.out.println( "Today's date is" );
      }
- }
- </pre>
+ }</pre>
 I’m going to walk through this line-by-line, just to make sure you typed everything correctly.
 
 The first line starts with the word public followed by a single space then the word class followed by a single space and then the word FirstProg. The ‘F’ in “First” is capitalized, the ‘P’ in “Prog” is capitalized. There are only two capital letters in the first line. There are only two spaces.
@@ -81,5 +79,6 @@ After most of the exercises, I will list some additional tasks you should try af
 
 ### What You Should See After Completing the Study Drills
 
-<pre>I, Alton Henley, am determined to learn how to code.
-Today's date is Friday, July 19, 2015.</pre>
+<pre>
+I, Alton Henley, am determined to learn how to code.
+Today's date is Friday, July 19, 2015.
