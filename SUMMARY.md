@@ -79,7 +79,7 @@
    * [Choose your own adventure!](choose_your_own_adventure.md)
    * [Repeating yourself with the while loop](repeatingyourself_with_the_while_loop_md)
    * [Twenty questions](twentyquestions.md)
-   * [Guessing game](guessing_game.md)
+   * [Guessing game](guessing_game)
    * [Do while swimming]
    * [For loops]
    * [Nested for loops]
