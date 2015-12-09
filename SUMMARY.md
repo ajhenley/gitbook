@@ -203,7 +203,6 @@
    * [Working with the Customers Table](working_with_the_customers_table)
    * [Java University](java_university)
    * [Connecting with Application Express](connecting_with_application_express)
-   * [Oracle: unexpire and unlock accounts](oracle_unexpire_and_unlock_accounts)
 * [HTML,CSS and Javascript](html_css_and_javascript)
    * [HTML Assignment](html_assignment)
    * [Create a web page](create_a_web_page)
@@ -288,5 +287,6 @@
    * [Integration Testing](integration_testing)
 *[Bonus Topics!](bonus_topics)
    * [Regular Expressions](regular_expressions)
+   * [Oracle: unexpire and unlock accounts](oracle_unexpire_and_unlock_accounts)
    * [Tips on developing your career](tips_on_developing_your_career)
 
