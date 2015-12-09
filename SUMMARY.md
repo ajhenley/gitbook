@@ -284,7 +284,7 @@
    * [Write a test plan for Gosh!](write_a_test_plan_for_gosh)
    * [Integration Testing](integration_testing)
 * [Bonus Topics!](bonustopics.md)
-   * [Regular Expressions](regular_expressions)
+   * [Regular Expressions](regularexpressions.md)
    * [Oracle: unexpire and unlock accounts](oracle_unexpire_and_unlock_accounts)
    * [Tips on developing your career](tips_on_developing_your_career)
 
