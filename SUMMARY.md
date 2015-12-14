@@ -97,7 +97,7 @@
    * [String formatting example](stringformatting_example.md)
    * [Date formatting](dateformatting.md)
    * [Display a calendar at the console](displaya_calendar_at_the_console.md)
-   * [A first look at arrays](a_first_look_at_arrays)
+   * [A first look at arrays](afirst_look_at_arrays.md)
    * [Invoice application](invoice_application)
    * [Bonus assignment](bonus_assignment)
    * [Formatting prices with two decimal places](formatting_prices)
