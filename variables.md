@@ -1,16 +1,18 @@
 # Variables
 
-<p>Programs would be pretty boring if the only thing you could do was print things on the screen. We would like our programs to be interactive.</p>
-<p>Unfortunately, interactivity requires several different concepts working together, and explaining them all at once might be confusing. So I am going to cover them one at a time.</p>
-<p>First up: variables! If you have ever taken an Algebra class, you are familiar with the concept of variables in mathematics. Programming languages have variables, too, and the basic concept is the same:</p>
+Programs would be pretty boring if the only thing you could do was print things on the screen. We would like our programs to be interactive.
+
+Unfortunately, interactivity requires several different concepts working together, and explaining them all at once might be confusing. So I am going to cover them one at a time.
+
+First up: variables! If you have ever taken an Algebra class, you are familiar with the concept of variables in mathematics. Programming languages have variables, too, and the basic concept is the same:
 <blockquote>&ldquo;A variable is a name that refers to a location that holds a value.&rdquo;</blockquote>
 <p>Variables in Java have four major differences from math variables:</p>
-<ol class="arabic simple">
-<li>Variable names can be more than one letter long.</li>
-<li>Variables can hold more than just numbers; they can hold words.</li>
-<li>You have to choose what type of values the variable will hold when the variable is first created.</li>
-<li>The value of a variable (but not its type) can change throughout the program. The variable score might start out with a value of 0, but by the end of the program, score might hold the value 413500 instead.</li>
-</ol>
+* Variable names can be more than one letter long.
+* Variables can hold more than just numbers; they can hold words.
+* You have to choose what type of values the variable will hold when the variable is first created.
+* The value of a variable (but not its type) can change 
+throughout the program. The variable score might start out with a value of 0, but by the end of the program, score might hold the value 413500 instead.
+
 <p>Okay, enough discussion. Let&rsquo;s get to the code! I&rsquo;m not going to tell you what the name of the file is supposed to be. You&rsquo;ll have to figure it out for yourself.</p>
 <pre class="code java literal-block"><span class="ln"> 1 </span><span class="keyword declaration">public</span> <span class="keyword declaration">class</span> <span class="name class">CreatingVariables</span>
 <span class="ln"> 2 </span><span class="operator">{</span>
