@@ -70,7 +70,7 @@ Everything always matches up. Notice that we have two open curly braces and two 
 
 Also notice that every time we did an open curly brace, the line(s) below it had more tabs at the beginning, and the lines below close curly braces had fewer tabs.
 
-Okay, now save this (if you haven’t already) as FirstProg.java and save it in the “code” folder you created in Exercise 0.
+Okay, now save this (if you haven’t already) as FirstProg.java.
 
 Make sure the file name matches mine exactly: the ‘F’ in “First” is capitalized, the ‘P’ in “Prog” is capitalized, and everything else is lowercase. And there should be no spaces in the file name. Java will refuse to run any program with a space in the file name. Also make sure the filename ends in .java and not .txt.
 
@@ -79,10 +79,9 @@ Now that the program has been written and hopefully contains no mistakes (we’l
 
 
 ### What You Should See
-
-
 <pre>I am determined to learn how to code.
 Today's date is</pre>
+
 Are you stoked? You just wrote your first Java program and ran it! If you made it this far, then you almost certainly have what it takes to finish the course as long as you work on it every day and don’t quit.
 
 ### Study Drills
