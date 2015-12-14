@@ -4,12 +4,13 @@ You will now write your first Java program. Your program will display a message 
 
 Typing detailed instructions for a computer to follow is not easy. The compuuter is dumb. It doesn't think. It will simply read the next line you've written and then do exactly what that line tells it to do.
 
-You need to adapt to the computer. You need to learn to type instructions in a way to get the dumb computer to carry out your wishes. If you don't get the instructions right then the computer has no chance of getting them write either. That's what makes this hard for people.
+You need to adapt to the computer. You need to learn to type instructions in a way to get the dumb computer to carry out your wishes. If you don't get the instructions right then the computer has no chance of getting them right either. That's what makes this hard for people.
 
-This exercise not only teaches you to enter a program but also to correctly exectute the program.
+This exercise not only teaches you to enter a program but also to correctly execute the program. 
 
+###Let's get started...
+Open Eclipse, create a Java Project called MyFirstJavaProgram. Now create a new class named FirstProg. In this class, type the following text. It is important to match what I have written exactly, including spacing, punctuation, and capitalization.
 
-Open Eclipse, create a Java Project called MyFirstJavaProgram. Now create a new class named FirstProg. In this class, type the following text. Make sure to match what I have written exactly, including spacing, punctuation, and capitalization.
 <pre>public class FirstProg
  {
      public static void main( String[] args )
@@ -18,6 +19,7 @@ Open Eclipse, create a Java Project called MyFirstJavaProgram. Now create a new 
          System.out.println( "Today's date is" );
      }
  }</pre>
+ 
 I’m going to walk through this line-by-line, just to make sure you typed everything correctly.
 
 The first line starts with the word public followed by a single space then the word class followed by a single space and then the word FirstProg. The ‘F’ in “First” is capitalized, the ‘P’ in “Prog” is capitalized. There are only two capital letters in the first line. There are only two spaces.
@@ -28,6 +30,7 @@ Before I go on to the third line of the program, I should tell you what programm
 
 ( and ) are called “parentheses” (that’s plural). Just one of them is called “a parenthesis”, but some people just call them parens (“puh-RENZ”). This one (“(“) is sometimes called a “left paren” and the other (“)”) is called a “right paren” because parentheses usually come in pairs and one is usually to the left of the other. The left parenthesis (“(“) is also often called an “open paren” and the right one is called a “close paren” for similar reasons.
 There’s an open paren on line 3 and a close paren, too, and no other parentheses in the whole file.
+
 [ and ] are called “brackets”, but many programmers call them “square brackets” to make sure there’s no confusion. In Java, parentheses and square brackets are not interchangeable. Brackets come in pairs and they are called “left bracket” or “open bracket” and “right bracket” or “close bracket”.
 There’s an open and close square bracket right next to each other on line 3.
 { and } are called “braces”, and some programmers call them “curly braces”. These also always come in pairs of left and right curly braces / open and close braces.
