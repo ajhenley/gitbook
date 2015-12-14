@@ -4,10 +4,10 @@ You will now write your first Java program. Your program will display a message 
 
 Typing detailed instructions for a computer to follow is not easy. The compuuter is dumb. It doesn't think. It will simply read the next line you've written and then do exactly what that line tells it to do.
 
-You need to adapt to the computer. You need to learn to type instructions in a way to get the dumb computer to carry out your wishes. If you don't get the instructions right then the computer has no chance of getting them write either. That's what makes this hard for many people.
+You need to adapt to the computer. You need to learn to type instructions in a way to get the dumb computer to carry out your wishes. If you don't get the instructions right then the computer has no chance of getting them write either. That's what makes this hard for people.
 
+This exercise not only teaches you to enter a program but also to correctly exectute the program.
 
-If you are not used to typing detailed instructions for a computer then this could be one of the harder exercises in the book. Computers are idiots.If you don’t get the instuctions right, the computer won’t do what you want it to. But if you can get this exercise done, then the rest of the book should be no problem. Just work on it every day and don’t quit.
 
 Open Eclipse, create a Java Project called MyFirstJavaProgram. Now create a new class named FirstProg. In this class, type the following text. Make sure to match what I have written exactly, including spacing, punctuation, and capitalization.
 <pre>public class FirstProg
