@@ -19,4 +19,3 @@ public class GetIntegers {
         System.out.println("The total of all 10 numbers is " + total);
     }
 }
-</pre></div>
