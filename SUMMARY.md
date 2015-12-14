@@ -100,7 +100,7 @@
    * [A first look at arrays](afirst_look_at_arrays.md)
    * [Invoice application](invoiceapplication.md)
    * [Bonus assignment](bonusassignment.md)
-   * [Formatting prices with two decimal places](formatting_prices)
+   * [Formatting prices with two decimal places](formattingprices.md)
 * [Object-Oriented Java](objectoriented_java_md.md)
    * [Methods example](methods_example)
    * [Modularization with methods](modularization_with_methods)
