@@ -22,13 +22,13 @@ Open Eclipse, create a Java Project called MyFirstJavaProgram. Now create a new 
  
 I’m going to walk through this line-by-line, just to make sure you typed everything correctly.
 
-The first line starts with the word public followed by a single space then the word class followed by a single space and then the word FirstProg. The ‘F’ in “First” is capitalized, the ‘P’ in “Prog” is capitalized. There are only two capital letters in the first line. There are only two spaces.
+The first line starts with the word ```public``` followed by a single space then the word ```class``` followed by a single space and then the word ```FirstProg```. The ‘F’ in “First” is capitalized, the ‘P’ in “Prog” is capitalized. There are only two capital letters in the first line. There are only two spaces.
 
 The second line is just a single character: a “brace”. You get it to show up by holding down SHIFT and then pressing the ‘[‘ key which is usually to the right of the letter ‘P’.
 
 Before I go on to the third line of the program, I should tell you what programmers usually call each funny symbol that appears in this program.
 
-( and ) are called “parentheses” (that’s plural). Just one of them is called “a parenthesis”, but some people just call them parens (“puh-RENZ”). This one (“(“) is sometimes called a “left paren” and the other (“)”) is called a “right paren” because parentheses usually come in pairs and one is usually to the left of the other. The left parenthesis (“(“) is also often called an “open paren” and the right one is called a “close paren” for similar reasons.
+```(``` and ```)``` are called “parentheses” (that’s plural). Just one of them is called “a parenthesis”, but some people just call them parens (“puh-RENZ”). This one (“(“) is sometimes called a “left paren” and the other (“)”) is called a “right paren” because parentheses usually come in pairs and one is usually to the left of the other. The left parenthesis (“(“) is also often called an “open paren” and the right one is called a “close paren” for similar reasons.
 There’s an open paren on line 3 and a close paren, too, and no other parentheses in the whole file.
 
 ```[``` and ```]``` are called “brackets”, but many programmers call them “square brackets” to make sure there’s no confusion. In Java, parentheses and square brackets are not interchangeable. Brackets come in pairs and they are called “left bracket” or “open bracket” and “right bracket” or “close bracket”.
