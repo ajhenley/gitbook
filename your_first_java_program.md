@@ -1,10 +1,16 @@
 # Your first java program
 
-In this exercise you will write a working program in Java to display an important message on the screen.
+You will now write your first Java program. Your program will display a message to the screen.
 
-If you are not used to typing detailed instructions for a computer then this could be one of the harder exercises in the book. Computers are idiots.If you don’t get the instuctions right, the computer won’t do what you want it to. But if you can get this exercise done, then the rest of the book should be no problem. Just work on it every day and don’t quit.
+Typing detailed instructions for a computer to follow is not easy. The compuuter is dumb. It doesn't think. It will simply read the next line you've written and then do exactly what that line tells it to do.
 
-Open Eclipse, create a Java Project called MyFirstJavaProgram. Now create a new class named FirstProg. In this class, type the following text. Make sure to match what I have written exactly, including spacing, punctuation, and capitalization.
+You need to adapt to the computer. You need to learn to type instructions in a way to get the dumb computer to carry out your wishes. If you don't get the instructions right then the computer has no chance of getting them right either. That's what makes this hard for people.
+
+This exercise not only teaches you to enter a program but also to correctly execute the program. 
+
+###Let's get started...
+Open Eclipse, create a Java Project called MyFirstJavaProgram. Now create a new class named FirstProg. In this class, type the following text. It is important to match what I have written exactly, including spacing, punctuation, and capitalization.
+
 <pre>public class FirstProg
  {
      public static void main( String[] args )
@@ -13,6 +19,7 @@ Open Eclipse, create a Java Project called MyFirstJavaProgram. Now create a new 
          System.out.println( "Today's date is" );
      }
  }</pre>
+ 
 I’m going to walk through this line-by-line, just to make sure you typed everything correctly.
 
 The first line starts with the word public followed by a single space then the word class followed by a single space and then the word FirstProg. The ‘F’ in “First” is capitalized, the ‘P’ in “Prog” is capitalized. There are only two capital letters in the first line. There are only two spaces.
@@ -23,19 +30,27 @@ Before I go on to the third line of the program, I should tell you what programm
 
 ( and ) are called “parentheses” (that’s plural). Just one of them is called “a parenthesis”, but some people just call them parens (“puh-RENZ”). This one (“(“) is sometimes called a “left paren” and the other (“)”) is called a “right paren” because parentheses usually come in pairs and one is usually to the left of the other. The left parenthesis (“(“) is also often called an “open paren” and the right one is called a “close paren” for similar reasons.
 There’s an open paren on line 3 and a close paren, too, and no other parentheses in the whole file.
-[ and ] are called “brackets”, but many programmers call them “square brackets” to make sure there’s no confusion. In Java, parentheses and square brackets are not interchangeable. Brackets come in pairs and they are called “left bracket” or “open bracket” and “right bracket” or “close bracket”.
+
+```[``` and ```]``` are called “brackets”, but many programmers call them “square brackets” to make sure there’s no confusion. In Java, parentheses and square brackets are not interchangeable. Brackets come in pairs and they are called “left bracket” or “open bracket” and “right bracket” or “close bracket”.
 There’s an open and close square bracket right next to each other on line 3.
-{ and } are called “braces”, and some programmers call them “curly braces”. These also always come in pairs of left and right curly braces / open and close braces.
-" is called a “quotation mark”, often just abbreviated “quote”. In Java, these always come in pairs. The first one in a pair is usually called an “open quote” and the second one is a “close quote” even though it’s the exact same character in both places. But the first quote serves to begin something and the second one ends that thing.
-' is technically an “apostrophe”, but almost all programmers call them “single quotes”. For this reason a quotation mark is often called a “double quote”. In some programming languages, single quotes and double quotes are interchangeable, but not in Java. Java does use single quotes sometimes, but they’re going to be pretty rare in this book.
-. is technically a “period”, but almost all programmers just say “dot”. They are used a lot in programming languages, and they are usually used as separators instead of “enders”, so we don’t call them periods.
-There are four dots in this program and one period.
-; is called a “semicolon”. It’s between the letter ‘L’ and the quote on the keyboard. Java uses a lot of semicolons although there are only two of them in this program: one on the end of line 5 and another at the end of line 6.
-: is called a “colon”. You get it by holding SHIFT and typing a semicolon. Java does use colons, but they’re very rare.
-Finally, < is a “less-than sign” and > is a “greater-than sign”, but sometimes they are used sort-of like braces or brackets. When they are used this way, they’re usually called “angle brackets”. Java uses angle brackets, but you won’t see them used in this book.
+
+```{``` and ```}``` are called “braces”, and some programmers call them “curly braces”. These also always come in pairs of left and right curly braces / open and close braces.
+
+```"``` is called a “quotation mark”, often just abbreviated “quote”. In Java, these always come in pairs. The first one in a pair is usually called an “open quote” and the second one is a “close quote” even though it’s the exact same character in both places. But the first quote serves to begin something and the second one ends that thing.
+
+```'``` is technically an “apostrophe”, but almost all programmers call them “single quotes”. For this reason a quotation mark is often called a “double quote”. In some programming languages, single quotes and double quotes are interchangeable, but not in Java. Java does use single quotes sometimes, but they’re going to be pretty rare in this book.
+
+```.``` is technically a “period”, but almost all programmers just say “dot”. They are used a lot in programming languages, and they are usually used as separators instead of “enders”, so we don’t call them periods.There are four dots in this program and one period.
+
+```;``` is called a “semicolon”. It’s between the letter ‘L’ and the quote on the keyboard. Java uses a lot of semicolons although there are only two of them in this program: one on the end of line 5 and another at the end of line 6.
+
+```:``` is called a “colon”. You get it by holding SHIFT and typing a semicolon. Java does use colons, but they’re very rare.
+
+Finally, ```<``` is a “less-than sign” and ```>``` is a “greater-than sign”, but sometimes they are used sort-of like braces or brackets. When they are used this way, they’re usually called “angle brackets”. Java uses angle brackets, but you won’t see them used in this book.
+
 Okay, so back to the line-by-line. You have already typed the first two lines correctly.
 
-You should start the third line by pressing TAB one time. Your cursor will move over several spaces (probably 4 or 8). Then type the word public again, one space, the word static, one space, the word void, one space, the word main followed by an open paren (no space between the word “main” and the paren). After the paren there’s one space, the word String with a capital ‘S’, an open and close square bracket right next to each other, one space, the word args, one space and finally a close parenthesis.
+You should start the third line by pressing TAB one time. Your cursor will move over several spaces (probably 4 or 8). Then type the word ```public``` again, one space, the word static, one space, the word ```void```, one space, the word ```main``` followed by an open paren, ``` (```. Note: These is no space between the word “main” and the paren. After the paren there’s one space, the word ```String``` with a capital S, an open and close square bracket ```[]``` right next to each other, one space, the word ```args```, one space and finally a close parenthesis ```)```.
 
 So line three starts with a tab, has a total of six spaces, and only the ‘S’ in “String” is capitalized. Whew.
 
