@@ -93,6 +93,7 @@ After most of the exercises, I will list some additional tasks you should try af
 
 ### What You Should See After Completing the Study Drills
 
-<pre>
+```
 I, Alton Henley, am determined to learn how to code.
 Today's date is Friday, July 19, 2015.
+```
