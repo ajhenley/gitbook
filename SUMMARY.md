@@ -11,7 +11,7 @@
    * [Designing Programs](designing_programs.md)
    * [Pseudocode and Algorithms](pseudocode_and_algorithms.md)
    * [Developing an Algorithm](developing_an_algorithm.md)
-   * [What is a systems diagram?](whatis_a_systems_diagram_md.md)
+   * [What is an IPO diagram?](whatis_a_systems_diagram_md.md)
    * [Program Design, Pseudocode, and Algorithms](program_design,_pseudocode,_and_algorithms.md)
    * [Selection Control Structures](selection_control_structures.md)
    * [More Selection Control Structures](more_selection_control_structures.md)
