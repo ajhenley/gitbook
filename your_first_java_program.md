@@ -2,7 +2,7 @@
 
 You will now write your first Java program. Your program will display a message to the screen.
 
-Typing detailed instructions for a computer to follow is not easy. The compuuter is dumb. It doesn't think. It will simply read the next line you've written and then do exactly what that line tells it to do.
+Typing detailed instructions for a computer to follow is not easy. The computer is dumb. It doesn't think. It will simply read the next line you've written and then do exactly what that line tells it to do.
 
 You need to adapt to the computer. You need to learn to type instructions in a way to get the dumb computer to carry out your wishes. If you don't get the instructions right then the computer has no chance of getting them right either. That's what makes this hard for people.
 
