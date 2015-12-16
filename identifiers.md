@@ -10,16 +10,39 @@ As you code a Java program, you need to create and use <em>identifiers</em>. The
 * Java is case sensitive so InvoiceTotal and invoiceTotal are considered different identifiers
 
 ####Valid Identifiers
-|&nbsp;|&nbsp;|
+|**Valid**|**Invalid**|
 |-|-|
-|InvoiceApp | $orderTotal|
-|Invoice|_orderTotal|
-|InvoiceApp2|input_string|
-|TITLE|subtotal|
-|_get_total|MONTHS_PER_YEAR|
-|discountPercent|$_64_Valid|
+|```InvoiceApp``` |```Invoice App```|
+|```InvoiceApp2```|```public```|
+|```TITLE```|```@TITLE```|
+|```$orderTotal```|```!orderTotal```|
+|```_orderTotal```|```true```|
+|```input_string```||
+|```subtotal```||
+|```_get_total```||
+|```MONTHS_PER_YEAR```||
+|```bhy56jkls_$```||
+|```$_64_Valid```||
 
-<p><strong>Keywords</strong></p>
+
+
+####Keywords
+* The Java programming language has total of 50 reserved keywords which have special meaning for the compiler and cannot be used as variable names.
+ 
+
+
+|boolean|if|interface|class|true|
+|-|-|-|-|-|
+|char|else|package|volatile|false|
+|byte|final|switch|while|throws|
+|float|private|case|return|native|
+|void|protected|break|throw|implements|
+|short|public|default|try|import|
+|double|static|for|catch|synchronized|
+|int|new|continue|finally|const|
+|long|this|do|transient|goto|
+|abstract|super|extends|instanceof|null|
+
 <table style="height: 282px;" width="444">
 <tbody>
 <tr>
