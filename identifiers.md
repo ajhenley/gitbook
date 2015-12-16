@@ -1,47 +1,24 @@
 # Identifiers
 
-<h1>How to create identifiers</h1>
-<hr />
-<p>As you code a Java program, you need to create and use <em>identifiers</em>. These are the names of things that you create inside your program. Everything you create has a name, so everything you create has an identifier, or a name.</p>
-<p>The rules for identifiers are simple:</p>
-<ul>
-<li>You must start each identifier with a letter, underscore or a dollar sign</li>
-<li>After the first character, you can use any combination of letters, underscores, dollar signs or digits</li>
-<li>Don't use Java Keywords</li>
-<li>Java is case sensitive so InvoiceTotal and invoiceTotal are considered different identifiers</li>
-</ul>
-<p>&nbsp;</p>
-<p><strong>Valid Identifiers</strong></p>
-<table style="height: 142px;" width="448">
-<tbody>
-<tr>
-<td>InvoiceApp</td>
-<td>$orderTotal</td>
-<td>i</td>
-</tr>
-<tr>
-<td>Invoice</td>
-<td>_orderTotal</td>
-<td>x</td>
-</tr>
-<tr>
-<td>InvoiceApp2</td>
-<td>input_string</td>
-<td>TITLE</td>
-</tr>
-<tr>
-<td>subtotal</td>
-<td>_get_total</td>
-<td>MONTHS_PER_YEAR</td>
-</tr>
-<tr>
-<td>discountPercent</td>
-<td>$_64_Valid</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
+####How to create identifiers
+As you code a Java program, you need to create and use <em>identifiers</em>. These are the names of things that you create inside your program. Everything you create has a name, so everything you create has an identifier, or a name.
+
+####The rules for identifiers are simple:
+* You must start each identifier with a letter, underscore or a dollar sign
+* After the first character, you can use any combination of letters, underscores, dollar signs or digits
+* Don't use Java Keywords
+* Java is case sensitive so InvoiceTotal and invoiceTotal are considered different identifiers
+
+####Valid Identifiers
+|&nbsp;|&nbsp;|
+|-|-|
+|InvoiceApp | $orderTotal|
+|Invoice|_orderTotal|
+|InvoiceApp2|input_string|
+|TITLE|subtotal|
+|_get_total|MONTHS_PER_YEAR|
+|discountPercent|$_64_Valid|
+
 <p><strong>Keywords</strong></p>
 <table style="height: 282px;" width="444">
 <tbody>
