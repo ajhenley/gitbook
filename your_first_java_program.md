@@ -11,14 +11,16 @@ This exercise not only teaches you to enter a program but also to correctly exec
 ###Let's get started...
 Open Eclipse, create a Java Project called MyFirstJavaProgram. Now create a new class named FirstProg. In this class, type the following text. It is important to match what I have written exactly, including spacing, punctuation, and capitalization.
 
-<pre>public class FirstProg
+```java
+public class FirstProg
  {
      public static void main( String[] args )
      {
          System.out.println( "I am determined to learn how to code." );
          System.out.println( "Today's date is" );
      }
- }</pre>
+ }
+```
  
 I’m going to walk through this line-by-line, just to make sure you typed everything correctly.
 
