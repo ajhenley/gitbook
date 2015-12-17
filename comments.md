@@ -2,7 +2,7 @@
 
 <h3>Comments and Slashes</h3>
 
-Newsflast! Your memory doesn't work. If you don't believe me then find a program you've written over 6 months or a year ago. Now go through it line by line. Explain to another person the reasons for each line of code in the program. Now try doing that to a program that contains lots of comments.
+Newsflash: Your memory doesn't work. If you don't believe me then find a program you've written over 6 months or a year ago. Now go through it line by line. Explain to another person the reasons for each line of code in the program. Now try doing that to a program that contains lots of comments.
 
 **Comments are very important in your programs.** They tell you what something does in English.
 
