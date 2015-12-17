@@ -2,24 +2,24 @@
 
 <h3>Comments and Slashes</h3>
 
-Newsflash: Your memory doesn't work. If you don't believe me then find a program you've written over 6 months or a year ago. Now go through it line by line. Explain to another person the reasons for each line of code in the program. Now try doing that to a program that contains lots of comments.
+Newsflash: Your memory doesn't work. If you don't believe me then find a program you've written over 6 months or a year ago. Now go through it line by line. Explain to another person the reasons for each line of code in the program. Try doing that with somebody's else's program. Now try doing that to a program that contains lots of comments.
 
-**Comments are very important in your programs.** They tell you what something does in English.
+**Comments are very important in your programs.** They tell you what something does in English. And why.
 
-**Comments can also be used for debugging**.They can be used to disable parts of your program temporarily. 
+**Comments can also be used for debugging**.They can be used to disable parts of your program temporarily. Just comment out a section of code and it won't run.
 
 ####Here's how you use comments in Java:
-```
+```java
 public class CommentsAndSlashes
 {
     public static void main( String[] args )
     {
         // A comment, this is so you can read your program later.
         // Anything after the // is ignored by Java.
-        System.out.println( "I could have code like this." ); // and the comment after is ignored.
+        System.out.println( "This line will print." ); // this comment is ignored by the compiler.
         // You can also use a comment to "disable" or comment out a piece of code:
-        // System.out.println("This line won't run.");
-        System.out.println( "This line will run." );
+        // System.out.println("This line won't print.");
+        System.out.println( "This line will print." );
     }
 }
 ```
