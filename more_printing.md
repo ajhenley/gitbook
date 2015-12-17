@@ -4,7 +4,7 @@ Let's get used to printing. Write a program that prints and ATM receipt for Evil
 
 The borders of the receipt are made up of the dash which is between the ```0``` and ```=``` keys. And the ```|``` pipe character which is above the ```[Enter]``` key. You create a ```|``` by holding ```[shift]``` + ```\```.
 
-Your receipt will line up if you use only spaces. Tabs are handled differently by the editor (Eclipse) so just use spaces to make it easy on yourself. Eclipse will move the cursor 4 positions when you press ```[TAB]``` but the tab character will be replaced by 8 spaces when the program runs. 
+Your receipt will line up if you use only spaces. Tabs are handled differently by the editor (Eclipse) so just use spaces to make it easy on yourself. Eclipse will move the cursor 4 positions when you press ```[TAB]```. The tab character will be replaced by 8 spaces when the program executes. 
 
 
 <pre>
