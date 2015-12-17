@@ -1,6 +1,11 @@
 # More Printing
 
-Write a program that displays your name and address on the screen as if it were a letter. Your output should look something like that below.
+Let's get used to printing. Write a program that prints and ATM receipt for Evil Bank. An example is below. Your can look slightly different but try to line up the borders and the margins of the text as much as possible
+
+The borders of the receipt are made up of the dash which is between the ```0``` and ```=``` keys. And the ```|``` pipe character which is above the ```[Enter]``` key. You create a ```|``` by holding ```[shift]``` + ```\```.
+
+Your receipt will line up if you use only spaces. Tabs are handled differently by the editor (Eclipse) so just use spaces to make it easy on yourself. Eclipse will move the cursor 4 positions when you press ```[TAB]``` but the tab character will be replaced by 8 spaces when the program runs. 
+
 
 <pre>
 +--------------------------------------+
@@ -8,42 +13,20 @@ Write a program that displays your name and address on the screen as if it were 
 |      Wednesday, December 2, 2015     |
 |      ATM Location # 0001             |
 |                                      |
-|      Account Number: 1234567         |
-|      Customer: John Q. Public        |
-|      Transaction Type:  Deposit      |
-|      Transaction Amount: $500.00     |
-|      Account Balance:    $1,500.00   |
+|                                      |
+|      Account Number:      1234567    |
+|      Customer:     John Q. Public    |
+|      Transaction Type:    Deposit    |
+|      Transaction Amount:  $500.00    |
+|      Account Balance:   $1,500.00    |
 |                                      |
 |      Thank you for banking with us   |
-|       Have an evil day >:‑)          |
+|             Have an evil day         |
 |                                      |
-
-|
++--------------------------------------+
 </pre>
 
 
 
-<pre>+---------------------------------------------------------+
-|                                                    #### |
-|                                                    #### |
-|                                                    #### |
-|                                                         |
-|                                                         |
-|                              Bill Gates                 |
-|                              1 Microsoft Way            |
-|                              Redmond, WA 98104          |
-|                                                         |
-+---------------------------------------------------------+</pre>
 
-####Frequently-Asked Questions
-Does my letter have to look exactly like yours?
-No, but it does have to look roughly like a letter, including the box around the outside and the stamp.
 
-####Do I have to use my real address?
-Of course not. But make sure your fake address takes up three lines.
-
-#####How to I get a | to show up on the screen?
-The | character is called a "pipe". Assuming you are using a normal US keyboard, it is Shift + backslash (\). The backslash key is usually located between the Backspace and Enter keys.
-
-#####Why doesn't my letter line up when I run the program?!? Everything looks perfect in the code!
-You probably used a mixture of tabs and spaces between the quotes in your ```println()``` statements. Many text editors / IDEs will only move the cursor 4 spaces when you press TAB. But when your program runs, any tabs embedded inside the quotes will take up 8 spaces, not 4. Delete ALL the tabs between the quotes and replace them with spaces. Then things should look the same in your code and when you run the program.
