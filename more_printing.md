@@ -11,7 +11,7 @@ Your receipt will line up if you use only spaces. Tabs are handled differently b
 +--------------------------------------+
 |      Evil Bank ATM Receipt           |
 |      Wednesday, December 2, 2015     |
-|      ATM Location # 0001             |
+|      ATM Location # 666             |
 |                                      |
 |                                      |
 |      Account Number:      1234567    |
