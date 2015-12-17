@@ -14,37 +14,10 @@ Interactivity requires several different concepts working together. Let's go thr
 * The value of a variable can (and often will) change. The data type will not change.
 
 
-Okay, enough chit chat. Let's write code! I'm not going to tell you what the name of the file is supposed to be. You'll have to figure it out for yourself.</p>
-<pre class="code java literal-block"><span class="ln"> 1 </span><span class="keyword declaration">public</span> <span class="keyword declaration">class</span> <span class="name class">CreatingVariables</span>
-<span class="ln"> 2 </span><span class="operator">{</span>
-<span class="ln"> 3 </span>    <span class="keyword declaration">public</span> <span class="keyword declaration">static</span> <span class="keyword type">void</span> <span class="name function">main</span><span class="operator">(</span> <span class="name">String</span><span class="operator">[]</span> <span class="name">args</span> <span class="operator">)</span>
-<span class="ln"> 4 </span>    <span class="operator">{</span>
-<span class="ln"> 5 </span>        <span class="keyword type">int</span> <span class="name">x</span><span class="operator">,</span> <span class="name">y</span><span class="operator">,</span> <span class="name">age</span><span class="operator">;</span>
-<span class="ln"> 6 </span>        <span class="keyword type">double</span> <span class="name">seconds</span><span class="operator">,</span> <span class="name">e</span><span class="operator">,</span> <span class="name">checking</span><span class="operator">;</span>
-<span class="ln"> 7 </span>        <span class="name">String</span> <span class="name">firstName</span><span class="operator">,</span> <span class="name">last_name</span><span class="operator">,</span> <span class="name">title</span><span class="operator">;</span>
-<span class="ln"> 8 </span>
-<span class="ln"> 9 </span>        <span class="name">x</span> <span class="operator">=</span> <span class="literal number integer">10</span><span class="operator">;</span>
-<span class="ln">10 </span>        <span class="name">y</span> <span class="operator">=</span> <span class="literal number integer">400</span><span class="operator">;</span>
-<span class="ln">11 </span>        <span class="name">age</span> <span class="operator">=</span> <span class="literal number integer">39</span><span class="operator">;</span>
-<span class="ln">12 </span>
-<span class="ln">13 </span>        <span class="name">seconds</span> <span class="operator">=</span> <span class="literal number float">4.71</span><span class="operator">;</span>
-<span class="ln">14 </span>        <span class="name">e</span> <span class="operator">=</span> <span class="literal number float">2.71828182845904523536</span><span class="operator">;</span>
-<span class="ln">15 </span>        <span class="name">checking</span> <span class="operator">=</span> <span class="literal number float">1.89</span><span class="operator">;</span>
-<span class="ln">16 </span>
-<span class="ln">17 </span>        <span class="name">firstName</span> <span class="operator">=</span> <span class="literal string">"Alton"</span><span class="operator">;</span>
-<span class="ln">18 </span>        <span class="name">last_name</span> <span class="operator">=</span> <span class="literal string">"Henley"</span><span class="operator">;</span>
-<span class="ln">19 </span>        <span class="name">title</span> <span class="operator">=</span> <span class="literal string">"Mr."</span><span class="operator">;</span>
-<span class="ln">20 </span>
-<span class="ln">21 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"The variable x contains "</span> <span class="operator">+</span> <span class="name">x</span> <span class="operator">);</span>
-<span class="ln">22 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"The value "</span> <span class="operator">+</span> <span class="name">y</span> <span class="operator">+</span> <span class="literal string">" is stored in the variable y."</span> <span class="operator">);</span>
-<span class="ln">23 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"The experiment completed in "</span> <span class="operator">+</span> <span class="name">seconds</span> <span class="operator">+</span> <span class="literal string">" seconds."</span> <span class="operator">);</span>
-<span class="ln">24 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"My favorite irrational number is Euler's constant: "</span> <span class="operator">+</span> <span class="name">e</span> <span class="operator">);</span>
-<span class="ln">25 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"Hopefully your balance is more than $"</span> <span class="operator">+</span> <span class="name">checking</span> <span class="operator">+</span> <span class="literal string">"!"</span> <span class="operator">);</span>
-<span class="ln">26 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"My full name is "</span> <span class="operator">+</span> <span class="name">title</span> <span class="operator">+</span> <span class="literal string">" "</span> <span class="operator">+</span> <span class="name">firstName</span> <span class="operator">+</span> <span class="name">last_name</span> <span class="operator">);</span>
-<span class="ln">27 </span>    <span class="operator">}</span>
-<span class="ln">28 </span><span class="operator">}</span>
-</pre>
-<div id="what-you-should-see" class="section">
+Okay, enough chit chat. Let's write code! I'm not going to tell you what the name of the file is supposed to be. You'll have to figure it out for yourself.
+
+
+
 <h1>What You Should See</h1>
 <pre class="terminal literal-block">The variable x contains 10
 The value 400 is stored in the variable y.
