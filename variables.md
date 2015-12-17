@@ -2,7 +2,7 @@
 
 Programs would be pretty boring if the only thing you could do was print things on the screen. We would like our programs to be interactive.
 
-Unfortunately, interactivity requires several different concepts working together, and explaining them all at once might be confusing. So I am going to cover them one at a time.
+Interactivity requires several different concepts working together, and explaining them all at once might be confusing. So I am going to cover them one at a time.
 
 First up: variables! If you have ever taken an Algebra class, you are familiar with the concept of variables in mathematics. Programming languages have variables, too, and the basic concept is the same:
 <blockquote>&ldquo;A variable is a name that refers to a location that holds a value.&rdquo;</blockquote>
