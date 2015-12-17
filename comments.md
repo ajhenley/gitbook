@@ -29,6 +29,12 @@ public class CommentsAndSlashes
 
 Programs should be written for people to read. Your code will spend most of its life in maintenance mode. That means a lot of your coworkers - some who may not even be born yet - will have the pleasure of maintaining your program. It's up to you to make sure it's a pleasure.
 
+<blockquote>
+The practitioner of literate programming can be regarded as an essayist, whose main concern is with exposition and excellence of style. Such an author, with thesaurus in hand, chooses the names of variables carefully and explains what each variable means. He or she strives for a program that is comprehensible because its concepts have been introduced in an order that is best for human understanding, using a mixture of formal and informal methods that reinforce each other.
+ - Donald Knuth, Literate Programming. 1992.
+</blockquote>
+
+
 ###What You Should Do on Your Own
 Assignments turned in <em>without</em> these things will not receive any points. For this exercise, do these things.
 
