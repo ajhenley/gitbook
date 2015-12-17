@@ -14,10 +14,10 @@ Write a program that displays your name and address on the screen as if it were 
 |      Transaction Amount: $500.00     |
 |      Account Balance:    $1,500.00   |
 |                                      |
-|      Thank you for banking 
-
-|
+|      Thank you for banking with us   |
+|       Have an evil day >:‑)          |
 |                                      |
+
 |
 </pre>
 
