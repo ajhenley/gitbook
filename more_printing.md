@@ -2,6 +2,17 @@
 
 Write a program that displays your name and address on the screen as if it were a letter. Your output should look something like that below.
 
+<pre>
++--------------------------------------+
+|      Evil Bank ATM Receipt           |
+|      Wednesday, December 2, 2015     |
+|      ATM Location # 0001             |
+|                                      |
+|
+</pre>
+
+
+
 <pre>+---------------------------------------------------------+
 |                                                    #### |
 |                                                    #### |
