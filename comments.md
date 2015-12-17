@@ -4,6 +4,8 @@
 
 Newsflash: Your memory doesn't work. If you don't believe me then find a program you've written over 6 months or a year ago. Now go through it line by line. Explain to another person the reasons for each line of code in the program. Try doing that with somebody's else's program. Now try doing that to a program that contains lots of comments.
 
+**Code tells you how. Comments tell you why.**
+
 **Comments are very important in your programs.** They tell you what something does in English. And why.
 
 **Comments can also be used for debugging**.They can be used to disable parts of your program temporarily. Just comment out a section of code and it won't run.
@@ -23,6 +25,10 @@ public class CommentsAndSlashes
     }
 }
 ```
+
+
+Programs should be written for people to read. Your code will spend most of its life in maintenance mode. That means a lot of your coworkers - some who may not even be born yet - will have the pleasure of maintaining your program. It's up to you to make sure it's a pleasure.
+
 ###What You Should Do on Your Own
 Assignments turned in <em>without</em> these things will not receive any points. For this exercise, do these things.
 
