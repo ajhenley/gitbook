@@ -27,7 +27,7 @@ As you code a Java program, you need to create and use <em>identifiers</em>. The
 
 
 ####Keywords
-* The Java programming language has total of 50 reserved keywords which have special meaning for the compiler and cannot be used as variable names.
+* The Java programming language has total of 50 reserved keywords which have special meaning for the compiler and cannot be used as variable names. 
  
 
 
@@ -43,84 +43,7 @@ As you code a Java program, you need to create and use <em>identifiers</em>. The
 |long|this|do|transient|goto|
 |abstract|super|extends|instanceof|null|
 
-<table style="height: 282px;" width="444">
-<tbody>
-<tr>
-<td>boolean</td>
-<td>if</td>
-<td>interface</td>
-<td>class</td>
-<td>true</td>
-</tr>
-<tr>
-<td>char</td>
-<td>else</td>
-<td>package</td>
-<td>volatile</td>
-<td>false</td>
-</tr>
-<tr>
-<td>byte</td>
-<td>final</td>
-<td>switch</td>
-<td>while</td>
-<td>throws</td>
-</tr>
-<tr>
-<td>float</td>
-<td>private</td>
-<td>case</td>
-<td>return</td>
-<td>native</td>
-</tr>
-<tr>
-<td>void</td>
-<td>protected</td>
-<td>break</td>
-<td>throw</td>
-<td>implements</td>
-</tr>
-<tr>
-<td>short</td>
-<td>public</td>
-<td>default</td>
-<td>try</td>
-<td>import</td>
-</tr>
-<tr>
-<td>double</td>
-<td>static</td>
-<td>for</td>
-<td>catch</td>
-<td>synchronized</td>
-</tr>
-<tr>
-<td>int</td>
-<td>new</td>
-<td>continue</td>
-<td>finally</td>
-<td>const</td>
-</tr>
-<tr>
-<td>long</td>
-<td>this</td>
-<td>do</td>
-<td>transient</td>
-<td>goto</td>
-</tr>
-<tr>
-<td>abstract</td>
-<td>super</td>
-<td>extends</td>
-<td>instanceof</td>
-<td>null</td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-<h2>Description</h2>
-<ul>
-<li>An <em>identifier </em>is any name that you create in a Java program. These can be the names of classes, methods, variables and so on.</li>
-<li>An <em>keyword</em> is a word that's reserved by the Java language. As a result, you can't use keywods as identifiers.</li>
-<li>When you refer to an identifer, be sure to use the correct uppercase and lowercase letters because Java is case-sensitive.</li>
-</ul>
+
+* An **identifier** is a name you create in your Java program. Identifiers can be the names of classes, methods, variables and more.
+* A **keyword** is a word that's reserved for use by  Java. You can't a keyword as an identifier.
+* Java is case-sensitive. When you refer to an identifier use the same case as when you define it. * You may see Java programmers create identifiers that are the same as class names but differ only in case. This looks confusing but it is actually correct. We recommend you not do this.
