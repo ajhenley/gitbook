@@ -2,9 +2,9 @@
 
 Programs would be pretty boring if the only thing you could do was print things on the screen. We would like our programs to be interactive.
 
-Interactivity requires several different concepts working together, and explaining them all at once might be confusing. So I am going to cover them one at a time.
+Interactivity requires several different concepts working together. Let's go through each one at a time.
 
-First up: variables! If you have ever taken an Algebra class, you are familiar with the concept of variables in mathematics. Programming languages have variables, too, and the basic concept is the same:
+Variables: If you paid attention in Algebra class you may recall the concept of variables in mathematics. Programming languages have variables, too, and the basic concept is the same:
 <blockquote>&ldquo;A variable is a name that refers to a location that holds a value.&rdquo;</blockquote>
 <p>Variables in Java have four major differences from math variables:</p>
 * Variable names can be more than one letter long.
