@@ -8,6 +8,16 @@ Write a program that displays your name and address on the screen as if it were 
 |      Wednesday, December 2, 2015     |
 |      ATM Location # 0001             |
 |                                      |
+|      Account Number: 1234567         |
+|      Customer: John Q. Public        |
+|      Transaction Type:  Deposit      |
+|      Transaction Amount: $500.00     |
+|      Account Balance:    $1,500.00   |
+|                                      |
+|      Thank you for banking 
+
+|
+|                                      |
 |
 </pre>
 
