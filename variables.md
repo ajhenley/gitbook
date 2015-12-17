@@ -4,17 +4,17 @@ Programs would be pretty boring if the only thing you could do was print things 
 
 Interactivity requires several different concepts working together. Let's go through each one at a time.
 
-Variables: If you paid attention in Algebra class you may recall the concept of variables in mathematics. You know, 2x + 13 = 25. X is a variable that holds the value 6. Programming languages have variables, too. The concept is the same:
+**Variables**: If you paid attention in Algebra class you may recall the concept of variables. So an equation like 2x + 13 = 25 allows us to find the value of x. What is x? It's a variable that holds a value. Programming languages have variables, too. The concept is the same:
 <blockquote>A variable is a name that refers to a location that holds a value.</blockquote>
 
-Variables in Java have four major differences from math variables:
+####Variables in Java have four major differences from math variables:
 * Variable names can be more than one letter long.
 * Variables can hold more than just numbers; they can hold text or any Java data type.
-* You have to choose what type of values the variable will hold when the variable is first created.
-* The value of a variable (but not its type) can change 
-throughout the program. The variable score might start out with a value of 0, but by the end of the program, score might hold the value 413500 instead.
+* You choose the type of values the variable will hold when the variable is created.
+* The value of a variable can (and often will) change. The data type will not change.
 
-<p>Okay, enough discussion. Let&rsquo;s get to the code! I&rsquo;m not going to tell you what the name of the file is supposed to be. You&rsquo;ll have to figure it out for yourself.</p>
+
+Okay, enough chit chat. Let's write code! I'm not going to tell you what the name of the file is supposed to be. You'll have to figure it out for yourself.</p>
 <pre class="code java literal-block"><span class="ln"> 1 </span><span class="keyword declaration">public</span> <span class="keyword declaration">class</span> <span class="name class">CreatingVariables</span>
 <span class="ln"> 2 </span><span class="operator">{</span>
 <span class="ln"> 3 </span>    <span class="keyword declaration">public</span> <span class="keyword declaration">static</span> <span class="keyword type">void</span> <span class="name function">main</span><span class="operator">(</span> <span class="name">String</span><span class="operator">[]</span> <span class="name">args</span> <span class="operator">)</span>
