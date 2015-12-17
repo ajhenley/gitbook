@@ -4,11 +4,12 @@ Programs would be pretty boring if the only thing you could do was print things 
 
 Interactivity requires several different concepts working together. Let's go through each one at a time.
 
-Variables: If you paid attention in Algebra class you may recall the concept of variables in mathematics. Programming languages have variables, too, and the basic concept is the same:
-<blockquote>&ldquo;A variable is a name that refers to a location that holds a value.&rdquo;</blockquote>
-<p>Variables in Java have four major differences from math variables:</p>
+Variables: If you paid attention in Algebra class you may recall the concept of variables in mathematics. You know, 2x + 13 = 25. X is a variable that holds the value 6. Programming languages have variables, too. The concept is the same:
+<blockquote>A variable is a name that refers to a location that holds a value.</blockquote>
+
+Variables in Java have four major differences from math variables:
 * Variable names can be more than one letter long.
-* Variables can hold more than just numbers; they can hold words.
+* Variables can hold more than just numbers; they can hold text or any Java data type.
 * You have to choose what type of values the variable will hold when the variable is first created.
 * The value of a variable (but not its type) can change 
 throughout the program. The variable score might start out with a value of 0, but by the end of the program, score might hold the value 413500 instead.
