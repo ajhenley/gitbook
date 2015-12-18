@@ -1,7 +1,7 @@
 # Coding arithmetic statements
 
-<h1 class="title">Mathematical Operations</h1>
-<p>Now that we know how to declare and initialize variables in Java, we can do some mathematics with those variables.</p>
+####Mathematical Operations
+Now that we know how to declare and initialize variables in Java, we can do some mathematics with those variables.
 
 ```java
  1 public class MathOperations
