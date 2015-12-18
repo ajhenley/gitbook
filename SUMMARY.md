@@ -66,6 +66,7 @@
    * [String assignment](string_assignment.md)
    * [Special characters](special_characters.md)
    * [Special characters assignment](special_characters_assignment.md)
+   * [Creating methods](creating_methods.md)
    * [Formatting numbers](formatting_numbers.md)
    * [Scanner assignment](scanner_assignment.md)
    * [Output assignment](output_assignment.md)
