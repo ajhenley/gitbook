@@ -1,5 +1,5 @@
 # Debug this program
-This program is trying to assign two values to two variables, but if you put it in eclipse it won't successfully run. Find and fix the error.
+This program is trying to assign two values to two variables, but if you put it in Eclipse it won't successfully run. Find and fix the error.
 ```java
 public class DebugProg {
 	public static void main(String[] args) {
