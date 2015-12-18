@@ -1,8 +1,7 @@
 {
     "plugins": [
         "emphasize",
-        "ga",
-        "comment"
+        "ga"
     ],
     "pluginsConfig": {}
 }
