@@ -44,7 +44,8 @@
 ```
 
 <h1>What You Should See</h1>
-<pre class="terminal literal-block">a is 10, b is 27
+<pre>
+a is 10, b is 27
 a+b is 37
 a-b is -17
 a+b*3 is 91
@@ -58,6 +59,7 @@ b/2 is 13.0
 doghouse
 
 </pre>
+
 <p>The plus sign (+) will add two integers or two doubles together, or one integer and one double (in either order). With two Strings (like on line 34) it will concatenate<a id="id1" class="footnote-reference" href="#concat2">[1]</a> the two Strings together.</p>
 <p>The minus sign (-) will subtract one number from another. Just like addition, it works with two integers, two doubles, or one integer and one double (in either order).</p>
 <p>An asterisk (*) is used to represent multiplication. You can also see on line 17 that Java knows about the correct order of operations. <em>b</em> is multiplied by 3 giving 81 and then <em>a</em> is added.</p>
