@@ -2,7 +2,8 @@
 
 Storing the Human’s Responses
 In the last exercise, you learned how to pause the program and allow the human to type in something. But what happened to what was typed? When you typed in the answer “Paris” for the first question, where did that answer go? Well, it was thrown away right after it was typed because we didn’t put any instructions to tell the Scanner object where to store it. So that is the topic of today’s lesson.
-<pre>
+
+```java
  1 import java.util.Scanner;
  2 
  3 public class RudeQuestions
@@ -34,21 +35,23 @@ In the last exercise, you learned how to pause the program and allow the human t
 29         keyboard.close();//close the scanner to release the resources
 30    }
 31  }
-</pre>
+```
+
 Just like the last exercise, when you first run this your program will only display the first question and then pause, waiting for a response:
 
-Hello. What is your name?
+```Hello. What is your name?```
 Notice that because that first printing statement on line 13 is print() rather than println(), the cursor is left blinking at the end of the line the question is on. If you had used println(), the cursor would blink on the beginning of the next line instead.
 
 What You Should See
-<pre>Hello. What is your name? Brick
+```
+Hello. What is your name? Brick
 Hi, Brick! How old are you? 25
 So you're 25, eh? That's not old at all.
 How much do you weigh, Brick? 192
 192.0! Better keep that quiet. Finally, what's your income, Brick? 8.75
 Hopefully that is 8.75 per hour and not per year!
 Well, thanks for answering my rude questions, Brick.
-</pre>
+```
 At the top of the program we declared four variables: one String variable named name, one integer variable named age, and two double variables named weight and income.
 
 On line 14 we see the keyboard.next() that we know from the previous exercise will pause the program and let the human type in something it will package up in a String. So now where does the String they type go? In this case, we are storing that value into the String variable named “name”. The String value gets stored into a String variable. Nice.
