@@ -1,7 +1,6 @@
 {
     "plugins": [
-        "emphasize",
-        "ga"
+        "emphasize"
     ],
     "pluginsConfig": {}
 }
