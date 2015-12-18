@@ -2,45 +2,47 @@
 
 <h1 class="title">Mathematical Operations</h1>
 <p>Now that we know how to declare and initialize variables in Java, we can do some mathematics with those variables.</p>
-<pre class="code java literal-block"><span class="ln"> 1 </span><span class="keyword declaration">public</span> <span class="keyword declaration">class</span> <span class="name class">MathOperations</span>
-<span class="ln"> 2 </span><span class="operator">{</span>
-<span class="ln"> 3 </span>    <span class="keyword declaration">public</span> <span class="keyword declaration">static</span> <span class="keyword type">void</span> <span class="name function">main</span><span class="operator">(</span> <span class="name">String</span><span class="operator">[]</span> <span class="name">args</span> <span class="operator">)</span>
-<span class="ln"> 4 </span>    <span class="operator">{</span>
-<span class="ln"> 5 </span>        <span class="keyword type">int</span> <span class="name">a</span><span class="operator">,</span> <span class="name">b</span><span class="operator">,</span> <span class="name">c</span><span class="operator">,</span> <span class="name">d</span><span class="operator">,</span> <span class="name">e</span><span class="operator">,</span> <span class="name">f</span><span class="operator">,</span> <span class="name">g</span><span class="operator">;</span>
-<span class="ln"> 6 </span>        <span class="keyword type">double</span> <span class="name">x</span><span class="operator">,</span> <span class="name">y</span><span class="operator">,</span> <span class="name">z</span><span class="operator">;</span>
-<span class="ln"> 7 </span>        <span class="name">String</span> <span class="name">one</span><span class="operator">,</span> <span class="name">two</span><span class="operator">,</span> <span class="name">both</span><span class="operator">;</span>
-<span class="ln"> 8 </span>
-<span class="ln"> 9 </span>        <span class="name">a</span> <span class="operator">=</span> <span class="literal number integer">10</span><span class="operator">;</span>
-<span class="ln">10 </span>        <span class="name">b</span> <span class="operator">=</span> <span class="literal number integer">27</span><span class="operator">;</span>
-<span class="ln">11 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"a is "</span> <span class="operator">+</span> <span class="name">a</span> <span class="operator">+</span> <span class="literal string">", b is "</span> <span class="operator">+</span> <span class="name">b</span> <span class="operator">);</span>
-<span class="ln">12 </span>
-<span class="ln">13 </span>        <span class="name">c</span> <span class="operator">=</span> <span class="name">a</span> <span class="operator">+</span> <span class="name">b</span><span class="operator">;</span>
-<span class="ln">14 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"a+b is "</span> <span class="operator">+</span> <span class="name">c</span> <span class="operator">);</span>
-<span class="ln">15 </span>        <span class="name">d</span> <span class="operator">=</span> <span class="name">a</span> <span class="operator">-</span> <span class="name">b</span><span class="operator">;</span>
-<span class="ln">16 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"a-b is "</span> <span class="operator">+</span> <span class="name">d</span> <span class="operator">);</span>
-<span class="ln">17 </span>        <span class="name">e</span> <span class="operator">=</span> <span class="name">a</span><span class="operator">+</span><span class="name">b</span><span class="operator">*</span><span class="literal number integer">3</span><span class="operator">;</span>
-<span class="ln">18 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"a+b*3 is "</span> <span class="operator">+</span> <span class="name">e</span> <span class="operator">);</span>
-<span class="ln">19 </span>        <span class="name">f</span> <span class="operator">=</span> <span class="name">b</span> <span class="operator">/</span> <span class="literal number integer">2</span><span class="operator">;</span>
-<span class="ln">20 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"b/2 is "</span> <span class="operator">+</span> <span class="name">f</span> <span class="operator">);</span>
-<span class="ln">21 </span>        <span class="name">g</span> <span class="operator">=</span> <span class="name">b</span> <span class="operator">%</span> <span class="literal number integer">10</span><span class="operator">;</span>
-<span class="ln">22 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"b%10 is "</span> <span class="operator">+</span> <span class="name">g</span> <span class="operator">);</span>
-<span class="ln">23 </span>
-<span class="ln">24 </span>        <span class="name">x</span> <span class="operator">=</span> <span class="literal number float">1.1</span><span class="operator">;</span>
-<span class="ln">25 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"\nx is "</span> <span class="operator">+</span> <span class="name">x</span> <span class="operator">);</span>
-<span class="ln">26 </span>        <span class="name">y</span> <span class="operator">=</span> <span class="name">x</span><span class="operator">*</span><span class="name">x</span><span class="operator">;</span>
-<span class="ln">27 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"x*x is "</span> <span class="operator">+</span> <span class="name">y</span> <span class="operator">);</span>
-<span class="ln">28 </span>        <span class="name">z</span> <span class="operator">=</span> <span class="name">b</span> <span class="operator">/</span> <span class="literal number integer">2</span><span class="operator">;</span>
-<span class="ln">29 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="literal string">"b/2 is "</span> <span class="operator">+</span> <span class="name">z</span> <span class="operator">);</span>
-<span class="ln">30 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">();</span>
-<span class="ln">31 </span>
-<span class="ln">32 </span>        <span class="name">one</span> <span class="operator">=</span> <span class="literal string">"dog"</span><span class="operator">;</span>
-<span class="ln">33 </span>        <span class="name">two</span> <span class="operator">=</span> <span class="literal string">"house"</span><span class="operator">;</span>
-<span class="ln">34 </span>        <span class="name">both</span> <span class="operator">=</span> <span class="name">one</span> <span class="operator">+</span> <span class="name">two</span><span class="operator">;</span>
-<span class="ln">35 </span>        <span class="name">System</span><span class="operator">.</span><span class="name attribute">out</span><span class="operator">.</span><span class="name attribute">println</span><span class="operator">(</span> <span class="name">both</span> <span class="operator">);</span>
-<span class="ln">36 </span>    <span class="operator">}</span>
-<span class="ln">37 </span><span class="operator">}</span>
-</pre>
-<div id="what-you-should-see" class="section">
+
+```java
+ 1 public class MathOperations
+ 2 {
+ 3     public static void main( String[] args )
+ 4     {
+ 5         int a, b, c, d, e, f, g;
+ 6         double x, y, z;
+ 7         String one, two, both;
+ 8 
+ 9         a = 10;
+10         b = 27;
+11         System.out.println( "a is " + a + ", b is " + b );
+12 
+13         c = a + b;
+14         System.out.println( "a+b is " + c );
+15         d = a - b;
+16         System.out.println( "a-b is " + d );
+17         e = a+b*3;
+18         System.out.println( "a+b*3 is " + e );
+19         f = b / 2;
+20         System.out.println( "b/2 is " + f );
+21         g = b % 10;
+22         System.out.println( "b%10 is " + g );
+23 
+24         x = 1.1;
+25         System.out.println( "\nx is " + x );
+26         y = x*x;
+27         System.out.println( "x*x is " + y );
+28         z = b / 2;
+29         System.out.println( "b/2 is " + z );
+30         System.out.println();
+31 
+32         one = "dog";
+33         two = "house";
+34         both = one + two;
+35         System.out.println( both );
+36     }
+37 }
+```
+
 <h1>What You Should See</h1>
 <pre class="terminal literal-block">a is 10, b is 27
 a+b is 37
