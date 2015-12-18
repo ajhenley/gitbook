@@ -1,5 +1,5 @@
 # Getting user input
-
+<!--this is a comment-->
 ####Getting Input from a Human
 Now that we have practiced creating variables for a bit, we are going to look at the other part of interactive programs: letting the human who is running our program have a chance to type something.
 
