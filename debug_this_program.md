@@ -1,7 +1,7 @@
 # Debug this program
-
-<p>This program is trying to assign two values to two variables, but if you put it in eclipse it won't successfully run. Find and fix the error.</p>
-<pre>public class DebugProg {
+This program is trying to assign two values to two variables, but if you put it in eclipse it won't successfully run. Find and fix the error.
+```java
+public class DebugProg {
 	public static void main(String[] args) {
 		int x, y;
 		
@@ -12,4 +12,4 @@
 		System.out.println("My GPA was " + y);
 	}
 }
-</pre>
+```
