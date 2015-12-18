@@ -1,9 +1,13 @@
 # Formatting numbers
 
-   <h3>Formatting Numbers</h3>
-<p>Use the NumberFormat class:</p>
-<p><a href="http://docs.oracle.com/javase/7/docs/api/java/text/NumberFormat.html" class="external" target="_blank"><span><span>http://docs.oracle.com/javase/7/docs/api/java/text/NumberFormat.html</span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span></a></p>
-<p>&nbsp;</p>
+####Formatting Numbers
+
+Use the NumberFormat class:
+
+
+
+
+
 <h3>Here are two articles on formatting strings for printing.</h3>
 <p><a href="https://docs.oracle.com/javase/tutorial/java/data/numberformat.html" class="external" target="_blank"><span><span>https://docs.oracle.com/javase/tutorial/java/data/numberformat.html</span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span></a></p>
 <p><a href="http://examples.javacodegeeks.com/core-java/lang/string/java-string-format-example/" class="external" target="_blank"><span><span>http://examples.javacodegeeks.com/core-java/lang/string/java-string-format-example/</span><span class="screenreader-only">&nbsp;(Links to an external site.)</span></span><span class="ui-icon ui-icon-extlink ui-icon-inline" title="Links to an external site."></span></a></p>
