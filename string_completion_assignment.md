@@ -2,7 +2,8 @@
 
 The following code is supposed to ask the user their pet's name, breed and age. Add the 3 lines necessary to make this work...
 
-<pre>
+```java
+
  import java.util.Scanner;
   
  public class RudeQuestions
@@ -24,4 +25,4 @@ The following code is supposed to ask the user their pet's name, breed and age. 
         System.out.println( name + " is your " + breed + " and it is " + age );
      }
  }
- </pre>
+```
