@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "emphasize"
+        "emphasize",
+        "comment"
     ],
     "pluginsConfig": {}
 }
