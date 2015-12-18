@@ -1,2 +1,38 @@
 # Creating methods
+A method is a program's way of outsourcing the work to some other block of code. 
 
+Water runs out of my sink. The problem is the water is supposed to run into the drain, not the cabinet. I *could* fix this problem myself but I won't. I'm a programmer. My theory is there's nothing more dangerous than a plumber writing code. The opposite holds as well, I'm sure. I'm not taking chances. 
+
+I call Gary and he comes over, fixes it in fifteen minutes and tells me how easy it was. The leakyDrain method below doesn't care how callPlumber works just that it does. This simplifies your code by breaking it down into manageable chunks. As in life, I couldn't possibly keep track of everything. I don't have all the tools and knowledge to fix my sink, my car, my appliances and still be a programmer. I outsource some of those things. It makes my life more manageable.
+
+Let's face it. If I tried to fix it then it wouldn't have taken fifteen minutes. And I would have had to call Gary anyway. So, I've assigned some of my work to Gary. How does this look in a program?
+
+```java 
+public class MyWifeSaysFixIt {
+
+	public void leakyDrain()
+	{
+		boolean isFixed = false;
+		
+		isFixed = callPlumber();
+		
+		if (isFixed)
+		{
+			System.out.println("The drain is fixed.");
+		}else{
+			System.out.println("The drain is leaking.");
+		}
+		
+	}
+	private boolean callPlumber()
+	{
+		//plumber does his thing - I don't even
+		//know what he does because I don't have to pay attention
+		//I just call him and pay him.
+		
+		return true;
+	}
+}
+```
+
+Sometimes you just need to pass the buck. 
