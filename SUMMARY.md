@@ -289,5 +289,5 @@
    * [Regular Expressions](regularexpressions.md)
    * [Oracle: unexpire and unlock accounts](oracleunexpire_and_unlock_accounts.md)
    * [Tips on developing your career](tipson_developing_your_career.md)
-   * Oracle Linux
+   * [Oracle Linux](oracle_linux.md)
 
