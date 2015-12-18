@@ -7,7 +7,8 @@ Have you thought about what might happen if we wanted to display a quotation mar
 Most programming languages allow for “escape sequences”, where you signal with some sort of escape character that the next character you see shouldn’t be handled in the normal way.
 
 The following (evil) code demonstrates a number of Java’s escape sequences. Call it EscapeSequences.java.
-<pre>
+
+```java
  1 public class EscapeSequences
  2 {
  3     public static void main( String[] args )
@@ -24,10 +25,12 @@ The following (evil) code demonstrates a number of Java’s escape sequences. Ca
 14         System.out.println( "\t JJJJJJ/   aaaaaaa/     \"/     aaaaaaa/" );
 15     }
 16 }
-</pre> 
+```
 
 When you run it, this is what you should see.
-<pre>            _____
+
+``` java
+             _____
            /     |
            JJJJJ |  ______   __     __  ______
               JJ | /      \ /  \   /  |/      \
@@ -36,7 +39,8 @@ When you run it, this is what you should see.
         JJ \__JJ |/aaaaaaa |  "" ""/  /aaaaaaa |
         JJ    JJ/ aa    aa |   """/   aa    aa |
          JJJJJJ/   aaaaaaa/     "/     aaaaaaa/
-</pre>
+```
+
 Java’s escape character is a backslash (“\”), which is the same key you press to make a pipe (“|”) show up but without holding Shift. All escape sequences in Java must be inside a set of quotes.
 
  
