@@ -178,7 +178,7 @@
    * [Getting the Largest Value in an ArrayList](getting_the_largest_value_in_an_arraylist)
    * [Sorting an Array](sorting_an_array)
    * [Comparing Objects](comparing_objects)
-* [Exception Handling](exception_handling)
+* [Exception Handling](exceptionhandling.md)
    * [Exceptions](exceptions)
    * [Exception Assignment](exception_assignment)
    * [Finally Clause Assignment](finally_clause_assignment)
