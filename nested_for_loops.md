@@ -1,7 +1,8 @@
 # Nested for loops
 
 create a nested loop to print an outline format 
-the outter loop would contain numbers the inner loop would contain letters
+the outer loop would contain numbers the inner loop would contain letters
+create nested loop to multiplication table
 
 
 
