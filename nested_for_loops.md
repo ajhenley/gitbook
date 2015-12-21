@@ -35,9 +35,22 @@ Table generated from the program
 10  20  30  40  50  60  70  80  90  100
 ```
 ####Your assignment
-Create a nested loop to print the outline format as shown below.
-The outer loop would contain numbers the inner loop would contain letters
+1. Create a program to print the lower-case characters from the ASCII table. They range from 97 to 127. To print a numeric value such as 97 into a lower case 'a' cast it to a ```char```:
+```System.out.println(c + ": " + (char)c);```
+```a
+   b
+   c
+   d
+   ...
+   z
+  ```
 
+2. Modify the program above so it prints all the capital letters and all the lower case letters.
+3. Create a nested loop to print the outline format as shown below.
+The outer loop would contain numbers the inner loop would contain letters.
+To print lower case letters from a loop 
+
+```
 1. XXX
    a. xxx
    b. xxx
@@ -58,3 +71,4 @@ The outer loop would contain numbers the inner loop would contain letters
    a. xxx
    b. xxx
    c. xxx
+```
