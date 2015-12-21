@@ -1,8 +1,9 @@
 # Randomness
+<!--redo: Create a random password with one of five formats-->
 
 
 You know what's cool? Having the computer randomly choose a number. This is the basis of pretty much every computer game ever.
-To pick a random number, you first need to import j```ava.util.Random;```
+To pick a random number, you first need to import ```java.util.Random;```
 Then, you must create a random-number generator object, like so:
 
 ```Random r = new Random();```
