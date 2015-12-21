@@ -38,15 +38,15 @@ public class BartsBlackboardAutomator
 }
 ```
 ####Notes on for loops
-The for loop contains three expressions in the parenthesis following the word ``for```. 
+The for loop contains three expressions in the parenthesis following the word ```for``` . 
 They are called initialization, ``` n = 1```, condition ```n <= 100```, and update, ```n++```). 
 
 Each could also be missing but you would still need to include the ```;``` anyway. If a condition is missing, it is assumed to be equal to true. If all three were missing you'd have an endless for loop. Which would be the same as a do-loop or a while-loop. To get out of such a loop you would need a terminating condition in the body that broke out with the keyword ```break```.
 
 
 ####Recommendations
-* Use the three parts of the for loop according to their intended meaning described above, and with reference to a control variable for the loop;
-* Do not modify the control variable in the body of the loop.
+* Use the three parts of the for loop according to their intended meaning described above, and with reference to a control variable for the loop
+* Do not modify the control variable in the body of the loop
 
 ####Your assignment
-Use a for loop and a method to print the lyrics to 99 bottles of beer on the wall.
+Use a for loop and a method to print the lyrics to 99 Bottles of Beer on the Wall. It is not necessary for you to sing out loud.
