@@ -1,8 +1,7 @@
 # Nested for loops
 
-create a nested loop to print an outline format 
-the outer loop would contain numbers the inner loop would contain letters
-create nested loop to multiplication table
+A for loop inside a for loop is called a nested  for loop. Sometimes this is the right tool for the job. Here's an example where you print out a multiplication table. Notice that we set the Maximum number if iterations as a variable. You could even prompt the user for this value making the for loop even more flexible.
+
 
 ```java
 Example: Print out the multiplication table.
@@ -35,4 +34,27 @@ Table generated from the program
 9  18  27  36  45  54  63  72  81  90  
 10  20  30  40  50  60  70  80  90  100
 ```
+####Your assignment
+Create a nested loop to print the outline format as shown below.
+The outer loop would contain numbers the inner loop would contain letters
 
+1. XXX
+   a. xxx
+   b. xxx
+   c. xxx
+2. XXX
+   a. xxx
+   b. xxx
+   c. xxx
+3. XXX
+   a. xxx
+   b. xxx
+   c. xxx
+4. XXX
+   a. xxx
+   b. xxx
+   c. xxx
+5. XXX
+   a. xxx
+   b. xxx
+   c. xxx
