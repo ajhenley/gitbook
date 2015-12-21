@@ -1,7 +1,7 @@
 # Output assignment
 
 Change the following application so that it outputs the values of age, height and gpa to the console.
-```
+```java
 import java.util.Scanner;
 
 public class AskingQuestions
