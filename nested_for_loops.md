@@ -1,7 +1,10 @@
 # Nested for loops
 
- <h1 class="page-title">Nested FOR Loops</h1>
-  
+create a nested loop to print an outline format 
+the outter loop would contain numbers the inner loop would contain letters
+
+
+
     <h1>Nested&nbsp;For&nbsp;Loops</h1>
 <p>In&nbsp;programming,&nbsp;the&nbsp;term&nbsp;“nested”&nbsp;usually&nbsp;means&nbsp;to&nbsp;put&nbsp;something&nbsp;inside&nbsp;the&nbsp;same&nbsp;thing.&nbsp; “Nested&nbsp;loops”&nbsp;would&nbsp;be&nbsp;two&nbsp;loops&nbsp;with&nbsp;one&nbsp;inside&nbsp;the&nbsp;other&nbsp;one.&nbsp;If&nbsp;you&nbsp;do&nbsp;it&nbsp;right,&nbsp;then&nbsp; means&nbsp;the&nbsp;inner&nbsp;loop&nbsp;will&nbsp;repeat&nbsp;all&nbsp;its&nbsp;iterations&nbsp;every&nbsp;time&nbsp;the&nbsp;outer&nbsp;loop&nbsp;does&nbsp;one&nbsp;more&nbsp; iteration.</p>
 <pre>&nbsp;1&nbsp;public&nbsp;class&nbsp;NestingLoops
