@@ -1,14 +1,73 @@
-  <h1 class="page-title">String Formatting Example</h1>
-  
-    <p>Copy the following code into a new java project to see example</p>
-<p>&nbsp;</p>
-
-<pre>import java.util.Date;
-/**<br> * Java program to demonstrate How to format String in Java by using<br> * format() method of String class and printf() method of OutputStream in Java.<br> * String.format() is very powerful and not only can format String but numbers<br> * and Date in Java<br> */<br>public class StringFormat{<br> <br> public static void main(String args[]){ <br> <br> //simple example of formatted string in Java<br> //%d is used to format decimals like integers<br> //position of argument is the order in which they appear in source String<br> // e.g here 40021 will replace first %d and 3000 will replace second %d.
+```java
+import java.util.Date;
+/**
+ * Java program to demonstrate How to format String in Java by using
+ * format() method of String class and printf() method of OutputStream in Java.
+ * String.format() is very powerful and not only can format String but numbers
+ * and Date in Java
+ */
+public class StringFormat{
+ 
+ public static void main(String args[]){ 
+ 
+ //simple example of formatted string in Java
+ //%d is used to format decimals like integers
+ //position of argument is the order in which they appear in source String
+ // e.g here 40021 will replace first %d and 3000 will replace second %d.
 String formattedString = String.format("Order with OrdId : %d and Amount: %d is missing", 40021, 3000);
-<br> System.out.println(formattedString);
-<br> System.out.printf("Order with OrdId : %d and Amount: %d is missing \n", 40021, 3000);<br> <br> //%s is used to denote String arguments in formatted String<br> String str = String.format("Hello %s", "Raj");<br> System.out.println(str);<br> <br> //if argument is not convertible into specified data type than<br> //Formatter will throw following java.util.IllegalFormatConversionException<br> //e.g. specifying %d and passing 3.0<br> //str = String.format("Number %d", 3.0);<br> <br> //common meta characters used in String.format() and<br> //System.out.printf() method: %s - String , %d - decimal integer
-// %f - float %tD - date as MM/dd/yy while %td is day %tm is month<br> // and %ty is 2 digit year while %tY is four digit year<br> <br> //Formatting date in String format method - date in MM/dd/yy<br> str = String.format("Today is %tD", new Date());<br> System.out.println(str);<br> <br> Date today = new Date();<br> System.out.printf("Date in dd/mm/yy format %td/%tm/%ty %n", today,today,today );<br> <br> // date as July 25, 2012, difference between %td and %te is that<br> // %td use leading zero while %te doesn't<br> System.out.printf("Today is %tB %te, %tY %n", today,today,today,today);<br> <br> //adding leading zero in numbers using String format,<br> //%d is for decimal, 8 specify formatted number should be 8 digit and 0 specify use<br> //leading zero, default is space, so if you don't specify leading<br> // character space will be used.<br> System.out.printf("Amount : %08d %n" , 221);<br> <br> //printing positive and negative number using String format<br> //+ sign for positive, - for negative and %n is for new line<br> System.out.printf("positive number : +%d %n", 1534632142);<br> System.out.printf("negative number : -%d %n", 989899);<br> <br> //printing floating point number with System.format()<br> System.out.printf("%f %n", Math.E);<br> <br> //3 digit after decimal point<br> System.out.printf("%.3f %n", Math.E);<br> <br> //8 charcter in width and 3 digit after decimal point<br> System.out.printf("%8.3f %n", Math.E);<br> <br> //adding comma into long numbers<br> System.out.printf("Total %,d messages processed today", 10000000);<br> }<br> <br>}</pre>
-  
-</div>
 
+ System.out.println(formattedString);
+
+ System.out.printf("Order with OrdId : %d and Amount: %d is missing \n", 40021, 3000);
+ 
+ //%s is used to denote String arguments in formatted String
+ String str = String.format("Hello %s", "Raj");
+ System.out.println(str);
+ 
+ //if argument is not convertible into specified data type than
+ //Formatter will throw following java.util.IllegalFormatConversionException
+ //e.g. specifying %d and passing 3.0
+ //str = String.format("Number %d", 3.0);
+ 
+ //common meta characters used in String.format() and
+ //System.out.printf() method: %s - String , %d - decimal integer
+// %f - float %tD - date as MM/dd/yy while %td is day %tm is month
+ // and %ty is 2 digit year while %tY is four digit year
+ 
+ //Formatting date in String format method - date in MM/dd/yy
+ str = String.format("Today is %tD", new Date());
+ System.out.println(str);
+ 
+ Date today = new Date();
+ System.out.printf("Date in dd/mm/yy format %td/%tm/%ty %n", today,today,today );
+ 
+ // date as July 25, 2012, difference between %td and %te is that
+ // %td use leading zero while %te doesn't
+ System.out.printf("Today is %tB %te, %tY %n", today,today,today,today);
+ 
+ //adding leading zero in numbers using String format,
+ //%d is for decimal, 8 specify formatted number should be 8 digit and 0 specify use
+ //leading zero, default is space, so if you don't specify leading
+ // character space will be used.
+ System.out.printf("Amount : %08d %n" , 221);
+ 
+ //printing positive and negative number using String format
+ //+ sign for positive, - for negative and %n is for new line
+ System.out.printf("positive number : +%d %n", 1534632142);
+ System.out.printf("negative number : -%d %n", 989899);
+ 
+ //printing floating point number with System.format()
+ System.out.printf("%f %n", Math.E);
+ 
+ //3 digit after decimal point
+ System.out.printf("%.3f %n", Math.E);
+ 
+ //8 charcter in width and 3 digit after decimal point
+ System.out.printf("%8.3f %n", Math.E);
+ 
+ //adding comma into long numbers
+ System.out.printf("Total %,d messages processed today", 10000000);
+ }
+ 
+}
+```
