@@ -37,7 +37,8 @@ Table generated from the program
 ####Your assignment
 1. Create a program to print the lower-case characters from the ASCII table. They range from 97 to 127. To print a numeric value such as 97 into a lower case 'a' cast it to a ```char```:
 ```System.out.println(c + ": " + (char)c);```
-```a
+```
+   a
    b
    c
    d
