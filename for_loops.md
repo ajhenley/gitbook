@@ -39,3 +39,8 @@ public class BartsBlackboardAutomator
 ```
 
 Each of the three parts of the for loop (i.e., initialization, condition, and update) could also be missing. In this case, the ";" have to be inserted anyway. If condition is missing, it is assumed to be equal to true.
+
+However, when using the for loop the following is recommended:
+
+Use the three parts of the for loop according to their intended meaning described above, and with reference to a control variable for the loop;
+Do not modify the control variable in the body of the loop.
