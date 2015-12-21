@@ -25,8 +25,14 @@ public class BartsBlackboardAutomator
         //so we can set the start point and end point to anything we want.
         for ( n = 1 ; n <= 100 ; n++ )
         {
+            //The counter variable, n, is within scope inside the loop
+            //but not accessible outside the loop
             System.out.println( n + ". " + message );
         }
+        // ERROR! n is not visible
+        // System.out.println("value of n = " + n);
+        
+        
 
     }
 }
