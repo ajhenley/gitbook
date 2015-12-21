@@ -1,7 +1,7 @@
 Create a program which prompts the user for the Month and Year and prints out to the console a calendar for the given month and year.
 
 ####For example:
-<pre>
+```
 Enter the month: 12
 Enter the year: 2001
 
@@ -13,4 +13,4 @@ Sun	Mon	Tue	Wed	Thu	Fri	Sat
 16	17	18	19	20	21	22
 23	24	25	26	27	28	29
 30	31					
-</pre>
+```
