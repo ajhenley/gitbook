@@ -1,7 +1,9 @@
 # Loop debugging activity
 
 <p>The following program is supposed to allow the user to input as many things as they want until they stop. Each time it is supposed to repeat what the user said, can you fix it?</p>
-<pre>import java.util.Scanner;
+
+```java
+import java.util.Scanner;
 
 public class EndlessStrings {
     public void main (String[] args)
@@ -19,4 +21,4 @@ public class EndlessStrings {
         }
     }
 }
-</pre></div>
+```
