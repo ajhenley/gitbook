@@ -1,5 +1,38 @@
 # Special characters
+<!--
+print a box, an oval, and a diamond using *'s
+********
+*      *
+*      *
+*      *
+*      *
+********
 
+  ***  
+ *   *
+*     *
+*     *
+ *   *
+  *** 
+
+
+
+print a picture of my cat
+  |\_/|       
+ / @ @ \      
+( > º < )     
+ `>>x<<´     
+ /  O  \       
+
+what does the following print?
+System.out.print("*");
+System.out.println("***");
+System.out.print("****");
+System.out.println("*");
+
+What does the following line of code print?
+System.out.printf("%s\n%s\n%s\n","@","@@","@@@");
+-->
 Special Characters
 Escape Sequences and Comments
 Have you thought about what might happen if we wanted to display a quotation mark on the screen? Since everything we want to display is contained between quotation marks in the println() statement, putting a quote inside the quotes would be a problem.
@@ -64,3 +97,9 @@ In fact, the two slashes to mark a comment don’t have to be at the beginning o
 (That’s not a very good comment, though; any programmer who knows Java already knows what that line of code does. In general you should put comments explaining why the code is there, not what the code does. You’ll get better at writing good comments as you get better at coding in general.)
 Anyway, this one was a tough one, so no Study Drills this time. The next exercise will feature something new and return to normal difficulty.
 
+
+System.out.println("  |\_/|");
+System.out.println(" / @ @ \");       
+System.out.println("( > º < )");       
+System.out.println(" `>>x<<´");      
+System.out.println(" /  O  \");    
