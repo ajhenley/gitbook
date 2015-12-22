@@ -1,5 +1,5 @@
 # Randomness
-<!--redo: Create a random password with one of five formats-->
+<!--djw: done->
 
 
 You know what's cool? Having the computer randomly choose a number. This is the basis of pretty much every computer game ever.
