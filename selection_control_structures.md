@@ -56,8 +56,9 @@
 <p>If the connector <strong>OR</strong> is used to combine two conditions, then <strong><u>only one</u></strong> of the conditions needs to be true for the combined condition to be considered true.</p>
 <p>&nbsp;</p>
 <p><span style="text-decoration: underline;">Examples:</span></p>
-```java
-IF Gender = “M” THEN
+
+```
+IF Gender = "M" THEN
     Add 1 to Male-Count
 ELSE
     Add 1 to Female-Count
