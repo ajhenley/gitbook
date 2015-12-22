@@ -1,3 +1,4 @@
+<!--djw: done-->
 # Identifiers
 
 ####How to create identifiers
@@ -17,10 +18,10 @@ As you code a Java program, you need to create and use <em>identifiers</em>. The
 |```TITLE```|```@TITLE```|
 |```$orderTotal```|```!orderTotal```|
 |```_orderTotal```|```true```|
-|```input_string```||
-|```subtotal```||
-|```_get_total```||
-|```MONTHS_PER_YEAR```||
+|```input_string```|```87```|
+|```subtotal```|```67g3```|
+|```_get_total```|```return```|
+|```MONTHS_PER_YEAR```|```null```|
 |```bhy56jkls_$```||
 |```$_64_Valid```||
 
