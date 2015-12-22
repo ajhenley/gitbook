@@ -9,7 +9,7 @@ Then, you must create a random-number generator object, like so:
 ```Random rnd = new Random();```
 Once that's finished, you can have the computer pick a random integer like this:
 
-```int x = 1 + rnd.nextInt(100);```That'll pick a random number from 1 to 100 (inclusive) and store it into the variable x. Let's look at some code!
+```int x = 1 + rnd.nextInt(100);```That picks a random number from 1 to 100 (inclusive) and store it into the variable x. Let's look at some code!
 
 ```java
 import java.util.Random;
@@ -42,3 +42,4 @@ public class RandomGenerator{
 2. Change the 1 + from the line that read ```int randomInt = 1 + rnd.nextInt(100);``` to ```5 +```. What happens?
 3. Change the line where you create the random number generator so that it looks like this: Random r = new Random(23456); This number is called a seed. Run the program a few times. What happens?
 4. Change to random seed to something else. What happens?
+5. Remember if you cast a number 
