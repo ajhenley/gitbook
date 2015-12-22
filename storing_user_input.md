@@ -1,5 +1,7 @@
 # Storing user input
-
+<!--
+what is your name, quest, favorite color? What is the airspeed velocity of an swallow?
+-->
 Storing the Human’s Responses
 In the last exercise, you learned how to pause the program and allow the human to type in something. But what happened to what was typed? When you typed in the answer “Paris” for the first question, where did that answer go? Well, it was thrown away right after it was typed because we didn’t put any instructions to tell the Scanner object where to store it. So that is the topic of today’s lesson.
 
