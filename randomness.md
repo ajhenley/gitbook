@@ -42,4 +42,4 @@ public class RandomGenerator{
 2. Change the 1 + from the line that read ```int randomInt = 1 + rnd.nextInt(100);``` to ```5 +```. What happens?
 3. Change the line where you create the random number generator so that it looks like this: Random r = new Random(23456); This number is called a seed. Run the program a few times. What happens?
 4. Change to random seed to something else. What happens?
-5. Remember if you cast a number 
+5. If you cast a number to a (char) then the character representation of that number will be printed. Create a password generator that casts 8 random numbers between 40 and 126 to characters. 
