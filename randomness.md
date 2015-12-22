@@ -38,8 +38,7 @@ public class RandomGenerator{
 }
 ```
 
-1. Delete the 1 + in front of all six lines that pick numbers 1-5, so that they look like this: System.out.print( r.nextInt(5) + " " ); Run the program a few times, and see if you can figure out what range the new random numbers are in.
-2. Change the 1 + in front of all six lines that pick numbers 1-5, so that they look like this: System.out.print( 3 + r.nextInt(5) + " " ); Run the program a few times. Is it picking random numbers from 3 to 5? If not, what range are they?
-3. Change the line where you create the random number generator so that it looks like this: Random r = new Random(12353); This number is called a seed. Run the program a few times. What do you notice? What happened to the random numbers?
-4. Change to random seed to something else and observe the behavior. What happens to the random numbers?
-5. (Delete the random seed before turning in the assignment.)
+1. Delete the 1 + from the line that reads ```int randomInt = 1 + rnd.nextInt(100);```.Run the program to see what this does to the range of the random numbers.
+2. Change the 1 + from the line that read ```int randomInt = 1 + rnd.nextInt(100);``` to ```5 +```. What happens?
+3. Change the line where you create the random number generator so that it looks like this: Random r = new Random(23456); This number is called a seed. Run the program a few times. What happens?
+4. Change to random seed to something else. What happens?
