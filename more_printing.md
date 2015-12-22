@@ -1,3 +1,4 @@
+<!-- djw: done -->
 # More Printing
 
 Let's get used to printing. Write a program that prints and ATM receipt for Evil Bank. An example is below. Your can look slightly different but try to line up the borders and the margins of the text as much as possible
