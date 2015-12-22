@@ -32,6 +32,15 @@ System.out.println("*");
 
 What does the following line of code print?
 System.out.printf("%s\n%s\n%s\n","@","@@","@@@");
+
+
+print the following columns of values using \t and \r
+Cost      Quantity   Total
+$1,000.00   4       $4,000.00
+$   50.00   8         $400.00
+______________________________
+TOTAL:      12      $4,400.00
+
 -->
 Special Characters
 Escape Sequences and Comments
