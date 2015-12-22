@@ -1,4 +1,16 @@
- <div class="description user_content teacher-version enhanced"><p>Write an application that asks people what direction they wish to travel in. Once they tell you the direction, move them to the next room and tell them what is in it and what direction the other exits are.</p>
+<!--djw: done -->
+###Zork
+Zork was an early interactive computer game. It was initially released in 1977.
+
+
+According to Wikipedia: 
+<blockquote>Zork is set in "the ruins of an ancient empire lying far underground". The player is a nameless adventurer "who is venturing into this dangerous land in search of wealth and adventure". The goal is to return from exploring the "Great Underground Empire" (GUE, for short) alive and with all treasures needed to complete each adventure,[6] ultimately inheriting the title of Dungeon Master.
+</blockquote>
+
+We're not going to do all that. But in the spirit of Zork (and adventure) write an application that asks people what direction they wish to travel in. Once they tell you the direction, move them to the next room and tell them what is in it and what direction the other exits are.
+
+Your setting will be a seven room haunted house. Good luck!
+
 <table style="height: 226px;" border="1" width="384" cellspacing="1">
 <tbody>
 <tr>
@@ -56,13 +68,15 @@
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
-<pre>You are standing in the front room of an old house.
+
+Here's what your version of Zork will look like at the console:
+```
+You are standing in the front room of an old house.
 You see a dead scorpion.
-{You can (1)exit to the east, (2) exit to the west.}
+You can (1)exit to the east, (2) exit to the west.
 1
 
 You are standing in a library.
 You see spiders.
-{ You can (1) exit to the north, (2) exit to the east. } 
-</pre></div>
+You can (1) exit to the north, (2) exit to the east.
+```
