@@ -13,7 +13,7 @@ public class SpecialCharacterProgram {
             
 }
 ```
-This is more difficult than you think. Work through it little by little. 
+This is more difficult than you think unless you work through it methodically. 
 Fix the program so it prints the following:
 ```
 He said: "1/2 of 1/3 is 1/6th"
