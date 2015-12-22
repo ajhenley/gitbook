@@ -7,7 +7,7 @@ public class SpecialCharacterProgram {
     String message1, message2;
     
     message1 = He said: "1/2 of 1/3 is 1/6th";
-    message2 = She said" "I found it online at 'http://www.somesite.com/index.jsp'";
+    message2 = She said: "I found it online at 'http://www.somesite.com/index.jsp'";
     
     System.out.println(message1 + message2);
             
