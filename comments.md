@@ -1,6 +1,5 @@
-# Comments
-
-<h3>Comments and Slashes</h3>
+<!-- todo: add a program at the bottom for the reader to add comments to, or use one of their assignments -->
+####Comments
 
 Newsflash: Your memory doesn't work. If you don't believe me then find a program you've written over 6 months or a year ago. Now go through it line by line. Explain to another person the reasons for each line of code in the program. 
 
