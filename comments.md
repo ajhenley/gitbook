@@ -43,9 +43,8 @@ The practitioner of literate programming can be regarded as an essayist, whose m
 </blockquote>
 
 
-###What You Should Do on Your Own
-Assignments turned in <em>without</em> these things will not receive any points. For this exercise, do these things.
+###Your assignment
+* Go through the code below and add comments where you see two slashes. Make sure the code still runs.
+ *Add a multi-line comment at the top of the program that contains your name, the date and the name of the program.
 
-1. Were you right about what the two slashes ('//') signify? Answer in a comment at the top of the file (above the ```public class```  line).
-2. Add another comment at the **very** top of the file (above your answer to the previous question) with your name and today's date.
-3. Insert a multiline comment. Do you know how to do that? Why not?
+
