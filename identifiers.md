@@ -22,8 +22,7 @@ As you code a Java program, you need to create and use <em>identifiers</em>. The
 |```subtotal```|```67g3```|
 |```_get_total```|```return```|
 |```MONTHS_PER_YEAR```|```null```|
-|```bhy56jkls_$```||
-|```$_64_Valid```||
+|```bhy56jkls_$```|```64_valid```|
 
 
 
