@@ -2,26 +2,34 @@
 
 <h3>Comments and Slashes</h3>
 
-Newsflash: Your memory doesn't work. If you don't believe me then find a program you've written over 6 months or a year ago. Now go through it line by line. Explain to another person the reasons for each line of code in the program. Try doing that with somebody's else's program. Now try doing that to a program that contains lots of comments.
+Newsflash: Your memory doesn't work. If you don't believe me then find a program you've written over 6 months or a year ago. Now go through it line by line. Explain to another person the reasons for each line of code in the program. 
+
+Try doing that with somebody's else's program. 
+
+Now try doing that to a program that contains lots of comments.
+
+What kind of programmer do you want to be?
 
 **Code tells you how. Comments tell you why.**
 
 **Comments are very important in your programs.** They tell you what something does in English. And why.
 
-**Comments can also be used for debugging**.They can be used to disable parts of your program temporarily. Just comment out a section of code and it won't run.
+**Comments can also be used for debugging**.
+Some programmers will comment out a line of code temporarily while they debug the remaining lines. This enables you to focus on what matters and selectively ignore parts of your program.
 
 ####Here's how you use comments in Java:
 ```java
-public class CommentsAndSlashes
+public class CommentsEverywhere
 {
     public static void main( String[] args )
     {
-        // A comment, this is so you can read your program later.
+        // This line will be ignored by the compiler
+        // but people will (hopefully) read it. 
         // Anything after the // is ignored by Java.
-        System.out.println( "This line will print." ); // this comment is ignored by the compiler.
-        // You can also use a comment to "disable" or comment out a piece of code:
+        System.out.println( "This line prints just fine." ); // I can include a comment after the working code..
+        // This next line of code has been disabled by a comment:
         // System.out.println("This line won't print.");
-        System.out.println( "This line will print." );
+        System.out.println( "This line also prints just fine." );
     }
 }
 ```
