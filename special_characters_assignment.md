@@ -6,8 +6,8 @@ This application doesn't work...
 public class SpecialCharacterProgram {
     String message1, message2;
     
-    message1 = He said: "1/2 of 1/3 is 1/6th";
-    message2 = She said: "I found it online at 'http://www.somesite.com/index.jsp'";
+    message1 = \/\/\/\/\/\r\t\b";
+    message2 = ";
     
     System.out.println(message1 + message2);
             
@@ -16,7 +16,7 @@ public class SpecialCharacterProgram {
 This is more difficult than you think unless you work through it methodically. 
 Fix the program so it prints the following:
 ```
-He said: "1/2 of 1/3 is 1/6th"
-She said" "I found it online at 'http://www.somesite.com/index.jsp'"
+message1 = "\/\/\/\/\/\r\t\b"
+message2 = ";
 ```
 You may not add any new lines of code. In other words, do not add additional System.out.println() statements. You can do it. I believe in you!
