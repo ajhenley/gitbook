@@ -46,7 +46,7 @@
    * [View your commits with Git log](view_your_commits_with_git_log.md)
    * [View your Git configuration](view_your_git_configuration.md)
 * [Developing with Eclipse](developingwith_eclipse.md)
-   * [Obtaining Eclipse](obtaining_eclipse)
+   * [Obtaining Eclipse](obtainingeclipse.md)
    * [Installing and updating Eclipse](installing_and_updating_eclipse)
    * [Using the Eclipse Debugger](using_the_eclipse_debugger)
 * [Basic Java](basicjava_md.md)
