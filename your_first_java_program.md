@@ -11,10 +11,10 @@ Entering instructions for a computer to follow is not easy. You must be very spe
 
 The computer doesn't think. It simply follows the exact instructions you give it.
 
-This exercise not only teaches you to enter a program but also to correctly execute the program. 
+This exercise not only teaches you to enter a program but also to also correctly execute that program. 
 
 ###Let's get started...
-Open Eclipse, create a Java Project called MyFirstJavaProgram. Now create a new class named HelloWorld. In this class, type the following code.It is important to enter the code exactly as written, including capitalization and indendation. I'll explain it line by line.
+Open Eclipse. Create a Java Project called MyFirstJavaProgram. Now create a new class named HelloWorld. In this class, type the following code. It is important to enter the code exactly as written, including capitalization and indentation. I'll explain it line by line.
 
 ```java
 public class HelloWorld
@@ -26,9 +26,8 @@ public class HelloWorld
  }
 ```
  
-I’m going to walk through this line-by-line, just to make sure you typed everything correctly.
-
-The first line starts with the word ```public``` followed by a single space then the word ```class``` followed by a single space and then the word ```FirstProg```. The ‘F’ in “First” is capitalized, the ‘P’ in “Prog” is capitalized. There are only two capital letters in the first line. There are only two spaces.
+```public class HelloWorld```
+The first line starts with the word ```public``` followed by a single space then the word ```class``` followed by a single space and then the word ```FirstProg```. The first letter of the class name is capitalized. The class name is made up of multiple words that are not separated by spaces.
 
 The second line is just a single character: a “brace”. You get it to show up by holding down SHIFT and then pressing the ‘[‘ key which is usually to the right of the letter ‘P’.
 
