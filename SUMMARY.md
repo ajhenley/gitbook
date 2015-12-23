@@ -104,6 +104,7 @@
    * [Invoice application](invoiceapplication.md)
    * [Bonus assignment](bonusassignment.md)
    * Working with files
+   * An array to remember
 * [Exception Handling](exceptionhandling.md)
    * [Exceptions](exceptions)
    * [Exception Assignment](exception_assignment)
