@@ -32,10 +32,12 @@ The client or business analyst derive the algorithm. Someone with knowledge of p
 Our local weatherperson tells us how to convert a temperature from Fahrenheit to Celsius. She says to subtract 32 from the Fahrenheit temperature and then multiply that value by 5/9. That's the algorithm.
 
 From that we derive the pseudocode:
-<pre>Prompt user for fahreheitTemp 
+```
+Prompt user for fahreheitTemp 
 Get fahreheitTemp
 Calculate celciusTemp = (fahreheitTemp &ndash; 32) * 5/9
-Display celciusTemp</pre>
+Display celciusTemp
+```
 
 Which description would you rather have in front of you when you're ready to write a program to convert temperatures? The algorithm or the pseudocode?
 
