@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-   * [About this course](about_this_course)
+   * [About this course](aboutthis_course.md)
    * [Recommended resources](recommendedresources.md)
    * [Obtaining the Oracle Virtual Machine](obtainingthe_oracle_virtual_machine.md)
 * [Program Design](chapter1.md)
