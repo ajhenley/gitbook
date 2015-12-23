@@ -16,25 +16,18 @@ Interactivity requires several different concepts working together. Let's go thr
 Let's look at some code! I'm not going to tell you what the name of the file is supposed to be. You'll have to figure it out for yourself. There is only one correct answer and a clue is below.
 
 ```java
- 1  public class CreatingVariables
+ 1  public class VariousVariables
  2  {
  3     public static void main( String[] args )
  4    {
- 5         int x, y, age;
- 6         double seconds, e, checking;
- 7         String firstName, last_name, title;
- 8 
- 9         x = 10;
-10         y = 400;
-11         age = 39;
+ 5         int x, y, answer; //all three variables will be declared as integers
+ 6         double balance, temperature;
+ 7         float  blimp; //a float uses less memory than a double
+ 8         String firstName, lastName;
+ 9         x = 99;
+10         y = 32767;//this is the largest value you can store as an integer 
+11         answer = 42;
 12 
-13         seconds = 4.71;
-14         e = 2.71828182845904523536;
-15         checking = 1.89;
-16 
-17         firstName = "Alton";
-18         last_name = "Henley";
-19         title = "Mr.";
 20 
 21         System.out.println( "The variable x contains " + x );
 22         System.out.println( "The value " + y + " is stored in the variable y." );
