@@ -101,7 +101,7 @@
    * [Zork](zork.md)
    * [Switch statements](switchstatements.md)
    * [A first look at arrays](afirst_look_at_arrays.md)
-   * An array to remember
+   * [An array to remember](an_array_to_remember.md)
    * [Invoice application](invoiceapplication.md)
    * [Bonus assignment](bonusassignment.md)
    * Working with files
