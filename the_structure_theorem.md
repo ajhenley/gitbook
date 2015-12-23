@@ -70,12 +70,14 @@ Once control exits the loop, control then passes to the statement that follows t
 
 Here is a pseudocode example that represents the repetition control structure:
 
-```Set student_total to zero
+```
+Set student_total to zero
 DOWHILE student_total < 50
     Read student record
     Print student name, address to report
     add 1 to student_total
-ENDDO```
+ENDDO
+```
 
 ###This example illustrates a number of points:
 
