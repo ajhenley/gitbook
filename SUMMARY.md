@@ -47,7 +47,7 @@
    * [View your Git configuration](view_your_git_configuration.md)
 * [Developing with Eclipse](developingwith_eclipse.md)
    * [Obtaining Eclipse](obtainingeclipse.md)
-   * [Installing and updating Eclipse](installing_and_updating_eclipse)
+   * [Installing and updating Eclipse](installingand_updating_eclipse.md)
    * [Using the Eclipse Debugger](using_the_eclipse_debugger)
 * [Basic Java](basicjava_md.md)
    * [Your first java program](your_first_java_program.md)
