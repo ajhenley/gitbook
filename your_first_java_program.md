@@ -21,7 +21,8 @@ public class HelloWorld
  {
     public static void main( String[] args )
     {
-     System.out.println( "Hello, World!" );
+        System.out.println( "Hello, World!" );
+        System.out.println("Today is July 19, 2015. I am alive!");
     }
  }
 ```
@@ -51,37 +52,8 @@ Parenthesis, braces and brackets always come in pairs. When you create your prog
 
 ```.``` is technically a “period”, but almost all programmers just say “dot”. They are used a lot in programming languages, and they are usually used as separators instead of “enders”, so we don’t call them periods.There are four dots in this program and one period.
 
-```;``` is called a “semicolon”. It’s between the letter ‘L’ and the quote on the keyboard. Java uses a lot of semicolons although there are only two of them in this program: one on the end of line 5 and another at the end of line 6.
+```;``` is called a “semicolon”. It’s between the letter ‘L’ and the quote on the keyboard. Java statements often end in semicolons.
 
-```:``` is called a “colon”. You get it by holding SHIFT and typing a semicolon. Java does use colons, but they’re very rare.
-
-Finally, ```<``` is a “less-than sign” and ```>``` is a “greater-than sign”, but sometimes they are used sort-of like braces or brackets. When they are used this way, they’re usually called “angle brackets”. Java uses angle brackets, but you won’t see them used in this book.
-
-Okay, so back to the line-by-line. You have already typed the first two lines correctly.
-
-You should start the third line by pressing TAB one time. Your cursor will move over several spaces (probably 4 or 8). Then type the word ```public``` again, one space, the word ```static```, one space, the word ```void```, one space, the word ```main``` followed by an open paren, ``` (```. Note: These is no space between the word “main” and the paren. After the paren there’s one space, the word ```String``` with a capital S, an open and close square bracket ```[]``` right next to each other, one space, the word ```args```, one space and finally a close parenthesis ```)```.
-
-So line three starts with a tab, has a total of six spaces, and only the ‘S’ in “String” is capitalized. Whew.
-
-On the fourth line, your text editor may have already started your cursor directly underneath the ‘p’ in “public”. If it did not do that, then you’ll have to start line 4 by pressing TAB yourself. Then just type another open curly brace and that’s it.
-
-The fifth line should start with two tabs. Then type the word ```System``` with a capital ‘S’, then a ```.``` dot (period), then the word ```out```, another dot ```.```, the word ```println``` (pronounced “PrintLine” even though there’s no ‘i’ or ‘e’ at the end), an open paren ```(```, a space, a quotation mark ```"``` (open quote), the sentence ```I am determined to learn how to code.``` (the sentence ends with a period), then a close quote, ```"```, a space, a close paren, ```)``` and a semicolon, ```;```.
-
-So line 5 has two tabs, nine spaces, two dots (and a period), an open and close quote, an open and close paren, and only two capital letters.
-
-Line 6 is nearly identical to line 5 except that the sentence says ```Today's date is ``` instead of the determination sentence.
-
-Line 7 starts with only one tab. If your text editor put two tabs in there for you, you should be able to get rid of the extra tab by pressing BACKSPACE one time. Then after the tab there’s a close curly brace, ```}```.
-
-Finally, line 8 has no tabs and one more close curly brace, ```}```. You can press ENTER after line 8 or not: Java doesn’t care.
-
-Everything always matches up. Notice that we have two open curly braces and two close curly braces in the file. Three open parens and three close parens. Two “open quotes” and two “close quotes”. One open square bracket and one close square bracket. This will always be true.
-
-Also notice that every time we did an open curly brace, the line(s) below it had more tabs at the beginning, and the lines below close curly braces had fewer tabs.
-
-Okay, now save this (if you haven’t already) as FirstProg.java.
-
-Make sure the file name matches mine exactly: the ‘F’ in “First” is capitalized, the ‘P’ in “Prog” is capitalized, and everything else is lowercase. And there should be no spaces in the file name. Java will refuse to run any program with a space in the file name. Also make sure the filename ends in .java and not .txt.
 
 Compiling Your First Program
 Now that the program has been written and hopefully contains no mistakes (we’ll see soon enough), run your program. Go to the Run menu and select Run this will compile and run your application. You will see the output from the application in the Console tab.
@@ -103,6 +75,6 @@ After most of the exercises, I will list some additional tasks you should try af
 ### What You Should See After Completing the Study Drills
 
 ```
-I, Alton Henley, am determined to learn how to code.
-Today's date is Friday, July 19, 2015.
+Hello, World!
+Today is July 19, 2015. I am alive!
 ```
