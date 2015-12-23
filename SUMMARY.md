@@ -294,4 +294,5 @@
    * [Oracle Linux](oracle_linux.md)
    * [What is a Stack Trace?](what_is_a_stack_trace.md)
    * [ASCII and Character Encoding](ascii_and_character_encoding.md)
+   * Why numbering starts at zero
 
