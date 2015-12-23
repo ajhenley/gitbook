@@ -1,8 +1,13 @@
 # Your first java program
 
-You will now write your first Java program. Your program will display a message to the screen.
+<blockquote>
+A journey of a thousand miles begins with a single step.
+   - Laozi
+</blockquote>
 
-Typing detailed instructions for a computer to follow is not easy. The computer is dumb. It doesn't think. It will simply read the next line you've written and then do exactly what that line tells it to do.
+It is time to write your first Java program. Your program will display a message to the screen. Your program will follow in the tradition of great programmers everywhere. The "Hello, World!" program is a computer program that outputs "Hello, World!" on a display device. Being a very simple program in most programming languages, it is often used to illustrate to beginning programmers the basic syntax for constructing a working program.
+
+Typing detailed instructions for a computer to follow is not easy. You must be very specific. Many people find this frustrating.
 
 You need to adapt to the computer. You need to learn to type instructions in a way to get the dumb computer to carry out your wishes. If you don't get the instructions right then the computer has no chance of getting them right either. That's what makes this hard for people.
 
@@ -12,12 +17,11 @@ This exercise not only teaches you to enter a program but also to correctly exec
 Open Eclipse, create a Java Project called MyFirstJavaProgram. Now create a new class named FirstProg. In this class, type the following text. It is important to match what I have written exactly, including spacing, punctuation, and capitalization.
 
 ```java
-public class FirstProg
+public class MyFirstProgram
  {
      public static void main( String[] args )
      {
-         System.out.println( "I am determined to learn how to code." );
-         System.out.println( "Today's date is" );
+         System.out.println( "Hello, World!" );
      }
  }
 ```
