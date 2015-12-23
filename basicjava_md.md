@@ -6,7 +6,7 @@ Java is an object-oriented programming language. Java programs are compiled to b
 
 Java was developed in the early 1990's at Sun Microsystems by James Gosling. Sun has since been acquired by Oracle Corporation so they now maintain Java.
 
-Java is the most popular programming language in the world.
+Java is one of the most popular programming languages in use today.
 
 ####Java Versions
 Major release versions of Java, along with their release dates:
