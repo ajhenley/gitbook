@@ -101,10 +101,10 @@
    * [Zork](zork.md)
    * [Switch statements](switchstatements.md)
    * [A first look at arrays](afirst_look_at_arrays.md)
+   * An array to remember
    * [Invoice application](invoiceapplication.md)
    * [Bonus assignment](bonusassignment.md)
    * Working with files
-   * An array to remember
 * [Exception Handling](exceptionhandling.md)
    * [Exceptions](exceptions)
    * [Exception Assignment](exception_assignment)
