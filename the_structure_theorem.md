@@ -7,16 +7,19 @@ The Structure Theorem states that a solution can consist of a combination of jus
 ####Sequence
 
 The sequence control structure describes the linear execution of one step after another. A sequence of statements is represented by this construct.
-<pre>statement a
+```
+statement a
 statement b
 statement c</pre>
-
+```
 A sequence of statements in an algorithm might read:
-<pre>add 1 to pageCount
+```
+add 1 to pageCount
 Print heading line1
 Print heading line2
 Set lineCount to zero
-Read customer record</pre>
+Read customer record
+```
 
 These instructions illustrate the sequence control structure as a list of steps. Each is written one after the other, from start to finish. Each instruction will be executed as it appears.
 
@@ -25,11 +28,13 @@ These instructions illustrate the sequence control structure as a list of steps.
 The selection control structure presents an expression or condition as the choice between two actions. The choice depends on whether the expression evaluates to true or false. This construct represents the decision-making abilities of the computer. 
 
 In pseudocode, selection is represented by the keywords IF,THEN,ELSE and ENDIF:
-<pre>IF condition x is true THEN
+```
+IF condition x is true THEN
     perform statement(s)in the true block
 ELSE
     perform statement(s)in the false block
-ENDIF</pre>
+ENDIF
+```
 
 If the expression evaluates to true, then the statement(s) in the true block will be executed. The statements in the false block will not be executed.
 
@@ -38,11 +43,13 @@ Likewise, if the expression evaluates to false, then the statement(s) in false b
 In either case, control then passes to the next processing step after the delimiter ENDIF.
 
 ###A pseudocode example might read:
-<pre>IF employmentStatus is PART_TIME THEN
-&nbsp;&nbsp;&nbsp;&nbsp;add 1 to partTimeCount
+```
+IF employmentStatus is PART_TIME THEN
+    add 1 to partTimeCount
 ELSE
-&nbsp;&nbsp;&nbsp;&nbsp;add 1 to fullTimeCount
-ENDIF</pre>
+    add 1 to fullTimeCount
+ENDIF
+````
 
 
 
@@ -51,9 +58,11 @@ ENDIF</pre>
 The repetition control structure is a list of instructions to be  repeated. It is repeated as long as a condition is true. The basic idea of repetitive code is that you execute a block of statements repeatedly. Its execution continues either while a condition is true. This  is the sixth basic computer operation, namely to repeat a group of actions.
 
 It is written in pseudocode as:
-<pre>DOWHILE condition p is true
-&nbsp;&nbsp;&nbsp;&nbsp;statement block
-ENDDO</pre>
+```
+DOWHILE condition p is true
+    statement block
+ENDDO
+```
 
 The DOWHILE loop is a leading decision loop. That means, the condition is tested before any statements are executed. If the condition is true, the block of statements following that statement is executed once. The delimiter ENDDO then triggers a return of control to the retesting of the condition. If the condition is still true, the statements are executed again. The repetition process continues until the condition is false.
 
@@ -61,12 +70,12 @@ Once control exits the loop, control then passes to the statement that follows t
 
 Here is a pseudocode example that represents the repetition control structure:
 
-<pre>Set student_total to zero
+```Set student_total to zero
 DOWHILE student_total < 50
-&nbsp;&nbsp;&nbsp;&nbsp;Read student record
-&nbsp;&nbsp;&nbsp;&nbsp;Print student name, address to report
-&nbsp;&nbsp;&nbsp;&nbsp;add 1 to student_total
-ENDDO</pre>
+    Read student record
+    Print student name, address to report
+    add 1 to student_total
+ENDDO```
 
 ###This example illustrates a number of points:
 
