@@ -9,9 +9,9 @@ It is time to write your first Java program. Your program will display a message
 
 Entering instructions for a computer to follow is not easy. You must be very specific. Typos are not tolerated. Many people find this frustrating.
 
-The computer doesn't think. It simply follows the exact instructions you give it.
+The computer doesn't think. That's your job. It follows the instructions you give it. Exactly.
 
-This exercise not only teaches you to enter a program but also to also correctly execute that program. 
+This exercise teaches you to enter a program. It also teaches you to correctly execute that program. 
 
 ###Let's get started...
 Open Eclipse. Create a Java Project called MyFirstJavaProgram. Now create a new class named HelloWorld. In this class, type the following code. It is important to enter the code exactly as written, including capitalization and indentation. I'll explain it line by line.
@@ -19,27 +19,31 @@ Open Eclipse. Create a Java Project called MyFirstJavaProgram. Now create a new 
 ```java
 public class HelloWorld
  {
-     public static void main( String[] args )
-     {
-         System.out.println( "Hello, World!" );
-     }
+    public static void main( String[] args )
+    {
+     System.out.println( "Hello, World!" );
+    }
  }
 ```
  
 ```public class HelloWorld```
-The first line starts with the word ```public``` followed by a single space then the word ```class``` followed by a single space and then the word ```FirstProg```. The first letter of the class name is capitalized. The class name is made up of multiple words that are not separated by spaces.
+The first line starts with the word ```public``` followed by a single space then the word ```class``` followed by a single space and then the class name, ```HelloWorld```. The first letter of the class name is capitalized. The class name is made up of multiple words that are not separated by spaces. Each new word starts with a capital letter. Class names always start with a capital letter in Java.
 
-The second line is just a single character: a “brace”. You get it to show up by holding down SHIFT and then pressing the ‘[‘ key which is usually to the right of the letter ‘P’.
+```{``` The second line is just a single character: a “brace”. This character is to the right of the 'P'. Hold Shift while pressing the '[' key.
 
-Before I go on to the third line of the program, I should tell you what programmers usually call each funny symbol that appears in this program.
 
-```(``` and ```)``` are called “parentheses” (that’s plural). Just one of them is called “a parenthesis”, but some people just call them parens (“puh-RENZ”). This one (“(“) is sometimes called a “left paren” and the other (“)”) is called a “right paren” because parentheses usually come in pairs and one is usually to the left of the other. The left parenthesis (“(“) is also often called an “open paren” and the right one is called a “close paren” for similar reasons.
-There’s an open paren on line 3 and a close paren, too, and no other parentheses in the whole file.
+```public static void main( String[] args )```
+The third line is the name of the method, main. Methods begin with lower case letters. If a method contains multiple words then begin each word with a capital letter and don't separate them with spaces. Main is the only method that you can't name on your own. For all other methods you'll make up a meaningful name. By convention, main is the starting point for all Java programs. You should have only one main method in your program. 
 
 ```[``` and ```]``` are called “brackets”, but many programmers call them “square brackets” to make sure there’s no confusion. In Java, parentheses and square brackets are not interchangeable. Brackets come in pairs and they are called “left bracket” or “open bracket” and “right bracket” or “close bracket”.
-There’s an open and close square bracket right next to each other on line 3.
 
-```{``` and ```}``` are called “braces”, and some programmers call them “curly braces”. These also always come in pairs of left and right curly braces / open and close braces.
+Parenthesis, braces and brackets always come in pairs. When you create your program you should line up matching parenthesis, braces and brackets. Notice in the above program how I have them lined up after each metnod of the class name.
+
+
+```{``` and ```}``` are called “braces” or “curly braces”. They are used to group lines of code into a single block of code. 
+
+
+```System.out.println( "Hello, World!" );```
 
 ```"``` is called a “quotation mark”, often just abbreviated “quote”. In Java, these always come in pairs. The first one in a pair is usually called an “open quote” and the second one is a “close quote” even though it’s the exact same character in both places. But the first quote serves to begin something and the second one ends that thing.
 
