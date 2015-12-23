@@ -1,6 +1,4 @@
-<!-- todo: add a program at the bottom for the student to add comments to, 
-or use one of their assignments 
--->
+<!-- djw: done -->
 ####Comments
 
 Newsflash: Your memory doesn't work. If you don't believe me then find a program you've written over 6 months or a year ago. Now go through it line by line. Explain to another person the reasons for each line of code in the program. 
@@ -18,8 +16,18 @@ What kind of programmer do you want to be?
 **Comments can also be used for debugging**.
 Some programmers will comment out a line of code temporarily while they debug the remaining lines. This enables you to focus on what matters and selectively ignore parts of your program.
 
+**Block comments**
+Block Comments are shown at the top fo the program and they generally contain the 
+name and/or description of the program as well as the programmer and
+the date of the program.
+
 ####Here's how you use comments in Java:
 ```java
+/*
+*  Comments Example Program
+*  Dave Wolf
+*  July 21st, 2015
+*/
 public class CommentsEverywhere
 {
     public static void main( String[] args )
@@ -46,9 +54,14 @@ The practitioner of literate programming can be regarded as an essayist, whose m
 
 ###Your assignment
 * Go through the code below and add comments where you see two slashes. Make sure the code still runs.
- *Add a multi-line comment at the top of the program that contains your name, the date and the name of the program.
+* Add a multi-line comment at the top of the program that contains your name, the date and the name of the program.
+* If you need information about Random or Scanner then search Oracle's online documentation. There you will find explanations about each.
+* Your next assignment is to continue adding comments to your programs as you complete this course
 
 ```java
+/*
+*
+*/
 import java.util.Random;
 import java.util.Scanner;
 public class Main
@@ -56,14 +69,19 @@ public class Main
     public static void main(String[] args)
     {
         Scanner scan = new Scanner(System.in);
+        
+        //
         Random random = new Random();
         long from = 1;
         long to = 100;
         int randomNumber = random.nextInt(to - from + 1) + from;
+        //
         int guessedNumber = 0;
  
+        //
         System.out.printf("The number is between %d and %d.\n", from, to);
- 
+        
+        //
         do
         {
             System.out.print("Guess what the number is: ");
