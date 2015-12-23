@@ -3,7 +3,7 @@
 * [Introduction](README.md)
    * [About this course](about_this_course)
    * [Recommended resources](recommended_resources)
-   * [Obtaining the Oracle Virtual Machine](obtaining_the_oracle_virtual_machine)
+   * [Obtaining the Oracle Virtual Machine](obtainingthe_oracle_virtual_machine.md)
 * [Program Design](chapter1.md)
    * [Program Design](program_design.md)
    * [The Structure Theorem](the_structure_theorem.md)
