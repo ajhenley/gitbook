@@ -17,8 +17,13 @@ This exercise teaches you to enter a program. It also teaches you to correctly e
 Open Eclipse. Create a Java Project called MyFirstJavaProgram. Now create a new class named HelloWorld. In this class, type the following code. It is important to enter the code exactly as written, including capitalization and indentation. I'll explain it line by line.
 
 ```java
+/* My HelloWorld program
+*  Alton Henley
+*  July, 19, 2015
+*/
 public class HelloWorld
  {
+    // main is the starting point for every Java program
     public static void main( String[] args )
     {
         System.out.println( "Hello, World!" );
@@ -59,20 +64,10 @@ Compiling Your First Program
 Now that the program has been written and hopefully contains no mistakes (we’ll see soon enough), run your program. Go to the Run menu and select Run this will compile and run your application. You will see the output from the application in the Console tab.
 
 
-### What You Should See
-<pre>I am determined to learn how to code.
-Today's date is</pre>
+###What to do next
+Add another line to the program to print your name.
 
-Are you stoked? You just wrote your first Java program and ran it! If you made it this far, then you almost certainly have what it takes to finish the course as long as you work on it every day and don’t quit.
-
-### Study Drills
-After most of the exercises, I will list some additional tasks you should try after typing up the code and getting it to compile and run. Some study drills will be  simple and some will be  challenging, but you should always give them a shot.
-
-* Change what is inside the quotes on line 6 to include today’s date. Save the file once you have made your changes, compile the file and run it again.
-* Change what is inside the quotes on line 5 to have the computer display your name.
-
-
-### What You Should See After Completing the Study Drills
+###What You Should See After Completing the Study Drills
 
 ```
 Hello, World!
