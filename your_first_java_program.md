@@ -7,9 +7,9 @@ A journey of a thousand miles begins with a single step.
 
 It is time to write your first Java program. Your program will display a message to the screen. Your program will follow in the tradition of great programmers everywhere. The "Hello, World!" program is a computer program that outputs "Hello, World!" on a display device. Being a very simple program in most programming languages, it is often used to illustrate to beginning programmers the basic syntax for constructing a working program.
 
-Typing detailed instructions for a computer to follow is not easy. You must be very specific. Many people find this frustrating.
+Entering instructions for a computer to follow is not easy. You must be very specific. Typos are not tolerated. Many people find this frustrating.
 
-You need to adapt to the computer. You need to learn to type instructions in a way to get the dumb computer to carry out your wishes. If you don't get the instructions right then the computer has no chance of getting them right either. That's what makes this hard for people.
+The computer doesn't think. It simply follows the exact instructions you give it.
 
 This exercise not only teaches you to enter a program but also to correctly execute the program. 
 
