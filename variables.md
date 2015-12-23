@@ -4,7 +4,7 @@ Programs would be pretty boring if the only thing you could do was print things 
 
 Interactivity requires several different concepts working together. Let's go through each one at a time.
 
-**Variables**: If you paid attention in Algebra class you may recall the concept of variables. So an equation like <pre>2x + 13 = 25</pre> allows us to find the value of x. What is x? It's a variable that holds a value. Programming languages have variables, too. The concept is the same:
+**Variables**: If you paid attention in Algebra class you may recall the concept of variables. So an equation like ```2x + 13 = 25``` allows us to find the value of x. What is x? It's a variable that holds a value. Programming languages have variables, too. The concept is the same:
 <blockquote>A variable is a name that refers to a location that holds a value.</blockquote>
 
 ####Variables in Java have four major differences from math variables:
