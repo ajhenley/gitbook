@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
    * [About this course](about_this_course)
-   * [Recommended resources](recommended_resources)
+   * [Recommended resources](recommendedresources.md)
    * [Obtaining the Oracle Virtual Machine](obtainingthe_oracle_virtual_machine.md)
 * [Program Design](chapter1.md)
    * [Program Design](program_design.md)
