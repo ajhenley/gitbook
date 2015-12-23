@@ -48,7 +48,7 @@
 * [Developing with Eclipse](developingwith_eclipse.md)
    * [Obtaining Eclipse](obtainingeclipse.md)
    * [Installing and updating Eclipse](installingand_updating_eclipse.md)
-   * [Using the Eclipse Debugger](using_the_eclipse_debugger)
+   * [Using the Eclipse Debugger](usingthe_eclipse_debugger.md)
 * [Basic Java](basicjava_md.md)
    * [Your first java program](your_first_java_program.md)
    * [More Printing](more_printing.md)
