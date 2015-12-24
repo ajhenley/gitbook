@@ -1,4 +1,4 @@
-#Basic Java
+#Core Java
 
 Java is a general-purpose programming language. Much of the syntax is derrived from C & C++ but Java has fewer low-level dependencies than those other languages. For example, in C++ it's not uncommon for the programmer to have to manage memory usage. Java handles this automatically. 
 
@@ -22,3 +22,7 @@ Java SE 7 (July 28, 2011)
 Java SE 8 (March 18, 2014)
 </pre>
 
+####Core Java vs. Java EE (Enterprise Edition) 
+Core Java refers to Java SE which consists of the Java Language, the Java Virtual Machine (JVM) and Java Development Kit (JDK). The JDK contains the compiler, some tools and a library. The library is called the Java API (Application Programming Interface). It consists of classes developed by Oracle/Sun that go with Java. Core Java is used for general purpose programming. 
+
+Enterprise Java refers to Java applications written to meet the needs of enterprises. An enterprise is an organization rather than an individual user. Such organizations include businesses, schools, interest-based user groups, clubs, charities, or governments. Java EE consists of a set of APIs (EJB, JMS, JPA, JTA, JSF etc.) and the application servers (Glassfish, Tomcat, JBoss/WildFly etc.) which implement these APIs (or a part of them). Enterprise Java is not strictly restricted to Java EE; someone using Spring Framework for example is still an Enterprise Java programmer.
