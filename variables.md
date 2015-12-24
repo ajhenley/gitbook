@@ -16,36 +16,31 @@ Interactivity requires several different concepts working together. Let's go thr
 Let's look at some code! I'm not going to tell you what the name of the file is supposed to be. You'll have to figure it out for yourself. There is only one correct answer and a clue is below.
 
 ```java
- 1  public class VariousVariables
- 2  {
- 3     public static void main( String[] args )
- 4    {
- 5         int x, y, answer; //all three variables will be declared as integers
- 6         double temperature;
- 7         float  Temperature; //a float uses less memory than a double
- 8         String firstName, lastName, question = "unknown"; //only question is initialized
- 
- 9         x = 99;
-10         y = 32767;
-11         answer = 42;
-           firstName = "James";
-           lastName = "Gosling";
-           temperature = 98.6;
-           Temperature = 32.0;
+public class VariousVariables
+{
+    public static void main( String[] args )
+    {
+        int x, y, answer; //all three variables will be declared as integers
+        double temperature;
+        float  Temperature; //a float uses less memory than a double
+        String firstName, lastName, question = "unknown"; //only question is initialized
+        x = 99;
+        y = 32767;
+        answer = 42;
+        firstName = "James";
+        lastName = "Gosling";
+        temperature = 98.6;
+        Temperature = 32.0;
           
-12 
-20 
-21         System.out.println( "The variable x contains a value of " + x );
-22         System.out.println( "The value " + y + " is the largest value you can store in an integer." );
-23         System.out.println("The anwser to the question is: " + answer );
-           System.out.println("And the question has long since been " + question);
-25         System.out.println("If you're not sick your temperature is " + temperature);
-           System.out.println("If you're an ice cube your temperature is " + Temperature);
-26         System.out.println("The founder of Java is " " + firstName + last_name );
-
-
-27     }
-28 }
+        System.out.println( "The variable x contains a value of " + x );
+        System.out.println( "The value " + y + " is the largest value you can store in an integer." );
+        System.out.println("The anwser to the question is: " + answer );
+        System.out.println("And the question has long since been " + question);
+        System.out.println("If you're not sick your temperature is " + temperature);
+        System.out.println("If you're an ice cube your temperature is " + Temperature);
+        System.out.println("The founder of Java is " " + firstName + last_name );
+    }
+}
 ```
 
 ####What You Should See
