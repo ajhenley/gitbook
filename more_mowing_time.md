@@ -1,3 +1,4 @@
+<!-- djw:done-->
 # More mowing time
 
 Bob realized that his estimates are incorrect. He forgot to account for the house on the yard. Also, he wants to know what it costs to mow each lawn. Assume Bob's clients have rectangular houses and rectangular yards. It's a well-planned community. Prompt for the length and width of the house and remove that from your estimate. Also, assume that Bob pays Joe $12.00 per hour. How much does it cost to mow the lawn? How much does Bob make if he charges $45.00 per lawn?
