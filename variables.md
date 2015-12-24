@@ -21,20 +21,29 @@ Let's look at some code! I'm not going to tell you what the name of the file is 
  3     public static void main( String[] args )
  4    {
  5         int x, y, answer; //all three variables will be declared as integers
- 6         double balance, temperature;
- 7         float  blimp; //a float uses less memory than a double
- 8         String firstName, lastName;
+ 6         double temperature;
+ 7         float  Temperature; //a float uses less memory than a double
+ 8         String firstName, lastName, question = "unknown"; //only question is initialized
+ 
  9         x = 99;
-10         y = 32767;//this is the largest value you can store as an integer 
+10         y = 32767;
 11         answer = 42;
+           firstName = "James";
+           lastName = "Gosling";
+           temperature = 98.6;
+           Temperature = 32.0;
+          
 12 
 20 
-21         System.out.println( "The variable x contains " + x );
-22         System.out.println( "The value " + y + " is stored in the variable y." );
-23         System.out.println( "The experiment completed in " + seconds + " seconds." );
-24         System.out.println( "My favorite irrational number is Euler's constant: " + e );
-25         System.out.println( "Hopefully your balance is more than $" + checking + "!" );
-26         System.out.println( "My full name is " + title + " " + firstName + last_name );
+21         System.out.println( "The variable x contains a value of " + x );
+22         System.out.println( "The value " + y + " is the largest value you can store in an integer." );
+23         System.out.println("The anwser to the question is: " + answer );
+           System.out.println("And the question has long since been " + question);
+25         System.out.println("If you're not sick your temperature is " + temperature);
+           System.out.println("If you're an ice cube your temperature is " + Temperature);
+26         System.out.println("The founder of Java is " " + firstName + last_name );
+
+
 27     }
 28 }
 ```
