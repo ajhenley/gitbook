@@ -1,4 +1,4 @@
-# Debugging Activity: Timesheet Records
+###Debugging Activity: Timesheet Records
 
 Chanchal is the project manager for a small software development project. Each week she wants a report of the employees who have worked on her project, separated by full-time and part-time.
 
@@ -7,7 +7,7 @@ She has developed the pseudocode below but since she is the project manager and 
 You had told her that she would need a DOWHILE loop to control the repetition
 And an IF statement to select &lsquo;FT&rsquo; records
 
-###Incorrect Results - find and fix the error
+####Incorrect Results - find and fix the error
 <pre>Print_Hours_Billed_To_Project
 Print &lsquo;Employee Hours Billed to Project&lsquo; heading
     Read timesheet record
