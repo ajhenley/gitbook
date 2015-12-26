@@ -1,5 +1,4 @@
-# Designing Programs Overview
-
+## Designing Programs Overview
 Programmers need to have a good understanding of the data to be processed. This includes the data variables, constants and literals. It also includes elementary data items, data structures, files and data validation.
 
 ###Seven steps in program development
@@ -17,13 +16,13 @@ Programmers need to have a good understanding of the data to be processed. This 
 * data-driven program design.
 
 
-##Procedural programming
+###Procedural programming
 
-##Object-oriented programming
+###Object-oriented programming
 
-##Top-down development
+###Top-down development
 
-##Modular design
+###Modular design
 
 
 ###Algorithm
