@@ -11,14 +11,15 @@ Full-Time employees
     31004 IT         Burns     $150.00/hour 20 hours
 Part-Time employees
    20045 Finance     Flanders  $25.00/hour  10 hours
-</pre>
+```
 
 ###Incorrect Results - find and fix the error
-<pre>Print_Hours_Billed_To_Project
-Print &lsquo;Employee Hours Billed to Project&lsquo; heading
+```
+Print_Hours_Billed_To_Project
+Print "Employee Hours Billed to Project" heading
     Read timesheet record
     DOWHILE morerecords exist
-        IF timesheet_status = &lsquo;FT&rsquo; THEN
+        IF timesheet_status = "FT" THEN
             Print EmployeeID, Department, Billing Rate, Hours Worked
         ENDIF
     ENDDO
