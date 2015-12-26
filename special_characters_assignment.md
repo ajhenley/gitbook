@@ -21,3 +21,5 @@ message1 = \/\/\/\/\/\r\t\b
 message2 = ";
 ```
 You should not add any new lines of code. In other words, do not add additional System.out.println() statements. You can do it. The world believes in you!
+
+[Sample Answer](https://gist.github.com/LearnByCode/ac72c90a72fb94500727)
