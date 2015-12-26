@@ -8,7 +8,8 @@ You had told her that she would need a DOWHILE loop to control the repetition
 And an IF statement to select &lsquo;FT&rsquo; records
 
 ####Incorrect Results - find and fix the error
-<pre>Print_Hours_Billed_To_Project
+```
+Print_Hours_Billed_To_Project
 Print &lsquo;Employee Hours Billed to Project&lsquo; heading
     Read timesheet record
     DOWHILE morerecords exist
@@ -18,10 +19,12 @@ Print &lsquo;Employee Hours Billed to Project&lsquo; heading
     ENDDO
     Read timesheet record
 END
-</pre>
+```
 
+```
 Employee Hours Billed to Project
 Full-Time employees
     10335 Finance    Smithers  $110.00/hour 24 hours
     21555 Marketing  Wiggims   $75.00/hour  10 hours
     31004 IT         Burns     $150.00/hour 20 hours
+```
