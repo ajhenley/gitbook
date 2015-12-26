@@ -1,5 +1,5 @@
-# Algorithms Final Project
-###Objective
+###Algorithms Final Project
+####Objective
 * Define the problem by constructing an algorithm using pseudocode
 * Create an IPO diagram showing <strong>input, output, </strong>and<strong> processing steps</strong>
 * What control structures (sequence, selection and repetition) are required?
@@ -14,7 +14,7 @@ Create a program that will calculate the cost with tax of fencing a rectangular 
 fencing will depend on the amount of fencing required (the perimeter of the yard), and the type of fencing
 used. Gates can are available for an additional cost.At least one gate is required.
 
-#####Prices (including installation)
+####Prices (including installation)
 * Wooden fencing costs $25 per foot
 * Chain-link fencing costs $15 per foot
 * Gates cost $150 each. You must install at least one gate and can install up to 3
