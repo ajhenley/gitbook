@@ -27,7 +27,7 @@ Your receipt will line up if you use only spaces. Tabs are handled differently b
 +--------------------------------------+
 </pre>
 
-
+[Show Sample Answer](https://gist.github.com/LearnByCode/ddca10050bea7abd5461)
 
 
 
