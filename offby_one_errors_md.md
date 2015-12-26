@@ -1,4 +1,4 @@
-# Fencepost Problem and off-by-one errors
+###Fencepost Problem and off-by-one errors
 
 An off-by-one error (OBOE) is a logic error. It occurs in computer programming when an iterative loop iterates one time too many or too few.
 
