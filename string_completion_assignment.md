@@ -25,3 +25,4 @@ The following code is supposed to ask the user their pet's name, breed and age. 
      }
  }
 ```
+[Show Sample Answer](https://gist.github.com/LearnByCode/d73cff705ff514104040)
