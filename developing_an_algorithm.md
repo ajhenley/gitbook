@@ -1,9 +1,9 @@
-# Developing an Algorithm
+###Developing an Algorithm
 
 ##Defining the Problem
-
-
-**IF THE ALGORITHM IS NOT CORRECT, THE PROGRAM NEVER WILL BE**
+<blockquote>
+IF THE ALGORITHM IS NOT CORRECT, THE PROGRAM NEVER WILL BE
+</blockquote>
 
 <p>To help with the initial analysis, the problem should be divided into three separate components:</p>
 <p>&nbsp;</p>
