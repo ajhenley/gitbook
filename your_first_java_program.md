@@ -18,13 +18,8 @@ This exercise teaches you to enter a program. It also teaches you to correctly e
 Open Eclipse. Create a Java Project called MyFirstJavaProgram. Now create a new class named HelloWorld. In this class, type the following code. It is important to enter the code exactly as written, including capitalization and indentation. I'll explain it line by line.
 
 ```java
-/* My HelloWorld program
-*  Alton Henley
-*  July, 19, 2015
-*/
 public class HelloWorld
  {
-    // main is the starting point for every Java program
     public static void main( String[] args )
     {
         System.out.println( "Hello, World!" );
@@ -73,4 +68,6 @@ Add another line to the program to print your name.
 ```
 Hello, World!
 Today is July 19, 2015. I am alive!
+My name is Alton.
 ```
+[Sample Code](https://gist.github.com/LearnByCode/fa63bcadce002dbe7084)
