@@ -1,4 +1,4 @@
-# What is an IPO diagram?
+###What is an IPO diagram?
 An IPO diagram shows the Inputs, Processing Steps and Outputs for a system and is used to describe the structure of a process.The input-process-output (IPO) diagram is widely-used in systems analysis and software engineering.  
 
 The inputs generally come from the user via the keyboard. They can also come from a file. The processing steps are the steps for your algorithm. The outputs are the results shown to the user on the screen or paper. Outputs can also be written to a file.
