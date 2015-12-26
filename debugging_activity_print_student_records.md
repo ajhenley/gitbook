@@ -10,7 +10,7 @@ And an IF statement to select &lsquo;FT&rsquo; records
 ####Incorrect Results - find and fix the error
 ```
 Print_Hours_Billed_To_Project
-Print &lsquo;Employee Hours Billed to Project&lsquo; heading
+Print "Employee Hours Billed to Project" heading
     Read timesheet record
     DOWHILE morerecords exist
         IF timesheet_status = &lsquo;FT&rsquo; THEN
