@@ -1,4 +1,4 @@
-# Pseudocode and Algorithms
+###Algorithms and Pseudocode
 
 ###Algorithm
  An algorithm represents the ordered sequence of steps required to solve a problem. Following the steps will always result in the solution. When a computer is to solve a particular problem, the steps to the solution get communicated to the computer. This makes the study of algorithms an important part of computer science.  
