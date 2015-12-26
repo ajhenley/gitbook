@@ -1,5 +1,4 @@
-# Naming Conventions
-
+## Naming Conventions
 To design a solution algorithm, the programmer has to create variables and objects. To this, they need unique names for those variables and objects. All names should be meaningful. A named variable is a method of identifying a particular storage location in the computer.
 
 Often a name describes the type of data stored in a particular variable. For instance, a variable may be one of three simple data types: an integer, a real number or a character. You should pick a name that describes the variable. For example, if you need three numbers, number1, number2 and number3 are more meaningful than A, B and C. However taxRate, income, and nmbrDependents are even better names.
@@ -12,7 +11,7 @@ For readability, it is not advisable to string together words all in lower case.
 ‘carRegistration’.
 
 
-##How naming conventions apply to Java ... 
+###How naming conventions apply to Java ... 
 
 A well-written program should be self-documenting. Naming conventions make programs more understandable by making them easier to read.  They can also give information about the function of the identifier-for example, whether it's a constant, package, or class-which can be helpful in understanding the code.
 
