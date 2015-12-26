@@ -1,9 +1,9 @@
-# Change Activity: Process Student Records
+###Change Activity: Process Student Records
 
 
 In true project manager fashion Chanchal has asked you to also print the PT employees but they should be separate from the full-time employees. So, the report she wants looks like this:
 
-<pre>
+```
 Employee Hours Billed to Project
 Full-Time employees
     10335 Finance    Smithers  $110.00/hour 24 hours
@@ -24,7 +24,7 @@ Print &lsquo;Employee Hours Billed to Project&lsquo; heading
     ENDDO
     Read timesheet record
 END
-</pre>
+```
    
 Alter the previous activity to print the report as shown above.
    
