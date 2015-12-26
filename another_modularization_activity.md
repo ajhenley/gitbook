@@ -1,6 +1,6 @@
-# Another Modularization Activity
+###Another Modularization Activity
 
-###Objective
+####Objective
 * Define the problem by constructing an algorithm using pseudocode
 * Create an IPO diagram showing <strong>input, output, </strong>and<strong> processing steps</strong>
 * What control structures (sequence, selection and repetition) are required?
