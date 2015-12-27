@@ -1,4 +1,4 @@
-#Display a Calendar Assignment
+#Display a Calendar Assignment (delete - it's hard to get the spacing right for the book and it doesn't add much that hasn't already been covered)
 <!-- djw:done -->
 Create a program which prompts the user for the Month and Year and prints out to the console a calendar for the given month and year.
 
