@@ -1,8 +1,3 @@
-<!--
-introduce the scanner object for getting user input and show how variables store that input.
-
-what is your name, quest, favorite color? 
--->
 ###Getting and storing user input
 scanner object allows people to input data. It's a simple text scanner which can parse primitive types and strings. 
 
