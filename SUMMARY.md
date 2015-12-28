@@ -60,7 +60,7 @@
    * [Debug this program](debug_this_program.md)
    * [Math two](math_two.md)
    * [Change program](change_program.md)
-   * [Getting and storing user input](getting_storing_user_input.md)
+   * [Getting and storing user input](gettingstoring_user_input_md.md)
    * [String completion assignment](string_completion_assignment.md)
    * [String assignment](string_assignment.md)
    * [Special characters](special_characters.md)
