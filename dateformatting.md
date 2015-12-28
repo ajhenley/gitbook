@@ -1,4 +1,5 @@
-# Date formatting
+<!--djw: done-->
+###Date formatting
 Prior to JDK 1.1, the class Date had two additional functions. 
 It allowed the interpretation of dates as year, month, day, hour, minute, and second values. 
 It also allowed the formatting and parsing of date strings. 
