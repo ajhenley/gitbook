@@ -72,3 +72,11 @@ At the top of the program we declare the variables. It's common practice to decl
 You want to choose the appropriate data type for your variable. Names are stored as ```String``` variables. Numbers without decimal points are stored as ```int``` variables.
 
 A float uses less memory than a double. Floats should not be used for precise values, such as currency. The ```java.math.BigDecimal``` class is intended for currency values since it is more accurate. We'll look at that later.
+
+
+####What you should do
+1. Copy the above program to Eclipse and be able to generate the same output shown above. 
+2. Modify the variables to print your name and age. 
+3. Put a space between your first and last names.
+4. Add a variable for the last movie you saw. 
+5. Add a variable for your GPA. Display that. If you don't like your GPA make one up.
