@@ -16,43 +16,58 @@ Interactivity requires several different concepts working together. Let's go thr
 Let's look at some code! I'm not going to tell you what the name of the file is supposed to be. You'll have to figure it out for yourself. There is only one correct answer and a clue is below.
 
 ```java
+/* VariousVaribles - a program to teach us about variables
+*/
 public class VariousVariables
 {
     public static void main( String[] args )
     {
+        //declare variables here before we use them
         int x, y, answer; //all three variables will be declared as integers
         double temperature;
         float  Temperature; //a float uses less memory than a double
-        String firstName, lastName, question = "unknown"; //only question is initialized
+        String firstName, lastName;
+        String question = "unknown"; //question is initialized
+        
+        //assign values to the variables here
         x = 99;
-        y = 32767;
+        y = 2147483647; //you could also use the constant Integer.MAX_VALUE
         answer = 42;
         firstName = "James";
         lastName = "Gosling";
         temperature = 98.6;
-        Temperature = 32.0;
+        Temperature = 32.0f;
           
+        //Use the variables here
         System.out.println( "The variable x contains a value of " + x );
-        System.out.println( "The value " + y + " is the largest value you can store in an integer." );
+        System.out.print( "The value " + y + " is the largest value ");
+        System.out.println( "you can store in an integer." );
         System.out.println("The anwser to the question is: " + answer );
         System.out.println("And the question has long since been " + question);
-        System.out.println("If you're not sick your temperature is " + temperature);
-        System.out.println("If you're an ice cube your temperature is " + Temperature);
-        System.out.println("The founder of Java is " " + firstName + last_name );
+        System.out.println("If you're not sick your temperature is " 
+        														+ temperature);
+        System.out.println("If you're an ice cube your temperature is " 
+        														+ Temperature);
+        System.out.println("The variable Temperature is not "
+        										 + "the same as  temperature");
+        System.out.println("The founder of Java is " + firstName + lastName );
     }
 }
 ```
 
 ####What You Should See
 ```
-The variable x contains 10
-The value 400 is stored in the variable y.
-The experiment completed in 4.71 seconds.
-My favorite irrational number is Euler's constant: 2.718281828459045
-Hopefully your balance is more than $1.89!
-My full name is Mr. AltonHenley
+The variable x contains a value of 99
+The value 2147483647 is the largest value you can store in an integer.
+The anwser to the question is: 42
+And the question has long since been unknown
+If you're not sick your temperature is 98.6
+If you're an ice cube your temperature is 32.0
+The variable Temperature is not the same as  temperature
+The founder of Java is JamesGosling
+
 ```
-At the top of the program we declare nine variables. The first three are named <em>x</em>, <em>y</em>, and <em>age</em>. All three of these variables are &ldquo;integers&rdquo;, which is the type of variable that can hold a value between &plusmn; two billion.</p>
+At the top of the program we declare the variables. It's common practice to declare variables at the top of your method. The first three are named <em>x</em>, <em>y</em>, and <em>age</em>. All three of these variables are &ldquo;integers&rdquo;, which is the type of variable that can hold a value between &plusmn; two billion.</p>
 <p>A variable which is an integer could hold the value 10. It could hold the value <span class="pre">-8192</span>. An integer variable can hold 123456789. It could <em>not</em> hold the value 3.14 because that has a fractional part. An integer variable could <em>not</em> hold the value 10000000000 because ten billion is too big.</p>
 <p>On line 6 we declare variables named <em>seconds</em>, <em>e</em>, and <em>checking</em>. These three variables are &ldquo;doubles&rdquo;, which is the type of variable that can hold a number that might have a fractional part.</p>
 <p>A variable which is a double could hold the value 4.71. It could hold the value <span class="pre">-8192</span>. (It <em>may</em> have a fractional part but doesn&rsquo;t have to.) It can pretty much hold <em>any</em> value between &plusmn; 1.79769 &times; 10<sup>308</sup> and 4.94065 &times; 10<sup>-324</sup>.</p>
