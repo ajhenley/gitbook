@@ -21,12 +21,8 @@ A Scanner scans the input by tokens using a delimiter pattern. The default delim
      Scanner sc = new Scanner(System.in);
      int i = sc.nextInt();
 ```
-Because the scanner is only reading the next token the end-of-line(EOL) character is not read. To clear out any remaining data call ```sc.nextLine();```
+Because the scanner is only reading the next token, the end-of-line(EOL) character is not read. To clear out any remaining data call ```sc.nextLine();``` which will read to the end of the line.
 
-####Variables allow the program to retain data
-
-
-####Print allows the program to display the data
 
 
 ####Your assignment
