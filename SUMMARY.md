@@ -61,7 +61,6 @@
    * [Math two](math_two.md)
    * [Change program](change_program.md)
    * [Getting user input](getting_user_input.md)
-   * [Storing user input](storing_user_input.md)
    * [String completion assignment](string_completion_assignment.md)
    * [String assignment](string_assignment.md)
    * [Special characters](special_characters.md)
