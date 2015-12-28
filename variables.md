@@ -1,8 +1,11 @@
 <!-- djw:done-->
 ###Variables
-Programs would be pretty boring if the only thing you could do was print things on the screen. We would like our programs to be interactive.
+Programs would be pretty boring if the only thing you could do was print things on the screen. We would like our programs to be interactive. Variables enable our program to save and retrieve data while the program is being used.
 
-Interactivity requires several different concepts working together. Let's go through each one at a time.
+* A variable stores a value that can change as a program executes.
+* Before you can use a variable, you must declare its data type and initialize it by assigning a value to it.
+* To declare and initialize more than one variable for a single data type in a single statement, use commas to separate the assignments.
+* To identify float values, you must type an f or F after the number. To identify long values, you must type an l or L after the number.
 
 **Variables**: If you paid attention in Algebra class you may recall the concept of variables. So an equation like ```2x + 13 = 25``` allows us to find the value of x. What is x? It's a variable that holds a value. Programming languages have variables, too. The concept is the same:
 <blockquote>A variable is a name that refers to a memory location that holds a value.</blockquote>
@@ -14,22 +17,20 @@ Interactivity requires several different concepts working together. Let's go thr
 * The value of a variable can (and often will) change. The data type will not change
 
 ####The Eight Primitive Data Types
+Use a data type that is appropriate for the data you're storing. Primitive data type names are written using lower-case.
+
 |Type|Bytes|Use|
 |---|---|---|
 |byte|1|Very short integers from -128 to 127.|
 |short|2|Short integers from -32,768 to 32,767.|
 |int|4|Integers from -2,147,483,648 to 2,147,483,647|
 |long|8|Long integers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
-|floa|4|Single-recision, floating-point numbers from -1.7E308 to 1.7E308 with up to 16 significant digits.|
+|float|4|Single-precision, floating-point numbers from -1.7E308 to 1.7E308 with up to 16 significant digits.|
 |char|2|A single Unicode character that's stored in two bytes.|
 |boolean|1|A true or false value.|
-How to declare and initialize a variable in two statements|
 
-####Syntax:
-type variableName.
-variableName = value;
 
-####Example:
+####How to declare and initialize a variable in two statements|
 ```java
 int counter;
 counter = 1;
@@ -54,10 +55,7 @@ boolen valid = false;
 int x = 0, y = 0;
 ```
 
-* A variable stores a value that can change as a program executes.
-* Before you can use a variable, you must declare its data type and initialize it by assigning a value to it.
-* To declare and initialize more than one variable for a single data type in a single statement, use commas to seperate the assignments.
-* To identify float values, you must type an f or F after the number. To identify long values, you must type an l or L after the number.
+
 
 
 ```java
