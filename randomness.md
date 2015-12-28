@@ -7,9 +7,11 @@ To pick a random number, you first need to import ```java.util.Random;```
 Then, you must create a random-number generator object, like so:
 
 ```Random rnd = new Random();```
+
 Once that's finished, you can have the computer pick a random integer like this:
 
-```int x = 1 + rnd.nextInt(100);```That picks a random number from 1 to 100 (inclusive) and store it into the variable x. Let's look at some code!
+```int x = 1 + rnd.nextInt(100);```
+That picks a random number from 1 to 100 (inclusive) and store it into the variable x. Let's look at some code!
 
 ```java
 import java.util.Random;
