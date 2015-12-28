@@ -68,3 +68,5 @@ The founder of Java is JamesGosling
 
 ```
 At the top of the program we declare the variables. It's common practice to declare variables at the top of your method or class. Variables declared within a method are visible only within that method. 
+
+A float uses less memory than a double. Floats should not be used for precise values, such as currency. The ```java.math.BigDecimal``` class is intended for currency values since it is more accurate.
