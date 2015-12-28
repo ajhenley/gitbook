@@ -1,48 +1,10 @@
-# Coding arithmetic statements
-<!-- 
-http://introcs.cs.princeton.edu/java/11precedence/
--->
+###Coding arithmetic statements
+
 ####Mathematical Operations
 Now that we know how to declare and initialize variables in Java, we can do some mathematics with those variables.
 
 ```java
- 1 public class MathOperations
- 2 {
- 3     public static void main( String[] args )
- 4     {
- 5         int a, b, c, d, e, f, g;
- 6         double x, y, z;
- 7         String one, two, both;
- 8 
- 9         a = 10;
-10         b = 27;
-11         System.out.println( "a is " + a + ", b is " + b );
-12 
-13         c = a + b;
-14         System.out.println( "a+b is " + c );
-15         d = a - b;
-16         System.out.println( "a-b is " + d );
-17         e = a+b*3;
-18         System.out.println( "a+b*3 is " + e );
-19         f = b / 2;
-20         System.out.println( "b/2 is " + f );
-21         g = b % 10;
-22         System.out.println( "b%10 is " + g );
-23 
-24         x = 1.1;
-25         System.out.println( "\nx is " + x );
-26         y = x*x;
-27         System.out.println( "x*x is " + y );
-28         z = b / 2;
-29         System.out.println( "b/2 is " + z );
-30         System.out.println();
-31 
-32         one = "dog";
-33         two = "house";
-34         both = one + two;
-35         System.out.println( both );
-36     }
-37 }
+
 ```
 
 <h1>What You Should See</h1>
