@@ -129,7 +129,7 @@
    * [Create book class](create_book_class)
    * [Create book database](create_book_database)
    * [Create book app](create_book_app)
-* [Object-Oriented Java - the sequel](object_oriented_java_the_sequel)
+* [Object-Oriented Java - the sequel](objectoriented_java_the_sequel.md)
    * [Line item invoice assignment](lineitem_invoice_assignment.md)
    * [Overriding equals](overriding_equals)
    * [Inheritance](inheritance)
