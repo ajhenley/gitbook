@@ -1,4 +1,5 @@
-# Variables
+<!-- djw:done-->
+###Variables
 
 Programs would be pretty boring if the only thing you could do was print things on the screen. We would like our programs to be interactive.
 
