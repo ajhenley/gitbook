@@ -124,7 +124,7 @@
    * [JUnit Quick Tutorial](junit_quick_tutorial.md)
    * [Different types of testing](different_types_of_testing.md)
 * [Object-Oriented Java](objectoriented_java_md.md)
-   * [Methods example](methods_example)
+   * [Methods example](methodsexample.md)
    * [Modularization with methods](modularization_with_methods)
    * [Object-Orientation](object_orientation)
    * [Create book class](create_book_class)
