@@ -125,7 +125,6 @@
    * [Different types of testing](different_types_of_testing.md)
 * [Object-Oriented Java](objectoriented_java_md.md)
    * [Methods example](methodsexample.md)
-   * [Modularization with methods](modularizationwith_methods.md)
    * [Object-Orientation](object_orientation)
    * [Create book class](create_book_class)
    * [Create book database](create_book_database)
