@@ -81,7 +81,7 @@ An asterisk (*) is used for multiplication.
 
 A slash (/) is used for division. When an integer is divided by another integer the result is also an integer and not a double.
 
-The percent sign (%) is used to mean &lsquo;modulus&rsquo;, which is essentially the remainder left over after dividing. On line 21, <em>b</em> is divided by 10 and the remainder (7) is stored into the variable <em>g</em>.
+The percent sign (%) is used to mean &lsquo;modulus&rsquo;, which is essentially the remainder left over after dividing. 
 
 ####Common Student Questions
 * Why is 1.1 times 1.1 equal to 1.2100000000000002 instead of just 1.21?
