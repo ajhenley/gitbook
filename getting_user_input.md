@@ -1,3 +1,4 @@
+<!-- djw:done -->
 ###Getting and storing user input
 scanner object allows people to input data. It's a simple text scanner which can parse primitive types and strings. 
 
