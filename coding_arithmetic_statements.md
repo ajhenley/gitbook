@@ -72,13 +72,14 @@ one fish two fish red fish blue fish
 one fish two fish red fish blue fish
 ```
 
-The plus sign (+) will add two integers or two doubles together, or one integer and one double (in either order). With two Strings (like on line 34) it will concatenate the two Strings together.
+The plus sign (+) will add integers or doubles together or integers and doubles (in either order). 
+The (+) sign will concatenate the two Strings together.
 
-The minus sign (-) will subtract one number from another. Just like addition, it works with two integers, two doubles, or one integer and one double (in either order).
+The minus sign (-) will subtract one number from another. Just like addition, it works with two integers, two doubles, or one integer and one double (in any order).
 
-An asterisk (*) is used to represent multiplication. You can also see on line 17 that Java knows about the correct order of operations. <em>b</em> is multiplied by 3 giving 81 and then <em>a</em> is added.
+An asterisk (*) is used for multiplication. 
 
-A slash (/) is used for division. Notice that when an integer is divided by another integer (like on line 19) the result is also an integer and not a double.
+A slash (/) is used for division. When an integer is divided by another integer the result is also an integer and not a double.
 
 The percent sign (%) is used to mean &lsquo;modulus&rsquo;, which is essentially the remainder left over after dividing. On line 21, <em>b</em> is divided by 10 and the remainder (7) is stored into the variable <em>g</em>.
 
