@@ -70,7 +70,6 @@
    * [Formatting Strings](formatting_strings.md)
    * [Date formatting](dateformatting.md)
    * [Formatting prices with two decimal places](formattingprices.md)
-   * [Display a calendar at the console(delete)](displaya_calendar_at_the_console.md)
    * [Formatting numbers](formatting_numbers.md)
    * [Scanner assignment](scanner_assignment.md)
    * [Output assignment](output_assignment.md)
