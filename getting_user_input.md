@@ -28,3 +28,7 @@ Because the scanner is only reading the next token the end-of-line(EOL) characte
 
 ####Print allows the program to display the data
 
+
+####Your assignment
+Create a program that prompts the user for their name, their quest and their favorite color. Store the value of each response in a variable. Display the answers after the questions have been asked.
+
