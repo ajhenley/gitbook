@@ -1,6 +1,7 @@
-# Input output change assignment
+###Input output change assignment
 
 This application takes 2 integer values and finds the largest one. Change the application so that it finds the average of two double values.
+
 ```
 import java.util.Scanner;
 
@@ -19,6 +20,6 @@ public class AskingQuestions
 		num2 = keyboard.nextInt();
 
 
-                System.out.println("The max value is : " + Math.max(num1, num2));
+        System.out.println("The max value is : " + Math.max(num1, num2));
         }
 }```
