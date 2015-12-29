@@ -10,7 +10,7 @@ Do you enjoy debugging and tracking down subtle errors? Do you like to bash your
 The regular relational operators do not work with Strings.Only primitives.
 
 ####Do this:
-Fix the following program so it works.Note: In order to keep you on your feet the complete program is not shown. Figure out the rest.
+Fix the following program so it works.Note: To keep you on your feet the complete program is not shown. It's up to you to figure out the rest.
 
 ```java
     public static void main(String []args){
