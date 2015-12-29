@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Comparing strings
 In Java ```ObjectA == ObjectB``` returns true when both objects share the same memory location. ```ObjectA.equals(ObjectB)``` also returns true when both objects share the same memory location. However, ```StringA.equals(StringB)``` returns true when the VALUE of ```StringA``` is the same as the VALUE of ```StringB```, regardless of memory location.
 
@@ -11,6 +12,8 @@ The regular relational operators do not work with Strings.Only primitives.
 
 ####Do this:
 Fix the following program so it works.Note: To keep you on your feet the complete program is not shown. It's up to you to figure out the rest.
+
+Add a line to print "You should stay inside" if the response is "stormy".
 
 ```java
     public static void main(String []args){
