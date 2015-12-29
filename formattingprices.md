@@ -16,3 +16,6 @@ double myDouble = 3.5;
 String formattedData = String.format(%.02f",myDouble);
 ```
 
+
+Using the NumberFormat class
+
