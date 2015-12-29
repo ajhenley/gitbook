@@ -19,7 +19,7 @@ Fix the following program so it works.Note: In order to keep you on your feet th
         System.out.println("How is the weather?");
         String answer = sc.nextLine();
         
-        if (answer.equals("rain"))
+        if (answer == "rain")
             System.out.println("Take your umbrella!");
         else if (answer == "windy")
             System.out.println("Wear your jacket!");
