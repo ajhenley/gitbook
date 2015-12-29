@@ -48,16 +48,10 @@ public class ProjectManagerDecisionMaker {
  ```
 
 
-So we can see that for complicated Boolean expressions you can use parentheses to group things, and you use the symbols &amp;&amp; to mean &ldquo;AND&rdquo; and the symbols || to mean &ldquo;OR&rdquo;.
-
-<blockquote>
-Java syntax is modeled after C++&rsquo;s syntax, which was basically copied from C&rsquo;s syntax, and that was modified from B&rsquo;s syntax, which was invented by Dennis Ritchie and Ken Thompson.</p>
-<p>The programming language <em>B</em> used &amp; to mean &ldquo;AND&rdquo; and | for &ldquo;OR&rdquo;, but they were &ldquo;bitwise&rdquo;: they only worked on two integers and they would walk one bit at a time down the integers doing a bitwise AND or OR on each pair of bits, putting a 1 or 0 in the output for each comparison. (| was probably used because it was mathematical-looking and was a key on the keyboards of the PDP-7 computer that <em>B</em> was originally developed for.)</p>
-<p>When Ken and Dennis started developing the programming language <em>C</em> to replace <em>B</em>, they decided there was a need for a <em>logical</em> &ldquo;AND&rdquo; and &ldquo;OR&rdquo;, and the one-symbol-long things were already taken, so they used two ampersands to represent logical &ldquo;AND&rdquo; and two vertical bars or &ldquo;pipes&rdquo; to represent logical &ldquo;OR&rdquo;.</p>
-</blockquote>
+For complicated Boolean expressions you can use parentheses to group things, and you use the symbols &amp;&amp; to mean &ldquo;AND&rdquo; and the symbols || to mean &ldquo;OR&rdquo;.
 
 
-####truth table for AND:
+####Truth table for AND:
 <table border="1">
 <thead>
 <tr>
@@ -94,7 +88,7 @@ Java syntax is modeled after C++&rsquo;s syntax, which was basically copied from
 </tbody>
 </table>
 
-
+####Truth table for OR:
 <table border="1"><colgroup> <col width="28%" /> <col width="28%" /> <col width="44%" /> </colgroup>
 <thead>
 <tr>
