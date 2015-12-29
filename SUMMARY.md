@@ -67,7 +67,6 @@
    * [Special characters assignment](special_characters_assignment.md)
    * [Creating methods](creating_methods.md)
    * [String formatting example](stringformatting_example.md)
-   * [Formatting Strings](formatting_strings.md)
    * [Date formatting](dateformatting.md)
    * [Formatting prices with two decimal places](formattingprices.md)
    * [Formatting numbers](formatting_numbers.md)
