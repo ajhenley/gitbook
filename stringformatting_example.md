@@ -76,7 +76,7 @@ String formattedString = String.format("Order with OrdId : %d and Amount: %d is 
 }
 ```
 
-
+####String formatting codes
 |**Format Code**|**Description**|
 |-|-|
 |%s|prints the string with no changes|
@@ -84,7 +84,7 @@ String formattedString = String.format("Order with OrdId : %d and Amount: %d is 
 |%-6s|prints the string as it is. Strings less than 6 characters will be padded on the right.|
 |%.8d|prints up to 8 characters of the string.|
 
-####Integer formatting
+####Integer formatting codes
 |**Format Code**|**Description**|
 |-|-|
 |%d|prints the integer with no changes|
