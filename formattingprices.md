@@ -17,5 +17,11 @@ String formattedData = String.format(%.02f",myDouble);
 ```
 
 
-Using the NumberFormat class
+####Using the NumberFormat class
+The NumberFormat class helps you to format and parse numbers or currency values. Since it's an abstract class you must call the getInstance method or some variation of that method.
+ 
+```java
+myString = NumberFormat.getInstance().format(myNumber);
+```
+
 
