@@ -1,5 +1,13 @@
+###Using the NumberFormat class
+The NumberFormat class helps you to format and parse numbers or currency values. Since it's an abstract class you must call the getInstance method or some variation of that method.
+ 
+```java
+myString = NumberFormat.getInstance().format(myNumber);
+```
+
 ###Formatting prices with two decimal places
 You can use the NumberFormat class from the Java API
+
 ```java
 NumberFormat nf = NumberFormat.getInstance();
 nf.setMaximumFractionDigits(2);
@@ -15,13 +23,3 @@ Or you can use String.format. This will also work with printf to print a formatt
 double myDouble = 3.5;
 String formattedData = String.format(%.02f",myDouble);
 ```
-
-
-####Using the NumberFormat class
-The NumberFormat class helps you to format and parse numbers or currency values. Since it's an abstract class you must call the getInstance method or some variation of that method.
- 
-```java
-myString = NumberFormat.getInstance().format(myNumber);
-```
-
-
