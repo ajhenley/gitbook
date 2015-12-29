@@ -75,7 +75,7 @@
    * [Mowing time programming activity](mowing_time_programming_activity.md)
    * [More mowing time](more_mowing_time.md)
    * [Introduction to boolean expressions](introduction_to_boolean_expressions.md)
-   * [Boolean expressions](boolean_expressions.md)
+   * [Boolean decisions](boolean_expressions.md)
    * [Comparing strings](comparing_strings.md)
    * [Compound boolean expressions](compound_boolean_expressions.md)
    * [What if](what_if.md)
