@@ -1,3 +1,4 @@
+<!--rewrite this-->
 # Comparing strings
 
 Comparing Strings
