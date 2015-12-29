@@ -1,33 +1,51 @@
-<h1 class="title">Compound Boolean Expressions</h1>
+###Compound Boolean Expressions
+
+
 <p>Sometimes we want to use logic more complicated than just &ldquo;less than&rdquo; or &ldquo;equal to&rdquo;. Imagine a grandmother who will only approve you dating her grandchild if you are older than 25 <em>and</em> younger than 40 <em>and</em> either rich or really good looking. If that grandmother was a programmer and could convince applicants to answer honestly, her program might look a bit like this:</p>
 
-```
- 1 import java.util.Scanner;
- 2 
- 3 public class ShallowGrandmother
- 4 {
- 5     public static void main( String[] args )
- 6     {
- 7         Scanner keyboard = new Scanner(System.in);
- 8 
- 9         int age;
-10         double income, attractiveness;
-11         boolean allowed;
-12 
-13         System.out.print( "Enter your age: " );
-14         age = keyboard.nextInt();
-15 
-16         System.out.print( "Enter your yearly income: " );
-17         income = keyboard.nextDouble();
-18 
-19         System.out.print( "How attractive are you, on a scale from 0.0 to 10.0? " );
-20         attractiveness = keyboard.nextDouble();
-21 
-22         allowed = ( age > 25 && age < 40 && ( income > 50000 || attractiveness >= 8.5 ) );
-23 
-24         System.out.println( "You are allowed to date my grandchild: " + allowed );
-25     }
-26 }```
+```java
+ import java.util.Scanner;
+
+public class ProjectManagerDecisionMaker {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		boolean bFast = false;
+		boolean bCheap = false;
+		boolean bGood = false;
+		
+		System.out.print("Do you want it fast? (y/n) ");
+		String fast  = scan.nextLine();
+		if (fast.equals("y")){
+			bFast = true;
+		}
+		
+		System.out.print("Do you want it cheap? (y/n) ");
+	    String cheap = scan.nextLine();
+	    if (cheap.equals("y")){
+			bCheap = true;
+		}
+	    
+	    System.out.print("Do you want it to be good? (y/n) ");
+	    String good = scan.nextLine();
+	    if (good.equals("y")){
+			bGood = true;
+		}
+	    
+	    if (bFast != true && bCheap == true && bGood == true)
+	    	System.out.println("OK, we'll make it cheap and good. But it will take a while.");
+	    else if (bFast == true && bCheap !=true && bGood == true)
+	    	System.out.println("OK, we'll make it good and have it to you quickly. But it will cost you!");
+	    else if (bFast == true && bCheap == true && bGood != true)
+	    	System.out.println("Ok, it will be done right away and it won't cost you much but it won't be very good!" );
+	    else
+	    	System.out.println("Sorry, you can only have two.");
+		
+	}
+
+}
+
+ ```
 
 
 <div id="what-you-should-see" class="section">
