@@ -1,3 +1,4 @@
+<!--djw:done but wouldn't hurt to come up with an assignment for this-->
 ###Compound Boolean Expressions
 Sometimes we want to use logic more complicated than just &ldquo;less than&rdquo; or &ldquo;equal to&rdquo;. Project managers are constantly asking for software to be developed. And they want it to be done quickly, for minimal cost and at the highest quality. The rule is: **We can make it fast, cheap or good. Pick two**.
 
