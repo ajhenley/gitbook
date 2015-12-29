@@ -1,7 +1,7 @@
 ###Compound Boolean Expressions
 
 
-<p>Sometimes we want to use logic more complicated than just &ldquo;less than&rdquo; or &ldquo;equal to&rdquo;. Imagine a grandmother who will only approve you dating her grandchild if you are older than 25 <em>and</em> younger than 40 <em>and</em> either rich or really good looking. If that grandmother was a programmer and could convince applicants to answer honestly, her program might look a bit like this:</p>
+<p>Sometimes we want to use logic more complicated than just &ldquo;less than&rdquo; or &ldquo;equal to&rdquo;. Project managers are constantly asking for software to be developed. And they want it to be done quickly, for minimal cost and at the highest quality. The rule is: **We can make it fast, cheap or good. Pick two**.
 
 ```java
  import java.util.Scanner;
