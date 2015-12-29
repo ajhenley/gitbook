@@ -1,7 +1,5 @@
 ###Compound Boolean Expressions
-
-
-<p>Sometimes we want to use logic more complicated than just &ldquo;less than&rdquo; or &ldquo;equal to&rdquo;. Project managers are constantly asking for software to be developed. And they want it to be done quickly, for minimal cost and at the highest quality. The rule is: **We can make it fast, cheap or good. Pick two**.
+Sometimes we want to use logic more complicated than just &ldquo;less than&rdquo; or &ldquo;equal to&rdquo;. Project managers are constantly asking for software to be developed. And they want it to be done quickly, for minimal cost and at the highest quality. The rule is: **We can make it fast, cheap or good. Pick two**.
 
 ```java
  import java.util.Scanner;
