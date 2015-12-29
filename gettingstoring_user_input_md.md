@@ -22,4 +22,15 @@ import java.util.Scanner;
 |String next()|Finds and returns the next complete token<br>from this scanner and returns it as a string;<br>a token is usually ended by whitespace such as a blank or line break.<br>If no token exists, NoSuchElementException is thrown.| 
 |String nextLine()|Returns the rest of the current line, excluding any line separator at the end.| 
 |void close()|Closes the scanner object. 
-  
+
+####Your assignment....
+Complete the following  program. Use the Scanner class to read the following string into variables. 
+Input String: "P Sherman 42 Wallaby Way Sydney"
+Variables: firstInitial,lastName, houseNumber,streetName,streetType,city
+
+```java
+String input = "P Sherman 42 Wallaby Way Sydney"
+System.out.print(firstInitial + " " + lastName + " " + houseNumber + " ");
+System.out.println(streetName + " " + streetType + " " + city);
+```
+ 
