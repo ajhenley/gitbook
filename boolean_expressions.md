@@ -7,21 +7,22 @@ Boolean expressions are most often used in if statements. You test the value of 
 ####Example:
 ```java
 System.out.print("Enter your test score: ");
-score = scan.nextInt();
+		int score = scan.nextInt();
+		char grade = 'F';//I'm not hopeful
 
-if (score > 89)
-    grade = 'A';
-else if (score > 79)
-    grade = 'B';
-else if (score > 69)
-    grade = 'C';
-else 
-    grade = 'F';
+		if (score > 89)
+		    grade = 'A';
+		else if (score > 79)
+		    grade = 'B';
+		else if (score > 69)
+		    grade = 'C';
+		else 
+		    grade = 'F';
 
-if (score > 69)
-    System.out.println("Very good! You don't have to retake the exam!");
-else
-    System.out.println("Did you even look at the book?");
+		if (score > 69)
+		    System.out.println("Very good! You don't have to retake the exam!");
+		else
+		    System.out.println("Did you even look at the book?");
     
 ```
 
@@ -41,5 +42,7 @@ if (x > 3) {
 ```
 
 ####Assignment
+Run the grades example above and change it for my Economics teacher. He had higher standards. An 'A' was 93 and above and a 'B' was 85 to 92. Students failed if they scored below 75.
+
 Write a program that allows the user to enter the length of the three sides of a triangle. The program should then display  whether the triangle is an equilateral triangle or not. If the triangle is not an equilateral triangle then the program should display if the triangle is a right triangle or not. The Pythagorean theorem tells us that the square of one side equals the sum of the squares of the other sides for all right triangles.
 
