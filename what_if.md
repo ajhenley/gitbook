@@ -1,69 +1,45 @@
 # What if
 
 Here is the next Java program you'll enter, which introduces you to the if statement. Type this in, make it run exactly right and then we'll see if your practice has paid off.
-```
-public class WhatIf
-{
-	public static void main( String[] args )
-	{
-		int people = 20;
-		int cats = 30;
-		int dogs = 15;
 
-		if ( people < cats )
-		{
-			System.out.println( "Too many cats!  The world is doomed!" );
-		}
 
-		if ( people > cats )
-		{
-			System.out.println( "Not many cats!  The world is saved!" );
-		}
+|Category|Wind Speed (mph)|
+|-|-|
+|1|74 - 95|
+|2|96 - 110|
+|3|111 - 130|
+|4|131 - 155|
+|5|155 and above|
 
-		if ( people < dogs )
-		{
-			System.out.println( "The world is drooled on!" );
-		}
 
-		if ( people > dogs )
-		{
-			System.out.println( "The world is dry!" );
-		}
+```java
+public class Hurricane {
 
-		dogs += 5;
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.print("How fast was the wind blowing?" );
+		int windSpeed = scan.nextInt();
 
-		if ( people >= dogs )
-		{
-			System.out.println( "People are greater than or equal to dogs." );
-		}
-
-		if ( people <= dogs )
-		{
-			System.out.println( "People are less than or equal to dogs." );
-		}
-
-		if ( people == dogs )
-		{
-			System.out.println( "People are dogs." );
-		}
+        if (windSpeed <  65) 
+        	System.out.println("It was not a hurricane");
+        else if (windSpeed <  96) 
+        	System.out.println("It was a class 1 hurricane");      
+        else if (windSpeed < 111) 
+        	System.out.println("It was a class 2 hurricane");      
+        else if (windSpeed < 131) 
+        	System.out.println("It was a class 3 hurricane");      
+        else if (windSpeed < 155) 
+        	System.out.println("It was a class 4 hurricane");      
+        else
+        	System.out.println("It was a class 5 hurricane");
+ 
 	}
-}```
-What You Should See
-```
-Too many cats! The world is doomed!
-The world is dry!
-People are greater than equal to dogs.
-People are less than equal to dogs.
-People are dogs.
+}
 ```
 
-###What You Should Do on Your Own
-Assignments turned in without these things will receive half credit or less.
-
-In this section, you're going to try to guess what you think the if statement is and what it does.
-
-1. What do you think the if does to the code under it? 
-Put your answer in a comment in the code.
-2. What is the purpose of the curly braces in the if statement?
-Answer in a comment.
-3. Change the values of the variables so that neither message about cats is printed.
+####Your assignment
+For numbers 1 through 100,
+if the number is divisible by 3 print Fizz;
+if the number is divisible by 5 print Buzz;
+if the number is divisible by 3 and 5 (15) print FizzBuzz;
+else, print the number.
