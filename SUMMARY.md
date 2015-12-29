@@ -69,7 +69,6 @@
    * [String formatting example](stringformatting_example.md)
    * [Date formatting](dateformatting.md)
    * [Formatting prices with two decimal places](formattingprices.md)
-   * [Formatting numbers](formatting_numbers.md)
    * [Output assignment](output_assignment.md)
    * [Input output debugging assignment](input_output_debugging_assignment.md)
    * [Input output change assignment](input_output_change_assignment.md)
