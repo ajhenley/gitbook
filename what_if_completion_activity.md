@@ -20,4 +20,5 @@ public class PairProcess {
 		
 	}
 }```
+
 Bonus If the calculated sum is under 1000 it should have a tilde ~ printed next to it.
