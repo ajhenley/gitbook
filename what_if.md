@@ -1,8 +1,9 @@
-# What if
-
+###If
 Here is the next Java program you'll enter, which introduces you to the if statement. Type this in, make it run exactly right and then we'll see if your practice has paid off.
 
+The if statement helps us make decisions and control program flow. In the program below, only one line prints but there are 7 ```System.out.print``` statements. The ```if``` statement ensures that only the correct one is executed.
 
+####Hurricane wind speed chart
 |Category|Wind Speed (mph)|
 |-|-|
 |1|74 - 95|
@@ -38,8 +39,10 @@ public class Hurricane {
 ```
 
 ####Your assignment
-For numbers 1 through 100,
-if the number is divisible by 3 print Fizz;
-if the number is divisible by 5 print Buzz;
-if the number is divisible by 3 and 5 (15) print FizzBuzz;
-else, print the number.
+Write a program to accept an integer from the user. The program should print the integer or  'Fizz','Buzz' or 'FizzBuzz' as indicated by the rules below:
+    For numbers 1 through 100,
+    if the number is divisible by 3 print Fizz;
+    if the number is divisible by 5 print Buzz;
+    if the number is divisible by 3 and 5 (15) print FizzBuzz;
+    else, print the number.
+
