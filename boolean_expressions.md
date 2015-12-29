@@ -43,7 +43,7 @@ if (x > 3) {
 ```
 
 ####Assignment
-Run the grades example above and change it for my Economics teacher. He had higher standards. An 'A' was 93 and above and a 'B' was 85 to 92. Students failed if they scored below 75.
+Enter the grades example above. Modify the program so a student could get a 'D' if they score between 61 and 70. Also, modify the program to print a + or -   after the letter grade based on the last digit of the score. If the last digit is between 1 and 3 then print a - after the grade. If the last digit is 8,9 or 0 then print a + after the grade. Otherwise don't print a + or - if the last digit is between 4 and 7.
 
 Write a program that allows the user to enter the length of the three sides of a triangle. The program should then display  whether the triangle is an equilateral triangle or not. If the triangle is not an equilateral triangle then the program should display if the triangle is a right triangle or not. The Pythagorean theorem tells us that the square of one side equals the sum of the squares of the other sides for all right triangles.
 
