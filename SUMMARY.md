@@ -100,7 +100,7 @@
    * [Invoice application](invoiceapplication.md)
    * [Bonus assignment](bonusassignment.md)
    * [Working with files](working_with_files.md)
-   * Introduction to boolean expressions
+   * [Introduction to boolean expressions](introduction_to_boolean_expressions.md)
 * [Exception Handling](exceptionhandling.md)
    * [Exceptions](exceptions)
    * [Exception Assignment](exception_assignment)
