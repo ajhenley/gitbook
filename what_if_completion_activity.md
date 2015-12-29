@@ -1,7 +1,8 @@
 # What if completion activity
 
-Starting with the code below create a program that will outpout the sum, product and average of num1 and num2.If the calculated sum is over 200, an asterisk should be printed next to the sum.
-```
+Start with the code below and create a program that will output the sum, product and average of num1 and num2. If the calculated sum is over 200, print an asterisk next to the sum.
+
+```java
 import java.util.Scanner;
 
 public class PairProcess {
