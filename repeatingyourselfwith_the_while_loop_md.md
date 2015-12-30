@@ -1,8 +1,7 @@
-# Repeating yourself with the while loop
+###Repeating yourself with the while loop
+You are going to learn how to make sections of your code repeat. This will give you 
 
-<h1 class="page-title">Repeating Yourself with the While Loop</h1>
-  
-    <p>This is one of my favorite exercises, because you are going to learn how to make chunks of code repeat. And if you do that, you will be able to write all sorts of interesting things.</p>
+
 <pre>import java.util.Scanner;
 
 public class EnterPIN {
