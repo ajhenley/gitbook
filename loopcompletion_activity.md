@@ -1,6 +1,6 @@
-# Loop completion activity
-
-<p>The following program should allow the users to input 10 integers and output the total. Please finish it.</p>
+<!--djw:done-->
+###Loop completion activity
+The following program should allow the users to input 10 integers and output the total. Please finish it.
 
 ```java
 import java.util.Scanner;
