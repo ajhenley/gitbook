@@ -49,7 +49,9 @@ Another point of interest is the break statement. Each break statement terminate
 
 
 ####Your assignment
-Write a program using a switch statement to print the month names given the number of days in the month. If the user enters 30 then the program will say: 
+Write a program using a switch statement to print the month names given the number of days in the month. If the user enters 30 then the program will display: 
 "Thirty days has September,April, June, and November"
+
+
 
 
