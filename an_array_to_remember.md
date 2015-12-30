@@ -5,8 +5,7 @@ Create a program that prompts for words and saves those words to a variable. The
 
 Type in the names of the presidents in the order they were elected. When you are done enter the word _history_. Your program should display their names starting with the most recent.
 
-For your convenience the names of the last 
-
-
+For your convenience the names of the last ten presidents are:<br>
+Kennedy, Johnson, Nixon, Ford, Carter, Reagan, Bush, Clinton, Bush, Obama
 
 
