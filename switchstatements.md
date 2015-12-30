@@ -38,14 +38,9 @@ The following code example, SwitchDemo, declares an int named month whose value 
         System.out.println(monthName);
     ```
     
-The default case should always go last.
+You could also display the name of the month with if-then-else statements. You will probably find the switch statement to be more intuitive. An if-then-else statement can test expressions based on ranges of values or conditions. A switch statement tests expressions based on a single value.
 
-You could also display the name of the month with if-then-else statements but you may find the switch statement to be more intuitive and readable.
-
-An if-then-else statement can test expressions based on ranges of values or conditions. But a switch statement tests expressions based only on a single value.
-
-Another point of interest is the break statement. Each break statement terminates the enclosing switch statement. Control flow continues with the first statement following the switch block. The break statements are necessary because without them, statements in switch blocks fall through: All statements after the matching case label are executed in sequence, regardless of the expression of subsequent case labels, until a break statement is encountered. 
-
+Each _break_ statement terminates the enclosing switch statement. Control flow continues with the first statement following the switch block. Break statements are necessary. Without them, statements in switch blocks fall through. Statements after the matching case label are executed in sequence until a _break_ is encountered. Try removing the break statements. 
 
 
 ####Your assignment
