@@ -50,8 +50,9 @@ Write a program using a switch statement to print the month names given the numb
 
 You can have more than one statement in each switch case. Create a program which will prompt the user for a product code and display the price and description of selected product for the _Hole in Ten Golf Company_
 
+
 Code|Description|Price
-|-|-|
+-|-|-
 BALL|Golf Balls (1 dozen)|38.00
 DRV01|Big Bertha Driver|$449.95
 DRV02|Vaporizer Driver|$375.00
@@ -60,6 +61,7 @@ SET01|Project Manager Golf Club Set|$179.00
 SET02|Junior VP Golf Club Set|$225.00
 SET03|Executive Golf Club Set|$299.95
 SET04|CEO Golf Club Set|$374.95
+
 SET05|Chairman of the Board Club Set|$495.00
 
 
