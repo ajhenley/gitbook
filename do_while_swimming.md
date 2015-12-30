@@ -1,9 +1,6 @@
-# Do while swimming
+###Do while swimming
 
- <h1 class="page-title">Do While Swimming</h1>
-  
-    <h3>do-while Swimming</h3>
-<p>So far you have only worked with one type of loop: the <code class="k">while</code> loop. But there is another type: the "do-while" loop.</p>
+So far you have only worked with one type of loop: the <code class="k">while</code> loop. But there is another type: the "do-while" loop.</p>
 <p>The do-while loop works <em>almost</em> exactly like a <code class="k">while</code> loop. In fact, most of the time they are equivalent. Examine the program below to see if you can figure out the tiny difference.</p>
 <p>File:&nbsp;<span class="instructure_file_link_holder link_holder"><a class="" title="DoWhileSwimming.java" href="https://canvas.instructure.com/courses/970783/files/36794442/download?wrap=1" data-api-endpoint="https://canvas.instructure.com/api/v1/courses/970783/files/36794442" data-api-returntype="File">DoWhileSwimming.java</a><a href="https://canvas.instructure.com/courses/970783/files/36794442/download?wrap=1" target="_blank" title="View in a new window" style="padding-left: 5px;"><img src="./Do While Swimming_ Java - Soup to Web - September Cohort_files/popout.png" alt="View in a new window"></a></span></p>
 <pre class="CODE"><strong class="k">import</strong> java.util.<strong class="O">Scanner</strong>;
