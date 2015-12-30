@@ -1,4 +1,4 @@
-# Monopoly dice
+
 <!--redo: generate random password based on diceware algorithm
 http://world.std.com/~reinhold/diceware.html
 
@@ -10,23 +10,3 @@ Create a program that will randomly select two numbers from 1-6 (like rolling tw
 
  
 
- 
-```
-User rolls  2  &  6
-Move 8 Spaces and stop
-User rolls  3  &  3
-DOUBLES!
-Move 6 Spaces and roll again getting...
-User rolls 1 & 2
-Move 3 Spaces and stop```
-
-```
-User rolls  2  &  2
-DOUBLES!
-Move 4 Spaces and roll again getting...
-User rolls 1 & 1
-DOUBLES
-Move 2 Spaces and roll again getting...
-User rolls 6 & 6
-DOUBLES
-GO TO JAIL --->```
