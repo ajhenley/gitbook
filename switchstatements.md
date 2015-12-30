@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Switch statements
 The switch statement allows your program to offer selection among different cases. The switch statement works with byte (or Byte), short (or Short), char (or Character), int (or Integer) and Strings.
 
