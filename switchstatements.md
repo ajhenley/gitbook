@@ -1,7 +1,7 @@
 ###Switch statements
 The switch statement allows your program to offer selection among different cases. The switch statement works with byte (or Byte), short (or Short), char (or Character), int (or Integer) and Strings.
 
-The following code example, SwitchDemo, declares an int named month whose value represents a month. The code displays the name of the month, based on the value of month, using the switch statement.
+The following code example declares an int named month whose value represents a month. The code displays the name of the month, based on the value of month.
 
 ````java
         //This program will print 'May' when you run it.
