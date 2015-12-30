@@ -12,7 +12,7 @@ while (run){
 }
 ```
 
-The do loop is similar to the while loop except the expression isn't evaluated until the loop has run at least once.
+The do-while loop is similar to the while loop except the expression isn't evaluated until the loop has run at least once.
 ```java
 bool run = false;
 do {
