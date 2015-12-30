@@ -1,6 +1,5 @@
 ####Array Processing
 
-
 ####Objective
 * Define the problem by constructing an algorithm using pseudocode
 * Create an IPO diagram showing <strong>input, output, </strong>and<strong> processing steps</strong>
