@@ -1,6 +1,5 @@
-# Loop debugging activity
-
-<p>The following program is supposed to allow the user to input as many things as they want until they stop. Each time it is supposed to repeat what the user said, can you fix it?</p>
+###Loop debugging activity
+The following program should to allow the user to input as many things as they want until they stop. Each time it is supposed to repeat what the user said, can you fix it?
 
 ```java
 import java.util.Scanner;
