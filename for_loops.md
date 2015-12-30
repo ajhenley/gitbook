@@ -1,8 +1,8 @@
-# Counting with for loops
+###Counting with for loops
   
-As you have seen in previous exercises, while loops and do-while loops can be used when you want to repeat a set of instructions.
+As you have seen in previous exercises, while loops and do-while loops are used when you want to repeat a set of instructions.
 
-But loops keep going as long as something is true. What if you want to do something a given number of times and you know the number of interations.Then you want a for loop.
+Those loops keep going as long as something is true. What if you want to do something a given number of times? What if you know the number of iterations? Then you want to use a for loop.
 
 ```java
 import java.util.Scanner;
@@ -13,7 +13,6 @@ public class BartsBlackboardAutomator
     {
         Scanner keyboard = new Scanner(System.in);
 
-        int n;
         String message;
         //whenever Bart Simpson gets in trouble he has to write something on the blackboard. 
         //Now he can use this program to do it for him..... leaving him more time for trouble!
@@ -23,13 +22,14 @@ public class BartsBlackboardAutomator
         
         //Array numbering starts with zero. But we're using a for loop 
         //so we can set the start point and end point to anything we want.
-        for ( n = 1 ; n <= 100 ; n++ )
+        for ( int n = 1 ; n <= 100 ; n++ )
         {
             //The counter variable, n, is within scope inside the loop
             //but not accessible outside the loop
             System.out.println( n + ". " + message );
         }
-        // ERROR! n is not visible
+        // Note: n is not visible outside the for loop in which it was declared
+        // Uncomment the following line to see if this is true
         // System.out.println("value of n = " + n);
         
         
