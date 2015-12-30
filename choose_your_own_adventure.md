@@ -1,18 +1,8 @@
-
-<!-- program with loop and nested if statements, and break statements
-Hole-in-ten Golf Equipment Company needs you to produce an ordering system for their reps to use. The program will prompt for the product code, quantity and calculate the cost according to the table below. Once the user has completed their order as indicated by a product code of 'quit', the program should print the user's invoice.
-
-
--->
-
-
-# Choose your own adventure!
-
+###Choose your own adventure!
 Make a short "Choose Your Own Adventure" game. It should feature two options after the first page, two options for each of the two second-level pages, and two options for each of the four third-level pages, for a total of eight possible destinations.
 
 
-
-WELCOME TO MITCHELL'S TINY ADVENTURE!
+WELCOME TO <YOUR NAME HERE> ADVENTURE!
 
 <pre>
 You are in a creepy house!
