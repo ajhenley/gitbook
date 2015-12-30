@@ -41,12 +41,26 @@ The following code example declares an int named month whose value represents a 
     
 You could also display the name of the month with if-then-else statements. You will probably find the switch statement to be more intuitive. An if-then-else statement can test expressions based on ranges of values or conditions. A switch statement tests expressions based on a single value.
 
-Each _break_ statement terminates the enclosing switch statement. Control flow continues with the first statement following the switch block. Break statements are necessary. Without them, statements in switch blocks fall through. Statements after the matching case label are executed in sequence until a _break_ is encountered. Try removing the break statements. 
+Each _break_ statement terminates the enclosing switch statement. The program continues after the _break_ with the first statement following the switch block. Break statements are necessary. Without them, statements in switch blocks fall through. Statements after the matching case label are executed in sequence until a _break_ is encountered. Try removing the break statements. 
 
 
 ####Your assignment
 Write a program using a switch statement to print the month names given the number of days in the month. If the user enters 30 then the program will display: 
 "Thirty days has September,April, June, and November"
+
+You can have more than one statement in each switch case. Create a program which will prompt the user for a product code and display the price and description of selected product for the _Hole in Ten Golf Company_
+
+Code|Description|Price
+|-|-|
+BALL|Golf Balls (1 dozen)|38.00
+DRV01|Big Bertha Driver|$449.95
+DRV02|Vaporizer Driver|$375.00
+DRV03|Fly-Z Driver|$179.00
+SET01|Project Manager Golf Club Set|$179.00
+SET02|Junior VP Golf Club Set|$225.00
+SET03|Executive Golf Club Set|$299.95
+SET04|CEO Golf Club Set|$374.95
+SET05|Chairman of the Board Club Set|$495.00
 
 
 
