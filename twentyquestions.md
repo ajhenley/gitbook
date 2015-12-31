@@ -1,7 +1,11 @@
-# Twenty questions
+###Twenty questions
+A parlour game is a group game played indoors. During the Victorian era in Great Britain and in the United States, these games were extremely popular among the upper and middle classes. They were often played in a parlour, hence the name.
 
-<p>Make a program which plays a simple game of 20 2 Questions. The first question should be "animal, vegetable, or mineral?" Then, the second question should be "is it bigger than a breadbox?" Then, display one of six possible responses, depending on their answers. You can choose what answers to give for each of the six possibilities.</p>
-<p>Here's a suggestion:</p>
+In the traditional game, one player is chosen to be the answerer. That person chooses a subject (object) but does not reveal this to the others. All other players are questioners. They each take turns asking a question which can be answered with a simple "Yes" or "No." 
+
+Make a program which plays a simple game of Twenty Questions. The first question should be "animal, vegetable, or mineral?" Then, the second question should be "is it bigger than a breadbox?" Then, display one of six possible responses, depending on their answers. You can choose what answers to give for each of the six possibilities.
+
+####Here's a suggestion:
 <table border="1" cellspacing="1">
 <tbody>
 <tr>
