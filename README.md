@@ -1,7 +1,7 @@
 Java Web Development Coding Guide 
 =======
 <center>
-<i>Lessons from the field you can complete<br/>to develop professional web applications<br/>using the most popular programming language<br/>in the world.</i>
+<i>Learn to develop professional web applications<br/>using the most popular programming language<br/>in the world.</i>
 </center>
 <p>&nbsp;<p\>
 <blockquote>
