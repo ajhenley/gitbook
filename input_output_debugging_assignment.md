@@ -1,4 +1,5 @@
-# Input output debugging assignment
+<!--djw:done-->
+###Input output debugging assignment
 
 This application takes three numbers adds them together and outputs the result, or at least it should, can you fix it?
 ```
@@ -20,8 +21,7 @@ public class AskingQuestions
 
 		System.out.print( "Third integer? " );
 		num3 = keyboard.nextDouble();
-
-                System.out.println("The total is : " + (num1 + num2 + num3));
-        }
-}
+    }
+        System.out.println("The total is : " + (num1 + num2 + num3));
+    }
 ```
