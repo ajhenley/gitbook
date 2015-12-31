@@ -86,7 +86,6 @@
    * [Randomness](randomness.md)
    * [A variation on the dice game Pig](pigdice_md.md)
    * [Repeating yourself with the while loop](repeatingyourselfwith_the_while_loop_md.md)
-   * [Twenty questions](twentyquestions.md)
    * [Do while swimming](do_while_swimming.md)
    * [Guessing game](guessinggame.md)
    * [For loops](for_loops.md)
