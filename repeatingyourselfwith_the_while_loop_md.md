@@ -9,7 +9,8 @@ while (expression) {
  // do you thing as long as the expression is true
 }
 ```
-The while loop will never run if the expression isn't true. So if you're reading from a file while the file is open and the file isn't open then the loop won't run. So there are lots of times when the while loop may not even run.
+The while loop will never run if the expression isn't true. There are lots of times when the while loop may not even run.
+
 ```java
 bool run = false;
 while (run){
@@ -24,7 +25,7 @@ import java.util.Scanner;
 public class KeepGuessing {
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
-		int secretNumber,guess;
+		int secretNumber, guess = 0;//guess is initialized to 0
 		
 		secretNumber = 123;
 		
