@@ -1,6 +1,4 @@
 <!--djw: done-->
-# Your first java program
-
 <blockquote>
 A journey of a thousand miles begins with a single step.
    - Laozi
