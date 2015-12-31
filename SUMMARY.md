@@ -84,7 +84,7 @@
    * [What if completion activity](what_if_completion_activity.md)
    * [What if activity](what_if_activity.md)
    * [Randomness](randomness.md)
-   * [Monopoly dice](monopoly_dice.md)
+   * [A variation on the dice game Pig](monopoly_dice.md)
    * [Choose your own adventure!](choose_your_own_adventure.md)
    * [Repeating yourself with the while loop](repeatingyourselfwith_the_while_loop_md.md)
    * [Twenty questions](twentyquestions.md)
