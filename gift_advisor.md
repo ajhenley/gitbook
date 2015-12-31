@@ -6,7 +6,7 @@ Your task is to develop a program that will prompt the user for the recipient's 
 
 Now write a program that will select the perfect gift based on the table below. Feel free to modify the gift list if you wish.
 
-|*Gift*|*Gender*|*Price*|
+|**Gift**|**Gender**|**Price**|
 |-|-|
 |Jewelry|Female|High|
 |Candy|Female|Low|
