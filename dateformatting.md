@@ -12,17 +12,25 @@ The following code will create a Gregorian calendar with a particular date.
 * Year must be a four digit integer
 * Month is an integer from 0 to 11
 * Day must be an integer from 1 to 31
-{%ace edit=true, lang='c_cpp'%}
-```java
+
+{%ace edit=true, lang='java'%}
  GregorianCalendar gc = new GregorianCalendar(2010,2,15);
  System.out.println("Month:" + gc.get(Calendar.MONTH));
  //show the month from the array
  System.out.println("Month:" + months[gc.get(Calendar.MONTH)]);
  System.out.println("Day:" + gc.get(Calendar.DATE));
  System.out.println("Year:" + gc.get(Calendar.YEAR));
-```
 {%endace%}
 
+{%ace edit=true, lang='c_cpp'%}
+// This is a hello world program for C.
+#include <stdio.h>
+
+int main(){
+  printf("Hello World!");
+  return 1;
+}
+{%endace%}
 
 The day of the week is a numeric value from 1 to 7
 
