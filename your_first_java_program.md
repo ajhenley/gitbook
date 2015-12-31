@@ -17,7 +17,7 @@ This exercise teaches you to enter a program. It also teaches you to correctly e
 ###Let's get started...
 Open Eclipse. Create a Java Project called MyFirstJavaProgram. Now create a new class named HelloWorld. In this class, type the following code. It is important to enter the code exactly as written, including capitalization and indentation. I'll explain it line by line.
 
-```java
+{%ace edit=false, lang='java'%}
 public class HelloWorld
  {
     public static void main( String[] args )
@@ -26,7 +26,7 @@ public class HelloWorld
         System.out.println("Today is July 19, 2015. I am alive!");
     }
  }
-```
+{%endace%}
  
 ```public class HelloWorld```
 The first line starts with the word ```public``` followed by a single space then the word ```class``` followed by a single space and then the class name, ```HelloWorld```. The first letter of the class name is capitalized. The class name is made up of multiple words that are not separated by spaces. Each new word starts with a capital letter. Class names always start with a capital letter in Java.
