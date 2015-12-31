@@ -27,7 +27,7 @@ Now write a program that will select the perfect gift based on the table below. 
 
 
 Bonus:
-Add a column to the list for age and change your program to prompt for the age of the recipient.
+Add a column to the list for age and change your program to prompt for the age (adult,teen, child) of the recipient. You'll need to add more gift ideas if this is the case. You should also handle the possibility that you have no gift ideas. In which case just say... get him/her a gift certificate.
 
 
 
