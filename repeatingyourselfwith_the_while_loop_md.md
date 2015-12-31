@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Repeating yourself with the while loop
 You are going to learn how to make sections of your code repeat. This will give you the ability to reuse your code so you don't have to write the same code multiple times.
 
@@ -27,3 +28,8 @@ public class KeepGuessing {
 	}
 }
 {%endace%}
+
+
+####Your assignment
+The while loop will continue until the test condition is true. You can also break out of a while loop by using the keyword ```break```. Modify the above program to exit the while loop after 5 guesses.
+
