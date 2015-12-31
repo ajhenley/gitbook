@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Debug this program
 This program is trying to assign two values to two variables, but if you put it in Eclipse it won't successfully run. Find and fix the error.
 ```java
