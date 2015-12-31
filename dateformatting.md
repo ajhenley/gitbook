@@ -14,20 +14,22 @@ The following code will create a Gregorian calendar with a particular date.
 * Day must be an integer from 1 to 31
 
 {%ace edit=true, lang='java'%}
- GregorianCalendar gc = new GregorianCalendar(2010,2,15);
- System.out.println("Month:" + gc.get(Calendar.MONTH));
- //show the month from the array
- System.out.println("Month:" + months[gc.get(Calendar.MONTH)]);
- System.out.println("Day:" + gc.get(Calendar.DATE));
- System.out.println("Year:" + gc.get(Calendar.YEAR));
+GregorianCalendar gc = new GregorianCalendar(2010,2,15);
+
+System.out.println("Month:" + gc.get(Calendar.MONTH));
+ 
+//show the month from the array
+System.out.println("Month:" + months[gc.get(Calendar.MONTH)]);
+System.out.println("Day:" + gc.get(Calendar.DATE));
+System.out.println("Year:" + gc.get(Calendar.YEAR));
 {%endace%}
 
 The day of the week is a numeric value from 1 to 7
 
-```java
+{%ace edit=true, lang='java'%}
  System.out.print("Day of Week: ");
  System.out.println(gc.get(Calendar.DAY_OF_WEEK));
-```
+{%endace%}
 
 You can display the time if you pass the arguments for hours, minutes, seconds in in the constructor.
 ```java
