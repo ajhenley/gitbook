@@ -2,7 +2,8 @@
     "plugins": [
         "emphasize",
         "comment",
-        "ace"
+        "ace",
+        "sectionx"
     ],
     "pluginsConfig": {}
 }
