@@ -22,16 +22,6 @@ The following code will create a Gregorian calendar with a particular date.
  System.out.println("Year:" + gc.get(Calendar.YEAR));
 {%endace%}
 
-{%ace edit=true, lang='c_cpp'%}
-// This is a hello world program for C.
-#include <stdio.h>
-
-int main(){
-  printf("Hello World!");
-  return 1;
-}
-{%endace%}
-
 The day of the week is a numeric value from 1 to 7
 
 ```java
