@@ -6,3 +6,24 @@ Your task is to develop a program that will prompt the user for the recipient's 
 
 Now write a program that will select the perfect gift based on the table below. Feel free to modify the gift list if you wish.
 
+|*Gift*|*Gender*|*Price*|
+|-|-|
+|Jewelry|Female|High|
+|Candy|Female|Low|
+|Wine|Female|Low|
+|Selfie Stick|Female|Low|
+|Pink Watch|Female|Low|
+|Purfume|Female|Medium|
+|Sweater|Female|Medium|
+|Music Box|Female|Medium|
+|Clothes|Female|Medium|
+|Smart TV|Male|High|
+|Apple Watch|Male|High|
+|Toy Truck|Male|Low|
+|Bike|Male|Low|
+|Books|Male|Low|
+|Shoes|Male|Low|
+|Basketball|Male|Medium|
+|Legos|Male|Medium|
+|Guitar|Male|Medium|
+|Playstation|Male|Medium|
