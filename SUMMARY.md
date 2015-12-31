@@ -100,6 +100,7 @@
    * [An array to remember](an_array_to_remember.md)
    * [Invoice application](invoiceapplication.md)
    * [Bonus assignment](bonusassignment.md)
+   * Finding words with the do-while loop
 * [Exception Handling](exceptionhandling.md)
    * [Exceptions](exceptions)
    * [Exception Assignment](exception_assignment)
