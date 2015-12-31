@@ -85,7 +85,7 @@
    * [What if activity](what_if_activity.md)
    * [Randomness](randomness.md)
    * [A variation on the dice game Pig](pigdice_md.md)
-   * [Making Choices](choose_your_own_adventure.md)
+   * [Making Choices](making_choices)
    * [Repeating yourself with the while loop](repeatingyourselfwith_the_while_loop_md.md)
    * [Twenty questions](twentyquestions.md)
    * [Do while swimming](do_while_swimming.md)
