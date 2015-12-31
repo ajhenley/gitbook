@@ -99,6 +99,7 @@
    * [Invoice application](invoiceapplication.md)
    * [Working with files](working_with_files.md)
    * [Bonus assignment](bonusassignment.md)
+   * Gift Advisor
 * [Exception Handling](exceptionhandling.md)
    * [Exceptions](exceptions)
    * [Exception Assignment](exception_assignment)
