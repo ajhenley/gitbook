@@ -27,6 +27,21 @@ Your receipt will line up if you use only spaces. Tabs are handled differently b
 +--------------------------------------+
 </pre>
 
+<button class="section" target="section1" show="Show Answer" hide="Hide Answer"></button>
+
+<!--sec data-title="Answer" data-id="section1" data-show=false ces-->
+{%ace edit=false, lang='java'%}
+public class HelloWorld
+ {
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello, World!" );
+        System.out.println("Today is July 19, 2015. I am alive!");
+    }
+ }
+{%endace%}
+<!--endsec-->
+
 [Show Sample Answer](https://gist.github.com/LearnByCode/ddca10050bea7abd5461)
 
 
