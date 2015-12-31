@@ -8,7 +8,7 @@ The sequence control structure describes the linear execution of one step after 
 ```
 statement a
 statement b
-statement c</pre>
+statement c
 ```
 A sequence of statements in an algorithm might read:
 ```
