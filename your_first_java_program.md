@@ -69,4 +69,19 @@ Hello, World!
 Today is July 19, 2015. I am alive!
 My name is Alton.
 ```
-[Sample Code](https://gist.github.com/LearnByCode/fa63bcadce002dbe7084)
+
+<button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
+
+<!--sec data-title="Answer" data-id="section1" data-show=false ces-->
+{%ace edit=false, lang='java'%}
+public class HelloWorld
+ {
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello, World!" );
+        System.out.println("Today is July 19, 2015. I am alive!");
+        System.out.println("My name is Alton.");
+    }
+ }
+{%endace%}
+<!--endsec-->
