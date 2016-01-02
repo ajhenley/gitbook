@@ -1,4 +1,5 @@
 <!--djw: done-->
+<!--ajh: done-->
 <blockquote>
 A journey of a thousand miles begins with a single step.
    - Laozi
@@ -10,7 +11,7 @@ Entering instructions for a computer to follow is not easy. You must be very spe
 
 The computer doesn't think. That's your job. It follows the instructions you give it. Exactly.
 
-This exercise teaches you to enter a program. It also teaches you to correctly execute that program. 
+This exercise teaches you to enter a program. It also teaches you to execute that program properly. 
 
 ###Let's get started...
 Open Eclipse. Create a Java Project called MyFirstJavaProgram. Now create a new class named HelloWorld. In this class, type the following code. It is important to enter the code exactly as written, including capitalization and indentation. I'll explain it line by line.
