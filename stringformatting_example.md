@@ -1,8 +1,9 @@
 <!--djw:done-->
+<!--ajh:done-->
 ###Formatting Strings and Numbers
 The program below is self-explanatory. It shows how to format a string in Java using the format method of the String class and System.out.printf. Enter the program below in Eclipse and observe what it does. You can use this page as a reference for formatting strings in future assignments.
 
-```java
+{%ace edit=false, lang='java'%}
 import java.util.Date;
 /**
  * Java program to demonstrate How to format String in Java by using
@@ -74,7 +75,7 @@ String formattedString = String.format("Order with OrdId : %d and Amount: %d is 
  }
  
 }
-```
+{%endace%}
 
 ####String formatting codes
 |**Format Code**|**Description**|
