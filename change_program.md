@@ -3,7 +3,7 @@
 
 By now, you should be comfortable with both writing programs and debugging programs (making a broken program work). This is a new type of assignment. Here we want to take a working program and change it to do something else.
 
-```java
+{%ace edit=false, lang='java'%}
 public class ChangeProgram {
 	public static void main(String[] args) {
 		int x, y, z;
@@ -15,7 +15,8 @@ public class ChangeProgram {
 
 		System.out.println("The product is " + z);
 	}
-}```
+}
+{%endace%}
 
 Change this program to output the product of 5 and 8.75.
 
