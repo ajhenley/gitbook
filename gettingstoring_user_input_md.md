@@ -28,6 +28,7 @@ Complete the following  program. Use the Scanner class to read the following str
 Input String: "P Sherman 42 Wallaby Way Sydney"
 Variables: firstInitial,lastName, houseNumber,streetName,streetType,city
 
+Your output should be handled with this code:
 {%ace edit=false, lang='java'%}
 String input = "P Sherman 42 Wallaby Way Sydney"
 System.out.print(firstInitial + " " + lastName + " " + houseNumber + " ");
