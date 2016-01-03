@@ -3,4 +3,17 @@
 
 Write a basic application with a comment containing your name and age and nothing else. Make sure it runs and has no errors.
 
-[Sample Code](https://gist.github.com/LearnByCode/aa6b07f81b2f5bb14314)
+<button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
+
+<!--sec data-title="Answer" data-id="section1" data-show=false ces-->
+{%ace edit=false, lang='java'%}
+public class MyProgram
+ {
+    public static void main( String[] args )
+    {
+        // My name is Alton
+        // I am 47 years old
+    }
+ }
+{%endace%}
+<!--endsec-->
