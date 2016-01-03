@@ -1,4 +1,5 @@
 <!-- djw:done-->
+<!-- ajh:done-->
 ###Variables
 Programs would be pretty boring if the only thing you could do was print things on the screen. We would like our programs to be interactive. Variables enable our program to save and retrieve data while the program is being used.
 
@@ -7,7 +8,7 @@ Programs would be pretty boring if the only thing you could do was print things 
 * To declare and initialize more than one variable for a single data type in a single statement, use commas to separate the assignments.
 * To identify float values, you must type an f or F after the number. To identify long values, you must type an l or L after the number.
 
-**Variables**: If you paid attention in Algebra class you may recall the concept of variables. So an equation like ```2x + 13 = 25``` allows us to find the value of x. What is x? It's a variable that holds a value. Programming languages have variables, too. The concept is the same:
+**Variables**: If you paid attention in Algebra class you may recall the concept of variable. An equation like ```2x + 13 = 25``` allows us to find the value of x. What is x? It's a variable that holds a value. Programming languages have variables, too. The concept is the same:
 <blockquote>A variable is a name that refers to a memory location that holds a value.</blockquote>
 
 ####Variables in Java have four major differences from math variables:
@@ -42,7 +43,7 @@ int counter = 1;
 ```
 
 ####Examples:
-```java
+{%ace edit=false, lang='java'%}
 double price = 14.95;
 float interestRate = 8.125F;
 long numberOfBytes = 2000L;
@@ -53,12 +54,12 @@ char letter = 'A';
 char letter = 65;
 boolen valid = false;
 int x = 0, y = 0;
-```
+{%endace%}
 
 
 
 
-```java
+{%ace edit=false, lang='java'%}
 /* VariousVaribles - a program to teach us about variables
 */
 public class VariousVariables
@@ -96,7 +97,7 @@ public class VariousVariables
         System.out.println("The founder of Java is " + firstName + lastName );
     }
 }
-```
+{%endace%}
 
 ####What You Should See
 ```
