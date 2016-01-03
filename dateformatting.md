@@ -27,11 +27,12 @@ System.out.println("Year:" + gc.get(Calendar.YEAR));
 The day of the week is a numeric value from 1 to 7
 
 {%ace edit=true, lang='java'%}
- System.out.print("Day of Week: ");
- System.out.println(gc.get(Calendar.DAY_OF_WEEK));
+System.out.print("Day of Week: ");
+System.out.println(gc.get(Calendar.DAY_OF_WEEK));
 {%endace%}
 
-You can display the time if you pass the arguments for hours, minutes, seconds in in the constructor.
+<!-- we haven't discussed what a constructor is yet!!! -->>
+You can display the time if you pass the arguments for hours, minutes, seconds in the call to Gregorian Calendar.
 ```java
  GregorianCalendar gc = new GregorianCalendar(2010,2,15,15,30,0);
  
