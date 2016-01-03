@@ -1,14 +1,14 @@
  <!-- djw:done --> 
  ###Getting and storing user input 
-The Scanner object allows people to input data. It's a simple text scanner which can parse primitive types and strings.  
+The Scanner object allows people to input data. It captures all the input on a standard input (like the keyboard) and delivers it to a variable.  
   
 A Scanner scans the input by tokens using a delimiter pattern. The default delimiter is a space. The scanner reads the input token by token. The resulting tokens may be converted into values of different types using various methods. 
 
 ####To include the Scanner class in your program 
 Add the following declaration to the top of your code: 
-```java 
+{%ace edit=false, lang='java'%}
 import java.util.Scanner; 
-``` 
+{%endace%}
   
  ####Methods of the Scanner class 
   
@@ -28,9 +28,9 @@ Complete the following  program. Use the Scanner class to read the following str
 Input String: "P Sherman 42 Wallaby Way Sydney"
 Variables: firstInitial,lastName, houseNumber,streetName,streetType,city
 
-```java
+{%ace edit=false, lang='java'%}
 String input = "P Sherman 42 Wallaby Way Sydney"
 System.out.print(firstInitial + " " + lastName + " " + houseNumber + " ");
 System.out.println(streetName + " " + streetType + " " + city);
-```
+{%endace%}
  
