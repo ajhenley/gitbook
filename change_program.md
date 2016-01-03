@@ -21,3 +21,23 @@ public class ChangeProgram {
 Change this program to output the product of 5 and 8.75.
 
 [View Sample Answer](https://gist.github.com/LearnByCode/bb9979170d656ccebb5e)
+
+<button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
+
+<!--sec data-title="Answer" data-id="section1" data-show=false ces-->
+{%ace edit=false, lang='java'%}
+public class ChangeProgram {
+    public static void main(String[] args) {
+        int x;
+        double y, z;
+
+        x = 5;
+        y = 8.75;
+
+        z = x * y;
+
+        System.out.println("The product is " + z);
+    }
+}
+{%endace%}
+<!--endsec-->
