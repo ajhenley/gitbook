@@ -21,7 +21,6 @@ public class ChangeProgram {
 
 Change this program to output the product of 5 and 8.75.
 
-[View Sample Answer](https://gist.github.com/LearnByCode/bb9979170d656ccebb5e)
 
 <button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
 
