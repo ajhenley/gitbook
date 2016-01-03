@@ -22,7 +22,7 @@ name and/or description of the program as well as the programmer's name and the
 date the program was written.
 
 ####Here's how you use comments in Java:
-```java
+{%ace edit=false, lang='java'%}
 /*
 *  Comments Example Program
 *  Dave Wolf
@@ -41,7 +41,7 @@ public class CommentsEverywhere
         System.out.println( "This line also prints just fine." );
     }
 }
-```
+{%endace%}
 
 
 Programs should be written for people to read. Your code will spend most of its life in maintenance mode. That means a lot of your coworkers - some who may not even be born yet - will have the pleasure of maintaining your program. It's up to you to make sure it's a pleasure.
@@ -58,7 +58,7 @@ The practitioner of literate programming can be regarded as an essayist, whose m
 * If you need information about Random or Scanner then search Oracle's online documentation. There you will find explanations about each.
 * Your next assignment is to continue adding comments to your programs as you complete this course
 
-```java
+{%ace edit=false, lang='java'%}
 /*
 *
 */
@@ -95,6 +95,5 @@ public class Main
         } while (guessedNumber != randomNumber);
     }
 }
-
-```
+{%endace%}
 
