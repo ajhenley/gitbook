@@ -9,6 +9,8 @@ Bob has a lawn service business. Bob estimates that he can mow 1 sq yard of lawn
 
 <!--sec data-title="Answer" data-id="section1" data-show=false ces-->
 {%ace edit=false, lang='java'%}
+import java.util.Scanner;
+
 public class MowingTime
 {
   public static void main( String[] args )
