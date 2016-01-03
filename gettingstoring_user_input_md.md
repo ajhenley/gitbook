@@ -41,10 +41,32 @@ Variables: firstInitial,lastName, houseNumber,streetName,streetType,city
 
 Your output should be handled with this code:
 {%ace edit=false, lang='java'%}
-String input = "P Sherman 42 Wallaby Way Sydney"
 System.out.print(firstInitial + " " + lastName + " " + houseNumber + " ");
 System.out.println(streetName + " " + streetType + " " + city);
 {%endace%}
  
  
+<button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
+
+<!--sec data-title="Answer" data-id="section1" data-show=false ces-->
+{%ace edit=false, lang='java'%}
+import java.util.Scanner;
+
+public class GettingInput {
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		
+		String firstInitial = keyboard.next();
+		String lastName = keyboard.next();
+		int houseNumber = keyboard.nextInt();
+		String streetName = keyboard.next();
+		String streetType = keyboard.next();
+		String city = keyboard.next();
+		
+		System.out.print(firstInitial + " " + lastName + " " + houseNumber + " ");
+		System.out.println(streetName + " " + streetType + " " + city);
+	}
+}
+{%endace%}
+<!--endsec-->
  
