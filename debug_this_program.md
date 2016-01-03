@@ -1,7 +1,7 @@
 <!--djw:done-->
 ###Debug this program
 This program is trying to assign two values to two variables, but if you put it in Eclipse it won't successfully run. Find and fix the error.
-```java
+{%ace edit=false, lang='java'%}
 public class DebugProg {
 	public static void main(String[] args) {
 		int x, y;
@@ -13,6 +13,6 @@ public class DebugProg {
 		System.out.println("My GPA was " + y);
 	}
 }
-```
+{%endace%}
 
 [Check the answer](https://gist.github.com/LearnByCode/f8d300aa1ea2cd120652)
