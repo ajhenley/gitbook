@@ -1,4 +1,5 @@
 <!--djw:done--->
+<!--ajh:done-->
 ###Creating methods
 A method is a program's way of outsourcing the work to some other block of code. 
 
@@ -10,7 +11,7 @@ As in life, I couldn't possibly keep track of everything. I don't have all the t
 
 Let's face it. If I tried to fix it then it wouldn't have taken fifteen minutes. And I would have had to call Gary anyway. I've assigned some of my work to Gary. How does this concept work in a program?
 
-```java 
+{%ace edit=false, lang='java'%}
 public class MyWifeSaysFixIt {
 
 	public static void main(String[] args) 
@@ -38,6 +39,6 @@ public class MyWifeSaysFixIt {
 		return true;
 	}
 }
-```
+{%endace%}
 
 Sometimes you just need to pass the buck. In upcoming topics you'll do just that. And you'll find this makes your code more manageable and easy to follow.
