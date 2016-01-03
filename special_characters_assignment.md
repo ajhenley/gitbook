@@ -44,5 +44,5 @@ public class SpecialCharacters {
 {%endace%}
 <!--endsec-->
 
-Need it explained? Then watch the video walkthrough...
+Need it explained? Then watch the video walkthrough...<br />
 [Video Walkthrough - http://links.learningbycoding.com/specialchars](https://ajhenley.wistia.com/medias/hgvfnibluf)
