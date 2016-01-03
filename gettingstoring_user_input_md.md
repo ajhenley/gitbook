@@ -10,6 +10,17 @@ Add the following declaration to the top of your code:
 import java.util.Scanner; 
 {%endace%}
   
+Then, at some point, you will need to add this inside your program 
+{%ace edit=false, lang='java'%}
+Scanner keyboard = new Scanner(System.in);
+{%endace%}
+
+Once you have created your scanner variable, you can request data and put it into another variable like so:
+{%ace edit=false, lang='java'%}
+Scanner keyboard = new Scanner(System.in);
+String myAnswer = keyboard.next();
+{%endace%}
+
  ####Methods of the Scanner class 
   
 
