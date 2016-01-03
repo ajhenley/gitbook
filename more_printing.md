@@ -1,7 +1,7 @@
 <!-- djw: done -->
 # More Printing
 
-Let's get used to printing. Write a program that prints and ATM receipt for Evil Bank. An example is below. Your can look slightly different but try to line up the borders and the margins of the text as much as possible
+Let's get used to printing. Write a program that prints and ATM receipt for Java Bank. An example is below. Your can look slightly different but try to line up the borders and the margins of the text as much as possible
 
 The borders of the receipt are made up of the dash which is between the ```0``` and ```=``` keys. And the ```|``` pipe character which is above the ```[Enter]``` key. You create a ```|``` by holding ```[shift]``` + ```\```.
 
@@ -10,9 +10,9 @@ Your receipt will line up if you use only spaces. Tabs are handled differently b
 
 <pre>
 +--------------------------------------+
-|      Evil Bank ATM Receipt           |
+|      Java Bank ATM Receipt           |
 |      Wednesday, December 2, 2015     |
-|      ATM Location # 666             |
+|      ATM Location # 123             |
 |                                      |
 |                                      |
 |      Account Number:      1234567    |
@@ -22,7 +22,7 @@ Your receipt will line up if you use only spaces. Tabs are handled differently b
 |      Account Balance:   $1,500.00    |
 |                                      |
 |      Thank you for banking with us   |
-|             Have an evil day         |
+|            Have a coffee day         |
 |                                      |
 +--------------------------------------+
 </pre>
@@ -36,9 +36,9 @@ public class PrintReceipt
     public static void main( String[] args )
     {
         System.out.println( "+--------------------------------------+");
-        System.out.println( "|      Evil Bank ATM Receipt           |");
+        System.out.println( "|      Java Bank ATM Receipt           |");
         System.out.println( "|      Wednesday, December 2, 2015     |");
-        System.out.println( "|      ATM Location # 666              |");
+        System.out.println( "|      ATM Location # 123              |");
         System.out.println( "|                                      |");
         System.out.println( "|                                      |");
         System.out.println( "|      Account Number:      1234567    |");
@@ -48,7 +48,7 @@ public class PrintReceipt
         System.out.println( "|      Account Balance:   $1,500.00    |");
         System.out.println( "|                                      |");
         System.out.println( "|      Thank you for banking with us   |");
-        System.out.println( "|             Have an evil day         |");
+        System.out.println( "|            Have a coffee day         |");
         System.out.println( "|                                      |");
         System.out.println( "+--------------------------------------+");
     }
