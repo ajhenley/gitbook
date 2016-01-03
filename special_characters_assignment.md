@@ -1,9 +1,10 @@
 <!-- djw: done -->
+<!--ajh:done-->
 # Special characters assignment
 
 This application doesn't work...
 
-```java
+{%ace edit=false, lang='java'%}
 public class SpecialCharacterProgram {
     String message1, message2;
     
@@ -13,13 +14,35 @@ public class SpecialCharacterProgram {
     System.out.println(message1 + message2);
             
 }
-```
+{%endace%}
+
 This is more difficult than you think unless you work through it methodically. 
 Fix the variables message1 and message2 so the program prints the following:
+
 ```
 message1 = \/\/\/\/\/\r\t\b
 message2 = ";
 ```
+
 You should not add any new lines of code. In other words, do not add additional System.out.println() statements. You can do it. The world believes in you!
 
-[Sample Answer](https://gist.github.com/LearnByCode/ac72c90a72fb94500727) | [Video Walkthrough](https://ajhenley.wistia.com/medias/hgvfnibluf)
+
+<button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
+
+<!--sec data-title="Answer" data-id="section1" data-show=false ces-->
+{%ace edit=false, lang='java'%}
+public class SpecialCharacters {
+	public static void main(String[] args) {
+	    String message1, message2;
+
+	    message1 ="message1 = \\/\\/\\/\\/\\/\\r\\t\\b ";
+	    message2 = "\nmessage2 = \";";
+
+	    System.out.println(message1 + message2);
+	}
+}
+{%endace%}
+<!--endsec-->
+
+Need it explained? Then watch the video walkthrough...
+[Video Walkthrough](https://ajhenley.wistia.com/medias/hgvfnibluf)
