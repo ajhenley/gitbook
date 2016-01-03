@@ -1,7 +1,7 @@
 <!-- djw: done -->
 ####Comments
 
-Newsflash: Your memory doesn't work. If you don't believe me then find a program you've written over 6 months or a year ago. Now go through it line by line. Explain to another person the reasons for each line of code in the program. 
+**Newsflash**: Your memory doesn't work. If you don't believe me then find a program you've written over 6 months or a year ago. Now go through it line by line. Explain to another person the reasons for each line of code in the program. 
 
 Try doing that with somebody's else's program. 
 
@@ -17,9 +17,9 @@ What kind of programmer do you want to be?
 Some programmers will comment out a line of code temporarily while they debug the remaining lines. This enables you to focus on what matters and selectively ignore parts of your program.
 
 **Block comments**
-Block Comments are shown at the top fo the program and they generally contain the 
-name and/or description of the program as well as the programmer and
-the date of the program.
+Block Comments are shown at the top of the program and they generally contain the 
+name and/or description of the program as well as the programmer's name and the 
+date the program was written.
 
 ####Here's how you use comments in Java:
 ```java
