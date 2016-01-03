@@ -3,5 +3,16 @@
 
 Write a Java program that assigns your name to a variable and prints the variable to the console.
 
-[Sample Answer](https://gist.github.com/LearnByCode/ad0579dc1b6605b4caa5) | 
-[Video Walkthrough](https://ajhenley.wistia.com/medias/2y12vckf8a)
+
+<button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
+
+<!--sec data-title="Answer" data-id="section1" data-show=false ces-->
+{%ace edit=false, lang='java'%}
+public class StringAssignment {
+	public static void main(String[] args) {
+		String name = "Alton";
+		System.out.print(name);
+	}
+}
+{%endace%}
+<!--endsec-->
