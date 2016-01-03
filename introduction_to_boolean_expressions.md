@@ -12,50 +12,50 @@ a string a characters, hold words, phrases, symbols, sentences, whatever
 But in the words of Yoda: “There is another.” 
 A “Boolean” variable (named after the mathematician George Boole) cannot hold numbers or words. It can only store one of two values: true or false. That’s it. We can use them to perform logic. To the code!
 
-```java
- 1 import java.util.Scanner;
- 2 
- 3 public class BooleanExpressions
- 4 {
- 5     public static void main( String[] args )
- 6     {
- 7         Scanner keyboard = new Scanner(System.in);
- 8 
- 9         boolean a, b, c, d, e, f;
-10         double x, y;
-11 
-12         System.out.print( "Give me two numbers. First: " );
-13         x = keyboard.nextDouble();
-14         System.out.print( "Second: " );
-15         y = keyboard.nextDouble();
-16 
-17         a = (x <  y);
-18         b = (x <= y);
-19         c = (x == y);
-20         d = (x != y);
-21         e = (x >  y);
-22         f = (x >= y);
-23 
-24         System.out.println( x + " is LESS THAN " + y + ": " + a );
-25         System.out.println( x + " is LESS THAN or EQUAL TO " + y + ": " + b );
-26         System.out.println( x + " is EQUAL TO " + y + ": " + c );
-27         System.out.println( x + " is NOT EQUAL TO " + y + ": " + d );
-28         System.out.println( x + " is GREATER THAN " + y + ": " + e );
-29         System.out.println( x + " is GREATER THAN or EQUAL TO " + y + ": " + f );
-30         System.out.println();
-31 
-32         System.out.println( !(x < y) + " " + (x >= y) );
-33         System.out.println( !(x <= y) + " " + (x > y) );
-34         System.out.println( !(x == y) + " " + (x != y) );
-35         System.out.println( !(x != y) + " " + (x == y) );
-36         System.out.println( !(x > y) + " " + (x <= y) );
-37         System.out.println( !(x >= y) + " " + (x < y) );
-38 
-39     }
-40 }
-```
+{%ace edit=false, lang='java'%}
+import java.util.Scanner;
+ 
+public class BooleanExpressions
+{
+  public static void main( String[] args )
+  {
+    Scanner keyboard = new Scanner(System.in);
+ 
+    boolean a, b, c, d, e, f;
+    double x, y;
+ 
+    System.out.print( "Give me two numbers. First: " );
+    x = keyboard.nextDouble();
+    System.out.print( "Second: " );
+    y = keyboard.nextDouble();
+ 
+    a = (x <  y);
+    b = (x <= y);
+    c = (x == y);
+    d = (x != y);
+    e = (x >  y);
+    f = (x >= y);
+ 
+    System.out.println( x + " is LESS THAN " + y + ": " + a );
+    System.out.println( x + " is LESS THAN or EQUAL TO " + y + ": " + b );
+    System.out.println( x + " is EQUAL TO " + y + ": " + c );
+    System.out.println( x + " is NOT EQUAL TO " + y + ": " + d );
+    System.out.println( x + " is GREATER THAN " + y + ": " + e );
+    System.out.println( x + " is GREATER THAN or EQUAL TO " + y + ": " + f );
+    System.out.println();
+ 
+    System.out.println( !(x < y) + " " + (x >= y) );
+    System.out.println( !(x <= y) + " " + (x > y) );
+    System.out.println( !(x == y) + " " + (x != y) );
+    System.out.println( !(x != y) + " " + (x == y) );
+    System.out.println( !(x > y) + " " + (x <= y) );
+    System.out.println( !(x >= y) + " " + (x < y) );
+    }
+}
+{%endace%}
 
-What You Should See
+
+#####What You Should See
 ```
 Give me two numbers. First: 3
 Second: 4
