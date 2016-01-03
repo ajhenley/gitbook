@@ -6,7 +6,7 @@ A boolean variable can hold one of two values: true or false. A boolean expressi
 Boolean expressions are often used when making decisions. This means you'll want to be comfortable using boolean expressions in if statements. To do this you test the value of an expression. Use that value to determine where your program goes.
 
 ####Example:
-```java
+{%ace edit=false, lang='java'%}
 System.out.print("Enter your test score: ");
 		int score = scan.nextInt();
 		char grade = 'F';//I'm not hopeful
@@ -25,7 +25,7 @@ System.out.print("Enter your test score: ");
 		else
 		    System.out.println("Did you even look at the book?");
     
-```
+{%endace%}
 
 ####Saying No!
 You can negate a boolean expression with the ```!``` operator.
@@ -34,13 +34,13 @@ You can negate a boolean expression with the ```!``` operator.
 In an if statement the legal expression is a boolean. Some programming languages allow you to use 1 for true or 0 for false. Not Java. Java requires an expression which evaluates to true or false. ```if (1)``` is not legal but ```if (1==1)``` is legal.
 
 ####An example
-```java
+{%ace edit=false, lang='java'%}
 if (x > 3) {
     System.out.println("x is greater than 3");
 }else{
     System.out.println("x is less than or equal to 3");
 }
-```
+{%endace%}
 
 ####Assignment
 Enter the grades example above. Modify the program so a student could get a 'D' if they score between 61 and 70. Also, modify the program to print a + or -   after the letter grade based on the last digit of the score. If the last digit is between 1 and 3 then print a - after the grade. If the last digit is 8,9 or 0 then print a + after the grade. Otherwise don't print a + or - if the last digit is between 4 and 7. Change the output to print the student's grade.
