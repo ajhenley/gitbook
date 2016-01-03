@@ -15,4 +15,20 @@ public class DebugProg {
 }
 {%endace%}
 
-[Check the answer](https://gist.github.com/LearnByCode/f8d300aa1ea2cd120652)
+
+<button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
+
+<!--sec data-title="Answer" data-id="section1" data-show=false ces-->
+{%ace edit=false, lang='java'%}
+public class DebugProg {
+    public static void main(String[] args) {
+        double x, y;
+
+        x = 3.1415;
+        y = 3.64;
+
+        System.out.println("pi is approximately " + x);
+        System.out.println("My GPA was " + y);
+    }
+}
+{%endace%}
