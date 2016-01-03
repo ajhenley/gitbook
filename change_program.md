@@ -1,4 +1,5 @@
 <!--djw:done-->
+<!--ajh:done-->
 ###Change program
 
 By now, you should be comfortable with both writing programs and debugging programs (making a broken program work). This is a new type of assignment. Here we want to take a working program and change it to do something else.
