@@ -3,7 +3,7 @@
 ####Mathematical Operations
 Now that we know how to declare and initialize variables in Java, we can do some mathematics with those variables.
 
-```java
+{%ace edit=false, lang='java'%}
 public class DoingMath
 {
     public static void main( String[] args )
@@ -52,7 +52,7 @@ public class DoingMath
         									one, two, red, blue);
     }
 }
-```
+{%endace%}
 
 ####What You Should See
 ```
