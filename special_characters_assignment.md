@@ -45,4 +45,4 @@ public class SpecialCharacters {
 <!--endsec-->
 
 Need it explained? Then watch the video walkthrough...
-[Video Walkthrough](https://ajhenley.wistia.com/medias/hgvfnibluf)
+[Video Walkthrough - http://links.learningbycoding.com/specialchars](https://ajhenley.wistia.com/medias/hgvfnibluf)
