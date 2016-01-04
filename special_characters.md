@@ -15,7 +15,7 @@ Escape Sequence|Description
 \\	|Insert a backslash character in the text at this point.
 
 
-####Write a Java program to print a box, an oval, and a diamond using asterisks.
+####Write a Java program to print a box, an oval, or a diamond (choose one) using asterisks.
 
 ```
 ********
@@ -71,7 +71,7 @@ ______________________________
 TOTAL:      12      $4,400.00
 ```
 
-####Write a Java program to print the escape sequences to the console.
+####Write a Java program to print the escape sequences table below to the console.
 ```
 \t	Insert a tab in the text at this point.
 \b	Insert a backspace in the text at this point.
