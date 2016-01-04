@@ -1,7 +1,4 @@
-<!--djw:done
-Note: the solution requires three nested if statements. If this is too complex then could remove price column to simplify the solution. Also, I have not yet checked if I have at least one gift for every if statement.
-
--->
+<!--djw:done-->
 ###Gift Advisor
 
 Everybody wants to give a unique gift that will be remembered year-round. Yet, when that special occasion comes around our minds go blank and we forget what our recipients want. Thus we end up giving ties, scarves and candles that eventually get re-gifted.
