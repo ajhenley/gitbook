@@ -65,5 +65,5 @@ public class WorkingWithFiles {
 {%endace%}
 
 ####Your assignment
-Create a program that will prompt for 15 temperatures and save the temperatures to a file.
+Create a program that will prompt for 15 temperatures and save the temperatures to a file. Then read the temperatures from the file.
 
