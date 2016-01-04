@@ -91,10 +91,10 @@ public class Calculator {
 		mp = getMonthlyPayment(l, i, trm);
 		b = -(mp * (trm * 12));
 		System.out.format("%-30s$%-+10.2f%n", "Amount owed to bank:", balance);
-		System.out.format("%-30s$%-10.2f%n", "Minimum monthly payment:", monthlyPayment);
+		System.out.format("%-30s$%-10.2f%n", "Minimum monthly payment:", mp);
 	}
 
-	public static double getMonthlyPayment(double l, double i, int trm) {
+	public static double calculatePayment(double l, double i, int trm) {
 		double rate = (i / 100) / 12;
 		double base = (rate + 1);
 		int months = trm * 12;
