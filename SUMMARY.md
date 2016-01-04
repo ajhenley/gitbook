@@ -101,7 +101,7 @@
    * [Invoice application](invoiceapplication.md)
    * [Bonus assignment](bonusassignment.md)
    * [What does this code do? Part 1](what_does_this_code_do_part_1.md)
-   * What does this code do? Part 2
+   * [What does this code do? Part 2](what_does_this_code_do_part_2.md)
 * [Exception Handling](exceptionhandling.md)
    * [Exceptions](exceptions)
    * [Exception Assignment](exception_assignment)
