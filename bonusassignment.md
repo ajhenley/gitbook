@@ -1,7 +1,5 @@
 ###Bonus assignment
 
-Use the information from the assignment at Reading and Writing to a File to make your Magic 8 Ball assignment save it's history from a file. And also read the history from the file when it starts. So you will have an endless history.
+In this assignment you will write a program to implement the bubble sort. We saw the bubble sort in the algorithm's section but here is the pseudo code for it. Your task is to prompt the user for a word. Use the last names of the presidents. Save the list to a file. Next, read the file into an array and use the bubble sort algorithm to sort the file. Finally, print the sorted file to the screen.
 
-Your history file should contain a list of questions and answers.
 
-Secondly, if the user asks the same question again then be sure you give them the same response.
