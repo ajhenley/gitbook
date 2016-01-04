@@ -100,7 +100,7 @@
    * [An array to remember](an_array_to_remember.md)
    * [Invoice application](invoiceapplication.md)
    * [Bonus assignment](bonusassignment.md)
-   * What does this code do? Part 1
+   * [What does this code do? Part 1](what_does_this_code_do_part_1.md)
    * What does this code do? Part 2
 * [Exception Handling](exceptionhandling.md)
    * [Exceptions](exceptions)
