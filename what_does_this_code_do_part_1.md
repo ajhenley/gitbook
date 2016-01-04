@@ -1,18 +1,20 @@
 # What does this code do? Part 1
 
 /*
- * Eden Ghirmai
- * CheckPalindrome.java
+ * PalindromeTester.java
  * 
- * Checks if the string entered by the user is a palindrome. 
- * That is that it reads the same forwards as backwards like "racecar"
+ * Tests a string as entered by the user 
+ * to see whether or not it is a palindrome or not.
+ * A palindrome would be the same string forwards 
+ * as it is backwards.
+ * Examples: Anna, civic and of, course:
+ * A man a plan a canal Panama.
  */
-
 import java.util.*;
 
-public class CheckPalindrome {
+public class PalindromeTester {
 	public static void main(String[] args) {
-		// Data will come from the user at the keyboard
+		// The palindrome will be entered by the user at the keyboard
 		Scanner in = new Scanner(System.in);
 		
 		System.out.println("Palindrome Checker");
