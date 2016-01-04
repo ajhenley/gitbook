@@ -2,12 +2,12 @@
 
 The do-while loop is like the while loop except the expression isn't evaluated until the loop has run at least once. A do-while loop will always run at least one time. Within the loop you need to change the value of the expression or the loop will run forever.
 
-```java
+{%ace edit=true, lang='java'%}
 bool run = false;
 do {
     //this code would run once but that's it.
 }while (run);
-```
+{%endace%}
 
 ####Your assignment
 We're going to look for a word to see if it is in the UNIX dictionary. Words is a standard file on all UNIX and Linix computers. It is a newline-delimited list of dictionary words. It is often used  by spell-checking programs.
