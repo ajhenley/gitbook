@@ -1,5 +1,4 @@
 <!--djw:done-->
-
 ###Invoice reporting application
 
  Create an application that allows the user to enter the following information:
