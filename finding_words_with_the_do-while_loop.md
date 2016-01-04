@@ -7,6 +7,11 @@ bool run = false;
 do {
     //this code would run once but that's it.
 }while (run);
+
+run = true;
+do {
+    //this code would fun forever - it's called an endless loop. 
+}while (run);
 {%endace%}
 
 ####Your assignment
