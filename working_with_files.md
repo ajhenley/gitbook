@@ -31,7 +31,8 @@ public class WorkingWithFiles {
 			PrintWriter pw = new PrintWriter(file);
 			
 			Scanner keyboard = new Scanner(System.in);
-			System.out.println("Enter the name of your favorite movies. Press 'q' to quit:");
+			System.out.print("Enter the name of your favorite movies.");
+			System.out.println("Press 'q' to quit:");
 			String result = keyboard.nextLine();
 			if (!result.equals("q")){
 				pw.println(result);
@@ -62,4 +63,7 @@ public class WorkingWithFiles {
 	}
 }
 {%endace%}
+
+####Your assignment
+Create a program that will prompt for 15 temperatures and save the temperatures to a file.
 
