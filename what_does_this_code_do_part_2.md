@@ -35,17 +35,17 @@ public class Mortgage {
 	/**
 	 * Calculate the monthly payment of a loan.
 	 * 
-	 * @param loan Amount borrowed
-	 * @param interestRate Interest rate on the loan
-	 * @param term Repayment term in years 
-	 * @return The monthly payment of a loan given interest rate, amount and term 
+	 * @param amt: Amount borrowed for Load
+	 * @param interestRate: Interest rate on the loan
+	 * @param term: Repayment term in years 
+	 * @returns The monthly payment of a loan given the interest rate, amount and term (years) 
 	 */
-	public static double getMonthlyPayment(double loan, double interestRate, double term) {
+	public static double getMonthlyPayment(double amt, double interestRate, double term) {
 		double rate = (interestRate / 100) / 12;
 		double base = (rate + 1);
 		double months = term * 12;
 		double result = 0;
-		result = loan * (rate * (Math.pow(base, months)) / ((Math.pow(base, months)) - 1)); 
+		result = amt * (rate * (Math.pow(base, months)) / ((Math.pow(base, months)) - 1)); 
 		
 		return result;
 	}
@@ -82,7 +82,7 @@ public class Calculator {
 		System.out.printf("Enter the interest rate on the loan: ");
 		i = keyboard.nextDouble();
 		
-		System.out.printf("Enter the term(years) for the loan payment: ");
+		System.out.printf("Enter the term (in years) for the loan payment: ");
 		trm = keyboard.nextInt();
 		
 		System.out.printf("\n================================================================\n");
