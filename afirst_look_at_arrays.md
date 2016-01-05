@@ -21,7 +21,16 @@ After you declare the array you need to construct the array and assign it to the
 ```java
 temperatures = new double[15];
 ```
-Now you have an array of temperatures that can hold 15 values;
+Now you have an array of temperatures that can hold 15 values. Once the size of the array has been set to hold 15 values it will never, ever be able to hold 16 or more values. 
+
+But there are no values in your array - yet. It has just been declared. Like your apartment before you move in. It's ready for you but nobody's home.
+
+So, let's move in....
+Reacall that the indices of your array start at 0. So the first element will be:
+```temperatures[0] = 20.0;```
+and the last element will be:
+```temperatures[14] = 90.0;```
+
 
  
 ####Things we can do with arrays
