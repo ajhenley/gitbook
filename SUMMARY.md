@@ -71,7 +71,7 @@
    * [Invoice application](invoiceapplication.md)
    * [Bonus assignment](bonusassignment.md)
 * [Exception Handling](exceptionhandling.md)
-   * [Exceptions](exceptions)
+   * [Exceptions](exceptions.md)
    * [Exception Assignment](exception_assignment)
    * [Finally Clause Assignment](finally_clause_assignment)
    * [Add Exception Handling To Existing App](add_exception_handling_to_existing_app)
