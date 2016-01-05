@@ -55,9 +55,6 @@ public ArrayDemo
         //Print the number of elements
         //Change an element
         //Change all the elements
-        //Copy an array
-        //Search for an element
-        //Sort an array
     }
 }
 ```
