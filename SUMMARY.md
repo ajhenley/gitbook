@@ -72,7 +72,7 @@
    * [Bonus assignment](bonusassignment.md)
 * [Exception Handling](exceptionhandling.md)
    * [Exceptions](exceptions.md)
-   * [Exception Assignment](exception_assignment)
+   * [Exception Assignment](exceptionassignment.md)
    * [Finally Clause Assignment](finally_clause_assignment)
    * [Add Exception Handling To Existing App](add_exception_handling_to_existing_app)
 * [Unit Testing with JUnit](unittesting_with_junit.md)
