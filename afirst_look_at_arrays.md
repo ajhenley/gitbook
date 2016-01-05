@@ -40,21 +40,41 @@ Let's print the first element of our array above:
 That should be enough talk about arrays... let's look at some things we can do with them.
 
 ####Things we can do with arrays
-```java 
-import java.util.Array
+{%ace edit=true, lang='java'%}
+import java.util.Random;
 
-public ArrayDemo
-{
-    public static void main(String args[])
-    {
-        //Declare array
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		Random rnd = new Random();
+		int randomInt;
+		
+		//Declare array to hold ten test scores
+		int scores[] = new int[10];
         //Initialize elements of an array
+		for (int i = 0; i < 10; i++){
+			randomInt = 1 + rnd.nextInt(100);
+			scores[i] = randomInt;
+		}
         //Print the elements of an array
-        //print one element
+		for (int i = 0; i < 10; i++){
+			System.out.printf("Element # %d value is %d\n", i, scores[i]);
+		}
+        //print the fifth element
+		System.out.println("The fifth value is " + scores[4]);
         //Print every other element
+		for (int i = 0; i < 10; i+=2){
+			System.out.printf("Score %s is %d\n", i, scores[i]);
+		}
         //Print the number of elements
+		System.out.println("The array length is " + scores.length);
         //Change an element
-        //Change all the elements
-    }
+		scores[0] = 100;
+		System.out.println("The first element is now 100");
+		
+		//this line will generate an ArrayIndexOutOfBoundsException
+		System.out.println(scores[10]);
+	}
+
 }
-```
+{%endace%}
