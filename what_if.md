@@ -1,5 +1,6 @@
 <!-- djw:done-->
 <!-- ajh:we need to talk about the difference between blocks and lines in if-statements. -->
+<!-- djw:fixed and now you have a bread song playing in your head. Sorry.-->
 ###If
 Here is the next Java program you'll enter, which introduces you to the if statement. Type this in, make it run exactly right and then we'll see if your practice has paid off.
 
