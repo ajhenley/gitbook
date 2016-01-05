@@ -1,5 +1,5 @@
-# What does this code do? Part 1
-
+###What does this code do? Part 1
+{%ace edit=true, lang='java'%}
 /*
  * PalindromeTester.java
  * 
@@ -45,3 +45,4 @@ public class PalindromeTester {
 		
 	}
 }
+{%endace%}
