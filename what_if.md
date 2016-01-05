@@ -26,9 +26,28 @@ if (x > 5) {
 {%endace%}
 
 ####When do I need braces in my if statement?
-An if statement with only one line of code to run will not require braces```{..}``. However, you must use braces when you want the if statement to execute multiple lines of code.
+An if statement with only one line of code to run will not require braces```{..}``. However, you must use braces when you want the if statement (or else clause) to execute multiple lines of code.
 
+####A bad practice
+Can you spot the bad practice below? No, it's not naming your class after a cheesy 1970's song by Bread (although that shouldn't be permitted). The bad practice is to not use the braces. Is the intent of the programmer to only change z when x is 7? Use braces to make it clear.
 
+{%ace edit=true, lang='java'%}
+public class IfAPicturePaintsAThousandWords {
+
+	public static void main(String[] args) {
+		int x = 4;
+		int y = 3;
+		int z = 0;
+		
+		if (x == 7)
+		    z = 5;
+		y = 6;
+		
+		System.out.printf("x = %d, y = %d, z = %d\n",x,y,z);
+	}
+
+}
+{%endace%}
 
 ####Hurricane wind speed chart
 |Category|Wind Speed (mph)|
@@ -51,7 +70,7 @@ public class Hurricane {
         // An if statement with only one line of code to run
         // does not require braces
         if (windSpeed <  65) 
-        	System.out.println("It was not a hurricane");
+        	System.out.println("Get over it. That was not a hurricane");
         else if (windSpeed <  96) 
         	System.out.println("It was a class 1 hurricane");      
         else if (windSpeed < 111) 
