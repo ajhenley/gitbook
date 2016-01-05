@@ -1,5 +1,4 @@
-# View your commits with Git log
-
+###View your commits with Git log
 The ```git log``` command shows a sequential history of the individual commits with a repository.
 
 You can also filter the view to include only a particular branch.
