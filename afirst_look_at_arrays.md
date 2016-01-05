@@ -1,4 +1,5 @@
-# A first look at arrays
+<!--djw:done-->
+###A first look at arrays
 
 An array is a container object that holds a fixed number of values of a single type. An array can hold any type of object: integers, numbers, Strings, and even those we haven't learned about yet.
 
@@ -77,4 +78,5 @@ public class ArrayDemo {
 	}
 
 }
+
 {%endace%}
