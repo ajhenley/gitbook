@@ -1,5 +1,4 @@
-#Core Java
-
+###Core Java
 Java is a general-purpose programming language. Much of the syntax is derrived from C & C++ but Java has fewer low-level dependencies than those other languages. For example, in C++ it's not uncommon for the programmer to have to manage memory usage. Java handles this automatically. 
 
 Java is an object-oriented programming language. Java programs are compiled to bytecode which can run on any Java virtual machine, JVM. Java aims to allow the programmer to write once, run anywhere. In theory you should be able to run the same Java program on a linux machine as a Windows machine. This is mostly true but some implementation details hamper this goal.
