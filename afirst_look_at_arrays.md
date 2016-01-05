@@ -26,9 +26,9 @@ Now you have an array of temperatures that can hold 15 values. Once the size of 
 But there are no values in your array - yet. It has just been declared. Like your apartment before you move in. It's ready for you but nobody's home.
 
 So, let's move in....
-Reacall that the indices of your array start at 0. So the first element will be:
+Initializing an array means assigning values to each element. The values can be either primitive values as we're using here or objects which we'll see later. Recall that the indices of your array always start at 0. So to assign a value of 20.0 to the first element you will write: 
 ```temperatures[0] = 20.0;```
-and the last element will be:
+and to assign a value of 90.0 to the last element: 
 ```temperatures[14] = 90.0;```
 
 
