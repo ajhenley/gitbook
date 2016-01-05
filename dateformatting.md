@@ -56,15 +56,15 @@ The Gregorian Calendar .getTime method returns a date object
 A date object is also the number of milliseconds since January 1, 1970.
 The Date class allocates a Date object and initializes it so that it represents the time at which it was allocated, measured to the nearest millisecond.
 
-```java
+{%ace edit=true, lang='java'%}
  Date myDate = gc.getTime();
  myDate.getTime();
-```
+{%endace%}
 
 Once you know the number of milliseconds you can convert them to the number of days
 
-```java
+{%ace edit=true, lang='java'%}
  long millisecondsPerDay = (24*60*60*1000);
  float numberOfDays = DateInMS/millisecondsPerDay;
-```
+{%endace%}
  
