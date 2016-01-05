@@ -54,7 +54,6 @@ public class Mortgage {
 
 -->
 ###What does this code do? Part 2
-
 This code is poorly commented. Actually, it has no comments at all. To make matters worse, the variables are not appropriately named. Can you figure out what this program actually does? Would you like to be the person who is assigned the task of maintaining code like this?
 
 ####Your assignment
