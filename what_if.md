@@ -42,5 +42,5 @@ public class Hurricane {
 
 <!--
 ####Your assignment
-Write a program to accept an integer from the user. The program should print the integer or  'Fizz','Buzz' or 'FizzBuzz'. For numbers 1 through 100, if the number is divisible by 3 print Fizz. If the number is divisible by 5 print Buzz. If the number is divisible by both 3 and 5 (15) print FizzBuzz. Otherwise print the number.
+Write a program to accept an integer from the user. The program should print the integer or  'Fizz','Buzz' or 'FizzBuzz'. For numbers 1 through 100, if the number is divisible by 3 print Fizz. If the number is divisible by 5 print Buzz. If the number is divisible by both 3 and 5 ( ie...15, 45, etc) print FizzBuzz. Otherwise print the number.
 -->
