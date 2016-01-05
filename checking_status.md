@@ -1,5 +1,4 @@
-# Checking Status
-
+###Checking Status
 At any time in the Git directory you can type <pre>git status</pre> to check the status of your repository.
 
 Most of the time you'll see something like this:
