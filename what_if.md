@@ -87,7 +87,6 @@ public class Hurricane {
         	System.out.println("Class 5 is the most severe hurricane");
         	System.out.println("Hurricane Katrina was class 5");
         }
- 
 	}
 }
 {%endace%}
