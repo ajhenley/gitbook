@@ -1,9 +1,7 @@
 <!--djw: done-->
 <!--ajh:done-->
-# String assignment
-
+###String assignment
 Write a Java program that assigns your name to a variable and prints the variable to the console.
-
 
 <button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
 
