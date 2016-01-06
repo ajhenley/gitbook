@@ -63,31 +63,35 @@ public class DateProcessor {
 	}
 
 	public int getNumberDaysInMonth() {
+		// 30 days hath September, April, June and November
+		
+		// since we're defaulting to 31, we could actually skip 
+		// the first 7 cases 
 		int lastDay = 31;
 		
 		switch (month){
-		case 1:
-		case 3:
-		case 5:
-		case 7:
-		case 8:
-		case 10:
-		case 12:
-			lastDay = 31;
-			break;
-		case 11:
-		case 4:
-		case 9:
-		case 6:	
-			lastDay = 30;
-			break;
-		case 2:	
-			if (isLeapYear()){
-				lastDay = 29;
-			}else{
-				lastDay = 28;
-			}
-			break;
+    		case 1:
+    		case 3:
+    		case 5:
+    		case 7:
+    		case 8:
+    		case 10:
+    		case 12:
+    			lastDay = 31;
+    			break;
+    		case 11:
+    		case 4:
+    		case 9:
+    		case 6:	
+    			lastDay = 30;
+    			break;
+    		case 2:	
+    			if (isLeapYear()){
+    				lastDay = 29;
+    			}else{
+    				lastDay = 28;
+    			}
+    			break;
 		}
 		
 		return lastDay;
