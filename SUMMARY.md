@@ -96,7 +96,7 @@
    * [Three-tiered applications](three-tiered_applications.md)
    * [Create book class](createbook_class.md)
    * [Create book database](createbook_database.md)
-   * [Create book app](create_book_app)
+   * [Create book app](createbook_app.md)
 * [Object-Oriented Java - the sequel](objectoriented_java_the_sequel.md)
    * [Line item invoice assignment](lineitem_invoice_assignment.md)
    * [Date formatting](dateformatting.md)
