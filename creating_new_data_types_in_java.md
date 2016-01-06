@@ -37,10 +37,105 @@ public class StartHere {
 
 This is fabulous! Our own data type. All our problems are solved. I can set the month, day and year and return the date. Programmers all over can use our date type to save time displaying dates. What could go wrong?
 
-What happen if the programmer tries to enter 360 for the month? And what about 2/31/2015? Can we fix that?
+What if ... a programmer tries to enter 360 for the month? And tries to set the date to 2/31/2015? Can we fix that?
 
-Our own data type will allow us to guarantee that a date is actually a valid date. We’ll just include more methods to ensure that the values are valid. 
+####Improving our class
+Our own data type will allow us to guarantee that a date is actually a valid date. We’ll just include more methods to ensure that the values are valid. While we're at it let's include methods to return the number of days in the month. And whether the year is a leap year.
 
-Let’s start with getting and setting the month, day and year.
+The first thing we do is prevent the programmer from changing the month day and year to crazy values. We start by setting those member variables to private. Then limit access to them by creating methods called getters and setters. These methods can validate the incoming values. Or set defaults.
+
+After a little rework this is our new, even-more-fabulous than the last fabulous DateProcessor.
+{%ace edit=true, lang='java'%}
+public class DateProcessor {
+
+	private int month = 1;
+	private int day = 1;
+	private int year = 1970;
+	
+	public int getMonth() {
+		return month;
+	}
+
+	public void setMonth(int month) {
+		if (month >0 && month<=12){
+		    this.month = month;
+		}
+	}
+
+	public int getNumberDaysInMonth() {
+		int lastDay = 31;
+		
+		switch (month){
+		case 1:
+		case 3:
+		case 5:
+		case 7:
+		case 8:
+		case 10:
+		case 12:
+			lastDay = 31;
+			break;
+		case 11:
+		case 4:
+		case 9:
+		case 6:	
+			lastDay = 30;
+			break;
+		case 2:	
+			if (isLeapYear()){
+				lastDay = 29;
+			}else{
+				lastDay = 28;
+			}
+			break;
+		}
+		
+		return lastDay;
+	}
+	public boolean isLeapYear(){
+        // is it divisible by 4?
+        boolean bLeapYear = false;
+        bLeapYear = (year % 4 == 0);
+
+        // is it divisible by 4 and not 100
+        bLeapYear = bLeapYear && (year % 100 != 0);
+
+        // is it divisible by 4 and not 100 unless it's divisible by 400
+        bLeapYear = bLeapYear || (year % 400 == 0);
+        
+        return bLeapYear;
+	}
+
+	public void setDay(int day) {
+		if (day <= getNumberDaysInMonth() && day >=1){
+		    this.day = day;
+		}else{
+			day = 1;
+		}
+	}
+
+	public int getYear() {
+		return year;
+	}
+
+	public void setYear(int year) {
+		if (year > 1 && year <=4000){
+			this.year = year;
+		}else{
+			this.year = 1970;
+		}
+	}
+
+
+	
+	public String displayDate(){
+		return month + "-" + day + "-" + year;
+				
+	}
+	
+}
+{%endace%}
+
+
 
 
