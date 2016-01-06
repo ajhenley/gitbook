@@ -93,7 +93,7 @@
    * [Object-Orientation and Classes](objectorientation.md)
    * [Classes and Objects](classes_and_objects.md)
    * [Encapsulation](encapsulation.md)
-   * Three-tiered applications
+   * [Three-tiered applications](three-tiered_applications.md)
    * [Create book class](createbook_class.md)
    * [Create book database](create_book_database)
    * [Create book app](create_book_app)
