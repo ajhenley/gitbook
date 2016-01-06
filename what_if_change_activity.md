@@ -1,7 +1,8 @@
 <!-- djw:done-->
+<!-- ajh:done-->
 ###What if change activity
 
-The following program is what your school is now using to process student records. Given that students with 12 or more credits in the current course load are considered fulltime, change the program so that it only outputs student records for student that are "fulltime".
+The following program is used by your school to process student records. Students enrolled for 12 or more credits are considered fulltime, so change the program so that it only outputs student records for student that are "fulltime".
 
 {%ace edit=false, lang='java'%}
 import java.util.Scanner;
