@@ -97,6 +97,7 @@
    * [Create book database](create_book_database)
    * [Create book app](create_book_app)
    * Encapsulation
+   * Classes and Objects
 * [Object-Oriented Java - the sequel](objectoriented_java_the_sequel.md)
    * [Line item invoice assignment](lineitem_invoice_assignment.md)
    * [Overriding equals](overriding_equals)
