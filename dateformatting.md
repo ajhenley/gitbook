@@ -1,6 +1,8 @@
 <!--djw: done-->
 <!--ajh: We either need to rework this or move it to the front of the object-oriented section -->
 ###Date formatting
+Earlier we created our own Date class. But I have news for you. It's already been done. From now on we'll just use the Date classes that are part of the Java API. There are several classes that work together that help us manage dates. Let's look at some of our options now.
+
 Prior to JDK 1.1, the class Date had two additional functions. 
 It allowed the interpretation of dates as year, month, day, hour, minute, and second values. 
 It also allowed the formatting and parsing of date strings. 
