@@ -91,7 +91,7 @@
 * [Object-Oriented Java](objectoriented_java_md.md)
    * [Creating new data types in Java](creating_new_data_types_in_java.md)
    * [Object-Orientation and Classes](objectorientation.md)
-   * Classes and Objects
+   * [Classes and Objects](classes_and_objects.md)
    * Encapsulation
    * Three-tiered applications
    * [Create book class](createbook_class.md)
