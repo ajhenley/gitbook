@@ -1,5 +1,6 @@
-<!--
+
 Original program is below:
+{%ace edit=false, lang='java'%}
 import java.util.Scanner;
 
 public class Mortgage {
@@ -50,9 +51,9 @@ public class Mortgage {
 		return result;
 	}
 }
+{%endace%}
 
 
--->
 ###What does this code do? Part 2
 This code is poorly commented. Actually, it has no comments at all. To make matters worse, the variables are not appropriately named. Can you figure out what this program actually does? Would you like to be the person who is assigned the task of maintaining code like this?
 
