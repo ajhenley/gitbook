@@ -96,8 +96,15 @@ public class DateProcessor {
 		
 		return lastDay;
 	}
+	
 	public boolean isLeapYear(){
+	    // returns t/f if the year is a leap year
+	    // leap years are all years divisible by 4 but not 100
+	    // years that are divisible by 400 are leap years, too
         // is it divisible by 4?
+        
+        // Note that the year is not passed as an argument. It could be but 
+        // I choose to use the class level private variable for my method.
         boolean bLeapYear = false;
         bLeapYear = (year % 4 == 0);
 
