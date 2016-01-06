@@ -95,7 +95,7 @@
    * [Create book class](create_book_class)
    * [Create book database](create_book_database)
    * [Create book app](create_book_app)
-   * Creating new data types in Java
+   * [Creating new data types in Java](creating_new_data_types_in_java.md)
 * [Object-Oriented Java - the sequel](objectoriented_java_the_sequel.md)
    * [Line item invoice assignment](lineitem_invoice_assignment.md)
    * [Overriding equals](overriding_equals)
