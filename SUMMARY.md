@@ -94,12 +94,12 @@
    * Classes and Objects
    * Encapsulation
    * Three-tiered applications
-   * [Date formatting](dateformatting.md)
    * [Create book class](createbook_class.md)
    * [Create book database](create_book_database)
    * [Create book app](create_book_app)
 * [Object-Oriented Java - the sequel](objectoriented_java_the_sequel.md)
    * [Line item invoice assignment](lineitem_invoice_assignment.md)
+   * [Date formatting](dateformatting.md)
    * [Overriding equals](overriding_equals)
    * [Inheritance](inheritance)
    * [Create a book class and app](createa_book_classand_app.md)
