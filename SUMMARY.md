@@ -91,11 +91,11 @@
 * [Object-Oriented Java](objectoriented_java_md.md)
    * [Creating new data types in Java](creating_new_data_types_in_java.md)
    * [Object-Orientation and Classes](objectorientation.md)
+   * Three-tiered applications
    * [Date formatting](dateformatting.md)
    * [Create book class](createbook_class.md)
    * [Create book database](create_book_database)
    * [Create book app](create_book_app)
-   * Three-tiered applications
 * [Object-Oriented Java - the sequel](objectoriented_java_the_sequel.md)
    * [Line item invoice assignment](lineitem_invoice_assignment.md)
    * [Overriding equals](overriding_equals)
