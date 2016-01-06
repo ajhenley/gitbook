@@ -137,5 +137,8 @@ public class DateProcessor {
 {%endace%}
 
 
+###Your assignment
+Now that you've seen how it's done, create a class that has private member variables for first name, last name and age. Then create getters and setters for each. Next, use your new class in the main routine setting the three variables and printing the following:
+```System.out.printf("My full name is %s and I am %d years old.",MyClass.fullName,MyClass.age);```
 
 
