@@ -95,7 +95,7 @@
    * [Encapsulation](encapsulation.md)
    * [Three-tiered applications](three-tiered_applications.md)
    * [Create book class](createbook_class.md)
-   * [Create book database](create_book_database)
+   * [Create book database](createbook_database.md)
    * [Create book app](create_book_app)
 * [Object-Oriented Java - the sequel](objectoriented_java_the_sequel.md)
    * [Line item invoice assignment](lineitem_invoice_assignment.md)
