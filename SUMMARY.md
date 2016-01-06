@@ -91,7 +91,7 @@
 * [Object-Oriented Java](objectoriented_java_md.md)
    * [Methods example](methodsexample.md)
    * [Creating new data types in Java](creating_new_data_types_in_java.md)
-   * [Object-Orientation](objectorientation.md)
+   * [Object-Orientation and Classes](objectorientation.md)
    * [Date formatting](dateformatting.md)
    * [Create book class](create_book_class)
    * [Create book database](create_book_database)
