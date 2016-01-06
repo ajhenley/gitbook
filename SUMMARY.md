@@ -89,7 +89,6 @@
    * [JUnit Quick Tutorial](junit_quick_tutorial.md)
    * [Different types of testing](different_types_of_testing.md)
 * [Object-Oriented Java](objectoriented_java_md.md)
-   * [Methods example](methodsexample.md)
    * [Creating new data types in Java](creating_new_data_types_in_java.md)
    * [Object-Orientation and Classes](objectorientation.md)
    * [Date formatting](dateformatting.md)
