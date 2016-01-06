@@ -92,7 +92,7 @@
    * [Creating new data types in Java](creating_new_data_types_in_java.md)
    * [Object-Orientation and Classes](objectorientation.md)
    * [Classes and Objects](classes_and_objects.md)
-   * Encapsulation
+   * [Encapsulation](encapsulation.md)
    * Three-tiered applications
    * [Create book class](createbook_class.md)
    * [Create book database](create_book_database)
