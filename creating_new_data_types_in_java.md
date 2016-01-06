@@ -35,12 +35,12 @@ public class StartHere {
 }
 {%endace%}
 
-This is fabulous! Our own data type. All our problems are solved. I can set the month, day and year and return the date. Programmers all over can use our date type to save time displaying dates. What could go wrong?
+This is fabulous! Our own data type. All our problems are solved. Programmers can set the month, day and year. And return the date! Programmers all over can use our date type to save time displaying dates. What could go wrong?
 
 What if ... a programmer tries to enter 360 for the month? And tries to set the date to 2/31/2015? How do we fix that?
 
 ####Improving our class
-A little more programming effort will allow us to guarantee that a date is actually a valid date. We’ll include methods to ensure the values are valid. While we're at it we'll include methods to return the number of days in the month. And whether the year is a leap year. Those methods may come in handy later.
+A little more programming effort will allow us to guarantee that a date is actually a valid date. Let's include methods to ensure the values are valid. We'll also include methods to return the number of days in the month. And whether the year is a leap year. Those methods may come in handy later.
 
 The first thing we do is prevent the programmer from changing the month, day and year to unrealistic values. We start by setting those member variables to private. Then limit access to them by creating methods called __getters__ and __setters__. These methods will validate the incoming values. Or set defaults.
 
