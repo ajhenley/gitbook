@@ -93,7 +93,7 @@
    * [Creating new data types in Java](creating_new_data_types_in_java.md)
    * [Object-Orientation and Classes](objectorientation.md)
    * [Date formatting](dateformatting.md)
-   * [Create book class](create_book_class)
+   * [Create book class](createbook_class.md)
    * [Create book database](create_book_database)
    * [Create book app](create_book_app)
 * [Object-Oriented Java - the sequel](objectoriented_java_the_sequel.md)
