@@ -101,7 +101,7 @@
    * [Line item invoice assignment](lineitem_invoice_assignment.md)
    * [Date formatting](dateformatting.md)
    * [Overriding equals](overriding_equals)
-   * [Inheritance](inheritance)
+   * [Inheritance](inheritance.md)
    * [Create a book class and app](createa_book_classand_app.md)
    * [Create abstract vehicle class](create_abstract_vehicle_class)
    * [Inheritance debugging activity](inheritance_debugging_activity)
