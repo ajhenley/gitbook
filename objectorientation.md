@@ -23,9 +23,7 @@ The interface is those methods which are publicly available for use by other pro
 Extending classes with inheritance
 A more generalized class like Animal can be extended to a more specialized class like cow, bird and fish. All of the features of Animal are the same amongst the different species.
 
-A car is a vehicle but is a vehicle a car?
-
-Blueprints and Interfaces
+All cars are vehicles but not all vehicles are cars?
 
 Getting more abstract
 
