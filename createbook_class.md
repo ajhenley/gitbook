@@ -1,5 +1,20 @@
 ###Create book class
+Create a new project in Eclipse called BookApplication.
+Right-click on your project and add a class.
 
-Create a Book class that allows for Book title, author, description, price and isInStock variables. You'll start by creating the class and name it Book.
+Create a Book class that allows for the following fields: 
+* Book title
+* Author
+* Description
+* Price
+* IsInStock
+
+You'll start by creating the class and name it Book. All classes in Java begin with a capital letter.
+
+Next, you'll add private member variables for each field above. You can't have spaces so name them accordingly. The first private member variable would probably be ```private String bookTitle```
+
+Finally, you'll create getters and setters for each field. The getters and setters for bookTitle look like this:
+```
+
 
 Bonus: Create a method that returns the pricing for a requested number of books. Five books at $20.00 should return $100, if they are in stock. If they are not in stock, that should be handled appropriately (hint - you decide).
