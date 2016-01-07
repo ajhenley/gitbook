@@ -149,7 +149,15 @@ public class DateProcessor {
 
 
 ###Your assignment
-Now that you've seen how it's done, create a class that has private member variables for first name, last name and age. Then create getters and setters for each. Next, use your new class in the main routine setting the three variables and printing them using the following:
-```System.out.printf("My full name is %s and I am %d years old.",MyClass.fullName,MyClass.age);```
+Now that you've seen how it's done, create a class that has private member variables for first name, last name and age. Then create getters and setters for each. 
+
+Once you have created your classs. use it in the main the main routine of your program.  
+The following line should print the line below it:
+{%ace edit=true, lang='java'%}
+System.out.printf("My full name is %s and I am %d years old.",MyClass.fullName,MyClass.age);
+{%endace%}
+
+```My full name is Joe Programmer and I am 22 years old.```
+
 
 
