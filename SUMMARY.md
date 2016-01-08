@@ -53,7 +53,7 @@
    * [What if change activity](what_if_change_activity.md)
    * [What if completion activity](what_if_completion_activity.md)
    * [What if activity](what_if_activity.md)
-   * [Gift Advisor](gift_advisor.md)
+   * [Gift Advisor (move)](gift_advisor.md)
    * [Randomness](randomness.md)
    * [A variation on the dice game Pig](pigdice_md.md)
    * [Working with files](working_with_files.md)
