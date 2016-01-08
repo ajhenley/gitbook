@@ -49,5 +49,5 @@ public class KeepGuessing {
 
 
 ####Your assignment
-The while loop will continue until the test condition is true. You can also break out of a while loop by using the keyword ```break```. Modify the above program to exit the while loop after 5 guesses.
+The while loop will continue until the test condition is true. You can also break out of a while loop by using the keyword ```break```. Modify the above program to exit the while loop if the person guesses "5".
 
