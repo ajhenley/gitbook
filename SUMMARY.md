@@ -57,6 +57,7 @@
    * [Randomness](randomness.md)
    * Randomness debugging activity
        * Randomness change activity
+       * Randomness completion activity
    * [A variation on the dice game Pig](pigdice_md.md)
    * [Working with files](working_with_files.md)
    * [Repeating yourself with the while loop](repeatingyourselfwith_the_while_loop_md.md)
