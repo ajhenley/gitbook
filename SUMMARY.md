@@ -1,4 +1,4 @@
-###Summary
+# Summary
 
 * [Introduction](README.md)
    * [About this course](aboutthis_course.md)
@@ -57,7 +57,7 @@
    * [Randomness](randomness.md)
    * [Randomness debugging activity](randomness_debugging_activity.md)
    * [Randomness change activity](randomness_change_activity.md)
-   * [Randomness completion activity](randomness_completion_activity.md)
+   * [Randomness completion activity](randomnesscompletion_activity_md.md)
    * [Randomness activity](randomness_activity.md)
    * [A variation on the dice game Pig](pigdice_md.md)
    * [Working with files](working_with_files.md)
