@@ -57,7 +57,7 @@
    * [Randomness](randomness.md)
    * [Randomness debugging activity](randomness_debugging_activity.md)
    * [Randomness change activity](randomness_change_activity.md)
-   * Randomness completion activity
+   * [Randomness completion activity](randomness_completion_activity.md)
    * Randomness activity
    * [A variation on the dice game Pig](pigdice_md.md)
    * [Working with files](working_with_files.md)
