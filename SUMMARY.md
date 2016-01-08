@@ -55,7 +55,7 @@
    * [What if activity](what_if_activity.md)
    * [Gift Advisor (move)](gift_advisor.md)
    * [Randomness](randomness.md)
-   * Randomness debugging activity
+   * [Randomness debugging activity](randomness_debugging_activity.md)
    * Randomness change activity
    * Randomness completion activity
    * Randomness activity
