@@ -1,4 +1,5 @@
 <!--djw:done-->
+<!--ajh: this should be a bonus activity, I think it might be too much for the average person at this point -->
 ###Gift Advisor
 
 Everybody wants to give a unique gift that will be remembered year-round. Yet, when that special occasion comes around our minds go blank and we forget what our recipients want. Thus we end up giving ties, scarves and candles that eventually get re-gifted.
@@ -8,7 +9,7 @@ Your task is to develop a program that will prompt the user for the recipient's 
 Now write a program that will select the perfect gift based on the table below. Feel free to modify the gift list if you wish.
 
 |**Gift**|**Gender**|**Price**|
-|-|-|
+|-|-|-|
 |Jewelry|Female|High|
 |Weekend Getaway|Female|High|
 |Wine|Female|Low|
