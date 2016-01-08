@@ -4,19 +4,20 @@ You are going to learn how to make sections of your code repeat. This will give 
 
 The while loop is good when you don't know how many times a block of code should repeat. The while loop will continue as long as some condition it true. It looks like this:
 
-```java
+{%ace edit=false, lang='java'%}
 while (expression) {
  // do you thing as long as the expression is true
 }
-```
+{%endace%}
+
 The while loop will never run if the expression isn't true. There are lots of times when the while loop may not even run.
 
-```java
+{%ace edit=false, lang='java'%}
 bool run = false;
 while (run){
     //this code would never run
 }
-```
+{%endace%}
 
 
 {%ace edit=true, lang='java'%}
