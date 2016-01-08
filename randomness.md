@@ -21,7 +21,7 @@ That picks a random number from 1 to 100 (inclusive) and store it into the varia
 import java.util.Random;
 
 public class RandomGenerator{
-    public static void main(String []args)
+    public static void main(String[] args)
     {
         output("Generate 10 random integers between 0 and 99");
 
