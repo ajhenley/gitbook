@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Date activity
 Write an application to tell the user about a day in the past (their birthday, the Battle of Normandy, the date of their first drink, the drink of their first date, etc.). It should keep asking until the user enters an empty date. The interaction should look something like this:
 
