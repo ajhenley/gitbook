@@ -21,11 +21,10 @@ The interface I show the world
 The interface is those methods which are publicly available for use by other programmers.
 
 Extending classes with inheritance
-A more generalized class like Animal can be extended to a more specialized class like cow, bird and fish. All of the features of Animal are the same amongst the different species.
+A more generalized class like Animal can be extended to a more specialized class like cow, bird and fish. All the features of Animal are the same amongst different species. But cows, birds and fish have their own specialized methods. One can give milk, the other can fly and the other can swim. Finally, keep in mind that all cows are animals but not all animals are cows.
 
-All cars are vehicles but not all vehicles are cars?
 
-Getting more abstract
+
 
 
 
