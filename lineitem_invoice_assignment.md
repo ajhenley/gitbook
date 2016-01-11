@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Line item invoice assignment
 Create an application that allows users to create an invoice. Your application will prompt the user for the quantity and price. Your application will then apply the tax of 6% and print a subtotal of the items and the tax and a grand total of those two amounts. The user should be able to enter as many items as desired.
 
