@@ -94,7 +94,6 @@
    * [Different types of testing](different_types_of_testing.md)
 * [Object-Oriented Java](objectoriented_java_md.md)
    * [Creating new data types in Java](creating_new_data_types_in_java.md)
-   * [Object-Orientation and Classes](objectorientation.md)
    * [Classes and Objects](classes_and_objects.md)
    * [Encapsulation](encapsulation.md)
    * [Three-tiered applications](three-tiered_applications.md)
