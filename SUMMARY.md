@@ -108,7 +108,7 @@
    * [Date formatting](dateformatting.md)
    * [Calendar and Date](calendarand_date.md)
    * [Date change activity](datechange_activity.md)
-   * [Date activity](date_activity)
+   * [Date activity](dateactivity.md)
    * [More about dates](more_about_dates)
    * [Line item invoice enhancement](line_item_invoice_enhancement.md)
    * [Inheritance](inheritance.md)
