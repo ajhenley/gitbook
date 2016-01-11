@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Enhancing your book class
 The Book class already contains private member variables and a default constructor. It also contains getters and setters for each private member variable.
 
