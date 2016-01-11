@@ -110,7 +110,6 @@
    * [More about dates](more_about_dates)
    * [Line item invoice enhancement](line_item_invoice_enhancement.md)
    * [Inheritance](inheritance.md)
-   * [Create a book class and app](createa_book_classand_app.md)
    * [Create abstract vehicle class](create_abstract_vehicle_class)
    * [Inheritance debugging activity](inheritance_debugging_activity)
    * [Inheritance completion activity](inheritance_completion_activity)
