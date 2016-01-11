@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Create book app
 A book app will allow the user to retrieve an instance of a book. Here's a start. To retrieve a particular book you'll need to set the SKU to an existing SKU. 
 
