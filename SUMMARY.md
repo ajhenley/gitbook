@@ -104,7 +104,7 @@
 * [Object-Oriented Java - the sequel](objectoriented_java_the_sequel.md)
    * [Line item invoice assignment](lineitem_invoice_assignment.md)
    * [Date formatting](dateformatting.md)
-   * [Overriding equals](overriding_equals)
+   * [Overriding equals](overridingequals.md)
    * [Inheritance](inheritance.md)
    * [Create a book class and app](createa_book_classand_app.md)
    * [Create abstract vehicle class](create_abstract_vehicle_class)
