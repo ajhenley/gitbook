@@ -100,7 +100,7 @@
    * [Create book class](createbook_class.md)
    * [Create book database](createbook_database.md)
    * [Create book app](createbook_app.md)
-   * Enhancing your book class
+   * [Enhancing your book class](enhancing_your_book_class.md)
 * [Object-Oriented Java - the sequel](objectoriented_java_the_sequel.md)
    * [Line item invoice assignment](lineitem_invoice_assignment.md)
    * [Date formatting](dateformatting.md)
