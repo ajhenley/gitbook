@@ -1,10 +1,12 @@
 ###Date activity
-Write an application to tell the user about a day in the past (their birthday, the Battle of Normandy, the date of their first drink etc.). It should keep asking until the user enters an empty date. The interaction should look something like this:
+Write an application to tell the user about a day in the past (their birthday, the Battle of Normandy, the date of their first drink, the drink of their first date, etc.). It should keep asking until the user enters an empty date. The interaction should look something like this:
 
-What is the date that you are asking about?    :  9/27/70
+```
+What is the date that you are asking about?   9/27/70
 That was a Saturday. It was a sunny day and the temperature averaged 78 degrees. It was 23000 days ago.
-What is the date that you are asking about?    :  
+What is the date that you are asking about?    
 You can randomly generate the text about the weather and temperature that day, but you should know enough by now to accurately identify the day of the week and the number of days between that day and the current date.
+```
 
 ####Helpful Hint
 First create a class that given a date has a method stub to return the output sentence.
