@@ -104,7 +104,7 @@
 * [Object-Oriented Java - the sequel](objectoriented_java_the_sequel.md)
    * [Line item invoice assignment](lineitem_invoice_assignment.md)
    * [Date formatting](dateformatting.md)
-   * [Calendar and Date](calendar_and_date)
+   * [Calendar and Date](calendarand_date.md)
    * [Date change activity](date_change_activity)
    * [Date activity](date_activity)
    * [More about dates](more_about_dates)
