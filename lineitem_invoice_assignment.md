@@ -24,7 +24,10 @@ Grand Total: 2014.00
 * The application will print out an invoice of all the data including a subtotal, tax and grand total.
 
 ####Bonus: 
-Add an extra field to the inputs (untaxable). This value will be inputted as either true or false. This will affect whether tax will be charged on that item or not. The invoice should now have:
+Add an extra field to the inputs (untaxable). This value will be inputted as either true or false. This will affect whether tax will be charged on that item or not. 
+
+####Bonus 2:
+Display the date and format the dollar figures appropriately using the NumberFormat class discussed previously.
 
 
  
