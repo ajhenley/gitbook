@@ -5,6 +5,7 @@ Create a new project in Eclipse called BookApplication.
 Right-click on your project and add a class.
 
 Create a Book class that allows for the following fields: 
+* SKU (stockkeeping unit - will serve as unique ID for each book)
 * Book title
 * Author
 * Description
