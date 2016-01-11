@@ -10,4 +10,6 @@ You can randomly generate the text about the weather and temperature that day, b
 First create a class that given a date has a method stub to return the output sentence.
 Next, create methods stubs to find the day of the week, the number of days, the weather and the temperature.
 One by one, fill in those method stubs to make them operational.
-Bonus (Die with the Lie) Have the application give consistent information about the weather and temperature. If the application is asked about a date that it has already been asked about that run, it should give the same answer.
+
+####Bonus (Die with the Lie) 
+Have the application give consistent information about the weather and temperature. If the application is asked about a date that it has already been asked about that run, it should give the same answer.
