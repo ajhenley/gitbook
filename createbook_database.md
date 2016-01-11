@@ -6,7 +6,7 @@ Our book database will contain several book titles and the SKU code to look one 
 ####Your assignment
 Create a class that contains a method that takes one parameter, the SKU, and returns a corresponding book object. Your database should contain the following books:
 
-|*Title*|*Author*|*Price*|
+|**Title**|**Author**|**Price**|
 |--|--|--|
 |Head First Java |Kathy Sierra and Bert Bates|47.50|
 |Thinking in Java |Bruce Eckel|20.00|
