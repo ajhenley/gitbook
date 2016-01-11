@@ -105,7 +105,7 @@
    * [Line item invoice assignment](lineitem_invoice_assignment.md)
    * [Date formatting](dateformatting.md)
    * [Calendar and Date](calendarand_date.md)
-   * [Date change activity](date_change_activity)
+   * [Date change activity](datechange_activity.md)
    * [Date activity](date_activity)
    * [More about dates](more_about_dates)
    * [Line item invoice enhancement](line_item_invoice_enhancement.md)
