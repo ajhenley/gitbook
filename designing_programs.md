@@ -32,6 +32,7 @@ An algorithm is a set of detailed, unambiguous and ordered instructions develope
 Pseudocode is an English language-like way of representing the algorithm
 
 ####Advantages of Pseudocode
+Easy to read, write and test before you have committed to development of your program.
 
 ####Conventions for Pseudocode
 
