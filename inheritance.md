@@ -1,10 +1,12 @@
 ###Inheritance
 Let's talk about another key concept from object-oriented programming.
 Inheritance: Forming new classes based on existing ones.
-a way to share/reuse code between two or more classes
 
-superclass: Parent class being extended.
-subclass: Child class that inherits behavior from superclass.
+
+Inheritence gives us a way to share/reuse code between two or more classes. And code reuse means you don't have to write as much code which means development time is faster. This makes the project manager happy.
+
+Inheritence means there's a parent class being extended. That's called the superclass.
+We'll also have a child class that inherits behavior from superclass. The child class is called the subclass.
 gets a copy of every field and method from superclass
 
 is-a relationship: Each object of the subclass also "is a(n)" object of the superclass and can be treated as one.
