@@ -1,7 +1,7 @@
 ## Designing Programs Overview
 Programmers need to have a good understanding of the data to be processed. This includes the data variables, constants and literals. It also includes elementary data items, data structures, files and data validation.
 
-###Seven steps in program development
+###Steps in program development
 * Define the problem.
 * Outline the solution.
 * Develop the outline into an algorithm.
