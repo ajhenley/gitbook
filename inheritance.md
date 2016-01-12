@@ -1,5 +1,6 @@
-# Inheritance
-inheritance: Forming new classes based on existing ones.
+###Inheritance
+Let's talk about another key concept from object-oriented programming.
+Inheritance: Forming new classes based on existing ones.
 a way to share/reuse code between two or more classes
 
 superclass: Parent class being extended.
