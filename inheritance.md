@@ -7,9 +7,14 @@ Inheritence gives us a way to share/reuse code between two or more classes. And 
 
 Inheritence means there's a parent class being extended. That's called the superclass.
 We'll also have a child class that inherits behavior from superclass. The child class is called the subclass.
-gets a copy of every field and method from superclass
 
-is-a relationship: Each object of the subclass also "is a(n)" object of the superclass and can be treated as one.
+The subclass (child) gets a copy of every field and method from superclass (parent).
+
+The parent-child have an **is-a relationship**. Every object of the subclass also "is a(n)" object of the superclass and can be treated as one. So a car is a vehicle. 
+
+Suppose we have a class of type Person. That's extended to form an Employee. That could be further extended to form a Programmer or and Administrative Assistant. Now we know that a Programmer is an employee. An Administrative Assistant also is an employee. Each is a Person.
+
+Java doesn't allow multiple inheritence but you can inherit from an entire chain of classes. In fact, all Java classes ultimately inherit from the Object class.
 
 
 	public class name extends superclass {
