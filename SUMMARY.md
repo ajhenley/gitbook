@@ -113,7 +113,7 @@
    * [More about dates](moreabout_dates.md)
    * [Inheritance](inheritance.md)
    * [Create abstract vehicle class](create_abstract_vehicle_class)
-   * [Inheritance debugging activity](inheritance_debugging_activity)
+   * [Inheritance debugging activity](inheritancedebugging_activity.md)
    * [Inheritance completion activity](inheritance_completion_activity)
    * [Inheritance activity](inheritance_activity)
    * [Inheritance completion activity #1](inheritance_completion_activity_1)
