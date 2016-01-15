@@ -119,7 +119,7 @@
    * [Inheritance completion activity #2](inheritancecompletion_activity_2.md)
    * [Inheritance completion activity #3](inheritancecompletion_activity_3.md)
    * [Inheritance completion activity #4](inheritancecompletion_activity_4.md)
-   * [Submit your answers to Randomness](submit_your_answers_to_randomness)
+   * [Submit your answers to Randomness](submityour_answers_to_randomness.md)
    * [Magic 8 ball random activity](magic_8_ball_random_activity)
    * [Magic 8 ball history application](magic_8_ball_history_application)
    * [Randomness activity](randomness_activity)
