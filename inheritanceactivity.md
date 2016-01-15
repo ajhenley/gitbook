@@ -1,4 +1,4 @@
-# Inheritance activity
+###Inheritance activity
 
 Using the code from the Inheritance Completion Activity, create a toString method on the superclass and the subclasses such that all the relevant information about an object is returned if you use thisObject.toString().
 
