@@ -104,7 +104,6 @@
 * [Object-Oriented Java - the sequel](objectoriented_java_the_sequel.md)
    * [Line item invoice assignment](lineitem_invoice_assignment.md)
    * [Create a car class and app](create_a_car_class_and_app.md)
-   * [Abstract classes](abstract_classes.md)
    * [Create a vehicle class](create_a_vehicle_class.md)
    * [Date formatting](dateformatting.md)
    * [Calendar and Date](calendarand_date.md)
