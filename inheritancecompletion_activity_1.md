@@ -1,8 +1,7 @@
 ###Inheritance completion activity #1
+Make the following application work. Then create a method that outputs the name of the current class to the console.
 
-Make the following application work and then create a method outputs the name of the current class to the console.
-
-Product.java
+####Product.java
 {%ace edit=true, lang='java'%}
 import java.text.NumberFormat;
 
