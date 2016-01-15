@@ -138,7 +138,7 @@
    * [Collections](collections)
    * [ArrayList Debugging Activity](arraylist_debugging_activity)
    * [ArrayList Debugging Activity 2](arraylist_debugging_activity_2)
-   * [ArrayList Activity](arraylist_activity)
+   * [ArrayList Activity](arraylistactivity.md)
    * [Validation made Easy - er](validation_made_easyer)
    * [Using the Validator](using_the_validator)
    * [Transcript Activity](transcript_activity)
