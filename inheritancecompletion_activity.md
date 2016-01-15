@@ -4,6 +4,7 @@ What follows is a generic product superclass and two subclasses. The code for th
 
 Product Class
 
+{%ace edit=true, lang='java'%}
 import java.text.NumberFormat;
 
 public class Product
@@ -64,8 +65,10 @@ public class Product
         return count;
     }
 }
-Book Subclass
+{%endace%}
 
+####Book Subclass
+{%ace edit=true, lang='java'%}
 public class Book extends Product
 {
     private String author;
@@ -87,9 +90,10 @@ public class Book extends Product
             author + "\n";
     }
 }
+{%endace%}
 
-Software Subclass
-
+####Software Subclass
+{%ace edit=true, lang='java'%}
 public class Software extends Product
 {
     private String version;
@@ -111,5 +115,4 @@ public class Software extends Product
             version + "\n";
     }
 }
-
-Points
+{%endace%}
