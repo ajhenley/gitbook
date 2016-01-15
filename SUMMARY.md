@@ -111,7 +111,6 @@
    * [Date change activity](datechange_activity.md)
    * [Date activity](dateactivity.md)
    * [More about dates](moreabout_dates.md)
-   * [Line item invoice enhancement](line_item_invoice_enhancement.md)
    * [Inheritance](inheritance.md)
    * [Create abstract vehicle class](create_abstract_vehicle_class)
    * [Inheritance debugging activity](inheritance_debugging_activity)
