@@ -112,7 +112,6 @@
    * [Date activity](dateactivity.md)
    * [More about dates](moreabout_dates.md)
    * [Inheritance](inheritance.md)
-   * [Create abstract vehicle class](createabstract_vehicle_class.md)
    * [Inheritance debugging activity](inheritancedebugging_activity.md)
    * [Inheritance completion activity](inheritance_completion_activity)
    * [Inheritance activity](inheritance_activity)
