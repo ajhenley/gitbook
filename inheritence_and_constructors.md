@@ -26,6 +26,7 @@ public Lawyer() {
     super();       // calls Employee() constructor
 }
 {%endace%}
+**The super call must be the first statement in the constructor.**
 
 A constructor that takes arguments replaces the default constructor.
 But our Employee(int) replaces the default Employee().
@@ -42,7 +43,7 @@ super(parameters);
 	}
 {%endace%}
 
-**The super call must be the first statement in the constructor.**
+
 
 
 Inheritance and constructors
