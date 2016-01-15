@@ -1,7 +1,8 @@
-# Inheritance debugging activity
+###Inheritance debugging activity
 
 The following Product superclass provides features that are needed to be inherited by a Book class. It doesn't work. Fix it.
 
+{%ace edit=true, lang='java'%}
 import java.text.NumberFormat;
 
 public class Product
@@ -35,3 +36,4 @@ public class Product
         return counts;
     }
 }
+{%endace%}
