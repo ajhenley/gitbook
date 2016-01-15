@@ -12,11 +12,13 @@ When writing a program you need to begin with a solid understanding of the probl
 * Develop the outline into an algorithm.
 * Test the algorithm for correctness.
 * Document your solution.
+
 ####Implementation and verification phase:
 * Code the algorithm into a specific programming language.
 * Run the program on the computer.
 * Test your program, make corrections. 
 * Repeat.
+
 ####Maintenance phase:
 * Document and maintain the program.
 
