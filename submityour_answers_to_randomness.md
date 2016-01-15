@@ -1,6 +1,5 @@
-# Submit your answers to Randomness
+###Submit your answers to Randomness
 
-These questions pertain to the Assignments turned in without these things will receive no credit.
 
 Delete the 1 + in front of all six lines that pick numbers 1-5, so that they look like this: System.out.print( r.nextInt(5) + " " ); Run the program a few times, and see if you can figure out what range the new random numbers are in.
 Change the 1 + in front of all six lines that pick numbers 1-5, so that they look like this: System.out.print( 3 + r.nextInt(5) + " " ); Run the program a few times. Is it picking random numbers from 3 to 5? If not, what range are they?
