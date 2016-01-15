@@ -1,7 +1,8 @@
+<!--djw:done-->
 ###Inheritance activity
 
-Using the code from the Inheritance Completion Activity, create a toString method on the superclass and the subclasses such that all the relevant information about an object is returned if you use thisObject.toString().
+Use the code from the Inheritance Completion Activity. Create a ```toString()``` method on the superclass and the subclasses. All the relevant information about an object shall be returned if you use the object's ```toString()``` method.
 
-After you create the method and the two overrides, wrap the classes in application that allows the user to input any number of either books or a pieces of software (user's choice) and then outputs the information about all the inputs (toString()) in a list after the user is done.
+Once you create the method and the two overrides, wrap the classes in application. Your application will allows the user to input any number of either books or a pieces of software. It's the user's choice. Your application will output the information about the books and software in a list. This list should not show until after the user is done entering items.
 
-BONUS: Just to keep things interesting, the toString method on the superclass should take no parameters, while the toString method on the subclasses should take a detail parameter (String). If detail is set to "simple", the method should return the same thing that the superclass method would return, while if it is set to "detail" then the method should return all the attributes included in the subclass.
+BONUS: To keep things interesting, the ```toString()``` method on the superclass should take no parameters. The ```toString()``` method on each subclass should take a detail parameter (String). If detail is set to "simple", the method should return the same thing that the superclass method would return. If it is set to "detail" the method should return all the attributes included in the subclass.
