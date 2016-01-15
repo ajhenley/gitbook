@@ -7,7 +7,7 @@ The program shall end when two zeros are entered.The program shall print a welco
 Modify the algorithm to allow the user to enter the face cards as J,Q,K or A. If the user enters J, Q, or K then convert the entered value to 10. If the user enters A then count the value as 11 points.
 
 ####Bonus Bonus:
-Modify the algorithm to allow the user who receives the A to count it either as 1 or 11.
+Modify the algorithm to allow the user who receives the A to designate it either as 1 or 11.
 
 
 ####Objective
