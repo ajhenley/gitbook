@@ -114,7 +114,7 @@
    * [Inheritance debugging activity](inheritancedebugging_activity.md)
    * [Inheritance completion activity](inheritancecompletion_activity.md)
    * [Inheritence and constructors](inheritence_and_constructors.md)
-   * [Inheritance activity](inheritance_activity)
+   * [Inheritance activity](inheritanceactivity.md)
    * [Inheritance completion activity #1](inheritance_completion_activity_1)
    * [Inheritance completion activity #2](inheritance_completion_activity_2)
    * [Inheritance completion activity #3](inheritance_completion_activity_3)
