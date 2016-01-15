@@ -1,4 +1,4 @@
-# Inheritence and constructors
+####Inheritence and constructors
 
 Constructors are not inherited. If we add a constructor to the Employee class, our subclasses do not compile.  The error:
 ```
