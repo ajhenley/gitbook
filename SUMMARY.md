@@ -112,7 +112,7 @@
    * [More about dates](moreabout_dates.md)
    * [Inheritance](inheritance.md)
    * [Inheritance debugging activity](inheritancedebugging_activity.md)
-   * [Inheritance completion activity](inheritance_completion_activity)
+   * [Inheritance completion activity](inheritancecompletion_activity.md)
    * [Inheritence and constructors](inheritence_and_constructors.md)
    * [Inheritance activity](inheritance_activity)
    * [Inheritance completion activity #1](inheritance_completion_activity_1)
