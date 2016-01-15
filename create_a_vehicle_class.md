@@ -10,11 +10,11 @@ You can make your Plane, Boat and Car implementations final by using the keyword
 ####An Abstract class
 * can not be used to create an object; it must be inherited
 * can contain fields, constructors and methods like any other class
-* can optionally contain abstract methods: 
- 
- 
-* abstract methods do not have a body (shown below)
-* Abstract methods, if any, must be overridden. This is also illustrated below.
+* can optionally contain abstract methods
+
+####Abstract Methods
+* abstract methods do not have a body (example shown below)
+* Abstract methods, if any, must be overridden by the subclass. This is also illustrated below.
 
 ####Example Abstract Class
 {%ace edit=true, lang='java'%}
