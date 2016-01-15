@@ -116,7 +116,7 @@
    * [Inheritence and constructors](inheritence_and_constructors.md)
    * [Inheritance activity](inheritanceactivity.md)
    * [Inheritance completion activity #1](inheritancecompletion_activity_1.md)
-   * [Inheritance completion activity #2](inheritance_completion_activity_2)
+   * [Inheritance completion activity #2](inheritancecompletion_activity_2.md)
    * [Inheritance completion activity #3](inheritance_completion_activity_3)
    * [Inheritance completion activity #4](inheritance_completion_activity_4)
    * [Submit your answers to Randomness](submit_your_answers_to_randomness)
