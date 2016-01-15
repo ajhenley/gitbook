@@ -1,4 +1,4 @@
-# Inheritance completion activity #1
+###Inheritance completion activity #1
 
 Make the following application work and then create a method outputs the name of the current class to the console.
 
