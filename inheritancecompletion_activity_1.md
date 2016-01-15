@@ -3,7 +3,7 @@
 Make the following application work and then create a method outputs the name of the current class to the console.
 
 Product.java
-
+{%ace edit=true, lang='java'%}
 import java.text.NumberFormat;
 
 public class Product
@@ -41,21 +41,22 @@ public class Product
         return count;
     }
 }
- 
+{%endace%} 
 
-Book.java
-
+####Book.java
+{%ace edit=true, lang='java'%}
 public class Book extends Product {
     private String author;
     private int pages;
 
 }
- 
+{%endace%} 
 
-Software.java
-
+####Software.java
+{%ace edit=true, lang='java'%}
 public class Software extends Product {
     private String programmer;
     private String platform; //linux, mac, or pc
     private String os; 
 }
+{%endace%}
