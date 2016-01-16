@@ -122,7 +122,7 @@
    * [Submit your answers to Randomness](submityour_answers_to_randomness.md)
    * [Magic 8 ball random activity](magic8_ballrandom_activity.md)
    * [Magic 8 ball history application](magic_8_ball_history_application)
-   * [Randomness activity](randomness_activity)
+   * [Randomness activity](randomnessactivity.md)
    * [Composition](composition)
    * [Composition response](composition_response)
    * [Composition vs Inheritance Explained](composition_vs_inheritance_ explained)
