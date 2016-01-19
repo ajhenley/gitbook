@@ -1,5 +1,5 @@
 <!--djw:used to be Magic 8 ball-->
-###Magic 8 ball random activity
+###Random fortune activity
 {%ace edit=true, lang='java'%}
 import java.util.Random;
 
