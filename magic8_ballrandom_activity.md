@@ -39,13 +39,13 @@ public class Fortune
 		else if ( choice == 13 )
 			response = "Choose a job you love, and you will never have to work a day in your life.";
 		else if ( choice == 14 )
-			response = "Cannot predict now";
+			response = "Wherever you go, go with all your heart.";
 		else if ( choice == 15 )
-			response = "Concentrate and ask again";
+			response = "";
 		else 
-			response = "8-BALL ERROR!";
+			response = "";
 
-		System.out.println( "MAGIC 8-BALL SAYS: " + response );
+		System.out.println( "Your fortune says: " + response );
 	}
 }
 {%endace%}
