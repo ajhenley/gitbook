@@ -1,9 +1,9 @@
-<!--djw: lacks originality-->
+<!--djw:used to be Magic 8 ball-->
 ###Magic 8 ball random activity
 {%ace edit=true, lang='java'%}
 import java.util.Random;
 
-public class Magic8Ball
+public class Fortune
 {
 	public static void main ( String[] args )
 	{
@@ -13,31 +13,31 @@ public class Magic8Ball
 		String response = "";
 
 		if ( choice == 1 )
-			response = "It is certain";
+			response = "Your smile brings happiness to everyone you meet.";
 		else if ( choice == 2 )
-			response = "It is decidedly so";
+			response = "A smile is your passport into the hearts of others.";
 		else if ( choice == 3 )
-			response = "Without a doubt";
+			response = "Hard work pays off in the future, laziness pays off now.";
 		else if ( choice == 4 )
-			response = "Yes - definitely";
+			response = "If you have something good in your life, don't let it go!";
 		else if ( choice == 5 )
-			response = "You may rely on it";
+			response = "You learn from your mistakes... You will learn a lot today.";
 		else if ( choice == 6 )
-			response = "As I see it, yes";
+			response = "You will travel to many exotic places in your lifetime.";
 		else if ( choice == 7 )
-			response = "Most likely";
+			response = "Your wish will come true.";
 		else if ( choice == 8 )
-			response = "Outlook good";
+			response = "Its amazing how much good you can do if you dont care who gets the credit.";
 		else if ( choice == 9 )
-			response = "Signs point to yes";
+			response = "Bloom where you are planted.";
 		else if ( choice == 10 )
-			response = "Yes";
+			response = "All the water in the world can't sink a ship unless it gets inside.";
 		else if ( choice == 11 )
-			response = "Reply hazy, try again";
+			response = "A winner never cheats and a cheater never wins.";
 		else if ( choice == 12 )
-			response = "Ask again later";
+			response = "Never miss a chance to keep your mouth shut.";
 		else if ( choice == 13 )
-			response = "Better not tell you now";
+			response = "Choose a job you love, and you will never have to work a day in your life.";
 		else if ( choice == 14 )
 			response = "Cannot predict now";
 		else if ( choice == 15 )
