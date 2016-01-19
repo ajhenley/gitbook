@@ -49,22 +49,15 @@ public class Fortune
 	}
 }
 {%endace%}
-What You Should See
 
 Your answers will probably be different than these. Actually, that's kind of the point.
-```
-
-```
-
 1. Add five fortunes of your own. Change the code so that it picks a random number from 1-20 and add your fortunes.
-
 
 2. Rewrite the code above so the fortune is contained in a class. The class contains a method called breakCookie which generates a random answer. Implement the Fortune class in your main method as follows:
 
 response = Fortune.breakCookie()
 
-3. Modify the existing console application to prompt the user to ask a question. Then, when the user hits enter, the Magic8Ball class returns a random response. Finally the app asks the user if they want to ask another question. Allow the user to ask as many questions as they like until they decide to quit.
 
-In the main method you should handle all the code that deals with the user interaction such as asking questions and printing responses to the console. However, the Magic8Ball class should handle anything that has to do with the functionality of generating a random response.
+
 
  
