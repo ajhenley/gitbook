@@ -120,7 +120,6 @@
    * [Inheritance completion activity #4](inheritancecompletion_activity_4.md)
    * [Submit your answers to Randomness](submityour_answers_to_randomness.md)
    * [Magic 8 ball random activity](magic8_ballrandom_activity.md)
-   * [Magic 8 ball history application](magic8_ballhistory_application.md)
    * [Composition](composition)
    * [Composition response](composition_response)
    * [Composition vs Inheritance Explained](composition_vs_inheritance_ explained)
