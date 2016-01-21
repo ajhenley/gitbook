@@ -1,5 +1,18 @@
 <!--djw:used to be Magic 8 ball-->
 ###Random fortune activity
+Most of the life of a program is spent in maintenance. For that reason, most of the life of a programmer is spent maintaining and modifying previously developed programs.
+
+Your job now is to modify the following application. The first step is to copy the code to Eclipse and get it running. You'll see that the program simply prints out a fortune and then exits.
+
+There aren't enough fortunes. Add five more. You can make them up or you can search online for ideas. Change the code so that it picks a random number from 1-20 and add your fortunes.
+
+We'd like to apply what we know about classes to minimize the code in main() and take advantage of object-oriented design. You should create a class called Fortune which simply returns a random fortune. The class shall contain a method which generates a random fortune. Implement the Fortune class in your main method as follows:
+
+```response = Fortune.breakCookie();```
+
+We've already learned about while loops. A while loop would to allow the user to receive another  fortune or exit. Add a while loop to the program so the user is continally prompted to either get a fortune or exit.
+
+
 {%ace edit=true, lang='java'%}
 import java.util.Random;
 
@@ -49,13 +62,6 @@ public class Fortune
 	}
 }
 {%endace%}
-
-Your answers will probably be different than these. Actually, that's kind of the point.
-1. Add five fortunes of your own. Change the code so that it picks a random number from 1-20 and add your fortunes.
-
-2. Rewrite the code above so the fortune is contained in a class. The class contains a method called breakCookie which generates a random answer. Implement the Fortune class in your main method as follows:
-
-response = Fortune.breakCookie()
 
 
 
