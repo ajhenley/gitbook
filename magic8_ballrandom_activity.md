@@ -1,4 +1,5 @@
-<!--djw:used to be Magic 8 ball-->
+<!--djw:done-->
+<!-- used to be Magic 8 Ball -->
 ###Random fortune activity
 Most of the life of a program is spent in maintenance. For that reason, most of the life of a programmer is spent maintaining and modifying previously developed programs.
 
