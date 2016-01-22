@@ -1,11 +1,11 @@
 ###Composition
-In real-life, complex objects are often built from smaller, simpler objects. For example, a car is built using a metal frame, an engine, some tires, a transmission, a steering wheel, and a large number of other parts. A personal computer is built from a CPU, a motherboard, some memory, etc… Even you are built from smaller parts: you have a head, a body, some legs, arms, and so on. This process of building complex objects from simpler ones is called composition (also known as object composition).
+In real-life, complex objects are often built from smaller, simpler objects. For example, a car contains a frame, an engine, tires, a transmission, a steering wheel, and a vast number of other parts. A personal computer contains a CPU, motherboard, memory, etc... Even you contain many smaller parts: you have a head, a body, legs, arms, and so on. Composition is process of building complex objects from simpler ones. This type of relationship is a containing relationship.
 
-More specifically, composition is used for objects that have a **has-a** relationship to each other. A car *has-a* metal frame, *has-an* engine, and *has-a* transmission. A personal computer *has-a* CPU, a motherboard, and other components. You have-a head, a body, some limbs.
+Composition is used for objects that have what we call a **has-a** relationship to each other. A car *has-a* metal frame, *has-an* engine, and *has-a* transmission. A personal computer *has-a* CPU, a motherboard, and other components. You *have-a* head, a body, some limbs.
 
-All of the classes we have used so far have had member variables composed of existing data types (e.g. int, double, String). This may suffice for designing and implementing small, simple classes. It becomes burdensome for complex classes. Especially those built from lots of sub-parts. To facilitate the building of complex classes from simpler ones, Java allows object composition in a simple way. By using classes as member variables in other classes.
+The classes we have used so far have had member variables composed of existing data types (e.g. int, double, boolean). This may suffice for designing and implementing small, simple classes. It becomes burdensome for complex classes. Java allows us to build complex classes simply by using classes as member variables in other classes.
 
-Java composition works by using instance variables that refers to other objects. A Person (object) *has a* Job (object). You'll find the Job object as a variable in the Person object below.
+Java composition works by using instance variables that refer to other objects. A Person (object) *has a* Job (object). You'll find the Job object as a variable in the Person object below.
 
 {%ace edit=true, lang='java'%}
 //Job.java
@@ -62,7 +62,7 @@ public class CompositionBasics {
 }
 {%endace%}
 
-Notice that above test program is not affected by any change in the Job object. If you are looking for code reuse and the relationship between two classes is has-a then you should use composition rather than inheritance.
+Notice that above test program is not affected by any change in the Job object. If you are looking for code reuse and the relationship between two classes is *has-a* then you should use composition rather than inheritance.
 
 The benefit of using composition is that we can control the visibility of other objects to client classes and reuse only what we need.
 
