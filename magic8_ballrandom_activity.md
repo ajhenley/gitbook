@@ -1,5 +1,5 @@
 <!--djw:done-->
-<!-- used to be Magic 8 Ball -->
+<!-- used to be Magic 8 Ball but I was inspired to make something more original-->
 ###Random fortune activity
 Most of the life of a program is spent in maintenance. Consequently, most of the life of a programmer is spent maintaining existing programs. 
 
@@ -7,11 +7,11 @@ Your job now is to change the following application. The first step is to copy t
 
 There aren't enough responses. Add five more. You can make them up or you can search online for ideas. Change the code so that it picks a random number from 1-20 and add your responses.
 
-We'd like to apply what we know about classes to reduce the code in main(). Then we can take advantage of object-oriented design. You should create a class called Inspiration which simply returns a random inspirational quote. The class needs a method to generates the random quote. Implement the Inspiration class in your main method as follows:
+We'd like to apply what we know about classes to reduce the code in ```main()```. Then we can take advantage of object-oriented design. You should create a class called DeepThoughts which simply returns a random inspirational quote. The class needs a method to generates the random quote. Implement the DeepThoughts class in your main method as follows:
 
-```response = Inspiration.inspireMe();```
+```response = DeepThoughts.inspireMe();```
 
-We've already learned about while loops. A while loop would to allow the user to receive another  quote or exit. Add a while loop to the program so the user is continually prompted to either get a quote or exit.
+We've already learned about while loops. A while loop would to allow the user to receive another  quote or exit. Add a while loop to the program so the user is continually prompted to either get a quote or exit. That way the user could have lots of goals.
 
 
 {%ace edit=true, lang='java'%}
