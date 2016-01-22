@@ -55,7 +55,8 @@ public class CompositionBasics {
     }
 
 }
-Github Repository (Links to an external site.)
+
+
 Notice that above test program is not affected by any change in the Job object. If you are looking for code reuse and the relationship between two classes is has-a then you should use composition rather than inheritance.
 
 The benefit of using composition is that we can control the visibility of other objects to client classes and reuse only what we need.
