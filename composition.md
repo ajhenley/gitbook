@@ -7,6 +7,7 @@ All of the classes we have used so far have had member variables composed of exi
 
 Java composition works by using instance variables that refers to other objects. A Person (object) *has a* Job (object). You'll find the Job object as a variable in the Person object below.
 
+{%ace edit=true, lang='java'%}
 //Job.java
 public class Job {
     private String role;
@@ -32,8 +33,10 @@ public class Job {
         this.id = id;
     }
 }
-Person.java
+{%endace%}
 
+{%ace edit=true, lang='java'%}
+//Person.java
 public class Person {
     //composition has-a relationship
     private Job job;
@@ -46,8 +49,10 @@ public class Person {
         return job.getSalary();
     }
 }
-CompositionBasics.java
+{%endace%}
 
+{%ace edit=true, lang='java'%}
+//CompositionBasics.java
 public class CompositionBasics {
     public static void main(String[] args) {
         Person bobby = new Person();
@@ -55,7 +60,7 @@ public class CompositionBasics {
     }
 
 }
-
+{%endace%}
 
 Notice that above test program is not affected by any change in the Job object. If you are looking for code reuse and the relationship between two classes is has-a then you should use composition rather than inheritance.
 
