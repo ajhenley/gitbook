@@ -1,65 +1,73 @@
 <!--djw:done-->
 <!-- used to be Magic 8 Ball -->
 ###Random fortune activity
-Most of the life of a program is spent in maintenance. For that reason, most of the life of a programmer is spent maintaining and modifying previously developed programs.
+Most of the life of a program is spent in maintenance. Consequently, most of the life of a programmer is spent maintaining existing programs. 
 
-Your job now is to modify the following application. The first step is to copy the code to Eclipse and get it running. You'll see that the program simply prints out a fortune and then exits.
+Your job now is to change the following application. The first step is to copy the code to Eclipse and get it running. You'll see that the program asks the user for their goal and prints out a motivational response. Then it exits.
 
-There aren't enough fortunes. Add five more. You can make them up or you can search online for ideas. Change the code so that it picks a random number from 1-20 and add your fortunes.
+There aren't enough responses. Add five more. You can make them up or you can search online for ideas. Change the code so that it picks a random number from 1-20 and add your responses.
 
-We'd like to apply what we know about classes to minimize the code in main() and take advantage of object-oriented design. You should create a class called Fortune which simply returns a random fortune. The class shall contain a method which generates a random fortune. Implement the Fortune class in your main method as follows:
+We'd like to apply what we know about classes to reduce the code in main(). Then we can take advantage of object-oriented design. You should create a class called Inspiration which simply returns a random inspirational quote. The class needs a method to generates the random quote. Implement the Inspiration class in your main method as follows:
 
-```response = Fortune.breakCookie();```
+```response = Inspiration.inspireMe();```
 
-We've already learned about while loops. A while loop would to allow the user to receive another  fortune or exit. Add a while loop to the program so the user is continally prompted to either get a fortune or exit.
+We've already learned about while loops. A while loop would to allow the user to receive another  quote or exit. Add a while loop to the program so the user is continually prompted to either get a quote or exit.
 
 
 {%ace edit=true, lang='java'%}
 import java.util.Random;
+import java.util.Scanner;
 
-public class Fortune
+public class Inspiration
 {
 	public static void main ( String[] args )
 	{
 		Random r = new Random();
-
-		int choice = 1 + r.nextInt(15);
 		String response = "";
 
+		Scanner keyboard = new Scanner(System.in);
+		System.out.println("What is your career goal?");
+		String goal = keyboard.nextLine();
+		keyboard.close(); //closing the keyboard frees the resource
+		
+		//choose a random value between 1 and 15
+		int choice = 1 + r.nextInt(15);
+		
 		if ( choice == 1 )
-			response = "Your smile brings happiness to everyone you meet.";
+			response = "the man who goes farthest is generally the one who is willing to do and dare.  The sure-thing boat never gets far from shore.";
 		else if ( choice == 2 )
-			response = "A smile is your passport into the hearts of others.";
+			response = "obstacles are those frightful things you see when you take your eyes off your goal.";
 		else if ( choice == 3 )
-			response = "Hard work pays off in the future, laziness pays off now.";
+			response = "hard work pays off in the future, laziness pays off now.";
 		else if ( choice == 4 )
-			response = "If you have something good in your life, don't let it go!";
+			response = "what may be done at any time will be done at no time.";
 		else if ( choice == 5 )
-			response = "You learn from your mistakes... You will learn a lot today.";
+			response = "you learn from your mistakes... You will learn a lot today.";
 		else if ( choice == 6 )
-			response = "You will travel to many exotic places in your lifetime.";
+			response = "you will travel to many exotic places in your lifetime.";
 		else if ( choice == 7 )
-			response = "Your wish will come true.";
+			response = "there are no secrets to success. It is the result of preparation, hard work, and learning from failure.";
 		else if ( choice == 8 )
-			response = "Its amazing how much good you can do if you don't care who gets the credit.";
+			response = "its amazing how much good you can do if you don't care who gets the credit.";
 		else if ( choice == 9 )
-			response = "Bloom where you are planted.";
+			response = "you should bloom where you are planted.";
 		else if ( choice == 10 )
-			response = "All the water in the world can't sink a ship unless it gets inside.";
+			response = "all the water in the world can't sink a ship unless it gets inside.";
 		else if ( choice == 11 )
-			response = "A winner never cheats and a cheater never wins.";
+			response = "a winner never cheats and a cheater never wins.";
 		else if ( choice == 12 )
-			response = "Never miss a chance to keep your mouth shut.";
+			response = "people do not lack strength, they lack will.";
 		else if ( choice == 13 )
-			response = "Choose a job you love, and you will never have to work a day in your life.";
+			response = "you may be disappointed if you fail, but you are doomed if you don’t try.";
 		else if ( choice == 14 )
-			response = "Wherever you go, go with all your heart.";
+			response = "";
 		else if ( choice == 15 )
-			response = "Silence is a true friend who never betrays.";
+			response = "no one is wise by birth.  Wisdom results from one’s own efforts.";
 		else 
-			response = "To know what you know and what you do not know, that is true knowledge.";
+			response = "true knowledge is to know what you know and what you do not know.";
 
-		System.out.println( "Your fortune says: " + response );
+		System.out.println( "Good luck with your goal: " + goal +".");
+		System.out.println("It has been said that " + response);
 	}
 }
 {%endace%}
