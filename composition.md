@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Composition
 Complex objects, in real-life) are often built from smaller, simple objects. A car contains a frame, an engine, tires, a transmission, a steering wheel, and other parts. A personal computer contains a CPU, motherboard, memory, etc... Even you are composed of smaller parts: a head, body, legs, arms, and so on. Composition is process of building complex objects from simple ones. This type of relationship is a containing relationship.
 
@@ -72,7 +73,7 @@ Also if there is any change in the other class implementation, for example getSa
 
 So composition allows creation of back-end class when it’s needed, for example we can change Person getSalary method to initialize the Job object.
 
-What You Should Try Now
+###Your assignment
 Create an Education class and make an instance of the Education class a member of the Person class. Your education class should include a list of last 10 schools attended.
-Create a toString override for both Job and Education that outputs the information in the class to the console. The toString override for Person should use the toString methods for the Job and Education member objects.
+Create a ```toString()``` override for both Job and Education that outputs the information in the class to the console. The ```toString()``` override for Person should use the ```toString()``` methods for the Job and Education member objects.
 
