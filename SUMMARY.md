@@ -121,7 +121,6 @@
    * [Submit your answers to Randomness](submityour_answers_to_randomness.md)
    * [Deep thoughts random activity](magic8_ballrandom_activity.md)
    * [Composition](composition.md)
-   * [Composition response](compositionresponse.md)
    * [Composition vs Inheritance Explained](compositionvs_inheritance_explained.md)
    * [How to compare Strings](how_to_compare_strings)
    * [Basic Skills for Working with Data](basic_skills_for_working_with_data)
