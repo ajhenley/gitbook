@@ -1,6 +1,6 @@
 <!--ajh:done-->
 
-# Randomness change activity
+###Randomness change activity
 
 The following code, our program from last time, generates a random number between 1 and 6, inclusive. Change the code to generate a random integer between 5 and 95.
 
