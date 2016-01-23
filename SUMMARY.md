@@ -204,7 +204,7 @@
    * [Servlet Assignment](servlet_assignment)
    * [Looping Database Servlet Assignment](looping_database_servlet_assignment)
    * [Detail Pages using Servlets Assignment](detail_pages_using_servlets_assignment)
-   * [Simple HTML Form and Servlet](simple_html_form_and_servlet)
+   * [Simple HTML Form and Servlet](simplehtml_form_and_servlet.md)
    * [Ms Mackleberry's Gradebook Assignment](ms_mackleberrys_gradebook_assignment)
    * [Professor Strongheim's Gradebook Assignment](professor_strongheims_gradebook_assignment)
    * [Strongheim Revisited](strongheim_revisited)
