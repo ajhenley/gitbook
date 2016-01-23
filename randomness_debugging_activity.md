@@ -1,6 +1,5 @@
 <!--ajh:done-->
-# Randomness debugging activity
-
+###Randomness debugging activity
 This program should generate 10 random integers from 1 to 6. Fix it so that it works...
 
 {%ace edit=false, lang='java'%}
