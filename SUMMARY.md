@@ -127,7 +127,7 @@
    * [How to Work with Casting](howto_work_with_casting.md)
    * [Casting Activity](castingactivity.md)
    * [Shortcut Assignment Activity](shortcutassignment_activity.md)
-   * [Precedence Debugging Activity](precedence_debugging_activity)
+   * [Precedence Debugging Activity](precedencedebugging_activity.md)
    * [Formatted Invoice Application](formatted_invoice_application)
    * [Input Range Validation Change Assignment](input_range_validation_change_assignment)
    * [Collections Example](collections_example)
