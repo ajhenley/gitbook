@@ -1,6 +1,6 @@
 ###Formatted Invoice Application
 
-
+<!--djw: has some text formatting issues-->
 ####The NumberFormat class
 
 ```java.text.NumberFormat```
