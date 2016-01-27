@@ -129,7 +129,7 @@
    * [Shortcut Assignment Activity](shortcutassignment_activity.md)
    * [Precedence Debugging Activity](precedencedebugging_activity.md)
    * [Formatted Invoice Application](formattedinvoice_application.md)
-   * [Input Range Validation Change Assignment](input_range_validation_change_assignment)
+   * [Input Range Validation Change Assignment](inputrange_validation_change_assignment.md)
    * [Collections Example](collections_example)
    * [Collections](collections)
    * [ArrayList Debugging Activity](arraylist_debugging_activity)
