@@ -1,7 +1,10 @@
 ###Formatted Invoice Application
 
+
 ####The NumberFormat class
+
 ```java.text.NumberFormat```
+
 
 ####Three static methods of the NumberFormat class
 
@@ -12,13 +15,14 @@ getNumberInstance()
 ```
 
 ####Three methods of a NumberFormat object
-```
-format(anyNumberType)
+
+```format(anyNumberType)
 setMinimumFractionDigits(int)
 setMaximumFractionDigits(int)
 ``` 
 
 ####The currency format
+
 {%ace edit=true, lang='java'%}
 double price = 11.575;
 NumberFormat currency = NumberFormat.getCurrencyInstance();
