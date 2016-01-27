@@ -1,15 +1,20 @@
 ###Composition vs Inheritance Explained
 Both composition and inheritance enable a class to reuse the code of another class. Programmers may use inheritance to get one class to contain the functionality of another. Sometimes that's the best idea in the world. Sometimes it's a square wheel. Which to use and when? The correct answer depends on the relationship between the classes.
 
-With Composition you learned how a Person class could have a Job. Or an Education class could contain schools. We call these *has-a* relationships because the first class *has-an* object of the second class. 
+With *Composition* you learned how a Person class could have a Job. Or an Education class could contain schools. We call these *has-a* relationships because the first class *has-an* object of the second class. 
 
-Inheritance is the other type of relationship. It occurs when one class inherits another. An Employee class is a more specific instance of a Person. It inherits the Person class. This type of relationship is called an *is-a* relationship. All the attributes of Person are in Employee as well as some attributes specific to Employees. Such as Department, JobTitle, PayRate, etc... 
+*Inheritance* is the other type of relationship. It occurs when one class inherits another. An Employee class is a more specific instance of a Person. It inherits the Person class. This type of relationship is called an *is-a* relationship. All the attributes of Person are in Employee as well as some attributes specific to Employees. Such as Department, JobTitle, PayRate, etc... 
 
 ###How to implement Inheritence
-Here's an example with an Instrument and a Saxophone. Notice that the Instrument does not know anything about the Saxophone. The Instrument is a class that existed when the developer discovered the need for a more specific instrument. 
+Here's an example with an Instrument and a Saxophone. Notice that the Instrument does not know anything about the Saxophone. The Instrument is a class that existed when the developer discovered the need for a more specific instrument. Good coding practice says we don't want to modify working code. We should extend it.
 
 {%ace edit=true, lang='java'%}
-public Instrument(){
+public class Instrument {
+	private String classification; // wind, string or percussion
+	private String name;
+	private int yearInvented;
+	
+	public Instrument(){
 		System.out.println("An instrument is created");
 	}
 	public Instrument(String classification,String name, int yearInvented){
@@ -42,12 +47,12 @@ public Instrument(){
 	public void setYearInvented(int yearInvented) {
 		this.yearInvented = yearInvented;
 	}
-	
 }
 {%endace%}
 
 {%ace edit=true, lang='java'%}
-
+// Use the extends keyword to inherit the Instrument class.
+// The Saxophone is-an Instrument
 public class Saxophone extends Instrument{
 	private String mouthpiece;
 	private String key;
@@ -88,7 +93,6 @@ public class Saxophone extends Instrument{
 	public void tune(){
 		System.out.println("An out-of-tune sax sounds like a cat fight" );
 	}
-
 }
 {%endace%}
 
