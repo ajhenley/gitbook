@@ -126,7 +126,7 @@
    * [Basic Skills for Working with Data](basicskills_for_working_with_data.md)
    * [How to Work with Casting](howto_work_with_casting.md)
    * [Casting Activity](castingactivity.md)
-   * [Shortcut Assignment Activity](shortcut_assignment_activity)
+   * [Shortcut Assignment Activity](shortcutassignment_activity.md)
    * [Precedence Debugging Activity](precedence_debugging_activity)
    * [Formatted Invoice Application](formatted_invoice_application)
    * [Input Range Validation Change Assignment](input_range_validation_change_assignment)
