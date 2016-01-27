@@ -132,7 +132,7 @@
    * [Input Range Validation Change Assignment](inputrange_validation_change_assignment.md)
    * [Collections Example](collectionsexample.md)
    * [Collections](collections.md)
-   * [ArrayList Debugging Activity](arraylist_debugging_activity)
+   * [ArrayList Debugging Activity](arraylistdebugging_activity.md)
    * [ArrayList Debugging Activity 2](arraylist_debugging_activity_2)
    * [ArrayList Activity](arraylistactivity.md)
    * [Validation made Easy - er](validation_made_easyer)
