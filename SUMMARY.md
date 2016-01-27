@@ -133,7 +133,7 @@
    * [Collections Example](collectionsexample.md)
    * [Collections](collections.md)
    * [ArrayList Debugging Activity](arraylistdebugging_activity.md)
-   * [ArrayList Debugging Activity 2](arraylist_debugging_activity_2)
+   * [ArrayList Debugging Activity 2](arraylistdebugging_activity_2.md)
    * [ArrayList Activity](arraylistactivity.md)
    * [Validation made Easy - er](validation_made_easyer)
    * [Using the Validator](using_the_validator)
