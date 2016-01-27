@@ -35,49 +35,49 @@ x = x + 2;
          j = 5;
          k = 5;
  
-11         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
-12         i =  i + 3;
-13         j =  j - 3;
-14         k =  k * 3;
-15         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
-16 
-17         i = 5;
-18         j = 5;
-19         k = 5;
-20 
-21         System.out.println( "\ni: " + i + "\tj: " + j + "\tk: " + k );
-22         i += 3;
-23         j -= 3;
-24         k *= 3;
-25         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
-26 
-27         i = j = k = 5;
-28 
-29         System.out.println( "\ni: " + i + "\tj: " + j + "\tk: " + k );
-30         i += 1;
-31         j -= 2;
-32         k *= 3;
-33         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
-34 
-35         i = j = k = 5;
-36 
-37         System.out.println( "\ni: " + i + "\tj: " + j + "\tk: " + k );
-38         i =+ 1;
-39         j =- 2;
-40         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
-41 
-42         i = j = k = 5;
-43 
-44         System.out.println( "\ni: " + i + "\tj: " + j + "\tk: " + k );
-45         i++;
-46         j--;
-47         System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
-48 
-49     }
-50 }
+        System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
+        i =  i + 3;
+        j =  j - 3;
+        k =  k * 3;
+        System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
+
+        i = 5;
+        j = 5;
+        k = 5;
+
+        System.out.println( "\ni: " + i + "\tj: " + j + "\tk: " + k );
+        i += 3;
+        j -= 3;
+        k *= 3;
+        System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
+
+        i = j = k = 5;
+
+        System.out.println( "\ni: " + i + "\tj: " + j + "\tk: " + k );
+        i += 1;
+        j -= 2;
+        k *= 3;
+        System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
+
+        i = j = k = 5;
+
+        System.out.println( "\ni: " + i + "\tj: " + j + "\tk: " + k );
+        i =+ 1;
+        j =- 2;
+        System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
+
+        i = j = k = 5;
+
+        System.out.println( "\ni: " + i + "\tj: " + j + "\tk: " + k );
+        i++;
+        j--;
+        System.out.println( "i: " + i + "\tj: " + j + "\tk: " + k );
+
+    }
+}
 {%endace%}
 What You Should See
-
+```
 i: 5    j: 5    k: 5
 i: 8    j: 2    k: 15
 
@@ -92,6 +92,8 @@ i: 1    j: -2   k: 5
 
 i: 5    j: 5    k: 5
 i: 6    j: 4    k: 5
+```
+
 Hopefully lines 1-21 are nice and boring. We create three variables, give them values, display them, change their values and print them again. Then starting on line 17 we give the variables the same values they started with and print them. 
 
 On line 22 we see something new: a shortcut called a “compound assignment operator.” The i += 3 means the same as i = i + 3: “take the current value of i, add 3 to it, and store the result as the new value of i. When we say it out loud, we would say “i plus equals 3.” 
