@@ -94,6 +94,6 @@ public class Saxophone extends Instrument{
 
 ###What You Should Do Now
 Create an Employee class and make it extend the Person class. Your employee class should include fields for Department, JobTitle and PayRate. 
-Create a toString override for both Job and Education that outputs the information in the class to the console. The toString override for Person should use the toString methods for the Job and Education member objects.
+Create a ```toString()``` override for both Job and Education that outputs the information in the class to the console. The ```toString()``` override for Person should use the ```toString()``` methods for the Job and Education member objects.
 
 
