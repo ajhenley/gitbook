@@ -136,7 +136,7 @@
    * [ArrayList Debugging Activity 2](arraylistdebugging_activity_2.md)
    * [ArrayList Activity](arraylistactivity.md)
    * [Validation made Easy - er](validationmade_easyer.md)
-   * [Using the Validator](using_the_validator)
+   * [Using the Validator](usingthe_validator.md)
    * [Transcript Activity](transcript_activity)
    * [Transcript Class Diagram](transcript_class_diagram)
    * [Transcript Unit Tests](transcript_unit_tests)
