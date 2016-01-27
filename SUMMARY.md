@@ -124,7 +124,7 @@
    * [Composition vs Inheritance Explained](compositionvs_inheritance_explained.md)
    * [How to compare Strings](howto_compare_strings.md)
    * [Basic Skills for Working with Data](basicskills_for_working_with_data.md)
-   * [How to Work with Casting](how_to_work_with_casting)
+   * [How to Work with Casting](howto_work_with_casting.md)
    * [Casting Activity](casting_activity)
    * [Shortcut Assignment Activity](shortcut_assignment_activity)
    * [Precedence Debugging Activity](precedence_debugging_activity)
