@@ -122,7 +122,7 @@
    * [Submit your answers to Randomness](submityour_answers_to_randomness.md)
    * [Composition](composition.md)
    * [Composition vs Inheritance Explained](compositionvs_inheritance_explained.md)
-   * [How to compare Strings](how_to_compare_strings)
+   * [How to compare Strings](howto_compare_strings.md)
    * [Basic Skills for Working with Data](basic_skills_for_working_with_data)
    * [How to Work with Casting](how_to_work_with_casting)
    * [Casting Activity](casting_activity)
