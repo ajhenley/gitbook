@@ -1,5 +1,5 @@
 <!-- 
-djw: this is almost pointless, I'm dropping this and replacing it with a discussion of 
+djw: this seems almost pointless, I'm dropping this and replacing it with a discussion of 
 ArrayList vs Array and an activity to convert an app using an Array to one using an ArrayList
 -->
 
