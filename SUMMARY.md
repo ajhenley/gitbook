@@ -140,7 +140,7 @@
    * [Transcript Activity](transcript_activity)
    * [Transcript Class Diagram](transcript_class_diagram)
    * [Transcript Unit Tests](transcript_unit_tests)
-   * [Formatting Numbers and Strings for Output](formatting_numbers_and_strings_for_output)
+   * [Formatting Numbers and Strings for Output](formattingnumbers_and_strings_for_output.md)
    * [Using a Hashmap](using_a_hashmap)
    * [Using Hashmaps](using_hashmaps)
    * [Reading and Writing to a File](reading_and_writing_to_a file)
