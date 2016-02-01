@@ -1,3 +1,8 @@
+<!-- 
+djw: this is almost pointless, I'm dropping this and replacing it with a discussion of 
+ArrayList vs Array and an activity to convert an app using an Array to one using an ArrayList
+-->
+
 ###ArrayList Debugging Activity 2
 When working with ArrayList, you will sometimes want to obtain an actual array that contains the contents of the list. As explained earlier, you can do this by calling toArray( ). 
 
