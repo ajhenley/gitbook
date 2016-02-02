@@ -142,7 +142,7 @@
    * [Transcript Unit Tests](transcriptunit_tests.md)
    * [Formatting Numbers and Strings for Output](formattingnumbers_and_strings_for_output.md)
    * [Using a Hashmap](usinga_hashmap.md)
-   * [Using Hashmaps](using_hashmaps)
+   * [Using Hashmaps](usinghashmaps.md)
    * [Reading and Writing to a File](reading_and_writing_to_a file)
    * [Linked HashMap Example](linked hashmap example)
    * [Example of reading and writing to file](exampleof_reading_and_writing_to_file.md)
