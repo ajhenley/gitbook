@@ -138,7 +138,7 @@
    * [Validation made Easy - er](validationmade_easyer.md)
    * [Using the Validator](usingthe_validator.md)
    * [Transcript Activity](transcriptactivity.md)
-   * [Transcript Class Diagram](transcript_class_diagram)
+   * [Transcript Class Diagram](transcriptclassdiagram.md)
    * [Transcript Unit Tests](transcript_unit_tests)
    * [Formatting Numbers and Strings for Output](formattingnumbers_and_strings_for_output.md)
    * [Using a Hashmap](using_a_hashmap)
