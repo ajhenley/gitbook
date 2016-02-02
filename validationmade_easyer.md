@@ -20,27 +20,40 @@ public class ValidationMain {
 
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
+		boolean isValid = false;
 		
 		//Prompt the user to enter the product code, quantity and price
-		
+	
 		String productCode = "";
 		System.out.println("What would you like to order?");
 		productCode = keyboard.nextLine();
 		
 		int quantity = 0;
-		System.out.println("How many would you like?");
-		if (keyboard.hasNextInt()){
-			quantity = keyboard.nextInt();
-		}else{
-			System.out.println("Please enter a valid quantity");
+		isValid = false;
+		
+		while (isValid == false){
+			System.out.println("How many would you like?");
+			if (keyboard.hasNextInt()){
+				quantity = keyboard.nextInt();
+				isValid = true;
+			}else{
+				System.out.println("Please enter a valid quantity");
+			}
+			keyboard.nextLine();//clear out any remaining data
 		}
 
 		double price = 0.0;
-		System.out.println("What is the price?");
-		if (keyboard.hasNextDouble()){
-			price = keyboard.nextDouble();
-		}else{
-			System.out.println("Please enter a decimal number");
+		isValid = false;
+		
+		while (isValid == false){
+			System.out.println("What is the price?");
+			if (keyboard.hasNextDouble()){
+				price = keyboard.nextDouble();
+				isValid = true;
+			}else{
+				System.out.println("Please enter a decimal number");
+			}	
+			keyboard.nextLine();//this is necessary to clear out any remaining data
 		}
 
 		//print the order summary
