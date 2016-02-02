@@ -5,8 +5,17 @@ We'll look at two ways to validate incoming data
 * Use the Scanner class to ensure you only get a particular type of data
 * Write your own class to validate that the data is within a specific range
  
+Here's an example where we use the Scanner class to ensure we get valid data from the user.
 
 
 
+####Your assignment
+Sometimes the Scanner class alone doesn't enforce all our business rules. 
+Modify the program above. Add a class that ensures the following:
+* The product code must be exactly five characters long
+* Quantity is between 0 and 100. 
+* Price is between 0.0 and 1000.00
+
+The program should continue prompting the user to enter correct data until the user enters valid data.
 
 
