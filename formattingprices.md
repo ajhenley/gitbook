@@ -23,5 +23,5 @@ Or you can use String.format. This will also work with printf to print a formatt
 
 {%ace edit=false, lang='java'%}
 double myDouble = 3.5;
-String formattedData = String.format(%.02f",myDouble);
+String formattedData = String.format("%.02f",myDouble);
 {%endace%}
