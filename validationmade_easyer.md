@@ -71,9 +71,9 @@ We can't extend the Scanner class because it's final. The reason is that Oracle 
 
 ####Your assignment
 Sometimes the Scanner class alone doesn't enforce all our business rules. 
-Modify the program above. Add and implement a Validation class that ensures the following:
+Modify the program above. Add and also implement a Validation class that ensures the following:
 * The product code must be exactly five characters long
-* Quantity is between 0 and 100. 
+* Quantity is between 0 and 100 
 * Price is between 0.0 and 1000.00
 
 
