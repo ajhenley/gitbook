@@ -141,7 +141,7 @@
    * [Transcript Class Diagram](transcriptclassdiagram.md)
    * [Transcript Unit Tests](transcriptunit_tests.md)
    * [Formatting Numbers and Strings for Output](formattingnumbers_and_strings_for_output.md)
-   * [Using a Hashmap](using_a_hashmap)
+   * [Using a Hashmap](usinga_hashmap.md)
    * [Using Hashmaps](using_hashmaps)
    * [Reading and Writing to a File](reading_and_writing_to_a file)
    * [Linked HashMap Example](linked hashmap example)
