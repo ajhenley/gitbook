@@ -147,7 +147,7 @@
    * [Linked HashMap Example](linked hashmap example)
    * [Example of reading and writing to file](exampleof_reading_and_writing_to_file.md)
 * [ArrayLists](arraylists.md)
-   * [Copying ArrayLists](copying_arraylists)
+   * [Copying ArrayLists](copyingarraylists.md)
    * [Finding a Value in an ArrayList](finding_a_value_in_an_arraylist)
    * [ArrayList - Where is it?](arraylist - where is it?)
    * [Getting the Largest Value in an ArrayList](getting_the_largest_value_in_an_arraylist)
