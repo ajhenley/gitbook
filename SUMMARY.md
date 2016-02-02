@@ -137,7 +137,7 @@
    * [ArrayList Activity](arraylistactivity.md)
    * [Validation made Easy - er](validationmade_easyer.md)
    * [Using the Validator](usingthe_validator.md)
-   * [Transcript Activity](transcript_activity)
+   * [Transcript Activity](transcriptactivity.md)
    * [Transcript Class Diagram](transcript_class_diagram)
    * [Transcript Unit Tests](transcript_unit_tests)
    * [Formatting Numbers and Strings for Output](formattingnumbers_and_strings_for_output.md)
