@@ -53,15 +53,16 @@ public class ValidationMain {
 
 
 ####Writing your own class
+We can't extend the Scanner class because it's final. The reason is that Oracle doesn't want users to change the standard Java classes. The keeps Java working as expected. It also provides some security and efficiency benefits. In fact, most of the Java standard class library is final.
 
 ####Your assignment
 Sometimes the Scanner class alone doesn't enforce all our business rules. 
-Modify the program above. Add a class that ensures the following:
+Modify the program above. Add and implement a Validation class that ensures the following:
 * The product code must be exactly five characters long
 * Quantity is between 0 and 100. 
 * Price is between 0.0 and 1000.00
 
-The program should continue prompting the user to enter correct data until the user enters valid data.
+
 
 
 
