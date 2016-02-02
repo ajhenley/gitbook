@@ -19,6 +19,3 @@ Retrieve the value with
 
 String value = myMap.get(10)
 
-
-Points
-3
