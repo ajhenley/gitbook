@@ -12,8 +12,11 @@ A Map cares about unique identifiers. You map a unique key to a specific value. 
 The following will create a HashMap called MyMap with the keys as String and the values as String
 ```java
 import java.util.HashMap;
-HashMap<String, String> myMap = new HashMap<String, String>();
+HashMap<String, String> stateCapitals = new HashMap<String, String>();
 ```
+
+####How do you add values to the HashMap?
+MyMap.put("Colorado","Denver");
 
 {%ace edit=true, lang='java'%}
 import java.util.HashMap;
