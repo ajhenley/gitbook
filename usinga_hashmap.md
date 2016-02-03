@@ -48,9 +48,18 @@ public class HashmapApp
 		System.out.println("A pig says... " + map.get("pig"));
 		System.out.println("A dog says... " + map.get("dog"));
 		System.out.println("A bat says... " + map.get("bat"));
+		System.out.println("A unicorn says...." + map.get("unicorn"));
 
 	}
 }
 {%endace%}
 
+####The output of the above example
+<pre>
+A cat says... Meow
+A pig says... Oink
+A dog says... Woof
+A bat says... Squeak
+A unicorn says....null
+</pre>
 
