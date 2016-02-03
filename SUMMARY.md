@@ -146,7 +146,6 @@
    * [Linked HashMap Example](linked_hashmap_example.md)
 * [Comparing Objects](comparingobjects.md)
 * [ArrayLists](arraylists.md)
-   * [Copying ArrayLists](copyingarraylists.md)
 * [Database design with Oracle](database_design_with_oracle)
    * [Creating Tables](creating_tables)
    * [Creating A Multi_Table Database](creating_a_multi_table_database)
