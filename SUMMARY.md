@@ -148,7 +148,6 @@
 * [ArrayLists](arraylists.md)
    * [Copying ArrayLists](copyingarraylists.md)
    * [Finding a Value in an ArrayList](findinga_value_in_an_arraylist.md)
-   * [ArrayList - Where is it?](arraylist_-_where_is_it.md)
 * [Database design with Oracle](database_design_with_oracle)
    * [Creating Tables](creating_tables)
    * [Creating A Multi_Table Database](creating_a_multi_table_database)
