@@ -150,8 +150,6 @@
    * [Finding a Value in an ArrayList](findinga_value_in_an_arraylist.md)
    * [ArrayList - Where is it?](arraylist_-_where_is_it.md)
    * [Getting the Largest Value in an ArrayList](getting_the_largest_value_in_an_arraylist)
-   * [Comparing Objects](comparingobjects.md)
-   * [Sorting an Array](sorting_an_array)
 * [Database design with Oracle](database_design_with_oracle)
    * [Creating Tables](creating_tables)
    * [Creating A Multi_Table Database](creating_a_multi_table_database)
