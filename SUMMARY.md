@@ -76,7 +76,7 @@
 * [Exception Handling](exceptionhandling.md)
    * [Exceptions](exceptions.md)
    * [Exception Assignment](exceptionassignment.md)
-   * [Finally Clause Assignment](finally_clause_assignment)
+   * [Finally Clause Assignment](finallyclause_assignment.md)
    * [Add Exception Handling To Existing App](add_exception_handling_to_existing_app)
 * [Unit Testing with JUnit](unittesting_with_junit.md)
    * [What is unit testing?](what_is_unit_testing.md)
