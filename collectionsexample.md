@@ -25,7 +25,7 @@ ArrayList<Double> temperatureList = new ArrayList<Double>();
 {%endace%}
 
 
-Adding items to your ArrayList is simple with the add method.
+Adding items to your ArrayList is simple and fun with the add method.
 {%ace edit=true, lang='java'%}
 temperatureList.add(40.5);
 temperatureList.add(33.9);
@@ -35,7 +35,7 @@ temperatureList.add(25.6);
 {%endace%}
 
 
-You can print the temperatureList by passing it to
+You can print the temperatureList by passing it to our old friend, println:
 {%ace edit=true, lang='java'%}
 System.out.println().
 {%endace%}
@@ -58,7 +58,7 @@ for (Double temp:temperatureList)
 {%endace%}
 
 ####Sorting
-You won't find a sort method in the ArrayList. That's because the ArrayList doesn't give you a way to sort its contents. The ```java.util.Collections``` class contains a sort method. Here's how to use it. You can sort your list in ascending order according to the natural ordering:
+You won't find a sort method in the ArrayList. That's because the ArrayList doesn't give you a way to sort its contents. The ```java.util.Collections``` class contains a sort method. You can sort your list in ascending order according to the natural ordering. Here's how to use it:
 
 {%ace edit=true, lang='java'%}
 Collections.sort(temperatureList);
