@@ -147,7 +147,7 @@
 * [ArrayLists](arraylists.md)
    * [Copying ArrayLists](copyingarraylists.md)
    * [Finding a Value in an ArrayList](findinga_value_in_an_arraylist.md)
-   * [ArrayList - Where is it?](arraylist - where is it?)
+   * [ArrayList - Where is it?](arraylist_-_where_is_it.md)
    * [Getting the Largest Value in an ArrayList](getting_the_largest_value_in_an_arraylist)
    * [Sorting an Array](sorting_an_array)
    * [Comparing Objects](comparingobjects.md)
