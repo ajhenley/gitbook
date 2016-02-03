@@ -8,9 +8,9 @@ Collections come in four basic flavors:
 * **Maps** contain unique ID for each thing
 * **Queues** contains things arranged in the order they are to be processed
 
-A collection — sometimes called a container — is an object that groups multiple elements into a single unit. Collections store, retrieve, manipulate, and communicate aggregate data. Typically, they represent data items that form a natural group. Collection examples include a poker hand (collection of cards), a mail folder (letters), or a telephone directory (names and phone numbers). If you have used Java or any other programming language then you probably are familiar with collections.
+A collection — sometimes called a container — is an object that groups elements into a single variable. Collections allow you to store, retrieve and manipulate data. They represent data items that form a natural group. Examples include a poker hand (collection of cards), a mail folder (letters), or a telephone directory (names and phone numbers). 
 
-To use collections in your class you must import the appropriate libraries. In this example we will be working with an ArrayList.
+To use collections in your class you must import the appropriate libraries from the Java API. In this example we will be working with an ArrayList.
 
 {%ace edit=true, lang='java'%}
 import java.util.Collections;
