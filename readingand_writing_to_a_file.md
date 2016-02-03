@@ -14,9 +14,6 @@ public class ReadListOfBooks {
 
 	public static void main(String[] args) {
 
-		
-		//tutorial on file I/O: http://www.tutorialspoint.com/java/java_files_io.htm
-		
 		//create an array list of type string
 		//when you specify the type like you have below (in the <>'s)you are using Generics
 		//When you take an element out of a Collection, 
@@ -135,3 +132,5 @@ public class ReadListOfBooks {
 
 }
 {%endace%}
+
+####Your assignment
