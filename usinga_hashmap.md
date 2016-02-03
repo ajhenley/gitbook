@@ -1,4 +1,5 @@
 ###Using a HashMap
+
 A Map cares about unique identifiers. You map a unique key to a specific value. Both the key and the value are objects. A HashMap  is an unsorted, unordered Map. When you need a Map and the order of the values is the least of your worldly concerns, the HashMap is here to serve you.
 
 ####What can you do with a Hashmap?
