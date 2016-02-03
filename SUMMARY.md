@@ -143,7 +143,7 @@
    * [Using a Hashmap](usinga_hashmap.md)
    * [Using Hashmaps](usinghashmaps.md)
    * [Reading and Writing to a File](readingand_writing_to_a_file.md)
-   * [Linked HashMap Example](linked hashmap example)
+   * [Linked HashMap Example](linked_hashmap_example.md)
 * [ArrayLists](arraylists.md)
    * [Copying ArrayLists](copyingarraylists.md)
    * [Finding a Value in an ArrayList](finding_a_value_in_an_arraylist)
