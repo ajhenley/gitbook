@@ -144,6 +144,7 @@
    * [Using Hashmaps](usinghashmaps.md)
    * [Reading and Writing to a File](readingand_writing_to_a_file.md)
    * [Linked HashMap Example](linked_hashmap_example.md)
+* [Comparing Objects](comparingobjects.md)
 * [ArrayLists](arraylists.md)
    * [Copying ArrayLists](copyingarraylists.md)
    * [Finding a Value in an ArrayList](findinga_value_in_an_arraylist.md)
