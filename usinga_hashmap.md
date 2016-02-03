@@ -8,6 +8,7 @@ A Map cares about unique identifiers. You map a unique key to a specific value. 
 * Add a value to be located by a key
 * Delete a value by its corresponding key
 * A HashMap can contain one ```null``` key and any number of ```null``` values
+* If you put a value in a HashMap where a key exists, the old  value is replaced
 
 ####How do you declare a HashMap?
 The following will create a HashMap called MyMap with the keys as String and the values as String
@@ -17,7 +18,15 @@ HashMap<String, String> stateCapitals = new HashMap<String, String>();
 ```
 
 ####How do you add values to the HashMap?
+```java
 MyMap.put("Colorado","Denver");
+```
+####How do you retrieve the value of a key?
+```java
+MyMap.get("Colorado");
+```
+
+####Here's a complete example
 
 {%ace edit=true, lang='java'%}
 import java.util.HashMap;
