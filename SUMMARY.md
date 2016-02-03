@@ -130,7 +130,6 @@
    * [Precedence Debugging Activity](precedencedebugging_activity.md)
    * [Formatted Invoice Application](formattedinvoice_application.md)
    * [Input Range Validation Change Assignment](inputrange_validation_change_assignment.md)
-   * [Collections](collections.md)
    * [Collections Example](collectionsexample.md)
    * [ArrayList Debugging Activity](arraylistdebugging_activity.md)
    * [ArrayList Debugging Activity 2](arraylistdebugging_activity_2.md)
