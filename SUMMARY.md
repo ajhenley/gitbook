@@ -189,7 +189,7 @@
    * [Bootstrap Form Assignment](bootstrap_form_assignment)
    * [Shiny Web Online Bank Bootstrap Assignment](shiny_web_online_bank_bootstrap_assignment)
    * [Cash Money Carousel](cash_money_carousel)
-   * [SCOTS - Shiny College Online Transcript System](shiny_college_online_transcript_system)
+   * [SCOTS - Shiny College Online Transcript System](shinycollege_online_transcript_system.md)
 * [Servlets and Enterprise Application Development](servletsand_enterprise_application_development.md)
    * [Creating a Java Servlet](creating_a_java_servlet)
    * [Servlet Assignment](servlet_assignment)
