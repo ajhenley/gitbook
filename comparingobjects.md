@@ -73,8 +73,7 @@ Now you can sort the Person class with ```Collections.sort(simpsons);```
 
 
 ####What's next? Can I try it?
-You can! Copy the Person class above to a new Eclipse project. Add a field for the person's age. Add the getters and setters as well. Not give each person an age
-
+You can! Copy the Person class above to a new Eclipse project. Add a field for the person's age. Add the getters and setters as well. Now give each person an age and sort by that age.
 You are now a sorting genius. Congratulations.
 
 
