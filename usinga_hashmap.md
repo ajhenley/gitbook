@@ -49,7 +49,13 @@ public class HashmapApp
 		System.out.println("A dog says... " + map.get("dog"));
 		System.out.println("A bat says... " + map.get("bat"));
 		System.out.println("A unicorn says...." + map.get("unicorn"));
-
+		
+		//check if the map contains a goldfish
+		if (map.containsKey("goldfish")){
+			System.out.println("A goldfish says... " + map.get("goldfish"));
+		}else{
+			System.out.println("I don't have a goldfish!");
+		}
 	}
 }
 {%endace%}
