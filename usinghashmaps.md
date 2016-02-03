@@ -1,21 +1,32 @@
 ###Using Hashmaps
+####Your Assignment
+Create a map to store integers and their word values.  
+Prompt user to enter a number and print out the word value.   
+If number is not found (use myMap.containsKey(10) then prompt user to add it.
 
-Link to Slides http://web.stanford.edu/class/archive/cs/cs106a/cs106a.1124/lectures/18/Slides.pdf (Links to an external site.)
-Create a map and store integers and their word values.
-HashMap<Integer, String> myMap = new HashMap<Integer, String>();
-Prompt user to enter a number and print out the word value. 
-Example:
-
+**Example:**
+<pre>
 Prompt: Enter a number: 10
 Response: You entered ten.
-Would you like to try again? Y/N
-If number is not found (use myMap.containsKey(10) then prompt user to tell the map to add that to the map.
+Would you like to try again? (Y/N): Y
+Enter a number: 31
+I do not know that number. Please tell me:
+Thirty-one
+Would you like to try again? (y/n):
+</pre>
+
 
 Add the key and value to the map with the following line of code:
-
+```java
 myMap.put(10,"ten");
-
+```
 Retrieve the value with
-
-String value = myMap.get(10)
+```java
+//check if the map contains the key
+if (map.containsKey(10)){
+	System.out.println(myMap.get(10));
+}else{
+	//write code here to insert the key/value
+}
+```
 
