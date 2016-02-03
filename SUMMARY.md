@@ -146,7 +146,7 @@
    * [Linked HashMap Example](linked_hashmap_example.md)
 * [ArrayLists](arraylists.md)
    * [Copying ArrayLists](copyingarraylists.md)
-   * [Finding a Value in an ArrayList](finding_a_value_in_an_arraylist)
+   * [Finding a Value in an ArrayList](findinga_value_in_an_arraylist.md)
    * [ArrayList - Where is it?](arraylist - where is it?)
    * [Getting the Largest Value in an ArrayList](getting_the_largest_value_in_an_arraylist)
    * [Sorting an Array](sorting_an_array)
