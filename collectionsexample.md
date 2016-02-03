@@ -1,4 +1,13 @@
 ###Collections Example
+### Overview of Collections
+The Java Collections API are a set of classes and interfaces. They make it easy to work with collections of objects. They work like arrays with superpowers. Their size can change dynamically, and they have more advanced behavior than arrays.
+
+Collections come in four basic flavors:
+* **Lists** contain lists of things
+* **Sets** contain unique things
+* **Maps** contain unique ID for each thing
+* **Queues** contains things arranged in the order they are to be processed
+
 A collection — sometimes called a container — is an object that groups multiple elements into a single unit. Collections store, retrieve, manipulate, and communicate aggregate data. Typically, they represent data items that form a natural group. Collection examples include a poker hand (collection of cards), a mail folder (letters), or a telephone directory (names and phone numbers). If you have used Java or any other programming language then you probably are familiar with collections.
 
 To use collections in your class you must import the appropriate libraries. In this example we will be working with an ArrayList.
