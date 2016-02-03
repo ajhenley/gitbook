@@ -72,16 +72,10 @@ class Person implements Comparable<Person>{
 Now you can sort the Person class with ```Collections.sort(simpsons);```
 
 
+####What's next? Can I try it?
+You can! Copy the Person class above to a new Eclipse project. Add a field for the person's age. Add the getters and setters as well. Not give each person an age
 
-####What are Java Comparators and Comparables?
-**Comparable**
-A comparable object is capable of comparing itself with another object. The class itself must implements the ```java.lang.Comparable``` interface in order to be able to compare its instances.
-
-**Comparator**
-A comparator object is capable of comparing two different objects. The class is not comparing its instances, but some other class’s instances. This comparator class must implement the ```java.util.Comparator``` interface.
-
-####Do you need to compare objects?
-If you have of list of Simpson character objects you may wish to sort them using the last name or some other field. This is a common requirement when working with Simpsons or other objects that might like to be sorted.
+You are now a sorting genius. Congratulations.
 
 
 
