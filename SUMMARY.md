@@ -147,7 +147,7 @@
 * [Database design with Oracle](databasedesign_with_oracle.md)
    * [Creating Tables](creatingtables.md)
    * [Creating A Multi_Table Database](creatinga_multi_table_database.md)
-   * [Inserting Data](inserting_data)
+   * [Inserting Data](insertingdata.md)
    * [Insert Referential Data](insert_referential_data)
    * [Selecting Data](selecting_data)
    * [Selecting Across Many Tables](selecting_across_many_tables)
