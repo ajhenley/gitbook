@@ -81,91 +81,33 @@ public class ExceptionDemo {
 }
 {%endace%}
 
+####Finally
+You can add a finally clause to a try-catch block. The code inside the finally clause will always be executed, even if an exception is thrown from within the try or catch block. If your code has a return statement inside the try or catch block, the code inside the finally-block will get executed before returning from the method. 
 
+The finally clause allows you to ensure that open files, open database connections or other resources are closed or freed.
 
+{%ace edit=true, lang='java'%}
+FileInputStream fis = null;
+		try{		
+				int k;
+				fis = new FileInputStream("myfile.txt");
+					while ( (k = fis.read()) != -1)
+					{
+						System.out.println((char)k);
+					}
+		}catch(FileNotFoundException e){
+			System.out.println("File not found. You'll find it in the last place you look.");
+		}catch(IOException e){
+		    System.out.println("IO Exception occurred. Bummer!");
+		}finally{
+			try {
+				fis.close();
+			} catch (IOException e) {
+		        System.out.println("We *still* have an IO error!");
+			}
+		}
+{%endace%}
 
-
-
-
-
-
-
-How to Pass an Exception up the Call Stack
-
-If a method needs to be able to throw an exception, it has to declare the exception(s) thrown in the method signature, and then include a throw-statement in the method. Here is an example:
-
-    public void divide(int numberToDivide, int numberToDivideBy) throws BadNumberException{
-        if(numberToDivideBy == 0){
-            throw new BadNumberException("Cannot divide by 0");
-        }
-        return numberToDivide / numberToDivideBy;
-    }
-When an exception is thrown the method stops execution right after the "throw" statement. Any statements following the "throw" statement are not executed. In the example above the "return numberToDivide / numberToDivideBy;" statement is not executed if a BadNumberException is thrown. The program resumes execution when the exception is caught somewhere by a "catch" block.
-
-How to Handle an Exception
-
-If a method calls another method that throws checked exceptions, the calling method is forced to either pass the exception on, or catch it. Catching the exception is done using a try-catch block. Here is an example:
-
-    public void callDivide(){
-        try {
-            int result = divide(2,1);
-            System.out.println(result);
-        } catch (BadNumberException e) {
-            //do something clever with the exception
-            System.out.println(e.getMessage());
-        }
-        System.out.println("Division attempt done");
-    }
-The BadNumberException parameter e inside the catch-clause points to the exception thrown from the divide method, if an exception is thrown.
 
  
 
-Finally
-
-You can attach a finally-clause to a try-catch block. The code inside the finally clause will always be executed, even if an exception is thrown from within the try or catch block. If your code has a return statement inside the try or catch block, the code inside the finally-block will get executed before returning from the method. Here is how a finally clause looks:
-
-    public void openFile(){
-        FileReader reader = null;
-        try {
-            reader = new FileReader("someFile");
-            int i=0;
-            while(i != -1){
-                i = reader.read();
-                System.out.println((char) i );
-            }
-        } catch (IOException e) {
-            //do something clever with the exception
-        } finally {
-            if(reader != null){
-                try {
-                    reader.close();
-                } catch (IOException e) {
-                    //do something clever with the exception
-                }
-            }
-            System.out.println("--- File End ---");
-        }
-    }
-No matter whether an exception is thrown or not inside the try or catch block the code inside the finally-block is executed. The example above shows how the file reader is always closed, regardless of the program flow inside the try or catch block.
-
-List of Available Exceptions
-
-http://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html
-
- 
-
-The Call Stack Explained
-
-This text refers to the concept the "call stack" in several places. By the call stack is meant the sequence of method calls from the current method and back to the Main method of the program. If a method A calls B, and B calls C then the call stack looks like this:
-
-    A
-    B
-    C
-When method C returns the call stack only contains A and B. If B then calls the method D, then the call stack looks like this:
-
-    A
-    B
-    D
-Understanding the call stack is important when learning the concept of exception propagation. Exception are propagated up the call stack, from the method that initially throws it, until a method in the call stack catches it. More on that later.
-
-You might be wondering whether you should catch or propogate exceptions thrown in your program. It depends on the situation. In many applications you can't really do much about the exception but tell the user that the requested action failed. In these applications you can usually catch all or most exceptions centrally in one of the first methods in the call stack. You may still have to deal with the exception while propagating it though (using finally clauses). For instance, if an error occurs in the database connection in a web application, you may still have to close the database connection in a finally clause, even if you can't do anything else than tell the user that the action failed.
