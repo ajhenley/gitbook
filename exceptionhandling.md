@@ -1,9 +1,23 @@
 ###Exception Handling
 ####What is an excepction?
-Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.
+Definition: An exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions. Short answer: It's an error!
 
 ####So what am I supposed to do about it?
-You have two choices. Handle it or throw it up the call stack.
+You have two choices. Handle it or throw it up the call stack. We'll talk more about the call stack later. For now know that the call stack is a running list of the methods that have been called by your program. As each method finishes, control returns to the previous method.
+
+After your method throws an exception, Java looks for someone to handle it. If you've written code that can handle it, great! You're talking to the manager on duty. Otherwise the exception says to your method: "I want to talk to they guy who hired you!". Put your ear to your computer. It literally says that. 
+
+So the method that called your method gets the error. Can that method handle it? No? The exception goes up the call stack. Somebody is going to handle this error. Or this program will crash. And heads will roll.
+
+Let's first look at some code that handles the exception on its own. This is easy - just surround the code that *could* cause an error with try..catch statements.
+
+
+
+
+
+
+
+
 
 ####What's the call stack? While you're at it... tell me about the heap
 * Instance variables and objects live on the heap
@@ -26,16 +40,12 @@ Every method that is called in your program is listed in the call stack.
 
 Example application that handles exceptions: https://github.com/dave45678/ExceptionExample
 
- 
-After a method throws an exception, the runtime system attempts to find something to handle it. The set of possible "somethings" to handle the exception is the ordered list of methods that had been called to get to the method where the error occurred. The list of methods is known as the call stack.
+Generally, when something is stored "on the stack", it has automatic storage duration, which means that it lives for the duration of the current function call. In contrast, when something is stored "on the heap", it has dynamic storage duration (hence allocating memory on the heap is called "dynamic memory allocation", http://en.wikipedia.org/wiki/Dyn...), which means it lives until we explicitly deallocate it, which can be as long or short as we want, and can live beyond the current function call. Dynamic memory allocation is more flexible, but is slower and you have to manage its duration manually.
 
-The call stack showing three method calls, where the first method called has the exception handler.
 
- 
 
-The call stack.
 
-The runtime system searches the call stack for a method that contains a block of code that can handle the exception. This block of code is called an exception handler.
+
 
 How to Pass an Exception up the Call Stack
 
