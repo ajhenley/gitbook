@@ -144,7 +144,7 @@
    * [Reading and Writing to a File](readingand_writing_to_a_file.md)
    * [Linked HashMap Example](linked_hashmap_example.md)
    * [Comparing Objects](comparingobjects.md)
-* [Database design with Oracle](database_design_with_oracle)
+* [Database design with Oracle](databasedesign_with_oracle.md)
    * [Creating Tables](creating_tables)
    * [Creating A Multi_Table Database](creating_a_multi_table_database)
    * [Inserting Data](inserting_data)
