@@ -9,13 +9,14 @@ If you don't know the exception type then use the more general exception class, 
 
 
 Here are some exceptions you can catch. You can also search the online Oracle documentation.
+
 Exception|Description
 ---|---
 ArithmeticException|Arithmetic error, such as divide-by-zero.
 ArrayIndexOutOfBoundsException|Array index is out-of-bounds.
 ArrayStoreException|Assignment to an array element of an incompatible type.
 ClassCastException|Invalid cast.
-IllegalArgumentExceptionIIllegal argument used to invoke a method.
+IllegalArgumentException|Illegal argument used to invoke a method.
 IllegalMonitorStateException|Illegal monitor operation, such as waiting on an unlocked thread.
 IllegalStateException|Environment or application is in incorrect state.
 IllegalThreadStateException|Requested operation not compatible with current thread state.
@@ -26,7 +27,6 @@ NumberFormatException|Invalid conversion of a string to a numeric format.
 SecurityException|Attempt to violate security.
 StringIndexOutOfBounds|Attempt to index outside the bounds of a string.
 UnsupportedOperationException|An unsupported operation was encountered.
-
 ClassNotFoundException|Class not found.
 CloneNotSupportedException|Attempt to clone an object that does not implement the Cloneable interface.
 IllegalAccessException|Access to a class is denied.
