@@ -11,6 +11,8 @@ So the method that called your method gets the error. Can that method handle it?
 
 Let's first look at some code that handles the exception on its own. This is easy - just surround the code that *could* cause an error with try..catch statements.
 
+Here we consider the possibility that the file doesn't exist or isn't available. Since that is a likely possibility then let's give the user a "nice" message instead of crashing abruptly when that event occurs. Notice that we can have one to as many catch clauses as we like. We simply list them in order of most specific exception to most general exception.
+
 {%ace edit=true, lang='java'%}
 import java.io.*;
 public class ExceptionExample {
@@ -27,18 +29,25 @@ public class ExceptionExample {
 			{
 				System.out.println((char)k);
 			}
+		//catch the most specific exception first	
 		}catch (FileNotFoundException e)
 		{
-			System.out.println("You fool! There is no file!");
+			System.out.println("There is no file!");
+		//an IO exception is more general... maybe the drive is corrupt
 		}catch (IOException e)
 		{
-			System.out.println("You fool! There is an IO exception!");
+			System.out.println("There is an IO exception.");
+		//This catches all the other exceptions that we can catch
+		//So save the more general exception for last
+		}catch (Exception e)
+		{
+		    System.out.println("Something else went wrong");
 		}
 	}
 }
 {%endace%}
 
-
+There's one more thing I want to tell you that you can do with exceptions. You can give them away.
 
 
 
