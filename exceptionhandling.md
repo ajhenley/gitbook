@@ -11,7 +11,32 @@ So the method that called your method gets the error. Can that method handle it?
 
 Let's first look at some code that handles the exception on its own. This is easy - just surround the code that *could* cause an error with try..catch statements.
 
-
+{%ace edit=true, lang='java'%}
+import java.io.*;
+public class ExceptionExample {
+//second commit
+	public static void main(String[] args) {
+		FileInputStream fis = null;
+		int k;
+		
+		try
+		{
+			fis = new FileInputStream("c:\\myfile.txt");
+						
+			while ( (k = fis.read()) != -1)
+			{
+				System.out.println((char)k);
+			}
+		}catch (FileNotFoundException e)
+		{
+			System.out.println("You fool! There is no file!");
+		}catch (IOException e)
+		{
+			System.out.println("You fool! There is an IO exception!");
+		}
+	}
+}
+{%endace%}
 
 
 
