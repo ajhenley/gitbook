@@ -48,33 +48,42 @@ public class ExceptionExample {
 {%endace%}
 
 There's one more thing I want to tell you that you can do with exceptions. You can give them away.
+Let's illustrate this by rewriting the above example with multiple methods. Then we'll pass the exception from one method to another to another until it is handled.
 
-
-
-
-
-####What's the call stack? While you're at it... tell me about the heap
-* Instance variables and objects live on the heap
-* Local variables live on the stack
-
-Huh? Stack and Heap are two places in memory. Your program consists of different things: mostly instance variables, objects and local variables.
-
-If a local variable is an object (as the String object is below) it will be stored with other objects on the heap. However, the reference to it, the variable name containing a pointer to the object is stored on the stack. 
-
-When you instantiate the Person class below by declaring ```Person p;``` the local variable p is stored on the stack. Once you instantiate the Person as ```p = new Person(); then p remains on the stack while the Person Ojbect is created on the heap.
-
-public class Person {
-    private String name;
-    private int age;
-    public String DisplayText();
+{%ace edit=true, lang='java'%}
+import java.io.*;
+public class ExceptionDemo {
+//second commit
+	public static void main(String[] args) {
+		MethodA();
+	}
+	private static void MethodA(){
+		MethodB();
+	}
+	private static void MethodB(){
+		try{
+			MethodC();
+		}catch(FileNotFoundException e){
+			System.out.println("File not found. You'll find it in the last place you look.");
+		}catch(IOException e){
+		    System.out.println("IO Exception occurred. Bummer!");
+		}
+	}
+	private static void MethodC() throws FileNotFoundException,IOException{
+		FileInputStream fis = null;
+		int k;
+		fis = new FileInputStream("myfile.txt");
+			while ( (k = fis.read()) != -1)
+			{
+				System.out.println((char)k);
+			}
+			}
 }
-        
-        
-Every method that is called in your program is listed in the call stack. 
+{%endace%}
 
-Example application that handles exceptions: https://github.com/dave45678/ExceptionExample
 
-Generally, when something is stored "on the stack", it has automatic storage duration, which means that it lives for the duration of the current function call. In contrast, when something is stored "on the heap", it has dynamic storage duration (hence allocating memory on the heap is called "dynamic memory allocation", http://en.wikipedia.org/wiki/Dyn...), which means it lives until we explicitly deallocate it, which can be as long or short as we want, and can live beyond the current function call. Dynamic memory allocation is more flexible, but is slower and you have to manage its duration manually.
+
+
 
 
 
