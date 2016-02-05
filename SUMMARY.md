@@ -145,6 +145,7 @@
    * [Linked HashMap Example](linked_hashmap_example.md)
    * [Comparing Objects](comparingobjects.md)
 * [Database design with Oracle](databasedesign_with_oracle.md)
+   * Introduction to Oracle
    * [Creating Tables](creatingtables.md)
    * [Creating A Multi_Table Database](creatinga_multi_table_database.md)
    * [Inserting Data](insertingdata.md)
@@ -165,7 +166,6 @@
    * [Working with the Customers Table](working_with_the_customers_table)
    * [Java University](java_university)
    * [Connecting with Application Express](connecting_with_application_express)
-   * Introduction to Oracle
 * [HTML,CSS and Javascript](html_css_and_javascript)
    * [HTML Assignment](html_assignment)
    * [Create a web page](create_a_web_page)
