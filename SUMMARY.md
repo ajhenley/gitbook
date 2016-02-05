@@ -161,7 +161,7 @@
    * [Evil Corp Database Pair Assignment](evilcorp_database_pair_assignment.md)
    * [Evil Corp Reports Pair Activity](evil_corp_reports_pair_activity)
    * [Pair Assignment Part Deux](pair_assignment_part_deux)
-   * [Oracle Date Formats](oracle_date_formats)
+   * [Oracle Date Formats](oracledate_formats.md)
    * [Autoincrement with Oracle](autoincrement_with_oracle)
    * [Working with the Customers Table](working_with_the_customers_table)
    * [Java University](java_university)
