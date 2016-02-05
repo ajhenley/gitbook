@@ -1,4 +1,4 @@
-# Creating Tables
+###Creating Tables
 n the introduction I said that you can do "Create Read Update Delete" operations to the data inside tables. How do you make the tables in the first place? By doing CRUD on the database schema, and the first SQL statement to learn is CREATE:
 
 CREATE TABLE person (
