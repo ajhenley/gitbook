@@ -145,7 +145,7 @@
    * [Linked HashMap Example](linked_hashmap_example.md)
    * [Comparing Objects](comparingobjects.md)
 * [Database design with Oracle](databasedesign_with_oracle.md)
-   * Introduction to Oracle
+   * [Introduction to Oracle](introduction_to_oracle.md)
    * [Creating Tables](creatingtables.md)
    * [Creating A Multi_Table Database](creatinga_multi_table_database.md)
    * [Inserting Data](insertingdata.md)
