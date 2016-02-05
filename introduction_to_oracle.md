@@ -15,6 +15,7 @@ What is a DBMS?
 What is SQL?
 
 What is a table?
+* joining tables
 
 What are indexes and keys?
 
