@@ -1,6 +1,6 @@
-# Creating A Multi_Table Database
+###Creating A Multi_Table Database
 
-Creating one table isn't too useful. I want you to now make 3 tables that you can store data into:
+Creating one table helps but what if the person has a pet. Where do we store that? Now you will make three tables that you can store data into.
 
 CREATE TABLE person (
     id INTEGER PRIMARY KEY,
