@@ -14,6 +14,8 @@ What is a DBMS?
 
 What is SQL?
 
+What is a database schema?
+
 What is a table?
 * joining tables
 
