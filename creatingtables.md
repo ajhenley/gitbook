@@ -9,7 +9,7 @@ Remember how we created a book class for our application. Now we need a Book tab
 * Price (double)
 * IsInStock (true/false)
 
-You'll enter the SQL statement in SQL Developer. The SQL statement starts with CREATE TABLE followed by the table name. Then a set of parenthesis. Within the parenthesis go the fields, separated by commas. Along with each field name (which
+You'll enter the SQL statement in SQL Developer. The SQL statement starts with CREATE TABLE followed by the table name. Then a set of parenthesis. Within the parenthesis go the fields, separated by commas. Field names can't contain spaces. After each field name type the data type from the list below. Finally, close the statement with a semi-colon.
 
 {%ace edit=true, lang='sql'%}
 CREATE TABLE book (
