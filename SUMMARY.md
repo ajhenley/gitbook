@@ -152,7 +152,7 @@
    * [Insert Referential Data](insertreferential_data.md)
    * [Selecting Data](selectingdata.md)
    * [Selecting Across Many Tables](selecting_across_many_tables)
-   * [Deleting Data](deleting_data)
+   * [Deleting Data](deletingdata.md)
    * [Evil Corp Database Creation Activity Round 3](evilcorp_database_creation_activity_round_3.md)
    * [JDBC](jdbc)
    * [Visual_Explanation_of_SQL_Joins](visual_explanation_of_sql_joins)
