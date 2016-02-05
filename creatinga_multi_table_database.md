@@ -2,6 +2,7 @@
 
 Creating one table helps but what if the person has a pet. Where do we store that? Now you will make three tables that you can store data into.
 
+{%ace edit=true, lang='java'%}
 CREATE TABLE person (
     id INTEGER PRIMARY KEY,
     first_name VARCHAR(50),
@@ -16,11 +17,8 @@ CREATE TABLE pet (
     age INTEGER,
     dead INTEGER
 );
+{%endace%}
 
-CREATE TABLE person_pet (
-    person_id INTEGER,
-    pet_id INTEGER
-);
 In this exercise you are making tables for two types of data, and then "linking" them together with a third table. People call these "linking" tables "relations", but very pedantic people with no lives call all tables "relations" and enjoy confusing people who just want to get their jobs done. In my book, tables that have data are "tables", and tables that link tables together are called "relations".
 
 There isn't anything new here, except when you look at person_pet you'll see that I've made two columns: person_id and pet_id. How you would link two tables together is simply insert a row into person_pet that had the values of the two row's id columns you wanted to connect. For example, if person contained a row with id=20 and pet had a row with id=98, then to say that person owned that pet, you would insert person_id=20, pet_id=98 into the person_pet relation (table).
