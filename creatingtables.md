@@ -1,12 +1,25 @@
 ###Creating Tables
 In the introduction I said that you can do "Create Read Update Delete" operations to the data inside tables. How do you make the tables in the first place? By doing CRUD on the database schema. The first SQL statement to learn is ```CREATE TABLE```:
 
+Remember how we created a book class for our application. Now we need a a Book table. It should allow for the following fields: 
+* SKU (stockkeeping unit - can contain numbers, dashes and possibly letters)
+* Book title (text)
+* Author (text)
+* Description (text)
+* Price (double)
+* IsInStock (true/false)
+
+
+
 {%ace edit=true, lang='sql'%}
-CREATE TABLE person (
+CREATE TABLE book (
     id INTEGER PRIMARY KEY,
-    first_name VARCHAR(50),
-    last_name VARCHAR(50),
-    age INTEGER
+    sku VARCHAR(50),
+    title VARCHAR(50),
+    author VARCHAR(50),
+    description VARCHAR(150),
+    price number(5,2),
+    isInStock boolean
 );
 {%endace%}
 
