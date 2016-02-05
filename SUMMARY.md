@@ -154,7 +154,7 @@
    * [Selecting Across Many Tables](selecting_across_many_tables)
    * [Deleting Data](deletingdata.md)
    * [Evil Corp Database Creation Activity Round 3](evilcorp_database_creation_activity_round_3.md)
-   * [JDBC](jdbc)
+   * [JDBC](jdbc.md)
    * [Visual_Explanation_of_SQL_Joins](visual_explanation_of_sql_joins)
    * [Import Customers Table](import_customers_table)
    * [Bonus Project - Movie Titles Part 2](bonus_project_-_movie_titles_part_2)
