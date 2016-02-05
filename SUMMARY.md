@@ -153,7 +153,7 @@
    * [Selecting Data](selectingdata.md)
    * [Selecting Across Many Tables](selecting_across_many_tables)
    * [Deleting Data](deleting_data)
-   * [Evil Corp Database Creation Activity Round 3](evil_corp_database_creation_activity_round_3)
+   * [Evil Corp Database Creation Activity Round 3](evilcorp_database_creation_activity_round_3.md)
    * [JDBC](jdbc)
    * [Visual_Explanation_of_SQL_Joins](visual_explanation_of_sql_joins)
    * [Import Customers Table](import_customers_table)
