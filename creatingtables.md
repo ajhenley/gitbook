@@ -1,12 +1,15 @@
 ###Creating Tables
 In the introduction I said that you can do "Create Read Update Delete" operations to the data inside tables. How do you make the tables in the first place? By doing CRUD on the database schema, and the first SQL statement to learn is CREATE:
 
+{%ace edit=true, lang='sql'%}
 CREATE TABLE person (
     id INTEGER PRIMARY KEY,
     first_name VARCHAR(50),
     last_name VARCHAR(50),
     age INTEGER
 );
+{%endace%}
+
 You could put this all on one line, but I want to talk about each line so it's on multiple ones. Here's what each line does:
 
 ex1.sql:1
