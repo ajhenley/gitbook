@@ -23,6 +23,7 @@ CREATE TABLE book (
 );
 {%endace%}
 
+####Inserting Data
 If you ran the above statement in SQL Developer you would have a table that contains no data. You can insert data by entering it into the table or by running some SQL statements. Run the following SQL statements to insert some book data into your table.
 
 {%ace edit=true, lang='sql'%}
@@ -32,3 +33,19 @@ INSERT INTO "SYSTEM"."BOOK" (ID, SKU, TITLE, AUTHOR, DESCRIPTION, PRICE, ISINSTO
 INSERT INTO "SYSTEM"."BOOK" (ID, SKU, TITLE, AUTHOR, DESCRIPTION, PRICE, ISINSTOCK) VALUES ('4', 'Book4', 'Night Ninja', 'Rebekah Axel', 'Office worker by day, ninja by night', '17.79', 'Y')
 INSERT INTO "SYSTEM"."BOOK" (ID, SKU, TITLE, AUTHOR, DESCRIPTION, PRICE, ISINSTOCK) VALUES ('5', 'Book5', 'Spirit of the Asteroid', 'Shafira Jamal', 'Being alone, cold and lonely builds character', '20.50', 'Y')
 {%endace%}
+
+####Querying Data
+Once you get data in your database you'll use SQL to query it and return a summary of your data. Run these two SQL statements to see how to get data out of your database.
+
+You'll actually want to run each SQL statement one at a time. You can just highlight the statement you're interested in and press ```CTRL``` + ```Enter```.
+Can you figure out what each statement does? We'll look at them again in greater detail in upcoming lessons.
+
+{%ace edit=true, lang='sql'%}
+SELECT * FROM Book;
+SELECT Author, Title FROM Book order by Title;
+Select count(*) from Book;
+Update Book set Author = 'Rita Keegan' where ID = 3;
+SELECT Author, Title FROM Book where ID = 3;
+{%endace%}
+
+
