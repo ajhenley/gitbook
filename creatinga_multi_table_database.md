@@ -47,6 +47,7 @@ CREATE TABLE Author (
   "State" VARCHAR(2) default NULL,
   Zip VARCHAR(10) default NULL
 );
+
 insert into Author (AuthorID,FirstName,LastName) values (1,'Charles', 'Buckminster');
 insert into Author (AuthorID,FirstName,LastName) values (2,'Farrah', 'Zahir');
 insert into Author (AuthorID,FirstName,LastName) values (3,'Rita', 'Keegan');
