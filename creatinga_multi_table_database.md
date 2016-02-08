@@ -71,6 +71,6 @@ It's possible some authors would write more than one book. When there was one bo
 
 The database keeps track of the corresponding records with Primary Keys and Foreign Keys. The AuthorID is the primary key when it's in the Author table. It's the foreign key when it's in the Book table.
 
-
+What happens if a book has two authors? We'll look at that next.
 
 
