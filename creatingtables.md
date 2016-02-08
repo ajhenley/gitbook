@@ -31,5 +31,4 @@ INSERT INTO "SYSTEM"."BOOK" (ID, SKU, TITLE, AUTHOR, DESCRIPTION, PRICE, ISINSTO
 INSERT INTO "SYSTEM"."BOOK" (ID, SKU, TITLE, AUTHOR, DESCRIPTION, PRICE, ISINSTOCK) VALUES ('3', 'Book3', 'Everlasting Wizard', 'ita Keegan', 'The Magic Never Ends', '12.50', 'Y')
 INSERT INTO "SYSTEM"."BOOK" (ID, SKU, TITLE, AUTHOR, DESCRIPTION, PRICE, ISINSTOCK) VALUES ('4', 'Book4', 'Night Ninja', 'Rebekah Axel', 'Office worker by day, ninja by night', '17.79', 'Y')
 INSERT INTO "SYSTEM"."BOOK" (ID, SKU, TITLE, AUTHOR, DESCRIPTION, PRICE, ISINSTOCK) VALUES ('5', 'Book5', 'Spirit of the Asteroid', 'Shafira Jamal', 'Being alone, cold and lonely builds character', '20.50', 'Y')
-
 {%endace%}
