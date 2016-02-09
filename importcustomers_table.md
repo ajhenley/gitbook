@@ -1,7 +1,13 @@
 ###Import Customers Table
+This assignment has a lot of steps. But I'll walk you through them. And after that you will be an Oracle-SQL-Database Ninja. 
+
+Do you know what the most common database in business is? Think Excel. It seems everybody has it. It seems everybody uses it. Most people use it for the wrong stuff. But it works. 
+
+What we're doing here is called **Normalizing the Database**. We're going to import a spreadsheet full of data. Then we will divide it into multiple tables. This is a realistic scenario. It plays out everyday throughout corporate America. Clients send you data. You need that data in a database.
 
 ####Instructions for obtaining the customers.xlsx file
 
+####Here are the steps we will follow
 1. Download the customers.xlsx file. It's an Excel file containing 30,000 rows of data. 
 2. Import the customers file into Oracle
 2. Write a query to find the number of people living in each state
@@ -14,9 +20,10 @@
 9. Finally, export the data as SQL import statements
 
 
-Some help for you......
-you want to move all the unique company names to another table 
-and then delete them from the customer table.
+####Some help for you
+
+To divide one table into multiple tables, you want to move all the unique company names to another table. Then delete them from the customer table.
+{%ace edit=true, lang='java'%}
 select distinct company from customers 
 alter table customers add CompanyID int
 select rownum,company from customers
@@ -34,3 +41,7 @@ customers c inner join Companies t on c.CompanyID=t.CompanyID
 --alter table customers drop company column
 select * from customers
 select * from customers c inner join companies t on c.companyId=t.companyId
+{%endace%}
+
+####Your assignment
+Make another table for State and another table for City. Follow the same procedure to move that data to the new tables.
