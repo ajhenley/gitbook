@@ -151,7 +151,6 @@
    * [Creating A Multi_Table Database](creatinga_multi_table_database.md)
    * [Multiple Tables Part 2](multiple_tables_part_2.md)
    * [Create a vehicles database](create_a_vehicles_database.md)
-   * [Insert Referential Data](insertreferential_data.md)
    * [Selecting Data](selectingdata.md)
    * [Selecting Across Many Tables](selecting_across_many_tables)
    * [Deleting Data](deletingdata.md)
