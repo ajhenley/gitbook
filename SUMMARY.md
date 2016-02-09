@@ -152,7 +152,7 @@
    * [Multiple Tables Part 2](multiple_tables_part_2.md)
    * [Create a vehicles database](create_a_vehicles_database.md)
    * [Selecting Data](selectingdata.md)
-   * [Selecting Across Many Tables](selecting_across_many_tables)
+   * [Selecting Across Many Tables](selectingacrossmany_tables.md)
    * [Deleting Data](deletingdata.md)
    * [Evil Corp Database Creation Activity Round 3](evilcorp_database_creation_activity_round_3.md)
    * [JDBC](jdbc.md)
