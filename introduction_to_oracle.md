@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Working with Oracle: the big picture
 Let's talk about how Oracle and Java work together to get data from where it's stored and back to the user.  We begin with general concepts you may hear from other books or upcoming assignments.We'll then look into some specific topics in greater detail.
 
