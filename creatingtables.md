@@ -1,7 +1,5 @@
 ###Creating Tables
-In the introduction I said that you can do "Create Read Update Delete" operations to the data inside tables. How do you make the tables in the first place? By doing CRUD on the database schema. The first SQL statement to learn is ```CREATE TABLE```:
-
-Remember how we created a book class for our application. Now we need a Book table to store our data. It should allow for the following fields: 
+Remember how we created a book class for our application? Now we need a Book table to store our data. It should allow for the following fields: 
 * SKU (stockkeeping unit - can contain numbers, dashes and possibly letters)
 * Book title (text)
 * Author (text)
@@ -49,5 +47,8 @@ Update Book set Author = 'Rita Keegan' where ID = 3;
 SELECT Author, Title FROM Book where ID = 3;
 DROP TABLE Book;
 {%endace%}
+
+####Your assignment
+* Look at the book class. Look at the book table. What's similar?
 
 
