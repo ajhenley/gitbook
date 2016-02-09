@@ -30,7 +30,7 @@ To remain in compliance with the ANSI standard each must support the major keywo
 ####Example SQL Statements
 Copy the following SQL Statemets to Oracle SQL Developer. Run each statement one at a time. Each statement ends at the semicolon. To run a statement, select the statement and click  ```CTRL``` + ```Enter``` together.
 
-
+{%ace edit=true, lang='sql'%}
 select * from demo_customers;
 
 select * from demo_orders;
@@ -53,3 +53,5 @@ insert into demo_customers (cust_first_name,cust_last_name) values ('Bart','Simp
 select * from demo_customers;
 delete from demo_customers where cust_last_name = 'Simpson';
 select * from demo_customers;
+{%endace%}
+
