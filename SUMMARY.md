@@ -150,7 +150,6 @@
    * [Creating Tables](creatingtables.md)
    * [Creating A Multi_Table Database](creatinga_multi_table_database.md)
    * [Create a vehicles database](create_a_vehicles_database.md)
-   * [Inserting Data](insertingdata.md)
    * [Insert Referential Data](insertreferential_data.md)
    * [Selecting Data](selectingdata.md)
    * [Selecting Across Many Tables](selecting_across_many_tables)
