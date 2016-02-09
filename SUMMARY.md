@@ -167,6 +167,7 @@
    * [Working with the Customers Table](working_with_the_customers_table)
    * [Java University](java_university)
    * [Connecting with Application Express](connecting_with_application_express)
+   * Create a vehicles database
 * [HTML,CSS and Javascript](html_css_and_javascript)
    * [HTML Assignment](html_assignment)
    * [Create a web page](create_a_web_page)
