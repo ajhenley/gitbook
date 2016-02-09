@@ -12,7 +12,7 @@ Let's talk about how Oracle and Java work together to get data from where it's s
 * Other Application servers include reporting servers and web application servers
 
 ####What is JDBC?
-Java Database Connectivity (JDBC) is an application programming interface (API). It determines how a Java program may access a database such as Oracle. Think of JDBC as the communication channel between your Java application and Oracle. The program will request some data, Oracle will fufill that request and the program will receive the result. 
+Java Database Connectivity (JDBC) is an application programming interface (API). It allows you to integrate SQL with Java. Think of JDBC as the communication channel between your Java application and Oracle. The program will request some data, Oracle will fufill that request and the program will receive the result. 
 
 ####What is a relational database and why do we need one?
 A relational database organizes data in tables. Tables contain records (rows) and fields (columns). Corresponding records are linked through key fields called Primary Keys and Foreign Keys. For example, Managers, Departments and Salary information are stored in different tables. Relationships between the tables permit one to find corresponding records. This allows one to can determine the average salary of the managers of every department.
@@ -33,4 +33,12 @@ You can do CRUD (Create, Read, Update, Delete) operations to the data inside tab
 
 ####What is a database schema?
 The schema is the collection of database objects. Schemas are associated with a particular user or group. Schemas can be used to enforce security constraints on the objects within. Schema objects include tables, fields, relationships, views, indexes, procedures, functions, triggers and sequences. There are multiple schemas in one database.
+
+
+####Your assignment
+You've just been hired as a developer at Dalton Used Car Emporium. They keep all their data in an Excel workbook. They would like to move their system to a database for many reasons. 
+* List some reasons why a database would be a better option than Excel (feel free to use the internet to search for reasons)
+* List the different fields you think you would need for the data
+* Organize the fields by the tables you think they would need
+
 
