@@ -55,5 +55,3 @@ delete from demo_customers where cust_last_name = 'Simpson';
 select * from demo_customers;
 {%endace%}
 
-
-
