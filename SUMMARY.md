@@ -152,7 +152,6 @@
    * [Multiple Tables Part 2](multiple_tables_part_2.md)
    * [Create a vehicles database](create_a_vehicles_database.md)
    * [Selecting Data](selectingdata.md)
-   * [Evil Corp Database Creation Activity Round 3](evilcorp_database_creation_activity_round_3.md)
    * [JDBC](jdbc.md)
    * [Visual_Explanation_of_SQL_Joins](visual_explanation_of_sql_joins)
    * [Import Customers Table](import_customers_table)
