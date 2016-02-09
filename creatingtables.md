@@ -50,6 +50,6 @@ DROP TABLE Book;
 {%endace%}
 
 ####Your assignment
-* Look at the book class you developed earlier. Hopefully it's still in Eclipse. Look at the book table. What's similar?
+* Look at the book class you developed earlier. Hopefully it's still in Eclipse. Look at the book table. List the features of the book class that are correspond to the book table.
 
 
