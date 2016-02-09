@@ -159,7 +159,7 @@
    * [Java Bank Database](java_bank_database.md)
    * [Java Bank Reports](java_bank_reports.md)
    * [Evil Corp Reports Pair Activity](evil_corp_reports_pair_activity)
-   * [Pair Assignment Part Deux](pair_assignment_part_deux)
+   * [Pair Assignment Part Deux](pairassignment_part_deux.md)
    * [Oracle Date Formats](oracledate_formats.md)
    * [Autoincrement with Oracle](autoincrement_with_oracle)
    * [Working with the Customers Table](working_with_the_customers_table)
