@@ -28,8 +28,11 @@ Most of the SQL database programs also have their own proprietary extensions in 
 
 To remain in compliance with the ANSI standard each must support the major keywords in a similar manner. This means that SELECT, UPDATE, DELETE, INSERT, WHERE alll work in the same way on most databases.
 
-####Example SQL Statements
+####Your assignment
 Copy the following SQL Statemets to Oracle SQL Developer. Run each statement one at a time. Each statement ends at the semicolon. To run a statement, select the statement and click  ```CTRL``` + ```Enter``` together.
+
+You can add a comment in SQL Developer by preceeding the comment with two dashes. This tells SQL Developer to ignore that line. Make a comment before each SQL statement explaining what each does.
+
 
 {%ace edit=true, lang='sql'%}
 select * from demo_customers;
