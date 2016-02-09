@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Creating Tables
 Remember how we created a book class for our application? Now we need a Book table to store our data. It should allow for the following fields: 
 * SKU (stockkeeping unit - can contain numbers, dashes and possibly letters)
