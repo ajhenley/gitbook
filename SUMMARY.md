@@ -157,7 +157,6 @@
    * [Import Customers Table](import_customers_table)
    * [Bonus Project - Movie Titles Part 2](bonusproject_-_movie_titles_part_2.md)
    * [Java Bank Database](java_bank_database.md)
-   * [Evil Corp Database Pair Assignment](evilcorp_database_pair_assignment.md)
    * [Evil Corp Reports Pair Activity](evil_corp_reports_pair_activity)
    * [Pair Assignment Part Deux](pair_assignment_part_deux)
    * [Oracle Date Formats](oracledate_formats.md)
