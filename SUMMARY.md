@@ -154,7 +154,7 @@
    * [Selecting Data](selectingdata.md)
    * [JDBC](jdbc.md)
    * [Visual_Explanation_of_SQL_Joins](visual_explanation_of_sql_joins)
-   * [Import Customers Table](import_customers_table)
+   * [Import Customers Table](importcustomers_table.md)
    * [Bonus Project - Movie Titles Part 2](bonusproject_-_movie_titles_part_2.md)
    * [Java Bank Database](java_bank_database.md)
    * [Evil Corp Reports Pair Activity](evil_corp_reports_pair_activity)
