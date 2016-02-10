@@ -153,7 +153,7 @@
    * [Create a vehicles database](create_a_vehicles_database.md)
    * [Selecting Data](selectingdata.md)
    * [JDBC](jdbc.md)
-   * [Visual_Explanation_of_SQL_Joins](visual_explanation_of_sql_joins)
+   * [Visual_Explanation_of_SQL_Joins](visualexplanation_of_sql_joins.md)
    * [Import Customers Table](importcustomers_table.md)
    * [Bonus Project - Movie Titles Part 2](bonusproject_-_movie_titles_part_2.md)
    * [Java Bank Database](java_bank_database.md)
