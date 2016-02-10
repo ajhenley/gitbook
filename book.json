@@ -3,7 +3,8 @@
         "emphasize",
         "comment",
         "ace",
-        "sectionx"
+        "sectionx",
+        "fancybox"
     ],
     "pluginsConfig": {}
 }
