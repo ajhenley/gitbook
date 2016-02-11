@@ -162,7 +162,7 @@
    * [Pair Assignment Part Deux](pairassignment_part_deux.md)
    * [Oracle Date Formats](oracledate_formats.md)
    * [Autoincrement with Oracle](autoincrementwith_oracle.md)
-   * [Working with the Customers Table](working_with_the_customers_table)
+   * [Working with the Customers Table](workingwith_the_customers_table.md)
    * [Java University](java_university)
    * [Connecting with Application Express](connecting_with_application_express)
 * [HTML,CSS and Javascript](html_css_and_javascript)
