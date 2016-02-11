@@ -168,7 +168,7 @@
 * [HTML,CSS and Javascript](htmlcssand_javascript.md)
    * [HTML Assignment](htmlassignment.md)
    * [Create a web page](create_a_web_page)
-   * [Create HTML Table](create_html_table)
+   * [Create HTML Table](createhtml_table.md)
    * [Create an HTML Form](create_an_html_form)
    * [create a style sheet](create_a_style_sheet)
    * [What is CSS?](what_is_css?)
