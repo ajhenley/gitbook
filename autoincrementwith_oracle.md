@@ -1,3 +1,6 @@
+<!--djw: 
+todo: add instructions to work with 12
+-->
 ###Autoincrement with Oracle
 
 ####Oracle doesn't include an autoincrement type...
