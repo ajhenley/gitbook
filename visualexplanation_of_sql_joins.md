@@ -1,3 +1,6 @@
+<!--djw
+todo: this is a mess. Need local copies of images
+-->
 ###Visual Explanation of SQL Joins
 The most critical skill in working with a database is an understanding of the set of records returned by joining tables. It is rare to encounter a database in an enterprise application that consists of just one table. Extracting data from related tables is a critical skill for anyone working with databases.
 
