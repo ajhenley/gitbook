@@ -1,6 +1,8 @@
 <!-- for the class this will be a paired activity -->
 <!--djw:done-->
 ###Java Bank Reports
+This assignment is more difficult than the others. You may want to work with a partner.
+
 Your bosses at Java Bank want you to extend the banking application with a series of reports. You need to formulate the queries that will pull this data. Create the tables, load the data, and write the report queries.
 
 |Name|StartingBalance|Account Type|AccountNumber
