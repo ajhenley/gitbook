@@ -1,7 +1,7 @@
 ###Visual Explanation of SQL Joins
-The most critical skill in working with a database is an understanding of joining tables. It is rare to encounter a database in an enterprise application that contains just one table. Extracting data from related tables is a critical skill for anyone working with databases.
+The most critical skill in working with a database is an understanding of joining tables. It is rare to encounter a database in an enterprise application that consists of just one table. Extracting data from related tables is a critical skill for anyone working with databases.
 
-We'll look at an example with two tables. The table on the left is called Table A and the table on the right will be called Table B.
+We'll look at an example with two tables. The table on the left is named Table A and the table on the right will be named Table B.
 
 Each table will contain two columns, ID and Letter and 5 records. The data for the left table is A,B,C,D,E the data for the right table is D,E,F,G,H.
 
@@ -13,6 +13,7 @@ There are five ways to combine the data in these two tables. The same concepts a
 * Cross Join
 
 ####Inner Join
+Returns all records that are in both ```Table A``` and ```Table B```
 <p><span><img src="http://blog.codinghorror.com/content/images/uploads/2007/10/6a0120a85dcdae970b012877702708970c-pi.png" alt="Venn diagram of SQL inner join" /></span></p>
 
 ```sql
@@ -26,9 +27,9 @@ id  name       id   name
 1   Pirate     2    Pirate
 3   Ninja      4    Ninja
 ```
-
-<p><strong>Inner join</strong> returns all the records that are in both LTable and RTable.
 <hr />
+###Left Outer Join
+Returns all records in the le
 <p><img src="http://blog.codinghorror.com/content/images/uploads/2007/10/6a0120a85dcdae970b012877702725970c-pi.png" alt="Venn diagram of SQL cartesian join" /></p>
 <p>&nbsp;</p>
 <pre>SELECT * FROM TableA
