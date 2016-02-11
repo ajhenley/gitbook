@@ -163,7 +163,7 @@
    * [Oracle Date Formats](oracledate_formats.md)
    * [Autoincrement with Oracle](autoincrementwith_oracle.md)
    * [Working with the Customers Table](workingwith_the_customers_table.md)
-   * [Java University](java_university)
+   * [Java University](javauniversity.md)
    * [Connecting with Application Express](connecting_with_application_express)
 * [HTML,CSS and Javascript](html_css_and_javascript)
    * [HTML Assignment](html_assignment)
