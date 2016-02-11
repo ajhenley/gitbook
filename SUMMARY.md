@@ -170,7 +170,7 @@
    * [Create a web page](create_a_web_page)
    * [Create HTML Table](createhtml_table.md)
    * [Create an HTML Form](createan_html_form.md)
-   * [create a style sheet](create_a_style_sheet)
+   * [create a style sheet](createa_style_sheet.md)
    * [What is CSS?](what_is_css?)
    * [What can JavaScript do?](what_can_javascript_do?)
    * [Java University Web Pages](java_university_web_pages)
