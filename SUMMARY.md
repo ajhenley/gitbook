@@ -164,7 +164,7 @@
    * [Autoincrement with Oracle](autoincrementwith_oracle.md)
    * [Working with the Customers Table](workingwith_the_customers_table.md)
    * [Java University](javauniversity.md)
-   * [Connecting with Application Express](connecting_with_application_express)
+   * [Connecting with Application Express](connectingwith_application_express.md)
 * [HTML,CSS and Javascript](html_css_and_javascript)
    * [HTML Assignment](html_assignment)
    * [Create a web page](create_a_web_page)
