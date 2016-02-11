@@ -173,7 +173,7 @@
    * [create a style sheet](createa_style_sheet.md)
    * [What is CSS?](whatis_css.md)
    * [What can JavaScript do?](whatcan_javascript_do.md)
-   * [Java University Web Pages](java_university_web_pages)
+   * [Java University Web Pages](javauniversity_web_pages.md)
    * [Java University Web Pages Part Two](java_university_web_pages_part_two)
    * [First JavaScript Assignment](first_javascript_assignment)
    * [Explore the DOM with JavaScript](explore_the_dom_with_javascript)
