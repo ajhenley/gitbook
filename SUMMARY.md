@@ -166,7 +166,7 @@
    * [Java University](javauniversity.md)
    * [Connecting with Application Express](connectingwith_application_express.md)
 * [HTML,CSS and Javascript](htmlcssand_javascript.md)
-   * [HTML Assignment](html_assignment)
+   * [HTML Assignment](htmlassignment.md)
    * [Create a web page](create_a_web_page)
    * [Create HTML Table](create_html_table)
    * [Create an HTML Form](create_an_html_form)
