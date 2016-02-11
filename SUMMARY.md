@@ -174,7 +174,7 @@
    * [What is CSS?](whatis_css.md)
    * [What can JavaScript do?](whatcan_javascript_do.md)
    * [Java University Web Pages](javauniversity_web_pages.md)
-   * [Java University Web Pages Part Two](java_university_web_pages_part_two)
+   * [Java University Web Pages Part Two](javauniversity_web_pages_part_two.md)
    * [First JavaScript Assignment](first_javascript_assignment)
    * [Explore the DOM with JavaScript](explore_the_dom_with_javascript)
    * [Sales Tax Calculator](sales_tax_calculator)
