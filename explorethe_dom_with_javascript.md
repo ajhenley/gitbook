@@ -6,8 +6,6 @@ When a web page is loaded, the browser creates a Document Object Model of the pa
 
 The HTML DOM model is constructed as a tree of Objects:
 
-pic_htmltree.gif
-
 The HTML DOM is a standard object model and programming interface for HTML. It defines:
 
 The HTML elements as objects
