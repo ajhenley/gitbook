@@ -12,7 +12,7 @@ There are five ways to combine the data in these two tables. The same concepts a
 * Full Outer Join
 * Cross Join
 
-####Inner Join
+####Inner Join 
 Returns all records that are in both ```Table A``` and ```Table B```.
 <p><span><img src="http://blog.codinghorror.com/content/images/uploads/2007/10/6a0120a85dcdae970b012877702708970c-pi.png" alt="Venn diagram of SQL inner join" /></span></p>
 
@@ -28,7 +28,7 @@ id  name       id   name
 3   Ninja      4    Ninja
 ```
 <hr />
-###Left Outer Join
+####Left Outer Join 
 Returns all records in the left table, Table A and also all the records that are in ```Table B```.
 <p><img src="http://blog.codinghorror.com/content/images/uploads/2007/10/6a0120a85dcdae970b012877702725970c-pi.png" alt="Venn diagram of SQL cartesian join" /></p>
 <p>&nbsp;</p>
@@ -48,7 +48,7 @@ null  null       3     Darth Vader
 null  null       5     Han
 </pre>
 
-####Full outer join
+####Full outer join 
 Returns a set that contains of all the records in ```Table A``` and ```Table B```. Records that both table have in common are also returned once. If ```Table B``` contains a record that is not in ```Table 
 B``` then the missing value will contain '```null```.
 
@@ -67,7 +67,7 @@ id  name       id    name
 5   Frujen     null  null
 </pre>
 
-####Left outer join
+####Left outer join 
 Returns a set that contains all the records from ```Table A``` along with the matching records (where available) from ```Table B```. Records in the left table only will contain ```null``` for the right side.
 
 <hr />
