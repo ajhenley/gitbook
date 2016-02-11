@@ -1,5 +1,9 @@
+<!--djw: 
+1. todo: need to include correct connection string
+2. todo: need to include link for ojdbc6.jar http://www.oracle.com/technetwork/middleware/oedq/downloads/edq-vm-download-2424092.html
+-->
 ###Get JDBC running on the virtual machine
-To develop Java applications which access the Oracle database you will need to download the odbc.jar library from Oracle. You'll need to include that library in your eclipse project.
+To develop Java applications which access the Oracle database you will need to download the ojdbc6.jar library from Oracle. You'll need to include that library in your eclipse project.
 
 Here is some example code that will work with the virtual machine. Create a new eclipse project called OracleJDBCTestProject. Then create a class called TestOracleJDBC. Copy the following code to that class. 
 
