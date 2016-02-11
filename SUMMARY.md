@@ -165,7 +165,7 @@
    * [Working with the Customers Table](workingwith_the_customers_table.md)
    * [Java University](javauniversity.md)
    * [Connecting with Application Express](connectingwith_application_express.md)
-* [HTML,CSS and Javascript](html_css_and_javascript)
+* [HTML,CSS and Javascript](htmlcssand_javascript.md)
    * [HTML Assignment](html_assignment)
    * [Create a web page](create_a_web_page)
    * [Create HTML Table](create_html_table)
