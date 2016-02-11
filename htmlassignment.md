@@ -1,6 +1,7 @@
 <!--djw
 todo: add steps to create dynamic web application in eclipse and to add, then view a web page 
 -->
+
 ###HTML Assignment
 Create a basic web page with a title and a header tag that both say, "Hello World!"
 
