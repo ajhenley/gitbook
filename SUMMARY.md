@@ -289,4 +289,5 @@
    * Stack and Heap
    * secure java authentication library
    * java mail library
+   * Additional Projects to Improve Your Skills
 
