@@ -12,7 +12,7 @@ This code will connect to the database and return a result. Or an error. You mus
 ####What is a connection string?
 In the code below the connection string is ```jdbc:oracle:thin:testuser/blue123@localhost```. The connection string contains parameters. ODBC.jar library will use those parameters to connect with your instance of the  Oracle database. 
 
-{%ace edit=true, lang='java'%}
+{%ace edit=true, lang='sql'%}
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
