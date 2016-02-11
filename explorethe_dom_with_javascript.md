@@ -1,3 +1,4 @@
+<!-- need an image showing DOM nodes -->
 # Explore the DOM with JavaScript
 
 With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
