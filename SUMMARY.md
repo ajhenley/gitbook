@@ -230,7 +230,7 @@
    * [Gosh! A group assignment](gosh_a_group_assignment)
    * [How JSTL Works](how_jstl_works)
    * [JSP Servlet Interaction Review](jsp_servlet_interaction_review)
-* [JavaServer Faces (JSF)](javaserver_faces_jsf)
+* [JavaServer Faces (JSF)](javaserverfaces_jsf.md)
    * [Build a JSF 2.0 application](build_a_jsf_2.0_application)
    * [Work with JSF](work_with_jsf)
    * [To-do List Application](to-do_list_application)
