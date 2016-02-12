@@ -200,7 +200,7 @@
    * [Ms Mackleberry's Gradebook Assignment](msmackleberrys_gradebook_assignment.md)
    * [Professor Strongheim's Gradebook Assignment](professorstrongheims_gradebook_assignment.md)
    * [Strongheim Revisited](strongheimrevisited.md)
-   * [Get and Post Details](get_and_post_details)
+   * [Get and Post Details](getand_post_details.md)
    * [People Finder](people_finder)
    * [Gulp! Assignment](gulp_assignment)
    * [Sessions in Servlets and Web Pages](sessions_in_servlets_and_web_pages)
