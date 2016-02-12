@@ -199,7 +199,7 @@
    * [Simple HTML Form and Servlet](simplehtml_form_and_servlet.md)
    * [Ms Mackleberry's Gradebook Assignment](msmackleberrys_gradebook_assignment.md)
    * [Professor Strongheim's Gradebook Assignment](professorstrongheims_gradebook_assignment.md)
-   * [Strongheim Revisited](strongheim_revisited)
+   * [Strongheim Revisited](strongheimrevisited.md)
    * [Get and Post Details](get_and_post_details)
    * [People Finder](people_finder)
    * [Gulp! Assignment](gulp_assignment)
