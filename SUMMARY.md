@@ -167,7 +167,7 @@
    * [Connecting with Application Express](connectingwith_application_express.md)
 * [HTML,CSS and Javascript](htmlcssand_javascript.md)
    * [HTML Assignment](htmlassignment.md)
-   * [Create a web page](create_a_web_page)
+   * [Create a web page](create_a_web_page.md)
    * [Create HTML Table](createhtml_table.md)
    * [Create an HTML Form](createan_html_form.md)
    * [create a style sheet](createa_style_sheet.md)
