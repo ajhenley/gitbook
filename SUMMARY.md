@@ -208,7 +208,7 @@
    * [Super Big Gulp!](superbig_gulp.md)
 * [MultiThreading](multithreading.md)
    * [Doing two things at once](doingtwo_things_at_once.md)
-* [JPA and JPQL](jpa_and_jpql)
+* [JPA and JPQL](jpaand_jpql.md)
    * [What is JPQL?](what_is_jpql)
    * [Creating a JPA Project from Scratch](creating_a_jpa_project_from_scratch)
    * [JPA Database Utilities](jpa_database_utilities)
