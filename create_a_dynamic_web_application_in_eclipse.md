@@ -15,5 +15,9 @@ Right-click on the project name and select Build Path | Configure Build Path
 The Properties window will open and you should select the Libraries tab if it isn't selected already.
 Click the button to Add External JARs. Browse for the ojdbc6.jar file. You can browse to the .jar you placed in WEB-INF/lib or the one on your computer. Do not select a jar file on the network. Eclipse has trouble finding those.
 
+####Create your first web page
+
+####Create your first servlet
+
 
 
