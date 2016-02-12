@@ -178,7 +178,7 @@
    * [First JavaScript Assignment](firstjavascript_assignment.md)
    * [Explore the DOM with JavaScript](explorethe_dom_with_javascript.md)
    * [Sales Tax Calculator](salestax_calculator.md)
-   * [Create JavaScript F to C Temp converter](create_javascript_f_to_c_temp_converter)
+   * [Create JavaScript F to C Temp converter](createjavascript_f_to_c_temp_converter.md)
    * [Create a JavaScript version of Zork](create_a_javascript_version_of_zork)
    * [Understand the CSS box model](understand_the_css_box_model)
    * [Add JavaScript validation to JavaUniversity    project](addjavascript_validation_to_javauniversity_project.md)
