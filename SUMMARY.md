@@ -223,7 +223,7 @@
    * [Shopping Cart Application](shopping_cart_application)
    * [Deluxe Shopping Cart](deluxe_shopping_cart)
    * [Aggregate Functions](aggregate_functions)
-* [JavaServer Pages Standard Tag Library (JSTL)](javaserver_pages_standard_tag_library_jstl)
+* [JavaServer Pages Standard Tag Library (JSTL)](javaserverpages_standard_tag_library_jstl.md)
    * [Super Shopping Cart](super_shopping_cart)
    * [Super Duper Shopping Cart](super_duper_shopping_cart)
    * [More Git Practice](more_git_practice)
