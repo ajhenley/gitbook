@@ -7,7 +7,7 @@ Create a basic web page with a title and a header tag that both say, "Hello Worl
 
 All well-designed HTML pages must be formatted to meet HTML5 standards. Which means it must have the basic structure shown below. Every tag must have a corresponding closing tag. 
 
-{%ace edit=true, lang='html'%}
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,4 +20,4 @@ Content of the document......
 </body>
 
 </html>
-{%endace%}
+```
