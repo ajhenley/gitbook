@@ -184,7 +184,7 @@
    * [Add JavaScript validation to JavaUniversity    project](addjavascript_validation_to_javauniversity_project.md)
    * [What is JQuery?](whatis_jquery.md)
    * [Intro to Bootstrap](introto_bootstrap.md)
-   * [Bootstrap Intro Assignment](bootstrap_intro_assignment)
+   * [Bootstrap Intro Assignment](bootstrapintro_assignment.md)
    * [Bootstrap Jumbotron Assignment](bootstrap_jumbotron_assignment)
    * [Bootstrap Form Assignment](bootstrap_form_assignment)
    * [Shiny Web Online Bank Bootstrap Assignment](shiny_web_online_bank_bootstrap_assignment)
