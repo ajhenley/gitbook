@@ -188,7 +188,7 @@
    * [Bootstrap Jumbotron Assignment](bootstrapjumbotron_assignment.md)
    * [Bootstrap Form Assignment](bootstrapform_assignment.md)
    * [Shiny Web Online Bank Bootstrap Assignment](shinyweb_online_bank_bootstrap_assignment.md)
-   * [Cash Money Carousel](cash_money_carousel)
+   * [Cash Money Carousel](cashmoney_carousel.md)
    * [SCOTS - Shiny College Online Transcript System](shinycollege_online_transcript_system.md)
 * [Servlets and Enterprise Application Development](servletsand_enterprise_application_development.md)
    * [Creating a Java Servlet](creating_a_java_servlet)
