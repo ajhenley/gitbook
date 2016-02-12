@@ -187,7 +187,7 @@
    * [Bootstrap Intro Assignment](bootstrapintro_assignment.md)
    * [Bootstrap Jumbotron Assignment](bootstrapjumbotron_assignment.md)
    * [Bootstrap Form Assignment](bootstrapform_assignment.md)
-   * [Shiny Web Online Bank Bootstrap Assignment](shiny_web_online_bank_bootstrap_assignment)
+   * [Shiny Web Online Bank Bootstrap Assignment](shinyweb_online_bank_bootstrap_assignment.md)
    * [Cash Money Carousel](cash_money_carousel)
    * [SCOTS - Shiny College Online Transcript System](shinycollege_online_transcript_system.md)
 * [Servlets and Enterprise Application Development](servletsand_enterprise_application_development.md)
