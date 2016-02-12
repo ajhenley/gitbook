@@ -201,7 +201,7 @@
    * [Professor Strongheim's Gradebook Assignment](professorstrongheims_gradebook_assignment.md)
    * [Strongheim Revisited](strongheimrevisited.md)
    * [Get and Post Details](getand_post_details.md)
-   * [People Finder](people_finder)
+   * [People Finder](peoplefinder.md)
    * [Gulp! Assignment](gulp_assignment)
    * [Sessions in Servlets and Web Pages](sessions_in_servlets_and_web_pages)
    * [Big Gulp!](big_gulp)
