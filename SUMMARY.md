@@ -182,7 +182,7 @@
    * [Create a JavaScript version of Zork](create_a_javascript_version_of_zork)
    * [Understand the CSS box model](understand_the_css_box_model)
    * [Add JavaScript validation to JavaUniversity    project](add_javascript_validation_to_javauniversity_project)
-   * [What is JQuery?](what_is_jquery?)
+   * [What is JQuery?](whatis_jquery.md)
    * [Intro to Bootstrap](intro_to_bootstrap)
    * [Bootstrap Intro Assignment](bootstrap_intro_assignment)
    * [Bootstrap Jumbotron Assignment](bootstrap_jumbotron_assignment)
