@@ -190,6 +190,7 @@
    * [Shiny Web Online Bank Bootstrap Assignment](shinyweb_online_bank_bootstrap_assignment.md)
    * [Cash Money Carousel](cashmoney_carousel.md)
    * [SCOTS - Shiny College Online Transcript System](shinycollege_online_transcript_system.md)
+* [Create a Dynamic Web Application in Eclipse](create_a_dynamic_web_application_in_eclipse.md)
 * [Servlets and Enterprise Application Development](servletsand_enterprise_application_development.md)
    * [Creating a Java Servlet](creatinga_java_servlet.md)
    * [Servlet Assignment](servletassignment.md)
