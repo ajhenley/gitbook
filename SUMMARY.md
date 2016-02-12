@@ -205,7 +205,7 @@
    * [Sessions in Servlets and Web Pages](sessions_in_servlets_and_web_pages)
    * [Big Gulp!](big_gulp)
    * [Super Big Gulp!](super_big_gulp)
-   * Database Servlet Assignment
+   * [Database Servlet Assignment](database_servlet_assignment.md)
 * [MultiThreading](multithreading.md)
    * [Doing two things at once](doing_two_things_at_once)
 * [JPA and JPQL](jpa_and_jpql)
