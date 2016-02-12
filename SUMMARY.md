@@ -181,7 +181,7 @@
    * [Create JavaScript F to C Temp converter](create_javascript_f_to_c_temp_converter)
    * [Create a JavaScript version of Zork](create_a_javascript_version_of_zork)
    * [Understand the CSS box model](understand_the_css_box_model)
-   * [Add JavaScript validation to JavaUniversity    project](add_javascript_validation_to_javauniversity_project)
+   * [Add JavaScript validation to JavaUniversity    project](addjavascript_validation_to_javauniversity_project.md)
    * [What is JQuery?](whatis_jquery.md)
    * [Intro to Bootstrap](intro_to_bootstrap)
    * [Bootstrap Intro Assignment](bootstrap_intro_assignment)
