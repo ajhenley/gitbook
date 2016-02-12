@@ -1,4 +1,15 @@
 ###Create a Dynamic Web Application in Eclipse
+Congratulations for making it this far. You've learned a lot! You know how to create object-oriented Java applications and even some HTML. Now you're going to combine that knowledge to develop a true enterprise application.
+
+What is an enterprise application? Software developed for business for lots of people to use is an enterprise application. It's unlikely in business that you'll create a lot of desktop applications. This course is focusing on developing enterprise applications. That generally means websites. Businesses want software that is scalable, distributed and mission-critical. Most of all they want software to work. All the time. That's why we'll focus on not only developing software but also testing it.
+
+To be scalable and distributed most businesses opt for web applications. The format solves a lot of problems that exists with desktop software. There is one code-base and when it's updated then every user is updated immediately. You don't have issues with different versions being used by different users.
+
+
+
+
+
+
 File | New | Dynamic Web Project
 Type in a project name
 select Apache Tomcat v. 7.0 for the target runtime
