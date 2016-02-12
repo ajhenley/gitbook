@@ -191,7 +191,7 @@
    * [Cash Money Carousel](cashmoney_carousel.md)
    * [SCOTS - Shiny College Online Transcript System](shinycollege_online_transcript_system.md)
 * [Servlets and Enterprise Application Development](servletsand_enterprise_application_development.md)
-   * [Creating a Java Servlet](creating_a_java_servlet)
+   * [Creating a Java Servlet](creatinga_java_servlet.md)
    * [Servlet Assignment](servlet_assignment)
    * [Looping Database Servlet Assignment](looping_database_servlet_assignment)
    * [Detail Pages using Servlets Assignment](detail_pages_using_servlets_assignment)
