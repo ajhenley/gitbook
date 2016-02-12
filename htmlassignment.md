@@ -21,3 +21,9 @@ Content of the document......
 
 </html>
 ```
+
+####Create a Static Web Project in Eclipse
+You're going to work with static web projects now.
+File | New | Other | Web | Static Web Project
+on the next Form that comes up enter the project name and select the target runtime. For the target runtime select HTTP Preview. You may have to click the New Runtime button to select HTTP Preview.
+
