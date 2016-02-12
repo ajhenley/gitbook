@@ -20,4 +20,9 @@ Click the button to Add External JARs. Browse for the ojdbc6.jar file. You can b
 ####Create your first servlet
 
 
+####Test it out
+
+####Your Assignment
+Create a second web page and a second servlet. It should display your name.
+
 
