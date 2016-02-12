@@ -202,7 +202,7 @@
    * [Strongheim Revisited](strongheimrevisited.md)
    * [Get and Post Details](getand_post_details.md)
    * [People Finder](peoplefinder.md)
-   * [Gulp! Assignment](gulp_assignment)
+   * [Gulp! Assignment](gulpassignment.md)
    * [Sessions in Servlets and Web Pages](sessions_in_servlets_and_web_pages)
    * [Big Gulp!](big_gulp)
    * [Super Big Gulp!](super_big_gulp)
