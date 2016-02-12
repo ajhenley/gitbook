@@ -198,7 +198,7 @@
    * [Detail Pages using Servlets Assignment](detailpages_using_servlets_assignment.md)
    * [Simple HTML Form and Servlet](simplehtml_form_and_servlet.md)
    * [Ms Mackleberry's Gradebook Assignment](msmackleberrys_gradebook_assignment.md)
-   * [Professor Strongheim's Gradebook Assignment](professor_strongheims_gradebook_assignment)
+   * [Professor Strongheim's Gradebook Assignment](professorstrongheims_gradebook_assignment.md)
    * [Strongheim Revisited](strongheim_revisited)
    * [Get and Post Details](get_and_post_details)
    * [People Finder](people_finder)
