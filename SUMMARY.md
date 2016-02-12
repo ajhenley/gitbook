@@ -183,7 +183,7 @@
    * [Understand the CSS box model](understandthe_cssbox_model.md)
    * [Add JavaScript validation to JavaUniversity    project](addjavascript_validation_to_javauniversity_project.md)
    * [What is JQuery?](whatis_jquery.md)
-   * [Intro to Bootstrap](intro_to_bootstrap)
+   * [Intro to Bootstrap](introto_bootstrap.md)
    * [Bootstrap Intro Assignment](bootstrap_intro_assignment)
    * [Bootstrap Jumbotron Assignment](bootstrap_jumbotron_assignment)
    * [Bootstrap Form Assignment](bootstrap_form_assignment)
