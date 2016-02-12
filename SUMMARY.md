@@ -192,7 +192,7 @@
    * [SCOTS - Shiny College Online Transcript System](shinycollege_online_transcript_system.md)
 * [Servlets and Enterprise Application Development](servletsand_enterprise_application_development.md)
    * [Creating a Java Servlet](creatinga_java_servlet.md)
-   * [Servlet Assignment](servlet_assignment)
+   * [Servlet Assignment](servletassignment.md)
    * [Looping Database Servlet Assignment](looping_database_servlet_assignment)
    * [Detail Pages using Servlets Assignment](detail_pages_using_servlets_assignment)
    * [Simple HTML Form and Servlet](simplehtml_form_and_servlet.md)
