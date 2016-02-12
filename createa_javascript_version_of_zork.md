@@ -1,3 +1,7 @@
+<!--djw
+todo: replace image link with instructions to find and image or  give them the image
+todo: it says follow instructor's directions.... put those directions in the book
+-->
 ###Create a JavaScript version of Zork
 JavaScript is the programming language of the browser. You can use it to make your web pages more interactive.
 
