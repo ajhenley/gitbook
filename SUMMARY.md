@@ -197,7 +197,7 @@
    * [Looping Database Servlet Assignment](loopingdatabase_servlet_assignment.md)
    * [Detail Pages using Servlets Assignment](detailpages_using_servlets_assignment.md)
    * [Simple HTML Form and Servlet](simplehtml_form_and_servlet.md)
-   * [Ms Mackleberry's Gradebook Assignment](ms_mackleberrys_gradebook_assignment)
+   * [Ms Mackleberry's Gradebook Assignment](msmackleberrys_gradebook_assignment.md)
    * [Professor Strongheim's Gradebook Assignment](professor_strongheims_gradebook_assignment)
    * [Strongheim Revisited](strongheim_revisited)
    * [Get and Post Details](get_and_post_details)
