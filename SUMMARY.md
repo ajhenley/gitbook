@@ -193,7 +193,7 @@
 * [Servlets and Enterprise Application Development](servletsand_enterprise_application_development.md)
    * [Creating a Java Servlet](creatinga_java_servlet.md)
    * [Servlet Assignment](servletassignment.md)
-   * [Looping Database Servlet Assignment](looping_database_servlet_assignment)
+   * [Looping Database Servlet Assignment](loopingdatabase_servlet_assignment.md)
    * [Detail Pages using Servlets Assignment](detail_pages_using_servlets_assignment)
    * [Simple HTML Form and Servlet](simplehtml_form_and_servlet.md)
    * [Ms Mackleberry's Gradebook Assignment](ms_mackleberrys_gradebook_assignment)
