@@ -1,5 +1,4 @@
-# People Finder
-
+###People Finder
 Prerequisite: Complete the SQL Bonus Practice. You will be using the tables created in that project for this one. You must create a database with multiple tables in order to get credit for this application.
 
 Create a dynamic web application. This project must be it's own dynamic web application. It may not be a part of another application.
@@ -14,6 +13,6 @@ select firstname,lastname from customers where lastname like 'Smith%'
 
 Once the user is found, display a page with the user's details.
 
-Also, several projects have been submitted without closing the database connection. Therefore, you must close the database connection in order to get credit for this application.
+Before you submit the project make sure your are closing the database connection. If you don't it will remain allocated and you'll get an error message from Oracle.
 
-Please submit through GitHub. Include your SQL Scripts in a folder in your project so they also get submitted to GitHub. 
+When submitting database projects to GitHub. include your SQL Scripts. You can create a folder in your project and they will be submitted to GitHub. That way if you need to rebuild your database you have the latest version under source control.
