@@ -18,8 +18,14 @@ The Properties window will open and you should select the Libraries tab. Click t
 * Your servlet code files will  be placed under Java Resources | src folder. You can create subfolders under that if you like.
 * Your html and jsp code will be placed under the WebContent folder. Again, you can create subfolders as necessary. For example, you'll probably have subfolders for images and javascript.
 
+Next, we're going to create a servlet that sends it's output to a web page.
 
-####Create your first web page
+####The components of the dynamic web project
+* JavaServer Pages (JSP) - web pages that integrate Java code with HTML or XML. You can use JSP technology to create dynamically generated web pages. 
+* Servlets - a small Java program that runs within a web server. The servlet actually extends the webserver giving it the abiltiy to return a customized response to a request. The Java servlets in this course will generally send their output to the JSP.
+
+####Create your first Java Server page
+
 
 ####Create your first servlet
 
