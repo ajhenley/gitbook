@@ -1,5 +1,4 @@
-# Creating a Java Servlet
-
+###Creating a Java Servlet
 Create a new Dynamic Web Project in Eclipse. You are going to create a java servlet!
 
 Servlets are Java classes which service HTTP requests and implement thejavax.servlet.Servlet interface. Web application developers typically write servlets that extend javax.servlet.http.HttpServlet, an abstract class that implements the Servlet interface and is specially designed to handle HTTP requests.
