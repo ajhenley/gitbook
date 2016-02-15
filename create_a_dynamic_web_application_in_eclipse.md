@@ -1,30 +1,27 @@
 ###Create a Dynamic Web Application in Eclipse
 Congratulations for making it this far. You've learned a lot! You know how to create object-oriented Java applications and even some HTML. Now you're going to combine that knowledge to develop a true enterprise application.
 
-What is an enterprise application? Software developed for business that lots of people depend on is an enterprise application. It's unlikely in business that you'll create a lot of desktop applications. That's why this course is focusing on developing enterprise applications. Businesses want software that is scalable, distributed and mission-critical. Most of all they want software to work. All the time. That's why we'll focus on not only developing software but also testing it.
+####What is an enterprise application? 
+Software developed for business that lots of people depend on is an enterprise application. It's unlikely in business that you'll create a lot of desktop applications. That's why this course is focusing on developing enterprise applications. Businesses want software that is scalable, distributed and mission-critical. Most of all they want software to work. All the time. That's why we'll focus on not only developing software but also testing it.
 
-Web applications meet these requirements. When you think of enterprise software think websites. The format solves a lot of problems for which desktop software is unsuitable. Websites have one code-base on the server and when it's updated then every user is also updated. Users with different versions are a thing of the past.
+Web applications can meet these requirements. When you think of enterprise software think websites. The format solves a lot of problems for which desktop software is unsuitable. Websites have one code-base on the server. When it's updated then every user is also updated. Users with different versions are a thing of the past.
 
+####How to create a dynamic web project in Eclipse. 
+1. From the Eclipse menu, select on File | New | Dynamic Web Project
+2. On the window that pops up, type in a project name
+3. Select 'Apache Tomcat v. 7.0' for the target runtime
+4. Click Next twice. Then click Finish.
+5. You'll need to add the jar files to the ```WebContent/WEB-INF/lib folder```. Browse your computer to find the ojdbc6.jar file on your computer and copy it to this folder.
+6. Right-click on the project name and select Build Path | Configure Build Path
+The Properties window will open and you should select the Libraries tab. Click the button to Add External JARs. Browse for the ojdbc6.jar file. You can browse to the .jar you placed in WEB-INF/lib or the one on your computer. Do not select a jar file on the network. Eclipse has trouble finding those.
 
-Here's how to create a dynamic web project in Eclipse. 
-
-
-
-File | New | Dynamic Web Project
-Type in a project name
-select Apache Tomcat v. 7.0 for the target runtime
-Click Next twice and then click Finish
-
-Your servlet code files will  be placed under Java Resources | src folder. You can create subfolders under that.
-Your html and jsp code will be placed under the WebContent folder. Again, you can create subfolders as necessary. For example, you'll probably have subfolders for images, javascript and 
-
-Lastly, you'll need to add the jar files to the WebContent/WEB-INF/lib folder. And add them to the build path. Simply find the ojdbc6.jar file on your computer and copy it to this folder.
+* Your servlet code files will  be placed under Java Resources | src folder. You can create subfolders under that if you like.
+* Your html and jsp code will be placed under the WebContent folder. Again, you can create subfolders as necessary. For example, you'll probably have subfolders for images and javascript.
 
 
 
-Right-click on the project name and select Build Path | Configure Build Path
-The Properties window will open and you should select the Libraries tab if it isn't selected already.
-Click the button to Add External JARs. Browse for the ojdbc6.jar file. You can browse to the .jar you placed in WEB-INF/lib or the one on your computer. Do not select a jar file on the network. Eclipse has trouble finding those.
+
+
 
 ####Create your first web page
 
