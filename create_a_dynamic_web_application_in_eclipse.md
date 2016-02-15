@@ -45,6 +45,9 @@ The entry point for many websites is index.html. That is the page the user first
 ####Create your first servlet
 The ```action``` attribute of index.html tells the web server to direct the form's output to the ```greetingServlet```. The servlet will process the form data from index.html and return it to the output.jsp page.
 
+The form data was submitted using the post method so the method ```doPost()``` is executed. In this method the servlet retrieves the posted data. Next, the servlet sets the name attribute and redirects the response to the jsp page.
+
+
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -79,7 +82,7 @@ public class FormProcessor extends HttpServlet {
 
 
 ####Create your first JavaServer Page (JSP)
-The servlet
+
 ####Test it out
 
 ####Your Assignment
