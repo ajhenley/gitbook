@@ -24,12 +24,62 @@ Next, you'll create a servlet that sends it's output to a web page.
 * JavaServer Pages (JSP) - web pages that integrate Java code with HTML or XML. You can use JSP technology to create dynamically generated web pages. 
 * Servlets - a small Java program that runs within a web server. The servlet actually extends the webserver giving it the abiltiy to return a customized response to a request. The Java servlets in this course will generally send their output to the JSP.
 
-####Create your first JavaServer Page (JSP)
+####Create an index.html page
+The entry point for many websites is index.html. That is the page the user first sees upon visiting your site and will be the page that sends the user to other pages within the site.
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="greetingServlet" method="post">
+<label>Enter Your Name:</label>
+<input type="text" name="firstName" value="" size="15">
+<input type="submit" id="submit" value="Greet me!">
+</form>
+</body>
+</html>
 
 ####Create your first servlet
+The ```action``` attribute of index.html tells the web server to direct the form's output to the ```greetingServlet```. The servlet will process the form data from index.html and return it to the output.jsp page.
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/greetingServlet")
+public class FormProcessor extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    public FormProcessor() {
+        super();
+    }
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		doPost(request,response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//get the parameter 
+		String name = request.getParameter("firstName");
+		String url = "/greeting.jsp";
+		if (name == null || name.length()==0) {
+			name = "Unnamed Person";
+		}
+		request.setAttribute("name",name);
+		getServletContext().getRequestDispatcher(url).forward(request, response);
+	}
+
+}
 
 
+####Create your first JavaServer Page (JSP)
+The servlet
 ####Test it out
 
 ####Your Assignment
