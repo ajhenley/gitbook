@@ -1,3 +1,3 @@
-# Servlet Assignment
-
-Create a NEW Dynamic Web application and make a servlet that will output a basic bootstrap web page that says "Hello World".
+###Servlet Assignment
+Create a NEW Dynamic Web application and make a servlet that will output a basic bootstrap web page.
+The Dynamic Web application will contain a page that  prompts the user for the Fahrenheit  temperature. That page must use Bootstrap. It will submit the temperature to the servlet. The servlet will calculate the Celcius temperature. The Celcius temperature will be output to a JSP. The JSP must use Bootstrap.
