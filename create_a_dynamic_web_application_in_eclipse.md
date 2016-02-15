@@ -19,10 +19,6 @@ The Properties window will open and you should select the Libraries tab. Click t
 * Your html and jsp code will be placed under the WebContent folder. Again, you can create subfolders as necessary. For example, you'll probably have subfolders for images and javascript.
 
 
-
-
-
-
 ####Create your first web page
 
 ####Create your first servlet
