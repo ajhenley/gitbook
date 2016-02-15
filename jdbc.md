@@ -52,3 +52,7 @@ public class TestOracleJDBC {
 
 {%endace%}
 
+####Did it work?
+Did you see the word DEMO in the Eclipse console? Then you now have Eclipse and Oracle correctly configured.
+
+
