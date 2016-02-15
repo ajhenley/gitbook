@@ -23,11 +23,14 @@ public class TestOracleJDBC {
 		Connection con = null;
 		Statement stmt = null;
 		ResultSet rs = null;
+		String connectionString = "jdbc:oracle:thin:demo/demo@localhost:1521:orcl";
+		String sql = "select user from dual";
 		try{
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			con = DriverManager.getConnection("jdbc:oracle:thin:demo/demo@localhost:1521:orcl");
+			con = DriverManager.getConnection(connectionString);
 			stmt = con.createStatement();
-			rs = stmt.executeQuery("select user from dual");
+			
+			rs = stmt.executeQuery(sql);
 			while(rs.next()){
 				System.out.println(rs.getString(1) + "\t");
 			}
