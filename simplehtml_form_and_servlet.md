@@ -2,8 +2,6 @@
 
 Create a new dynamic web project. Add a page called index.html. On that page create an HTML Form.
 
-Refer to the following documentation at w3schools.com (Links to an external site.) if you need information about creating a form.
-
 Read the post about Get and Post details for additional information.
 
 For the form's action attribute you'll put the name of your servlet.
