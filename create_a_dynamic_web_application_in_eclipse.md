@@ -27,6 +27,8 @@ Next, you'll create a servlet that sends it's output to a web page.
 ####Create an index.html page
 The entry point for many websites is index.html. That is the page the user first sees upon visiting your site and will be the page that sends the user to other pages within the site.
 
+{%ace edit=true, lang='html'%}
+<!-- index.html goes in the /WebContent folder -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,13 +43,15 @@ The entry point for many websites is index.html. That is the page the user first
 </form>
 </body>
 </html>
+{%endace%}
 
 ####Create your first servlet
 The ```action``` attribute of index.html tells the web server to direct the form's output to the ```greetingServlet```. The servlet will process the form data from index.html and return it to the output.jsp page.
 
 The form data was submitted using the post method so the method ```doPost()``` is executed. In this method the servlet retrieves the posted data. Next, the servlet sets the name attribute and redirects the response to the jsp page.
 
-
+{%ace edit=true, lang='java'%}
+//FormProcessor.java goes in the /scr folder
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -79,11 +83,13 @@ public class FormProcessor extends HttpServlet {
 	}
 
 }
-
+{%endace%}
 
 ####Create your first JavaServer Page (JSP)
 The JSP will accept the attribute from the servlet and set its value to the name.
 
+{%ace edit=true, lang='java'%}
+<!--  greeting.jsp goes in the /WebContent folder -->
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -96,13 +102,16 @@ The JSP will accept the attribute from the servlet and set its value to the name
 <h1>Welcome,${name}</h1>
 </body>
 </html>
-
-####Try it out
-
-
-
+{%endace%}
 
 ####Your Assignment
 Create a new dynamic web application with a web page and a servlet. It should display your name.
+1. Create a new dynamic web project
+2. Copy the code above to the file locations indicated by the comment on the first line
+3. Run your project. Since you want to start with the index.html page it helps to select index.html from the project explorer in Eclipse. Right-click on this file. Select Run As | Run on Server from the pop-up menu.
+
+
+
+
 
 
