@@ -1,2 +1,3 @@
 # Bullhorn #3
 
+Now to make your Bullhorn application complete. Each user should have their own profile page. On the post stream page, the posts should be listed with the poster's name as a link. If the link is clicked then the current user (whether logged in or not) should see a profile page for the poster including their name, motto, and join date. This page should also have a list of all of their posts, also in reverse chronological order and also searchable.
