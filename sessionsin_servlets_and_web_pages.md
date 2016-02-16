@@ -4,12 +4,13 @@ Session tracking enables you to track a user's progress over multiple servlets o
 HTTP is a "stateless" protocol.  This means each time a client retrieves a Web page, the client opens a separate connection to the Web server. The server does not keep any record of previous client request.
 
 There are three ways to maintain session between web client and web server:
-**Cookies**
+
+**Cookies**  
 A webserver can assign a unique session ID as a cookie to each web client and for subsequent requests from the client they can be recognized using the received cookie.
 
 This may not be an effective way because many time browser does not support a cookie, so I would not recommend to use this procedure to maintain the sessions.
 
-**Hidden Form Fields**
+**Hidden Form Fields**  
 A web server can send a hidden HTML form field along with a unique session ID as follows:
 
 <input type="hidden" name="sessionid" value="12345">
@@ -18,7 +19,7 @@ This entry means that, when the form is submitted, the specified name and value 
 
 This could be an effective way of keeping track of the session but clicking on a regular (<A HREF...>) hypertext link does not result in a form submission, so hidden form fields also cannot support general session tracking.
 
-**URL Rewriting**
+**URL Rewriting**  
 You can append some extra data on the end of each URL that identifies the session, and the server can associate that session identifier with data it has stored about that session.
 
 For example, with http://tutorialspoint.com/file.htm;sessionid=12345, the session identifier is attached as sessionid=12345 which can be accessed at the web server to identify the client.
