@@ -216,7 +216,7 @@
    * [Bullhorn Assignment #1](bullhorn1.md)
    * [Bullhorn #2](bullhorn2.md)
    * [Bullhorn #3](bullhorn3.md)
-   * [Bullhorn Bonus Assignment](bullhorn_bonus_assignment)
+   * [Bullhorn Bonus Assignment](bullhornbonus_assignment.md)
    * [Primary Keys in JPA](primary_keys_in_jpa)
    * [How to see if a customer exists](how_to_see_if_a_customer_exists)
    * [A first look at Expression Language](a_first_look_at_expression_language)
