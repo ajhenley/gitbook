@@ -223,7 +223,7 @@
    * [Convert existing application to use JPA](convertexisting_application_to_use_jpa.md)
    * [Shopping Cart Application](shoppingcart_application.md)
    * [Deluxe Shopping Cart](deluxeshopping_cart.md)
-   * [Aggregate Functions](aggregate_functions)
+   * [Aggregate Functions](aggregatefunctions.md)
 * [JavaServer Pages Standard Tag Library (JSTL)](javaserverpages_standard_tag_library_jstl.md)
    * [Super Shopping Cart](super_shopping_cart)
    * [Super Duper Shopping Cart](super_duper_shopping_cart)
