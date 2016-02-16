@@ -213,7 +213,7 @@
    * [Creating a JPA Project from Scratch](creatinga_jpa_project_from_scratch.md)
    * [JPA Database Utilities](jpadatabase_utilities.md)
    * [Super Big Gulp!](superbig_gulp.md)
-   * [Bullhorn Assignment #1](bullhorn1)
+   * [Bullhorn Assignment #1](bullhorn1.md)
    * [Bullhorn #2](bullhorn2)
    * [Bullhorn #3](bullhorn3)
    * [Bullhorn Bonus Assignment](bullhorn_bonus_assignment)
