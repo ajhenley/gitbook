@@ -5,9 +5,7 @@ The Java Persistence query language defines queries for entities and their persi
 The query language uses the abstract persistence schemas of entities, including their relationships, for its data model and defines operators and expressions based on this data model. The scope of a query spans the abstract schemas of related entities that are packaged in the same persistence unit. The query language uses an SQL-like syntax to select objects or values based on entity abstract schema types and relationships among them.
 
  
-Creating Queries Using the Java Persistence Query Language
-
- 
+####Creating Queries Using the Java Persistence Query Language
 
 The EntityManager.createQuery and EntityManager.createNamedQuery methods are used to query the datastore by using Java Persistence query language queries.
 
