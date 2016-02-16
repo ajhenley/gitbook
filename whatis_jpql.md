@@ -1,6 +1,6 @@
 ###What is JPQL?
 
-The Java Persistence query language defines queries for entities and their persistent state. The query language allows you to write portable queries that work for any database. An application dvelioped 
+The Java Persistence query language defines queries for entities and their persistent state. The query language allows you to write portable queries that work for any database. An application developed with JPQL and Oracle does not have to be modified when the database is changed to Microsoft SQL Server.
 
 The query language uses the abstract persistence schemas of entities, including their relationships, for its data model and defines operators and expressions based on this data model. The scope of a query spans the abstract schemas of related entities that are packaged in the same persistence unit. The query language uses an SQL-like syntax to select objects or values based on entity abstract schema types and relationships among them.
 
