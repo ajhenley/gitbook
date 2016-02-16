@@ -7,16 +7,17 @@
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg)
 
 ####Components
-VC, the model, captures the behavior of the application in terms of its problem domain, independent of the user interface.[11] The model directly manages the data, logic and rules of the application.
+**The model** directly manages the data, logic and rules of the application.
 
-A view can be any output representation of information, such as a chart or a diagram. Multiple views of the same information are possible, such as a bar chart for management and a tabular view for accountants.
+**A view** can be any output representation of information, such as a chart or a diagram. Multiple views of the same information are possible, such as a bar chart for management and a tabular view for accountants. In applications you will create the view will be the web page.
 
-The third part, the controller, accepts input and converts it to commands for the model or view.[12]
+**The controller** accepts input and converts it to commands for the model or view. The controller can also manage the logic and rules of the application. 
 
-Interactions[edit]
-In addition to dividing the application into three kinds of components, the model–view–controller design defines the interactions between them.[13]
+####Interactions between the components
+* A controller can send commands to the model to update the model's state (e.g. editing a document). It can also send commands to its associated view to change the view's presentation of the model (e.g. by scrolling through a document).
+* A model stores data that is retrieved according to commands from the controller and displayed in the view.
+* A view generates an output presentation to the user based on changes in the model.
 
-A controller can send commands to the model to update the model's state (e.g. editing a document). It can also send commands to its associated view to change the view's presentation of the model (e.g. by scrolling through a document).
-A model stores data that is retrieved according to commands from the controller and displayed in the view.
-A view generates an output presentation to the user based on changes in the model.
-A view controller generates an output view and an embedded controller
+
+####How this affects you
+When you develop an application you'll create a database. The model will represent the database. Secondly you'll 
