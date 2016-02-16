@@ -214,7 +214,7 @@
    * [JPA Database Utilities](jpadatabase_utilities.md)
    * [Super Big Gulp!](superbig_gulp.md)
    * [Bullhorn Assignment #1](bullhorn1.md)
-   * [Bullhorn #2](bullhorn2)
+   * [Bullhorn #2](bullhorn2.md)
    * [Bullhorn #3](bullhorn3)
    * [Bullhorn Bonus Assignment](bullhorn_bonus_assignment)
    * [Primary Keys in JPA](primary_keys_in_jpa)
