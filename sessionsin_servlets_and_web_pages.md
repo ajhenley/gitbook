@@ -31,7 +31,8 @@ Apart from the above mentioned three ways, servlet provides HttpSession Interfac
 
 The servlet container uses this interface to create a session between an HTTP client and an HTTP server. The session persists for a specified time period, across more than one connection or page request from the user.
 
-You would get HttpSession object by calling the public method getSession() of HttpServletRequest, as below:
+You would get HttpSession object by calling the public method ```getSession()``` of HttpServletRequest, as below:
 
-HttpSession session = request.getSession();
-You need to call request.getSession() before you send any document content to the client.
+```HttpSession session = request.getSession();```  
+
+You need to call ```request.getSession()``` before you send any document content to the client.
