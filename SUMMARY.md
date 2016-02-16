@@ -226,7 +226,7 @@
    * [Aggregate Functions](aggregatefunctions.md)
 * [JavaServer Pages Standard Tag Library (JSTL)](javaserverpages_standard_tag_library_jstl.md)
    * [Super Shopping Cart](supershopping_cart.md)
-   * [Super Duper Shopping Cart](super_duper_shopping_cart)
+   * [Super Duper Shopping Cart](superduper_shopping_cart.md)
    * [More Git Practice](more_git_practice)
    * [Gosh! A group assignment](gosh_a_group_assignment)
    * [How JSTL Works](howjstl_works.md)
