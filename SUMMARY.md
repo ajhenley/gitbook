@@ -227,7 +227,7 @@
 * [JavaServer Pages Standard Tag Library (JSTL)](javaserverpages_standard_tag_library_jstl.md)
    * [Super Shopping Cart](supershopping_cart.md)
    * [Super Duper Shopping Cart](superduper_shopping_cart.md)
-   * [More Git Practice](more_git_practice)
+   * [More Git Practice](moregit_practice.md)
    * [Gosh! A group assignment](gosh_a_group_assignment)
    * [How JSTL Works](howjstl_works.md)
    * [JSP Servlet Interaction Review](jsp_servlet_interaction_review)
