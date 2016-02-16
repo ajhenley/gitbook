@@ -222,7 +222,7 @@
    * [A first look at Expression Language](afirst_look_at_expression_language.md)
    * [Convert existing application to use JPA](convertexisting_application_to_use_jpa.md)
    * [Shopping Cart Application](shoppingcart_application.md)
-   * [Deluxe Shopping Cart](deluxe_shopping_cart)
+   * [Deluxe Shopping Cart](deluxeshopping_cart.md)
    * [Aggregate Functions](aggregate_functions)
 * [JavaServer Pages Standard Tag Library (JSTL)](javaserverpages_standard_tag_library_jstl.md)
    * [Super Shopping Cart](super_shopping_cart)
