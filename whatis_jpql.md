@@ -1,3 +1,4 @@
+<!-- djw: rewrite this ... it's from ORCL -->
 ###What is JPQL?
 
 The Java Persistence query language defines queries for entities and their persistent state. The query language allows you to write portable queries that work for any database. An application developed with JPQL and Oracle does not have to be modified when the database is changed to Microsoft SQL Server.
