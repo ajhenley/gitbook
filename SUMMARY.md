@@ -211,7 +211,7 @@
 * [JPA and JPQL](jpaand_jpql.md)
    * [What is JPQL?](whatis_jpql.md)
    * [Creating a JPA Project from Scratch](creatinga_jpa_project_from_scratch.md)
-   * [JPA Database Utilities](jpa_database_utilities)
+   * [JPA Database Utilities](jpadatabase_utilities.md)
    * [Super Big Gulp!](superbig_gulp.md)
    * [Bullhorn Assignment #1](bullhorn1)
    * [Bullhorn #2](bullhorn2)
