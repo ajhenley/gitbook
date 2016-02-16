@@ -218,7 +218,7 @@
    * [Bullhorn #3](bullhorn3.md)
    * [Bullhorn Bonus Assignment](bullhornbonus_assignment.md)
    * [Primary Keys in JPA](primarykeys_in_jpa.md)
-   * [How to see if a customer exists](how_to_see_if_a_customer_exists)
+   * [How to see if a customer exists](howto_seeif_a_customer_exists.md)
    * [A first look at Expression Language](a_first_look_at_expression_language)
    * [Convert existing application to use JPA](convert_existing_application_to_use_jpa)
    * [Shopping Cart Application](shopping_cart_application)
