@@ -14,7 +14,7 @@ Each should provide functionality to do the following:
 
 
 
-####DESIGN BEFORE YOU CODE. 
+####DESIGN BEFORE YOU CODE 
 You need to talk about everything you want to do before you do it. You might even want to sketch it out before you proceed.
 
 <a href="http://cdn.shopify.com/s/files/1/0042/9602/files/Browser-Pad.pdf?100935">Website Sketch template</a>
