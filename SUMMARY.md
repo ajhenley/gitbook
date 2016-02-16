@@ -221,7 +221,7 @@
    * [How to see if a customer exists](howto_seeif_a_customer_exists.md)
    * [A first look at Expression Language](afirst_look_at_expression_language.md)
    * [Convert existing application to use JPA](convertexisting_application_to_use_jpa.md)
-   * [Shopping Cart Application](shopping_cart_application)
+   * [Shopping Cart Application](shoppingcart_application.md)
    * [Deluxe Shopping Cart](deluxe_shopping_cart)
    * [Aggregate Functions](aggregate_functions)
 * [JavaServer Pages Standard Tag Library (JSTL)](javaserverpages_standard_tag_library_jstl.md)
