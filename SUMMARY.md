@@ -229,7 +229,7 @@
    * [Super Duper Shopping Cart](superduper_shopping_cart.md)
    * [Gosh! A group assignment](gosha_group_assignment.md)
    * [How JSTL Works](howjstl_works.md)
-   * [JSP Servlet Interaction Review](jsp_servlet_interaction_review)
+   * [JSP Servlet Interaction Review](jspservlet_interaction_review.md)
 * [JavaServer Faces (JSF)](javaserverfaces_jsf.md)
    * [Build a JSF 2.0 application](build_a_jsf_2.0_application)
    * [Work with JSF](work_with_jsf)
