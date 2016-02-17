@@ -2,9 +2,7 @@
 
 Make a class out of the following code to insert and update from the database.
 
- 
-
-
+```java
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
@@ -60,3 +58,5 @@ em.close();
 }
 }
 } 
+```
+
