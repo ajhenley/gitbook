@@ -32,10 +32,10 @@ The form can send its data via either GET or POST. Those are the only two choice
 
 A proper form contains the following
 * An opening Form tag with an action attribute and a method attribute.
-* Any number of inputs each of which must have name attributes identifying the name by which request.getParameter will refer to each
-Labels to identify the inputs for the user
-A submit button or button which will send the value of each input along with its name to the servlet for processing
-A closing form tag
+* Any number of inputs each of which must have name attributes identifying the name by which request. getParameter will refer to each
+* Labels to identify the inputs for the user
+* A submit button which will tell the browser to send the value of each input along with its name to the servlet for processing
+* A closing form tag
  
 
 The hidden input below can be used to help the servlet determine which form was submitted.
