@@ -24,7 +24,7 @@ An HTML5 document looks like this:
 ...
 </body>
 </html>
-``
+```
 
 Within that document you can create a form to submit data to the web server. The form goes between the <body> and </body> tags. Our web server is Tomcat. A servlet is a program which extends Tomcat. The servlet gives Tomcat the ability to handle the url in the @WebServlet annotation at the top of your servlet code file.
 
