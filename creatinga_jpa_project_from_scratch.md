@@ -3,7 +3,8 @@
 
 1) First Create a New Java Project….
 ![](images/slowlyiturned/image10.png)
-2) Click the Next button (not the Finish button) and get to the Java Settings screen.<br>
+
+2) Click the Next button (not the Finish button) and get to the Java Settings screen.
 
 ![](images/slowlyiturned/image12.png)
 
