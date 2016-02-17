@@ -30,7 +30,7 @@ Within that document you can create a form to submit data to the web server. The
 
 The form can send its data via either GET or POST. Those are the only two choices.  GET sends the data in the URL. POST sends the data as the body of the request packet. The above application illustrates the difference.
 
-A proper form contains the following
+####A proper form contains the following
 * An opening Form tag with an action attribute and a method attribute.
 * Any number of inputs each of which must have name attributes identifying the name by which request. getParameter will refer to each
 * Labels to identify the inputs for the user
