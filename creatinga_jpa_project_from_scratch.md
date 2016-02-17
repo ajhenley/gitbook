@@ -10,29 +10,29 @@
 ![](images/slowlyiturned/image12.png)
 
 3) Click on the Libraries tab so you can add the necessary jar files to the build path. You will need to add 3 jar files: EclipseLink, JavaPersistence and OJDBC.
-![](images/slowlyiturned/image11.png)
+![](images/slowlyiturned/image11.png)<br>
 4) Click on the Add External JARs… button and select the eclipselink.jar file and click Open. 
-![](images/slowlyiturned/image14.png)
+![](images/slowlyiturned/image14.png)<br>
 5) Click on the Add External JARs… button and select javax.persistence_2.1.0.v201304241213.jar (or whatever the current version is)
 
-![](images/slowlyiturned/image13.png)
+![](images/slowlyiturned/image13.png)<br>
 
 6) Click on the Add External JARs… button and select ojdbc6.jar (or whatever the current version is) and click Finish.
 
-![](images/slowlyiturned/image16.png)
+![](images/slowlyiturned/image16.png)<br>
 7) Right-Click your project in the Project Explorer and select Properties from the drop-down.
-![](images/slowlyiturned/image15.png)
+![](images/slowlyiturned/image15.png)<br>
 8) Select Project Facets from the list on the Left…
 
-![](images/slowlyiturned/image20.png)
+![](images/slowlyiturned/image20.png)<br>
 9) If you see the screen below, you need to click the “Convert to faceted form…” link…
-![](images/slowlyiturned/image18.png)
+![](images/slowlyiturned/image18.png)<br>
 10) This project has a Java version level that is too low.  The Java version should be 1.7 or higher.
 Make the window a little wider so that you can see the controls to increase the Java level.
 
-![](images/slowlyiturned/image25.png)
+![](images/slowlyiturned/image25.png)<br>
 11) Click the drop-down triangle next to the number that is on the line with the Java Project Facet.
-![](images/slowlyiturned/image21.png)
+![](images/slowlyiturned/image21.png)<br>
 12) Click on the checkbox next to JPA and you will be asked to do some configuration. Click the link and get the following screen. Set the following:
 Platform: to EclipseLink
 JPA Implementation Type: Disable Library Configuration
@@ -40,59 +40,59 @@ Connection: to the name of your connection.
 Once this is done click the connect link immediately under and to the right of the connection drop down. 
 And then click OK.
 
-![](images/slowlyiturned/image23.png)
+![](images/slowlyiturned/image23.png)<br>
 13) Click Apply to save your JPA settings…
 
-![](images/slowlyiturned/image26.png)
+![](images/slowlyiturned/image26.png)<br>
 
 14) Look in the JPA Content container inside your project and double-click the persistence.xml file.
 
-![](images/slowlyiturned/image28.png)
+![](images/slowlyiturned/image28.png)<br>
 15) This is the dialog box for configuring your persistence.xml file
-![](images/slowlyiturned/image29.png)
+![](images/slowlyiturned/image29.png)<br>
 16) If you click the General tab, you will see the raw xml of the persistence file. It doesn’t look like much yet but as we set our configuration more tags will be added.
-![](images/slowlyiturned/image30.png)
+![](images/slowlyiturned/image30.png)<br>
 17) On the General tab, set the Persistence Provider to  org.eclipse.persistence.jpa.PersistenceProvider
-![](images/slowlyiturned/image31.png)
+![](images/slowlyiturned/image31.png)<br>
 18) Uncheck the Exclude unlisted classes checkbox…
 
-![](images/slowlyiturned/image32.png)
+![](images/slowlyiturned/image32.png)<br>
 19) On the connection tab, change the Transacation Type to Resource Local…
-![](images/slowlyiturned/image33.png)
+![](images/slowlyiturned/image33.png)<br>
 20) After that, click the Populate from connection link…
 
-![](images/slowlyiturned/image34.png)
+![](images/slowlyiturned/image34.png)<br>
 21) A dialog will appear asking you to select your connection, click Ok after you have done so…
-![](images/slowlyiturned/image00.png)
+![](images/slowlyiturned/image00.png)<br>
 22) The dialog should now look like this… Note: the URL may be slightly different depending on your system. It’s also possible you have a different value for User.
 
-![](images/slowlyiturned/image01.png)
+![](images/slowlyiturned/image01.png)<br>
 
 23) If you click on the source tab, the XML should now look approximately like this… 
 Save the file changes (click the icon in Eclipse to save) and you are done…
-![](images/slowlyiturned/image02.png)
+![](images/slowlyiturned/image02.png)<br>
 24) Right-Click your project and Select New… JPA Entities from Tables…
 
-![](images/slowlyiturned/image03.png)
+![](images/slowlyiturned/image03.png)<br>
 25) This is the Generate Custom Entities dialog. If you completed all the previous steps you should see your connection listed. When connected you will see your schemas and tables listed…
-![](images/slowlyiturned/image04.png)
+![](images/slowlyiturned/image04.png)<br>
 26) Once you have selected the Connection, the Schema and at least one Table, you should see the Next button activate.
 
-![](images/slowlyiturned/image05.png)
+![](images/slowlyiturned/image05.png)<br>
 27) This screen will be blank if you have only selected one table (and possibly even if you have selected multiple tables but they don’t have any relationship to each other)
-![](images/slowlyiturned/image06.png)
+![](images/slowlyiturned/image06.png)<br>
 28) Hit Next on this screen too…
 
-![](images/slowlyiturned/image07.png)
+![](images/slowlyiturned/image07.png)<br>
 29) Hit Next again (but this is where you would customize the name of the class and/or the names of the columns)…
-![](images/slowlyiturned/image08.png)
+![](images/slowlyiturned/image08.png)<br>
 30) Once you click Finish, you should right-click the project name again…
-![](images/slowlyiturned/image09.png)
+![](images/slowlyiturned/image09.png)<br>
 31) Select New… Class…
-![](images/slowlyiturned/image17.png)
+![](images/slowlyiturned/image17.png)<br>
 32) This is the class creation dialog, the main things you want to do are set your Package to customTools, your name to DBUtil and then click Finish…
 
-![](images/slowlyiturned/image19.png)
+![](images/slowlyiturned/image19.png)<br>
 33) Eclipse will open your DBUtil.java class ready for editing. Edit it to look something like this…
 Replace name of your persistence unit with the name of your persistence unit.
 
@@ -113,10 +113,10 @@ Persistence.createEntityManagerFactory("name of your persistence unit");
 ```
 34) Right-Click the Project Name and Select New… Class…
 
-![](images/slowlyiturned/image22.png)
+![](images/slowlyiturned/image22.png)<br>
 35) For this class just pick a name and check the public static void main(String[] args) checkbox…
 
-![](images/slowlyiturned/image24.png)
+![](images/slowlyiturned/image24.png)<br>
 36) After you click Finish, edit the class to look like this:
 
 ```java
@@ -139,9 +139,9 @@ public class QS3 {
 }
 
 ```
-37)  Edit the Generated Class and add , schema=”TESTUSER” to the table annotation like you see on line 13.
+37)  Edit the Generated Class and add ```schema=”TESTUSER”``` to the table annotation like you see on line 13.
 
-![](images/slowlyiturned/image27.png)
+![](images/slowlyiturned/image27.png)<br>
 
 38) Now you are done…Run it and you should see the Customer name (and no errors).
 If it didn’t work then most likely you’ve skipped a step or have a typo. Go through the tutorial again - this time reviewing your work.
