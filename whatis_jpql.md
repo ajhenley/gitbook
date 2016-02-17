@@ -1,62 +1,62 @@
-<!-- djw: 
-todo: rewrite this ... it's from ORCL 
--->
+<!-- djw: -->
 ###What is JPQL?
+The Java Persistence Query Language (JPQL) is the query language defined by JPA. JPQL is similar to SQL  but operates on objects, attributes and relationships instead of tables and columns. JPQL can be used for reading (SELECT), as well as updates (UPDATE) and deletes (DELETE). This course will focus on creating dynamic queries using the EntityManager createQuery() API.
 
 The Java Persistence query language defines queries for entities and their persistent state. The query language allows you to write portable queries that work for any database. An application developed with JPQL and Oracle does not have to be modified when the database is changed to Microsoft SQL Server.
 
-The query language uses the abstract persistence schemas of entities, including their relationships, for its data model and defines operators and expressions based on this data model. The scope of a query spans the abstract schemas of related entities that are packaged in the same persistence unit. The query language uses an SQL-like syntax to select objects or values based on entity abstract schema types and relationships among them.
-
- 
 ####Creating Queries Using the Java Persistence Query Language
+Select queries can be used to read objects from the database. Select queries can return a single object or data element, a list of objects or data elements, or an object array of multiple objects and data.
 
-The EntityManager.createQuery and EntityManager.createNamedQuery methods are used to query the datastore by using Java Persistence query language queries.
+The ```EntityManager.createQuery()``` method is used within your class to query the database using Java Persistence query language queries.  
 
-The createQuery method is used to create dynamic queries, which are queries defined directly within an application’s business logic:
+```java
+// Query for a List of objects.
+Query query = em.createQuery("Select e FROM Employee e WHERE e.salary > 100000");
+List<Employee> result = query.getResultList();
 
-public List findWithName(String name) {
-return em.createQuery(
-    "SELECT c FROM Customer c WHERE c.name LIKE :custName")
-    .setParameter("custName", name)
-    .setMaxResults(10)
-    .getResultList();
-}
+// Query for a single object using a named parameter. The result is a single value.
+// The named parameter is set using the query.setParameter() method.
+Query query = em.createQuery("Select e FROM Employee e WHERE e.id = :id");
+query.setParameter("id", id);
+Employee result2 = (Employee)query.getSingleResult();
 
-The createNamedQuery method is used to create static queries, or queries that are defined in metadata by using the javax.persistence.NamedQueryannotation. The name element of @NamedQuery specifies the name of the query that will be used with the createNamedQuery method. The query element of@NamedQuery is the query:
+// Query for a single data element. The result is a single value.
+Query query = em.createQuery("Select MAX(e.salary) FROM Employee e");
+BigDecimal result3 = (BigDecimal)query.getSingleResult();
 
-@NamedQuery(
-    name="findAllCustomersWithName",
-    query="SELECT c FROM Customer c WHERE c.name LIKE :custName"
-)
+// Query for a List of data elements. The result is a List of Strings
+Query query = em.createQuery("Select e.firstName FROM Employee e");
+List<String> result4 = query.getResultList();
 
-Here’s an example of createNamedQuery, which uses the @NamedQuery:
+// Query for a List of element arrays. The result is a list of arrays.
+Query query = em.createQuery("Select e.firstName, e.lastName FROM Employee e");
+List<Object[]> result5 = query.getResultList();
+```
 
-@PersistenceContext
-public EntityManager em;
-...
-customers = em.createNamedQuery("findAllCustomersWithName")
-    .setParameter("custName", "Smith")
-    .getResultList();
 
-Named Parameters in Queries
 
-Named parameters are query parameters that are prefixed with a colon (:). Named parameters in a query are bound to an argument by the following method:
 
-javax.persistence.Query.setParameter(String name, Object value)
 
-In the following example, the name argument to the findWithName business method is bound to the :custName named parameter in the query by callingQuery.setParameter:
-
-public List findWithName(String name) {
-    return em.createQuery(
-        "SELECT c FROM Customer c WHERE c.name LIKE :custName")
-        .setParameter("custName", name)
-        .getResultList();
-}
-
-Named parameters are case-sensitive and may be used by both dynamic and static queries.
 
  
 Positional Parameters in Queries
+Parameters
+
+JPA defines named parameters, and positional parameters. Named parameters can be specified in JPQL using the syntax :<name>. Positional parameters can be specified in JPQL using the syntax ? or ?<position>. Positional parameters start at position 1 not 0.
+Named parameter query example
+
+Query query = em.createQuery("SELECT e FROM Employee e WHERE e.firstName = :first and e.lastName = :last");
+query.setParameter("first", "Bob");
+query.setParameter("last", "Smith");
+List<Employee> list = query.getResultList();
+
+Positional parameter query example
+
+Query query = em.createQuery("SELECT e FROM Employee e WHERE e.firstName = ? and e.lastName = ?");
+query.setParameter(1, "Bob");
+query.setParameter(2, "Smith");
+List<Employee> list = query.getResultList();
+
 
 You may use positional parameters instead of named parameters in queries. Positional parameters are prefixed with a question mark (?) followed the numeric position of the parameter in the query. The Query.setParameter(integer position, Object value) method is used to set the parameter values.
 
