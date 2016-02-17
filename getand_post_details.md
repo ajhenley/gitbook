@@ -58,3 +58,7 @@ The hidden input below can be used to help the servlet determine which form was 
 </body>
 </html>
 ```
+
+####Your assignment
+* Create a Dynamic Web Project which contains an HTML form to subscribe to your Java Tips email newsletter. 
+* You have several email newsletters on various sites. They all use the same subscription database. Add a hidden input to pass the name of the newsletter for this form.
