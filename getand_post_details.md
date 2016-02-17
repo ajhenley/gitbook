@@ -8,7 +8,7 @@ The POST method is used when you create an HTML form, and request method=POST as
 
  
 
-An HTML5 document looks like this:
+####An HTML5 document looks like this:
 
 ```html
 <!DOCTYPE html>
