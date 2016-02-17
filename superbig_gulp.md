@@ -1,4 +1,4 @@
-# Super Big Gulp!
+###Super Big Gulp!
 
 Copy your Big Gulp application to an new application.
 
