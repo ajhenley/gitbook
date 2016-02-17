@@ -292,6 +292,6 @@
    * Stack and Heap
    * secure java authentication library
    * java mail library
-   * Additional Projects to Improve Your Skills
-   * [Dave's Test Page] (davetest.md)
+   * [Additional Projects to Improve Your Skills](additional_projects_to_improve_your_skills.md)
+* [Book Developer Information]([book_developer_information]_bookdeveloperinfomd.md)
 
