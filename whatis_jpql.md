@@ -33,43 +33,25 @@ Query query = em.createQuery("Select e.firstName, e.lastName FROM Employee e");
 List<Object[]> result5 = query.getResultList();
 ```
 
+####Positional Parameters in Queries
+JPA defines named parameters and positional parameters. Named parameters can be specified in JPQL using the syntax :<name>. Positional parameters can be specified in JPQL using the syntax ? or ?<position>. Positional parameters start at position 1 not 0.
 
-
-
-
-
- 
-Positional Parameters in Queries
-Parameters
-
-JPA defines named parameters, and positional parameters. Named parameters can be specified in JPQL using the syntax :<name>. Positional parameters can be specified in JPQL using the syntax ? or ?<position>. Positional parameters start at position 1 not 0.
-Named parameter query example
-
+####Named parameter query example
+```java
 Query query = em.createQuery("SELECT e FROM Employee e WHERE e.firstName = :first and e.lastName = :last");
 query.setParameter("first", "Bob");
 query.setParameter("last", "Smith");
 List<Employee> list = query.getResultList();
+```
 
-Positional parameter query example
-
+####Positional parameter query example
+````java
 Query query = em.createQuery("SELECT e FROM Employee e WHERE e.firstName = ? and e.lastName = ?");
 query.setParameter(1, "Bob");
 query.setParameter(2, "Smith");
 List<Employee> list = query.getResultList();
+````
 
-
-You may use positional parameters instead of named parameters in queries. Positional parameters are prefixed with a question mark (?) followed the numeric position of the parameter in the query. The Query.setParameter(integer position, Object value) method is used to set the parameter values.
-
-In the following example, the findWithName business method is rewritten to use input parameters:
-
-public List findWithName(String name) {
-    return em.createQuery(
-        “SELECT c FROM Customer c WHERE c.name LIKE ?1”)
-        .setParameter(1, name)
-        .getResultList();
-}
-
-Input parameters are numbered starting from 1. Input parameters are case-sensitive, and may be used by both dynamic and static queries.
 
  
 
