@@ -1,4 +1,4 @@
-# JPA Database Utilities
+###JPA Database Utilities
 
 Make a class out of the following code to insert and update from the database.
 
@@ -14,9 +14,9 @@ import javax.persistence.TypedQuery;
 
  
 
-public class UserDB {
+public class CustomerDB {
 
-public static void insert(User user) {
+public static void insert(Customer customer) {
 EntityManager em = DBUtil.getEmFactory().createEntityManager();
 EntityTransaction trans = em.getTransaction();
 trans.begin();
@@ -31,7 +31,7 @@ em.close();
 }
 }
 
-public static void update(User user) {
+public static void update(Customer customer) {
 EntityManager em = DBUtil.getEmFactory().createEntityManager();
 EntityTransaction trans = em.getTransaction();
 trans.begin();
@@ -46,7 +46,7 @@ em.close();
 }
 }
 
-public static void delete(User user) {
+public static void delete(Customer customer) {
 EntityManager em = DBUtil.getEmFactory().createEntityManager();
 EntityTransaction trans = em.getTransaction();
 trans.begin();
@@ -60,6 +60,4 @@ trans.rollback();
 em.close();
 }
 }
-
-
 }
