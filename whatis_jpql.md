@@ -52,14 +52,7 @@ query.setParameter(2, "Smith");
 List<Employee> list = query.getResultList();
 ````
 
-
- 
-
- 
-
- 
-JPA Query with wildcards
-
+####JPA Query with wildcards
 What we are trying to do is get all the items that matches a pattern anywhere in their name.
 
 In simple SQL, what you want to do is:
@@ -71,7 +64,7 @@ In simple SQL, what you want to do is:
 @NamedQuery(name="Profile.getUsernameWithPattern", 
 query="SELECT p FROM Profile p WHERE p.userName LIKE ?1 ORDER BY p.userName ASC")
 
-(This will even sort the result!!)
+
 
 Here's the code that demonstrates using this query:
 
@@ -82,12 +75,3 @@ query.setParameter(1, "%" + pattern + "%");
 
  
 
- An example of using multiple named queries....
-
-@NamedQueries({
-  @NamedQuery(name="Professor.findAll",
-              query="SELECT e FROM Professor e"),
-  @NamedQuery(name="Professor.findByPrimaryKey",
-              query="SELECT e FROM Professor e WHERE e.id = :id"),
-  @NamedQuery(name="Professor.findByName",
-              query="SELECT e FROM Professor e WHERE e.name = :name")
