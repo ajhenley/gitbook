@@ -4,6 +4,7 @@
 1) First Create a New Java Project….
 ![](images/slowlyiturned/image10.png)
 2) Click the Next button (not the Finish button) and get to the Java Settings screen.
+
 ![](images/slowlyiturned/image12.png)
 
 3) Click on the Libraries tab so you can add the necessary jar files to the build path. You will need to add 3 jar files: EclipseLink, JavaPersistence and OJDBC.
@@ -11,7 +12,9 @@
 4) Click on the Add External JARs… button and select the eclipselink.jar file and click Open. 
 ![](images/slowlyiturned/image14.png)
 5) Click on the Add External JARs… button and select javax.persistence_2.1.0.v201304241213.jar (or whatever the current version is)
+
 ![](images/slowlyiturned/image13.png)
+
 6) Click on the Add External JARs… button and select ojdbc6.jar (or whatever the current version is) and click Finish.
 
 ![](images/slowlyiturned/image16.png)
@@ -34,9 +37,12 @@ JPA Implementation Type: Disable Library Configuration
 Connection: to the name of your connection. 
 Once this is done click the connect link immediately under and to the right of the connection drop down. 
 And then click OK.
+
 ![](images/slowlyiturned/image23.png)
 13) Click Apply to save your JPA settings…
+
 ![](images/slowlyiturned/image26.png)
+
 14) Look in the JPA Content container inside your project and double-click the persistence.xml file.
 
 ![](images/slowlyiturned/image28.png)
@@ -59,6 +65,7 @@ And then click OK.
 22) The dialog should now look like this… Note: the URL may be slightly different depending on your system. It’s also possible you have a different value for User.
 
 ![](images/slowlyiturned/image01.png)
+
 23) If you click on the source tab, the XML should now look approximately like this… 
 Save the file changes (click the icon in Eclipse to save) and you are done…
 ![](images/slowlyiturned/image02.png)
