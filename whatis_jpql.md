@@ -55,23 +55,26 @@ List<Employee> list = query.getResultList();
 ####JPA Query with wildcards
 What we are trying to do is get all the items that matches a pattern anywhere in their name.
 
-In simple SQL, what you want to do is:
+The SQL query looks like this:
+```
+SELECT userName FROM Profile p WHERE p.userName LIKE %pattern%;
+```
 
- SELECT userName FROM Profile p WHERE p.userName LIKE %pattern%;
+The JPQL query looks like this:
+```java
+SELECT p FROM Profile p WHERE p.userName LIKE ?1 ORDER BY p.userName ASC
+```
 
- I'm using annotations to create a named query.
+I'm using annotations to create a named query.
 
 @NamedQuery(name="Profile.getUsernameWithPattern", 
 query="SELECT p FROM Profile p WHERE p.userName LIKE ?1 ORDER BY p.userName ASC")
 
-
-
 Here's the code that demonstrates using this query:
 
- 
 Query query = strategy.getNamedQuery("Profile.getUsernameWithPattern");
 query.setParameter(1, "%" + pattern + "%");        
- query.getResultList();
+query.getResultList();
 
  
 
