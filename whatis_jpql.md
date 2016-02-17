@@ -1,4 +1,4 @@
-<!-- djw: -->
+<!-- djw: done-->
 ###What is JPQL?
 The Java Persistence Query Language (JPQL) is the query language defined by JPA. JPQL is similar to SQL  but operates on objects, attributes and relationships instead of tables and columns. JPQL can be used for reading (SELECT), as well as updates (UPDATE) and deletes (DELETE). This course will focus on creating dynamic queries using the EntityManager createQuery() API.
 
