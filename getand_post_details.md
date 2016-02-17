@@ -10,6 +10,7 @@ The POST method is used when you create an HTML form, and request method=POST as
 
 An HTML5 document looks like this:
 
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,9 +24,9 @@ An HTML5 document looks like this:
 ...
 </body>
 </html>
- 
+``
 
-Within that document you can create a form to submit data to the web server. Our web server is Tomcat. By writing a servlet you are extending Tomcat to handle the url specified in the @WebServlet annotation at the top of your servlet.
+Within that document you can create a form to submit data to the web server. The form goes between the <body> and </body> tags. Our web server is Tomcat. A servlet is a program which extends Tomcat. The servlet gives Tomcat the ability to handle the url in the @WebServlet annotation at the top of your servlet code file.
 
 The form can send its data via either GET or POST. Those are the only two choices.  GET sends the data in the URL. POST sends the data as the body of the request packet. The above application illustrates the difference.
 
