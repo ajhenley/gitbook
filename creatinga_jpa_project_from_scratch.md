@@ -2,7 +2,8 @@
 ###Creating a JPA Project from Scratch
 
 1) First Create a New Java Project….
-![](images/slowlyiturned/image10.png)
+
+![](images/slowlyiturned/image10.png)<br>
 
 2) Click the Next button (not the Finish button) and get to the Java Settings screen.
 
