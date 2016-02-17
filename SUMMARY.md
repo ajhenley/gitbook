@@ -267,7 +267,7 @@
    * [Build a JSF 2.0 application](build_a_jsf_2.0_application)
    * [Work with JSF](work_with_jsf)
    * [To-do List Application](to-do_list_application)
-   * [SDLC: Systems Development Life Cycle](sdlc_systems_development_life_cycle)
+   * [SDLC: Systems Development Life Cycle](sdlcsystems_development_life_cycle.md)
        * [What are Software Requirements?](what_are_software_requirements?)
        * [SDLC Exercise](sdlc_exercise)
        * [Create a requirements document](create_a_requirements_document)
