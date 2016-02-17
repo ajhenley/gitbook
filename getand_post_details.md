@@ -39,7 +39,7 @@ A proper form contains the following
  
 
 The hidden input below can be used to help the servlet determine which form was submitted.
-
+```html
 <form action="emailList" method="post">
 <!-- hidden input to let servlet know which form was used -->
  <input type="hidden" name="hiddenAction" value="add">
@@ -57,4 +57,4 @@ The hidden input below can be used to help the servlet determine which form was 
  </form>
 </body>
 </html>
- 
+```
