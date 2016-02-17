@@ -65,16 +65,17 @@ The JPQL query looks like this:
 SELECT p FROM Profile p WHERE p.userName LIKE ?1 ORDER BY p.userName ASC
 ```
 
-I'm using annotations to create a named query.
+````java
+String pattern = "Smi%";
+Query query = em.createQuery("SELECT p FROM Profile p WHERE p.userName LIKE ?1");
+query.setParameter(2, pattern);
+List<Employee> list = query.getResultList();
+```
 
-@NamedQuery(name="Profile.getUsernameWithPattern", 
-query="SELECT p FROM Profile p WHERE p.userName LIKE ?1 ORDER BY p.userName ASC")
 
-Here's the code that demonstrates using this query:
 
-Query query = strategy.getNamedQuery("Profile.getUsernameWithPattern");
-query.setParameter(1, "%" + pattern + "%");        
-query.getResultList();
+
+
 
  
 
