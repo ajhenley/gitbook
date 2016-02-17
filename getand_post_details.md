@@ -1,11 +1,10 @@
-# Get and Post Details
+###Get and Post Details
 
-You can download this project from GitHub which will show you the results of submitting a form via Get and via Post. The index page contains two identical forms except one sends its data via get and the other via post. Download into Eclipse and run the project to get a better understanding of Get and Post and the Request object which comes from the browser. 
+You can download this project from GitHub. It will show you the results of submitting a form via Get and via Post. The index page contains two forms. The only difference between the two forms is one sends its data via get and the other via post. Open this project in Eclipse. Once you run it you will get a better understanding of Get and Post and the Request object which comes from the browser. 
 
-The GET method is most commonly (and is the default method) used by browsers to retrieve information from servers. When using the GET method the 3rd section of the request packet, which is the request body, remains empty.
+The GET method sends form information via the URL. When using the GET method the 3rd section of the request packet, the request body, remains empty.
 
-
-The POST method is used when you create an HTML form, and request method=POST as part of the tag. The POST method allows the client to send form data to the server in the request body section of the request (as discussed earlier). The data is encoded and is formatted similar to the GET method, except that the data is sent to the program through the standard input.
+The POST method is used when you create an HTML form, and request method=POST as part of the tag. The POST method allows the client to send form data to the server in the request body section of the request. The data is encoded and is formatted similar to the GET method. The data is sent to the server via standard input.
 
  
 
