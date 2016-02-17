@@ -293,5 +293,5 @@
    * secure java authentication library
    * java mail library
    * Additional Projects to Improve Your Skills
-   * [Dave's Test Page] (davetest.md)
+* [Book Developer Information] (bookdeveloperinfo.md)
 
