@@ -37,3 +37,14 @@ So the <code>WEB-INF</code> contains:
          Hello.class
 </pre>
 
+####Call of the servlet from the browser
+http://localhost:999/webTest/Hello
+
+Result in the browser:
+<pre>
+Hello World
+</pre>
+
+####Decomposition of the URL
+[Protocol://][Domain]:[PORT]/[RootEntryDirectory]/[ServletName]
+
