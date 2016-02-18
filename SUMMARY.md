@@ -208,7 +208,7 @@
    * [Sessions in Servlets and Web Pages](sessionsin_servlets_and_web_pages.md)
    * [Big Gulp!](biggulp.md)
    * [MVC: Model View Controller](mvc_model_view_controller.md)
-   * Example of a Servlet
+   * [Example of a Servlet](example_of_a_servlet.md)
 * [JPA and JPQL](jpaand_jpql.md)
    * [What is JPQL?](whatis_jpql.md)
    * [Creating a JPA Project from Scratch](creatinga_jpa_project_from_scratch.md)
