@@ -1,4 +1,5 @@
-# Primary Keys in JPA
+###Primary Keys in JPA
+
 
 Create a sequence in oracle called DEMO_CUSTOMERS_SEQ
 Notice that the generator name is the same as the name attribute in the @SequenceGenerator annotation below
