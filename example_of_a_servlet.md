@@ -1,5 +1,8 @@
 ###Example of a Servlet
 
+You will be creating each servlet as a Java class in a Dynamic Web Application in Eclipse. Here is an example of the code for a simple servlet.
+
+
 ```java
 package servlet;
 
@@ -39,7 +42,7 @@ public class Hello extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         try {
-            out.println("Hello World");
+            out.println("Hello, World!");
         } finally {
             out.close();
         }
@@ -64,9 +67,9 @@ We notice two methods in this class: <code>doGet()</code> and <code>doPost()</co
 http://localhost:999/webTest/Greeting
 
 ####Result in the browser:
-
-<h2>Hello, World!</h2>
-
+<pre>
+Hello, World!
+</pre>
 
 ####Decomposition of the URL
 [Protocol://][Domain]:[PORT]/[RootEntryDirectory]/[ServletName]
