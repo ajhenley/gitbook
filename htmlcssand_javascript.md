@@ -41,3 +41,43 @@ Now open the document in your browser and look at the result. From the above exa
 * Within the <code>&lt;html&gt;&lt;/html&gt;</code> tags, there are two main pairs of tags, <code>&lt;head&gt;&lt;/head&gt;</code> and <code>&lt;body&gt;&lt;/body&gt;</code>.
 * Within the <code>&lt;head&gt;&lt;/head&gt;</code> tags, there are the <code>&lt;title&gt;&lt;/title&gt;</code> tags which enclose the textual title to be shown in the title bar of the web browser.
 * Within the <code>&lt;body&gt;&lt;/body&gt;</code> is a paragraph marked by a <code>&lt;p&gt;&lt;/p&gt;</code> tag pair.
+
+####General HTML tag code style
+* Most tags must be written in pairs between which the effects of the tag will be applied.
+** <nowiki><em>This text is emphasized</em></nowiki> &#8211; <em>This text is emphasized</em>
+** <nowiki>This text includes <code>computer code</code></nowiki> &#8211; This text includes <code>computer code</code>
+** <nowiki><em>This text is emphasized and has <code>computer code</code></em></nowiki> &#8211; <em>This text is emphasized and has <code>computer code</code></em><br>
+* HTML tag pairs must be aligned to encapsulate other tag pairs, for example:
+** <nowiki><code><em>This text is both code and emphasized</em></code></nowiki> &#8211; <code><em>This text is both code and emphasized</em></code><br>
+** <strong>A mistake: </strong><nowiki><em><code>This markup is erroneous</em></code></nowiki>
+
+####The &lt;html&gt; Tag
+
+The <html> and </html> tags are used to mark the beginning and end of an HTML document. This tag does not have any effect on the appearance of the document.<br>
+This tag is used to make browsers and other programs know that this is an HTML document.<br><br>
+'''Useful attributes:'''<br>
+;dir attribute
+:This attribute specifies in which manner the browser will present text within the entire document. It can have values of either ''ltr'' (left to right) or ''rtl'' (right to left). By default this is set to ltr. Generally rtl is used for languages like Persian, Chinese, Hebrew, Urdu etc.
+<u>Example:</u> &lt;html dir="ltr"&gt;
+
+;lang attribute<br>
+:The lang attribute generally specifies which language is being used within the document.<br>
+Special types of codes are used to specify different languages:<br>
+en - English<br>
+fa - Farsi<br>
+fr - French<br>
+de - German<br>
+it - Italian<br>
+nl - Dutch<br>
+el - Greek<br>
+es - Spanish<br>
+pt - Portuguese<br>
+ar - Arabic<br>
+he - Hebrew<br>
+ru - Russian<br>
+zh - Chinese<br>
+ja - Japanese<br>
+hi - Hindi<br>
+
+<u>Example:</u>
+<html lang="en">  
