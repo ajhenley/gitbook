@@ -1,4 +1,4 @@
-# A first look at Expression Language
+###A first look at Expression Language
 
 Create a new dynamic web application that contains a class for a user. You do not have to connect to the database for this example. Simply create a user class and a servlet.
 
