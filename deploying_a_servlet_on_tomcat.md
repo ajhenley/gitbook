@@ -1,49 +1,30 @@
-###Deploying a Servlet on Tomcat
+###Deploying a Servlet 
 
-* Put the compiled class with its package in the directory <code>classes</code> in <code>WEB-INF</code> of the working web directory (here: <code>webTest</code>)
-* Edit <code>web.xml</code> in <code>WEB-INF</code> by adding:
+The servlet name will be determined by the annotation at the top of the servlet code file. In this case the servlet is called hello.
 
 ```java
-<web-app xmlns="http://java.sun.com/xml/ns/javaee"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
-                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
-  version="3.0"
-  metadata-complete="true">  
+@WebServlet(value="/Greeting")
+public class GreetingServlet extends HttpServlet {
 
-  <!-- Beginning here -->
+    @Override
+    public void doGet(HttpServletRequest request,HttpServletResponse response)
+        throws ServletException, IOException {
+    PrintWriter out = response.getWriter();
 
-    <servlet>
-      <servlet-name>Hello</servlet-name><!-- Class name -->
-      <servlet-class>servlet.Hello</servlet-class><!-- Class tree: with the package -->
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Hello</servlet-name><!-- Class name -->
-        <url-pattern>/Hello</url-pattern><!-- Class pattern in the URL-->
-    </servlet-mapping>
+    // then write the data of the response
+        out.println("<h2>Hello, World!</h2>");
+    }
 
-   <!-- End here -->
-
-<web-app>
-```java
-
-So the <code>WEB-INF</code> contains:
-
-<pre>
-   WEB-INF
-     web.xml
-     classes
-       servlet
-         Hello.class
-</pre>
+}
+```
 
 ####Call of the servlet from the browser
-http://localhost:999/webTest/Hello
+http://localhost:999/webTest/Greeting
 
-Result in the browser:
-<pre>
-Hello World
-</pre>
+####Result in the browser:
+
+<h2>Hello, World!</h2>
+
 
 ####Decomposition of the URL
 [Protocol://][Domain]:[PORT]/[RootEntryDirectory]/[ServletName]
