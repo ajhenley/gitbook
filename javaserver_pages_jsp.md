@@ -1,3 +1,5 @@
+<!--djw: done -->
+<!-- djw: might want to add some example jsp code -->
 ###JavaServer Pages (JSP)
 JavaServer Pages (JSP) is a technology to create dynamically generated web pages. JSP is based on HTML, XML, or other document types. JSP is similar to PHP but uses the Java programming language. To deploy and run JavaServer Pages, a compatible web server with a servlet container is required. These include Apache Tomcat or Oracle GlassFish Application Server. The servlet container creates JSP implicit objects like pageContext, servletContext, session, request & response.
 
