@@ -1,5 +1,5 @@
+<!--djw:done-->
 ###Example of a Servlet
-
 You will be creating each servlet as a Java class in a Dynamic Web Application in Eclipse. Here is an example of the code for a simple servlet. It simply prints Hello, World! to the browser.
 
 
