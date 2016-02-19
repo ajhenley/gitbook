@@ -1,8 +1,8 @@
-# Simple HTML Form and Servlet
+###Simple HTML Form and Servlet
 
 Create a new dynamic web project. Add a page called index.html. On that page create an HTML Form.
 
-Read the post about Get and Post details for additional information.
+Read the page called *Get and Post Details* for additional information.
 
 For the form's action attribute you'll put the name of your servlet.
 
