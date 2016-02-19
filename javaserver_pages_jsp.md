@@ -13,7 +13,7 @@ A model-view-controller pattern can be used with the JSP files in order to split
 
 ![](images/jsp/200px-JSP_Model_2.svg.png)
 
-
+####JSP combines Java and HTML
 JSP allows Java code and certain pre-defined actions to be interwoven with HTML. The resulting page is compiled and executed on the server to deliver a document to the browser. The compiled pages, as well as any dependent Java libraries, contain Java bytecode. JSPs, like Servlets and other Java programs, must be executed within a Java virtual machine (JVM). The JVM interacts with the server's host operating system to provide an abstract, platform-neutral environment.
 
 
