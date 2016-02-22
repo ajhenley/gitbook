@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Working with Others
 
 When working on a team one person will create a very basic project and a repository. Next they should check the basic project into the new repository on GitHub.
