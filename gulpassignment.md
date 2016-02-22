@@ -14,7 +14,6 @@ Each should provide functionality to do the following:
 * A restaurant can can have any number of reviews. A user can review any number of restaurants.
 * Your data must include at least three users, five restaurants and twelve reviews.
 
-
 ####DESIGN BEFORE YOU CODE 
 You need to talk about everything you want to do before you do it. You might even want to sketch it out before you proceed.
 
