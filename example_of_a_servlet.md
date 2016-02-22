@@ -71,5 +71,14 @@ http://localhost:999/webTest/Greeting
 Hello, World!
 </pre>
 
+####Mapping the Servlet to the URL
+With Tomcat v. 7.0 and later you can use the @WebServlet annotation to map a servlet to a URL pattern. Simply code the URL pattern in parenthesis following the annotation, ```@WebServlet("/Hello")```.
+
 ####Decomposition of the URL
+The URL is composed of the following parts:
+Protocol: http or https
+Domain: somedomain.com
+Port (optional): the port which the servlet listens to
+Root Entry Directory: the directory in which the servlet class file resides
+Servlet Name: from the annotation mapping
 [Protocol://][Domain]:[PORT]/[RootEntryDirectory]/[ServletName]
