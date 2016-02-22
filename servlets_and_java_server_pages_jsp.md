@@ -3,6 +3,7 @@ The Java Enterprise Edition (Java EE) specificatin describes how webservers can 
 
 The technologies we use in this course include:
 * Servlets
+* Plain Old Java Objects (POJO)
 * JavaServer Pages (JSP)
 * Java Persistence API (JPA) and Java Persistence Query Langauge (JPQL)
 * Enterprise JavaBeans (EJB)
