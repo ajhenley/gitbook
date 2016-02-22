@@ -1,10 +1,10 @@
-# Super Duper Shopping Cart
+###Super Duper Shopping Cart
 
 The shopping cart applications are looking great! Now let's add some new features.
 
-Once you complete the Super Shopping Cart then post it to GitHub.
+Once you complete the Super Shopping Cart post it to GitHub.
 
-Now, create a branch in Eclipse to work on the next set of features. As you finish a feature then merge the branch with the Master branch and commit your project. This way each feature is its own branch and doesn't break the master branch. Only merge to master that which is tested and works.
+Now, create a branch in your project to work on the next set of features. As you finish a feature then merge the branch with the Master branch and commit your project. This way each feature is its own branch and doesn't break the master branch. Only merge to master that which is tested and works.
 What to do...
 
     Create a branch called AcceptPayment. Then add a feature where the user can pay with a credit card and can have a shipping address and a billing address. Payments and addresses should be tracked in the database as well.
