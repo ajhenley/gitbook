@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Configure the Git author
 You should configure your email and user name so git can include this information with every commit.
 
