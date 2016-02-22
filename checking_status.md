@@ -3,7 +3,8 @@
 At any time in the Git directory you can type <pre>git status</pre> to check the status of your repository.
 
 Most of the time you'll see something like this:
-<pre>MyProject>git status
+<pre>
+MyProject>git status
 # On branch master
 nothing to commit (working directory clean)</pre>
 
