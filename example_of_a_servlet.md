@@ -75,6 +75,7 @@ Hello, World!
 With Tomcat v. 7.0 and later you can use the @WebServlet annotation to map a servlet to a URL pattern. Simply code the URL pattern in parenthesis following the annotation, ```@WebServlet("/Hello")```.
 
 ####Decomposition of the URL
+Calling the servlet's URL from the browser will request the servlet. You can also call the servlet from a link or form on a web page.
 The URL is composed of the following parts:
 Protocol: http or https
 Domain: somedomain.com
