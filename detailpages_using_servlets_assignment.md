@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Detail Pages using Servlets Assignment
 Take the application that you created for the last assignment...
 1. Add a servlet that will show the detail information for one customer
