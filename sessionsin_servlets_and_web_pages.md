@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Sessions in Servlets and Web Pages
 Session tracking enables you to track a user's progress over multiple servlets or HTML pages. A session is defined as a series of related browser requests that come from the same client during a certain time period. Session tracking ties together a series of browser requests. Think of these requests as pages that may have some meaning as a whole, such as a shopping cart application.
 
