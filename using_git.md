@@ -1,4 +1,3 @@
-###Using Git
 There are two components to using Git. A server for offsite sharing of your files and a client to work with locally. 
 
 Clients are available for all major operating systems.  The most common client is to use the Git client at the command line. You can download the software from GitHub.com which I’ll talk about more in a moment. 
