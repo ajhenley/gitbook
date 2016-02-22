@@ -7,7 +7,7 @@ Same as
 ```html
 Hello, <%=request.getParameter("visitor")%>
 ```
-It also offers a clearer way to navigate nested beans. Consider some beans:
+EL offers a clearer way to navigate nested beans. Consider some beans:
 
 ```java
 class Person {
@@ -27,7 +27,7 @@ class Organization {
 }
 ```
 
-Then, if an instance of Person was to be placed onto a request attribute under the name "person", the JSP would have:
+If an instance of Person was to be placed onto a request attribute under the name "person", the JSP would have:
 ```html
  Hello, ${person.name}, of company ${person.organization.name}
 ```
