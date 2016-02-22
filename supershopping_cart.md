@@ -1,9 +1,7 @@
-# Super Shopping Cart
-
+###Super Shopping Cart
 This assignment builds on the completed shopping cart application. You should be using JPA and JSTL for this project. You will be creating users, including the Admin user, adding regular users, making your application follow the principles of Model View Controller (MVC) and displaying a nice user interface.
 
-Add the following features:
-
+####Add the following features:
 * Save the shopping cart to the database. The user should be able to come back and add items to the cart again.
 * Allow for multiple users. Each user should only see the items in their shopping cart.
 * Your application shall allow a new (non-admin) user to register for your site.
