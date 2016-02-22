@@ -17,6 +17,5 @@
 * A model stores data that is retrieved according to commands from the controller and displayed in the view.
 * A view generates an output presentation to the user based on changes in the model.
 
-
 ####How this affects you
 When you develop an application you'll create a database. The model will represent the database. Secondly you'll develop a page for the user. This is the view, also called the presentation. Finally, you'll code some business rules that the client wants the application to enforce. These go into the controller along with code help the view interact with the model.
