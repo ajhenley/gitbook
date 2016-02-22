@@ -3,7 +3,7 @@
 When working on a team one person will create a very basic project and a repository. Next they should check the basic project into the new repository on GitHub.
 
 ####Adding Collaborators
-Before you can work on a team you must create a single repository for the team. Then from that repository add some collaborators. You can do this from the GitHub website by clicking on the repository. Then select settings. Then select Collaborators. Enter the Collaborator's email or full name.
+Before you can work on a team you must create a single repository for the team. Then from that repository add some collaborators. You can do this from the GitHub website by clicking on the repository. Then select **Settings**. Then select **Collaborators**. Enter the Collaborator's email or full name.
 
 ####Clone the project locally
 Using git on your local computer, you can clone the other project to get a local copy:
