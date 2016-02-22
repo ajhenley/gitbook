@@ -195,7 +195,7 @@
    * [Cash Money Carousel](cashmoney_carousel.md)
    * [SCOTS - Shiny College Online Transcript System](shinycollege_online_transcript_system.md)
 * [Servlets and Enterprise Application Development](servletsand_enterprise_application_development.md)
-   * Servlets and Java Server Pages (JSP)
+   * [Servlets and Java Server Pages (JSP)](servlets_and_java_server_pages_jsp.md)
    * [JavaServer Pages (JSP)](javaserver_pages_jsp.md)
    * [Example of a Servlet](example_of_a_servlet.md)
    * [Create a Dynamic Web Application in Eclipse](create_a_dynamic_web_application_in_eclipse.md)
