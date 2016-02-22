@@ -1,3 +1,5 @@
+<!--djw:done-->
+<!--todo: remove the url / replace with file download link -->
 ###Gulp! Assignment
 You are hired by a new start-up to help them write their application, Gulp! (think Yelp! without pictures or maps).
 
@@ -11,7 +13,6 @@ Each should provide functionality to do the following:
 * Your application should allow a user to enter only one review for any particular restaurant. 
 * A restaurant can can have any number of reviews. A user can review any number of restaurants.
 * Your data must include at least three users, five restaurants and twelve reviews.
-
 
 
 ####DESIGN BEFORE YOU CODE 
