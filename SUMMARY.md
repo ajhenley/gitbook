@@ -232,6 +232,7 @@
    * [Gosh! A group assignment](gosha_group_assignment.md)
    * [How JSTL Works](howjstl_works.md)
    * [JSP Servlet Interaction Review](jspservlet_interaction_review.md)
+   * What is JSTL?
 * [Program Design](chapter1.md)
    * [Program Design](program_design.md)
    * [The Structure Theorem](the_structure_theorem.md)
