@@ -1,3 +1,5 @@
+<!--djw:done-->
+<!--todo: discuss git tags-->
 ###View your commits with Git log
 The ```git log``` command shows a sequential history of the individual commits with a repository.
 
@@ -7,4 +9,3 @@ The entries are listed from newest to oldest. Each entry shows the commit number
 
 You can get more information about a commit with ```git show <commit_id>``` where <commit_id> represents the commit number from git log. If you tag your commits you can replace <commit_id> with the tag. 
 
-We'll discuss tags shortly.
