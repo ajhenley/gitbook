@@ -230,11 +230,11 @@
 * [JavaServer Pages Standard Tag Library (JSTL)](javaserverpages_standard_tag_library_jstl.md)
    * [What is JSTL?](what_is_jstl.md)
    * [How JSTL Works](howjstl_works.md)
+   * Tell me About Expression Language
    * [Super Shopping Cart](supershopping_cart.md)
    * [Super Duper Shopping Cart](superduper_shopping_cart.md)
    * [Gosh! A group assignment](gosha_group_assignment.md)
    * [JSP Servlet Interaction Review](jspservlet_interaction_review.md)
-   * Tell me About Expression Language
 * [Program Design](chapter1.md)
    * [Program Design](program_design.md)
    * [The Structure Theorem](the_structure_theorem.md)
