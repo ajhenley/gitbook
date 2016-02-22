@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Import Customers Table
 This assignment has a lot of steps. But I'll walk you through them. And after that you will be an Oracle-SQL-Database Ninja. 
 
