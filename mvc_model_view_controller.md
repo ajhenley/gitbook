@@ -1,6 +1,5 @@
-# MVC: Model View Controller
-
-
+<!--djw:done-->
+###MVC: Model View Controller
 
 **Model–view–controller (MVC)** is a software architectural pattern. It divides an application into three interconnected parts. This allows you to separate internal representations of information from the ways that information is presented to (or accepted from) the user. This architecture has become extremely popular for designing web applications.
 
@@ -20,4 +19,4 @@
 
 
 ####How this affects you
-When you develop an application you'll create a database. The model will represent the database. Secondly you'll 
+When you develop an application you'll create a database. The model will represent the database. Secondly you'll develop a page for the user. This is the view, also called the presentation. Finally, you'll code some business rules that the client wants the application to enforce. These go into the controller along with code help the view interact with the model.
