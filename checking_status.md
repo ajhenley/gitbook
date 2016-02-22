@@ -1,3 +1,4 @@
+<!--djw:done-->
 ###Checking Status
 At any time in the Git directory you can type <pre>git status</pre> to check the status of your repository.
 
