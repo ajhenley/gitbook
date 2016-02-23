@@ -1,5 +1,4 @@
 <!--djw:done-->
-<h3>Walk-through Git</h3>
 <p>For this walk-through, you'll want to open the Git shell. You can type the commands on the left and view the explanation on the right.</p>
 <table style="margin-left: auto; margin-right: auto;" border="1">
 <tbody>
