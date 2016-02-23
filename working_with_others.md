@@ -1,5 +1,6 @@
 <!--djw:done-->
-When working on a team one person will create a very basic project and a repository. Next they should check the basic project into the new repository on GitHub.
+When working on a team one person will create a very basic project and a repository. Next they should check the basic project into the new repository on GitHub. Generally the basic project should consist on only one file: readme.md.
+
 
 ####Adding Collaborators
 Before you can work on a team you must create a single repository for the team. Then from that repository add some collaborators. You can do this from the GitHub website by clicking on the repository. Then select **Settings**. Then select **Collaborators**. Enter the Collaborator's email or full name.
