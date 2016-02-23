@@ -75,5 +75,3 @@ zh - Chinese<br>
 ja - Japanese<br>
 hi - Hindi<br>
 
-<u>Example:</u>
-<html lang="en">  
