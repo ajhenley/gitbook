@@ -64,9 +64,10 @@ SELECT userName FROM Profile p WHERE p.userName LIKE %pattern%;
 
 The JPQL query looks like this:
 ```java
-SELECT p FROM Profile p WHERE p.userName LIKE ?1 ORDER BY p.userName ASC
+SELECT p FROM Profile p WHERE p.userName LIKE ?1
 ```
 
+In your program this looks like this:
 ````java
 String pattern = "Smi%";
 Query query = em.createQuery("SELECT p FROM Profile p WHERE p.userName LIKE ?1");
