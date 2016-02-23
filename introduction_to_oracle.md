@@ -1,4 +1,10 @@
 <!--djw:done-->
+The Oracle database engine is available in 4 editions: Enterprise Edition (EE), Standard Edition (SE), Standard Edition One (SE One) and Express Edition (XE). The last-mentioned is the community edition and is sufficient for the purpose of this course. http://www.oracle.com/technetwork/indexes/downloads/.
+
+SQL-Developer is an IDE with an Eclipse-like look-and-feel and offers access to the database engine. http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/
+
+In the context of Oracle's application builder APEX (APplication EXpress) there is a cloud solution consisting of a database engine plus APEX. https://apex.oracle.com/. Among a lot of other things it offers an SQL workshop where everybody can execute his own SQL commands for testing purpose. On the other hand APEX can be downloaded separately and installed into any of the above editions with the exception of the Express Edition.
+
 ###Working with Oracle: the big picture
 Let's talk about how Oracle and Java work together to get data from where it's stored and back to the user.  We begin with general concepts you may hear from other books or upcoming assignments.We'll then look into some specific topics in greater detail.
 
