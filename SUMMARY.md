@@ -5,7 +5,7 @@
    * [Recommended resources](recommendedresources.md)
    * [Obtaining the Oracle Virtual Machine](obtainingthe_oracle_virtual_machine.md)
 * [Using Git](using_git.md)
-   * Git Overview
+   * [Git Overview](git_overview.md)
    * [Git Walkthrough](git_walkthrough.md)
    * [Create a GitHub account](create_a_github_account.md)
    * [Fork a repository on GitHub](fork_a_repository_on_github.md)
