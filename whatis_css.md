@@ -1,4 +1,3 @@
-# What is CSS?
 <h2 class="entry-title">INLINE VS INTERNAL VS EXTERNAL&nbsp;CSS</h2>
 <div class="entry-content">
 <h2>What is CSS</h2>
