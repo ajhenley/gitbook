@@ -5,6 +5,7 @@
    * [Recommended resources](recommendedresources.md)
    * [Obtaining the Oracle Virtual Machine](obtainingthe_oracle_virtual_machine.md)
 * [Using Git](using_git.md)
+   * Git Overview
    * [Git Walkthrough](git_walkthrough.md)
    * [Create a GitHub account](create_a_github_account.md)
    * [Fork a repository on GitHub](fork_a_repository_on_github.md)
@@ -16,7 +17,6 @@
    * [View your Git configuration](view_your_git_configuration.md)
    * [Create a Branch](create_a_branch.md)
    * [Working with Others](working_with_others.md)
-   * Git Overview
 * [Developing with Eclipse](developingwith_eclipse.md)
    * [Obtaining Eclipse](obtainingeclipse.md)
    * [Installing and updating Eclipse](installingand_updating_eclipse.md)
