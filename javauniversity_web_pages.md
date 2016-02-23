@@ -1,5 +1,3 @@
-# Java University Web Pages
-
 Create new dynamic web site for Java University.
 
 Create three web pages for Java University. 
