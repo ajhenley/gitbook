@@ -1,18 +1,20 @@
 <!-- djw: done-->
 ###What is JPQL?
-The Java Persistence Query Language (JPQL) is the query language defined by JPA. JPQL is similar to SQL  but operates on objects, attributes and relationships instead of tables and columns. JPQL can be used for reading (SELECT), as well as updates (UPDATE) and deletes (DELETE). This course will focus on creating dynamic queries using the EntityManager createQuery() API.
+The Java Persistence Query Language (JPQL) is the query language defined by JPA. JPQL is similar to SQL  but operates on objects, attributes and relationships instead of tables and columns. JPQL can be used for reading (SELECT), as well as updates (UPDATE) and deletes (DELETE). This course will focus on creating dynamic queries using ```EntityManager.createQuery()```.
 
-The Java Persistence query language defines queries for entities and their persistent state. The query language allows you to write portable queries that work for any database. An application developed with JPQL and Oracle does not have to be modified when the database is changed to Microsoft SQL Server.
+JPQL defines queries for entities (your classes) and their persistent state (the database tables). The query language allows you to write queries that work for any database. An application that uses JPQL and Oracle does not have to change if the database changes to Microsoft SQL Server.
 
 ####Creating Queries Using the Java Persistence Query Language
-Select queries can be used to read objects from the database. Select queries can return a single object or data element, a list of objects or data elements, or an object array of multiple objects and data.
+Select queries read objects from the database. They return a single object or data element, a list of objects or data elements, or an array of objects and data.
 
-The ```EntityManager.createQuery()``` method is used within your class to query the database using Java Persistence query language queries.  
+The ```EntityManager.createQuery()``` method is called in your class to query the database using Java Persistence query language queries.  
 
+
+####Some example JPQL queries in a Java application
 ```java
-// Query for a List of objects.
+// Query to return a List of employee objects.
 Query query = em.createQuery("Select e FROM Employee e WHERE e.salary > 100000");
-List<Employee> result = query.getResultList();
+List<Employee> employees = query.getResultList();
 
 // Query for a single object using a named parameter. The result is a single value.
 // The named parameter is set using the query.setParameter() method.
