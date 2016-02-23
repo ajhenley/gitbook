@@ -1,2 +1,1 @@
-# Installing and updating Eclipse
 
