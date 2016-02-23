@@ -13,6 +13,6 @@ A Git repository is made up of these object types:
 
 Blobs, trees and commits all have IDs which are computed from SHA-1 hashes of their contents. These IDs allow different Git processes on different machines to tell whether they have identical copies of things, without having to transfer their entire contents over. Because SHA-1 is a cryptographically strong hash algorithm, it is practically impossible to make a change to the contents of any of these objects without changing its ID. Git doesn’t prevent you from rewriting history, but you cannot hide the fact that you have done so.
 
-A commit may have 0, 1 or more parents. Typically there is only one commit with no parents—a ''root commit''—and that is the first commit to the repository. A commit which makes some change to one branch will have a single parent, the previous commit on that branch. A commit which is a merge from two or more branches will have two or more parent commits.
+A commit may have 0 more parents. Typically there is only one commit with no parents—a ''root commit''—and that is the first commit to the repository. A commit which makes some change to one branch will have a single parent, the previous commit on that branch. A commit which is a merge from two or more branches will have two or more parent commits.
 
 Note that a branch points to a ''single'' commit; the chain of commits is implicit in the parent(s) of that commit, and their parents, and so on.
