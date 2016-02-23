@@ -1,5 +1,4 @@
-###Create an HTML Form
-
+<!--djw:done-->
 Create a web page with an html login form. The form should contain two text boxes. One for user name and one for password.
 
 The action will be blank so it won't do anything. We'll talk about that later.
