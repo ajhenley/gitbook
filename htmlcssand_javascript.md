@@ -1,5 +1,3 @@
-###HTML,CSS and Javascript
-
 The HTML (HyperText Markup Language) is used in most pages of the World Wide Web. HTML files contain both the primary text content and additional formatting markup, i.e. sequences of characters that tell web browsers how to display and handle the main content. The markup can specify which parts of text should be bold, where the headings are, or where tables, table rows, and table cells start and end. Though most commonly displayed by a visual web browser, HTML can also be used by browsers that generate audio of the text, by braille readers that convert pages to a braille format, and by accessory programs such as email clients.
 
 ####Before we start
