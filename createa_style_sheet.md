@@ -1,5 +1,4 @@
-###Create a style sheet
-
+<!--djw:done-->
 The Difference Between CSS and HTML
 
 CSS = Style: Cascading Style Sheets (CSS) dictate your website’s look and feel.
