@@ -1,7 +1,5 @@
 <!-- djw: done -->
 <!-- ajh: done -->
-####Comments
-
 **Newsflash**: Your memory doesn't work. If you don't believe me then find a program you've written over 6 months or a year ago. Now go through it line by line. Explain to another person the reasons for each line of code in the program. 
 
 Try doing that with somebody's else's program. 
