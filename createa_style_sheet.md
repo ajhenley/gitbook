@@ -1,4 +1,5 @@
 <!--djw:done-->
+<!--todo: replace link to w3schools-->
 The Difference Between CSS and HTML
 
 ####CSS = Style: Cascading Style Sheets (CSS) dictate your website’s look and feel.
