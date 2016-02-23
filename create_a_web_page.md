@@ -1,5 +1,3 @@
-###Create a web page
-
 Create a simple web page to display the following recipe. 
 
 Crabcake Recipe
