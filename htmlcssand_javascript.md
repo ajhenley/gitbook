@@ -20,7 +20,6 @@ Let's start with a simple document. Write this code in your editor (or copy-and-
  Additional features can be introduced in later sections.
 -->
 ```html
-<source lang="html5">
 <!DOCTYPE html>
 <html>
   <head>
@@ -30,7 +29,6 @@ Let's start with a simple document. Write this code in your editor (or copy-and-
     <p>This is some text in a paragraph that will be seen by viewers.</p>
   </body>
 </html>
-</source>
 ```
 
 Now open the document in your browser and look at the result. From the above example, we can deduce certain essentials of an HTML document:
