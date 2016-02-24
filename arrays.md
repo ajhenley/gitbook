@@ -1,4 +1,3 @@
-###Arrays
 An array is a variable that allows you to use a single variable name to be associated with all instances of that variable.
 * holds a fixed number of values of a single type
 * Length of an array is established when the array is created
