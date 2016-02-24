@@ -1,9 +1,8 @@
-###Searching and Printing an Array
 
-####Searching an array
-*A linear search of an array (look at each element starting with first)
+
 
 ###Linear search of an array
+* A linear search of an array looks at each element starting with first
 ```
 Linear_search_of_an_array
    Set max_num_elements to required value
