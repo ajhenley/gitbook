@@ -1,4 +1,3 @@
-####Array Processing
 
 ####Objective
 * Define the problem by constructing an algorithm using pseudocode
