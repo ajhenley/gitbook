@@ -6,8 +6,6 @@
 * What variables are required?
 * Show a check of your solution with test data for at least two valid test cases
 
-
-
 ####1. Create a basic application
 Your 6 year old client needs an application that will receive an integer from the user banging on the keyboard, add 5 to it, double it, subtract 7 from it, and display the result to the screen.
 
