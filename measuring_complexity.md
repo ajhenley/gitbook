@@ -1,5 +1,3 @@
-####Measuring Complexity
-
 ###When is Efficiency Important?
 Not every problem requires the most efficient solution available. For our purposes, the term efficient is concerned with the time and/or space needed to perform the task. When either time or space is abundant and cheap, it may not be worth it to pay a programmer to spend a day or so working to make a program faster.
 
