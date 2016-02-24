@@ -1,9 +1,9 @@
 ###Algorithm
- An algorithm represents the ordered sequence of steps required to solve a problem. Following the steps will always result in the solution. When a computer is to solve a particular problem, the steps to the solution get communicated to the computer. This makes the study of algorithms an important part of computer science.  
- 
- The algorithm gets translated to a programming language, such as Java. The Java compiler will translate the program into instructions the computer can execute. This produces the required output from the given input.
- 
- But translating the algorithm to computer code is not straight forward.  To simplify the process, translate the algorithm into pseudocode. The pseudocode will then more easily translate into Java or another programming language.
+An algorithm represents the ordered sequence of steps required to solve a problem. Following the steps will always result in the solution. When a computer is to solve a particular problem, the steps to the solution get communicated to the computer. This makes the study of algorithms an important part of computer science.  
+
+The algorithm gets translated to a programming language, such as Java. The Java compiler will translate the program into instructions the computer can execute. This produces the required output from the given input.
+
+But translating the algorithm to computer code is not straight forward.  To simplify the process, translate the algorithm into pseudocode. The pseudocode will then more easily translate into Java or another programming language.
 
 ###Pseudocode
 Pseudocode is a human-readable representation of an algorithm. It is not written the specific syntax of any particular programming language. However, a programmer can easily translate pseudocode to Java because the pseudocode is the algorithm plus any considerations for making it into a program.
