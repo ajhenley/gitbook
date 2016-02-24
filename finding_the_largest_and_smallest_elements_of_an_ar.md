@@ -1,4 +1,3 @@
-###Finding the largest and smallest elements of an array
 
 ####Objective
 * Define the problem by constructing an algorithm using pseudocode
