@@ -1,6 +1,3 @@
-# Bubble Sort
-
-###Bubble Sort
 The Bubble Sort algorithm considers each element in the list. When the algorithm finds two consecutive elements out of order, they get swapped. The result is a sorted list. The largest element "sinks" to the bottom and the smaller elements "float" to the top. 
 
 The algorithm traverses the unsorted part of the array repeatedly. Consecutive elements are compared during each traversal. When they are out of order, they are swapped using temporary variable. 
