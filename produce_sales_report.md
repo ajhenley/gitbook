@@ -1,4 +1,3 @@
-###Produce Sales Report
 
 ####Objective
 * Define the problem by constructing an algorithm using pseudocode
