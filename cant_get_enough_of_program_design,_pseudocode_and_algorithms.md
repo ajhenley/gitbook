@@ -1,4 +1,3 @@
-###Can't get enough of Program Design, Pseudocode and Algorithms
 
 ####Objective
 * Define the problem by constructing an algorithm using pseudocode
