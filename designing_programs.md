@@ -1,4 +1,3 @@
-## Designing Programs Overview
 Programmers need to have a good understanding of the data to be processed. This includes the data variables, constants and literals. It also includes elementary data items, data structures, files and data validation.
 
 ###Steps in program development
