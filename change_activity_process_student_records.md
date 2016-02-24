@@ -1,6 +1,3 @@
-###Change Activity: Process Student Records
-
-
 In true project manager fashion Chanchal has asked you to also print the PT employees but they should be separate from the full-time employees. So, the report she wants looks like this:
 
 ```
