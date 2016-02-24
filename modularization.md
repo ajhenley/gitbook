@@ -1,5 +1,3 @@
-###Modularization
-
 Modular programming occurs when you organize your program(or algorithm) into separate modules. Modularization makes your program  collection of independent, reusable components. The process reduces redundant code. Each component contains just the code to perform its specific functionality. Each method of each module can be independently tested/verified with unit tests.
 
 When creating programs in Java modules will become either methods, classes or packages. A method, sometimes called a function, is a unit of code that performs one task. A method in Java will never exist outside of a class. A class generally contains fields and methods modeled after the behavior of an object. A package is a collection of related classes. 
