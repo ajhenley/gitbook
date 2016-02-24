@@ -1,5 +1,4 @@
-###Communicating between Methods and Modules
-So far you've considered division of labor in your program. That's why you created modules. Now it's time to consider information flow.
+At this point you've considered division of labor in your program. That's why you created modules. Now it's time to consider information flow.
 
 Often you will need to send data to your modules as an input. You may then receive that data back as the output and all the processing steps would occur within the module.
 
