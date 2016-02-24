@@ -1,4 +1,3 @@
-###Blackjack
 Design an algorithm that will prompt the user for the numerical value of two cards. The program will receive the two numbers and display their sum on the screen. If the calculated sum is 21, an asterisk is to be displayed beside the sum.
 
 The program shall end when two zeros are entered.The program shall print a welcome message when it is first started and an goodbye message when it terminates.
