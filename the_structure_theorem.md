@@ -1,4 +1,3 @@
-###The Structure Theorem
 The Structure Theorem states that a solution can consist of a combination of just three constructs. They are sequence, selection and repetition control structures. You can represent each control structure in pseudocode.
 
 ###Three control structures
