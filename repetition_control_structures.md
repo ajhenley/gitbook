@@ -1,5 +1,3 @@
-###Repetition Control Structures
-
 <p>There are three different ways that a set of instructions can be repeated, and each way is determined by where the decision to repeat is placed:&nbsp;</p>
 <ul>
 <li>at the beginning of the loop (leading decision loop)</li>
