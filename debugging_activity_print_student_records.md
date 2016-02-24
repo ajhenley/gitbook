@@ -1,4 +1,3 @@
-###Debugging Activity: Timesheet Records
 
 Chanchal is the project manager for a small software development project. Each week she wants a report of the employees who have worked on her project, separated by full-time and part-time.
 
