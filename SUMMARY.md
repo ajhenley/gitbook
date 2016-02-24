@@ -250,7 +250,7 @@
    * [More Selection Control Structures](more_selection_control_structures.md)
    * [Repetition Control Structures](repetition_control_structures.md)
    * [Can't get enough of Program Design, Pseudocode and Algorithms](cant_get_enough_of_program_design,_pseudocode_and_algorithms.md)
-   * [Debugging Activity: Print Student Records](debugging_activity_print_student_records.md)
+   * [Debugging Activity: Print Timesheet Records](debugging_activity_print_student_records.md)
    * [Change Activity: Process Student Records](change_activity_process_student_records.md)
    * [Completion Activity: Process a pair of numbers](completion_activity_process_a_pair_of_numbers.md)
    * [Produce Sales Report](produce_sales_report.md)
