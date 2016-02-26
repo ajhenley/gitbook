@@ -10,5 +10,5 @@
 Take your previous solution for this assignment and break into modules.
 ####3. Find the average temperature
 Take your previous solution for this assignment and break into modules.
-####4. Compute the mowing time
+####4. Compute the roof runnoff
 Take your previous solution for this assignment and break into modules.
