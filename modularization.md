@@ -12,7 +12,7 @@ Name each module by using a verb, followed by a one or two-word object. One modu
 This passes control the called module. When the called module terminates control is passed back to the calling module.
 
 ####The Main Routine - your starting point
-The main routine is the starting point for your program. The main routine ties all the modules together and coordinates their activity. The main routine contains the main processing functions, and the order in which they will execute. It also shows the flow of data and the major control structures. The main program should be easy to read, be of manageable length and show the logic structure of the program.</p>
+The main routine is the starting point for your program. The main routine ties all the modules together and coordinates their activity. The main routine contains the main processing functions, and the order in which they will execute. It also shows the flow of data and the major control structures. The main program should be easy to read, be of manageable length and show the logic structure of the program.
 
 The signature of the main routine in a Java program is:<br/>
     ```public static void main(String args[])```
