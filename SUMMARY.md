@@ -1,4 +1,4 @@
-"I went to mosques all around New Jersey, and I met with the people in those mosques so that they could see me, and I could see them," he said during a campaign stop in New Hampshire. "And what you realize over the course of time is that they're Americans too. And they love this country. And they care deeply about its future and their children's future. And this is just common sense, everybody. You can't paint everybody with the same brush. You just can't. We're all individuals." # Summary
+ # Summary
 
 * [Introduction](README.md)
    * [About this course](aboutthis_course.md)
