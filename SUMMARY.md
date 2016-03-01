@@ -107,7 +107,7 @@
    * [An array to remember](an_array_to_remember.md)
    * [Invoice application](invoiceapplication.md)
    * [Bonus assignment](bonusassignment.md)
-   * Create the Rainfall Calculator
+   * [Create the Rainfall Calculator](create_the_rainfall_calculator.md)
 * [Exception Handling](exceptionhandling.md)
    * [Exceptions](exceptions.md)
    * [Exception Assignment](exceptionassignment.md)
