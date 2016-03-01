@@ -107,6 +107,7 @@
    * [An array to remember](an_array_to_remember.md)
    * [Invoice application](invoiceapplication.md)
    * [Bonus assignment](bonusassignment.md)
+   * Create the Rainfall Calculator
 * [Exception Handling](exceptionhandling.md)
    * [Exceptions](exceptions.md)
    * [Exception Assignment](exceptionassignment.md)
@@ -268,3 +269,4 @@
    * [Super Duper Shopping Cart](superduper_shopping_cart.md)
    * [Gosh! A group assignment](gosha_group_assignment.md)
    * [JSP Servlet Interaction Review](tell_me_about_expression_language.md)
+
