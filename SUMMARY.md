@@ -48,6 +48,7 @@
    * [View your Git configuration](view_your_git_configuration.md)
    * [Create a Branch](create_a_branch.md)
    * [Working with Others](working_with_others.md)
+   * Git Commands
 * [Developing with Eclipse](developingwith_eclipse.md)
    * [Obtaining Eclipse](obtainingeclipse.md)
    * [Installing and updating Eclipse](installingand_updating_eclipse.md)
