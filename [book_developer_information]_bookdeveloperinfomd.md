@@ -15,7 +15,7 @@ now I can create media wiki formatted files and save them and the images locally
 When I'm done editing I can push them back:
 ```
 #git pull
-#git add .
+#git add --all
 #git commit -m "modified some file"
 #git push origin master
 ```
