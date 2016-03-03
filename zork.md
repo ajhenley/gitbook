@@ -80,3 +80,21 @@ You are standing in a library.
 You see spiders.
 You can (1) exit to the north, (2) exit to the east.
 ```
+<!--
+map:
+
+| 5. Dining Room | 6. Valut | 7. Parlor |
+| 3. Library     | 2. Piano | 4. Kitchen |
+                 | 1. Foyer |
+                 
+enchancments:
+add rooms
+secret room (8) is only visible 25% of the time but once discovered stays visible
+keep score - how many rooms have they visited
+add javadoc comments
+add list of fates
+add list of items in room
+timer if you take too long
+treasure chest select treasure from random list
+
+-->
