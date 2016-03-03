@@ -61,7 +61,6 @@ SET01|Project Manager Golf Club Set|$179.00
 SET02|Junior VP Golf Club Set|$225.00
 SET03|Executive Golf Club Set|$299.95
 SET04|CEO Golf Club Set|$374.95
-
 SET05|Chairman of the Board Club Set|$495.00
 
 
