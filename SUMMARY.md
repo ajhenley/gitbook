@@ -109,7 +109,7 @@
    * [An array to remember](an_array_to_remember.md)
    * [Invoice application](invoiceapplication.md)
    * [Bonus assignment](bonusassignment.md)
-   * Multidimentional Arrays
+   * [Multidimentional Arrays](multidimentional_arrays.md)
 * [Exception Handling](exceptionhandling.md)
    * [Exceptions](exceptions.md)
    * [Exception Assignment](exceptionassignment.md)
