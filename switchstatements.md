@@ -44,14 +44,12 @@ You could also display the name of the month with if-then-else statements. You w
 Each _break_ statement terminates the enclosing switch statement. The program continues after the _break_ with the first statement following the switch block. Break statements are necessary. Without them, statements in switch blocks fall through. Statements after the matching case label are executed in sequence until a _break_ is encountered. Try removing the break statements. 
 
 
-####Your assignment
+####Your first assignment
 
-Write a program using a switch statement to print the month names given the exact number of days in the month. If the user enters 30 then the program will display: "September April June November". If the user enters 9 then program will alert the user that no months have exactly 9 days.
+Write a program using a switch statement to print the month names given the exact number of days in the month. You can have more than one statement in each switch case. If the user enters 30 then the program will display: "September April June November". If the user enters 9 then program will alert the user that no months have exactly 9 days.
 
-You can have more than one statement in each switch case.
-
-You can have more than one statement in each switch case. Create a program which will prompt the user for a product code and display the price and description of selected product for the _Hole in Ten Golf Company_
-
+####Your second assignment
+Create a program for the _Hole in Ten Golf Company_. It will prompt the user for a product code. The program will then display the corresponding price and description from the table below.
 
 Code|Description|Price
 -|-|-
