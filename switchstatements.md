@@ -45,8 +45,10 @@ Each _break_ statement terminates the enclosing switch statement. The program co
 
 
 ####Your assignment
-Write a program using a switch statement to print the month names given the number of days in the month. If the user enters 30 then the program will display: 
-"Thirty days has September,April, June, and November"
+
+Write a program using a switch statement to print the month names given the exact number of days in the month. If the user enters 30 then the program will display: "September April June November". If the user enters 9 then program will alert the user that no months have exactly 9 days.
+
+You can have more than one statement in each switch case.
 
 You can have more than one statement in each switch case. Create a program which will prompt the user for a product code and display the price and description of selected product for the _Hole in Ten Golf Company_
 
