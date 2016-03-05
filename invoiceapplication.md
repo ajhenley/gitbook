@@ -8,7 +8,7 @@
  4. Sales tax rate for their state
  5. Any number of prices
  
-When the user enters a price of 0.0, the application should print out in invoice in the following format:
+When the user enters a price of 0.0, the application should print out an invoice in the following format:
 
 ```
 Ismael Archer
