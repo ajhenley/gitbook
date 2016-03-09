@@ -181,7 +181,7 @@
    * [Reading and Writing to a File](readingand_writing_to_a_file.md)
    * [Linked HashMap Example](linked_hashmap_example.md)
    * [Comparing Objects](comparingobjects.md)
-   * Object-Oriented Java Terminology
+   * [Object-Oriented Java Terminology](object-oriented_java_terminology.md)
 * [Database design with Oracle](databasedesign_with_oracle.md)
    * [What is a Database?](what_is_a_database.md)
    * [Introduction to Oracle](introduction_to_oracle.md)
