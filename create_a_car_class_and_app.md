@@ -27,14 +27,14 @@ The red Porsche is stopped
 ```
 Be creative and make up your own methods if you like.
 
-Create a second instance of the car once your first car is working. Set it's private member variables in the main method. Now you can call the methods of the second car in between the calls to the methods of the first car. Your program will keep the two separate. Here's an example. Your mileage may vary.
+Create a second instance of the car once your first car is working. Set its private member variables in the main method. Now you can call the methods of the second car in between the calls to the methods of the first car. Your program will keep the two separate. Here's an example. Your mileage may vary.
 ```
 The red Porsche is starting
 The blue Jetta is starting
 The red Porsche is accelerating
 The blue Jetta is accelerating
-The blue Jetta has stopped to have it's emissions checked 
-The blue Jetta passes it's emission test
+The blue Jetta has stopped to have its emissions checked 
+The blue Jetta passes its emission test
 The red Porsche is going 50 mph
 The red Porsche is stopped
 The blue Jetta just passed the red Porsche
