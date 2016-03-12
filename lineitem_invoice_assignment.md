@@ -1,5 +1,5 @@
 <!--djw:done
-djw: 03.12.16 added text to clarify assignment
+djw: 03.12.16 added text to clarify assignment. I probably made it more complex at the same time.
 -->
 ###Line item invoice assignment
 Create an application that allows users to create an invoice. 
