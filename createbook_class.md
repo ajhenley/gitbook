@@ -1,4 +1,6 @@
-<!--djw:done-->
+<!--djw:done
+03.09.16 updated with minor modifications to text
+-->
 ###Create book class
 Congratulations. You've been hired to develop an application to manage an inventory of books.
 
