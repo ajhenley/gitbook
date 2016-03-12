@@ -51,6 +51,9 @@ Grand Total: $2,014.00
 ####Bonus: 
 Add an extra field to the inputs (untaxable). This value will be input as either true or false. This will affect whether tax will be charged on that item or not. 
 
+####Extra Bonus:
+Create a class called AddressDb which returns an address object. Then the user only has to enter the customer number. You saw this technique in the book database assignment now it's your turn to try it.
+
 
 
  
