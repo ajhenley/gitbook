@@ -4,7 +4,7 @@ A book app will allow the user to retrieve an instance of a book. Here's a start
 
 Next: Add some code to display the title and author of the book to the console.
 
-What happens if you try to retrieve an SKU to one that doesn't exist? 
+What happens if you try to retrieve a SKU that doesn't exist? 
 
 {%ace edit=true, lang='java'%}
 public class BookApplication {
