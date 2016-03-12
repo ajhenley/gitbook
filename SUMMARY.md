@@ -182,7 +182,7 @@
    * [Linked HashMap Example](linked_hashmap_example.md)
    * [Comparing Objects](comparingobjects.md)
    * [Object-Oriented Java Terminology](object-oriented_java_terminology.md)
-   * Object_Oriented Programming Concepts
+   * [Object_Oriented Programming Concepts](objectoriented_programming_concepts.md)
 * [Database design with Oracle](databasedesign_with_oracle.md)
    * [What is a Database?](what_is_a_database.md)
    * [Introduction to Oracle](introduction_to_oracle.md)
