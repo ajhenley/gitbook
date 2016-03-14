@@ -1,26 +1,23 @@
+Lesson: Object-Oriented Programming Concepts
 
+If you've never used an object-oriented programming language before, you'll need to learn a few basic concepts before you can begin writing any code. This lesson will introduce you to objects, classes, inheritance, interfaces, and packages. Each discussion focuses on how these concepts relate to the real world, while simultaneously providing an introduction to the syntax of the Java programming language.
 
+What Is an Object?
 
-Here are some of the basic building blocks of Objected-Oriented Programming that you will become familiar with:
+An object is a software bundle of related state and behavior. Software objects are often used to model the real-world objects that you find in everyday life. This lesson explains how state and behavior are represented within an object, introduces the concept of data encapsulation, and explains the benefits of designing your software in this manner.
 
-class
-    A collection of related fields (instance and class variables) and methods that have one purpose.
-instance variable (aka field variable or member variable
-    An instance variable is a variable that is defined in a class, but outside of a method. There is one copy of the variable for every instance (object) created from that class.
+What Is a Class?
 
-    A common problem is trying to reference an instance variable from a static method. A static method (eg, main) can only reference static variables in its own class (or its own local variables).
-class variable (aka static variable)
-    A class variable or static variable is defined in a class, but there is only one copy regardless of how many objects are created from that class. It's common to define static final variables (constants) that can be used by all methods, or by other classes. Color.blue is an example of a static final variable.
-constructor
-    A constructor is a method with the same name as the class. When an object is created, the constructor for that class is called. If no constructor is defined, a default constructor is called. It's common to have multiple constructors taking different numbers of parameters. Before a constructor is executed, the constructor for the parent class is called implicitly if there is no parent constructor called explicitly on the first line.
-override (applies to methods)
-    If a subclass redefines a method defined in a superclass, the method in the superclass is overridden.  The "super" keyword is how you refer to the overridden parent method. There is no way to explicitly call the "grandparent's" method if it was overridden by the parent class.
-overload (applies to methods)
-    A method in a class is overloaded if there is more than one method by the same name. If the same name is used, the methods must different in the number and/or types of the parameters so that there is no confusion. This really has nothing to do with classes, only methods.
-abstract class
-    A class which doesn't define all it's methods is called an abstract class. To be useful, there must be a subclass which defines the missing methods. The "You must declare this class abstract" error message from the Java compiler is rather misleading. This usually means that you declared your class to implement an interface, but failed to write all required methods -- or more commonly that there's a spelling error in a method header.
-interface
-    An interface is a list of methods that must be implemented. A class that implements an interface must define all those methods. The method signatures (prototypes) are listed in the interface. Interfaces may also define public static final "constants". An interface is essentially the same as an completely abstract class.
+A class is a blueprint or prototype from which objects are created. This section defines a class that models the state and behavior of a real-world object. It intentionally focuses on the basics, showing how even a simple class can cleanly model state and behavior.
 
+What Is Inheritance?
 
+Inheritance provides a powerful and natural mechanism for organizing and structuring your software. This section explains how classes inherit state and behavior from their superclasses, and explains how to derive one class from another using the simple syntax provided by the Java programming language.
 
+What Is an Interface?
+
+An interface is a contract between a class and the outside world. When a class implements an interface, it promises to provide the behavior published by that interface. This section defines a simple interface and explains the necessary changes for any class that implements it.
+
+What Is a Package?
+
+A package is a namespace for organizing classes and interfaces in a logical manner. Placing your code into packages makes large software projects easier to manage. This section explains why this is useful, and introduces you to the Application Programming Interface (API) provided by the Java platform.
