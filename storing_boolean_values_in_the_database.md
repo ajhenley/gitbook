@@ -32,4 +32,26 @@ insert into tblBoolean values(1);
 ####Converting data
 ```to_char(expr,fmt)``` will convert the expression expr to varchar2 with an optional format specifier, fmt
 ```to_number(expr,fmt)``` will convert the expression expr to number type with an optional format specifier, fmt
-```to_data(expr, fmt)``` will convert the expression expr to date type with an optional format specifier, fmt
+```to_date(expr, fmt)``` will convert the expression expr to date type with an optional format specifier, fmt
+
+
+
+####Oracle to_date format specifier
+You can put these together in a string as follows:
+```SELECT TO_DATE('2012-06-05', 'YYYY-MM-DD') FROM dual;```
+
+
+format specifier|description
+--|--
+YYYY|4-digit year
+YY|2-digit year
+RRRR|4-digit or 2-digit year, 20th century used for years 00-49, otherwise 19th
+MON|Abbreviated month (Jan - Dec)
+MONTH|Month name (January - December)
+MM|Month (1 - 12)
+DY|Abbreviated day (Sun - Sat)
+DD|Day (1 - 31)
+HH24|Hour (0 - 23)
+HH or HH12|Hour (1 - 12)
+MI|Minutes (0 - 59)
+SS|Seconds (0 - 59)
