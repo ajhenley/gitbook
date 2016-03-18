@@ -206,6 +206,7 @@
    * [Java University](javauniversity.md)
    * [Connecting with Application Express](connectingwith_application_express.md)
    * Creating SQL Scripts
+   * Inserting Data
 * [HTML,CSS and Javascript](htmlcssand_javascript.md)
    * [HTML Assignment](htmlassignment.md)
    * [Create a web page](create_a_web_page.md)
