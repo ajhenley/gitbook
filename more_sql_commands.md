@@ -9,7 +9,7 @@ Filter the names to only show those named Smith using LIKE
 
 
 Select the name and address of all the Smiths from multiple tables
-Select the name and address, city, state, and zip  for everyone and this time use table aliases
+Select the name and address, city, state, and zip  for everyone and this time use table aliases and order by last name then order by state, city, last name
 
 Update a particular person who has become a Smith
 Change someone's address
@@ -32,7 +32,6 @@ compound where clauses
 select all the people who are a particular position in a particular state
 
 grouping/having - select counts by state, counts by company
-
-
-order by
+order the results by state, company
+order the results by company then state
 
