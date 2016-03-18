@@ -209,7 +209,7 @@
    * [Connecting with Application Express](connectingwith_application_express.md)
    * Creating SQL Scripts
    * [The data model of the customers database](the_data_model_of_the_customers_database.md)
-   * More SQL Commands
+   * [More SQL Commands](more_sql_commands.md)
 * [HTML,CSS and Javascript](htmlcssand_javascript.md)
    * [HTML Assignment](htmlassignment.md)
    * [Create a web page](create_a_web_page.md)
