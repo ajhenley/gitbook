@@ -185,7 +185,6 @@
 * [Select, add, edit and delete data with JDBC](select,_add,_edit_and_delete_data_with_jdbc.md)
 * [Database design with Oracle](databasedesign_with_oracle.md)
    * [What is a Database?](what_is_a_database.md)
-       * Select, add, edit and delete data with JDBC
    * [Introduction to Oracle](introduction_to_oracle.md)
    * [What is SQL?](what_is_sql.md)
    * [Creating Tables](creatingtables.md)
