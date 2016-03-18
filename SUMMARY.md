@@ -188,6 +188,7 @@
    * [What is SQL?](what_is_sql.md)
    * [Creating Tables](creatingtables.md)
    * [Selecting Data](selectingdata.md)
+   * [Inserting Data](inserting_data.md)
    * [Storing boolean values in the database](storing_boolean_values_in_the_database.md)
    * [Creating A Multi_Table Database](creatinga_multi_table_database.md)
    * [Multiple Tables Part 2](multiple_tables_part_2.md)
@@ -206,7 +207,6 @@
    * [Java University](javauniversity.md)
    * [Connecting with Application Express](connectingwith_application_express.md)
    * Creating SQL Scripts
-   * [Inserting Data](inserting_data.md)
    * [Querying Data](querying_data.md)
 * [HTML,CSS and Javascript](htmlcssand_javascript.md)
    * [HTML Assignment](htmlassignment.md)
