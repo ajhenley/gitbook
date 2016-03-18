@@ -1,19 +1,38 @@
+It's time to explore SQL further. I'll give you several SQL statements which you can explore by runing against your newly created Customers table. You will need to type the SQL statements into SQL Developer and click the run icon to execute them. Each statement should end with semi-colon to separate it from the next statement you enter.
 
-<!-- work with the customers database which now consists of multiple tables, customers, companies, cities, states. show examples of the following sql statements, etc....
-select from one table
-select from multiple tables
-update one field of one row
-update multiple fields of one row
-update one field of multiple rows
-insert data
-delete data
-begin a tranaction, make a change and rollback then query to see the changes
-begin trans, change data and commit then query to see changes
-use table aliases
-use subqueries
+Your customer database consists of multiple tables. You should have the following tables:
+Customers, States, Cities and Companies. Each table contains an ID field which is its primary key.  You should also have bridge tables to link the customers with their companies
+
+Select the name of all our customers from one table
+Filter the names to only show those named Smith using =
+Filter the names to only show those named Smith using LIKE
+
+
+Select the name and address of all the Smiths from multiple tables
+Select the name and address, city, state, and zip  for everyone and this time use table aliases
+
+Update a particular person who has become a Smith
+Change someone's address
+Add a new ZIP and update selected customers to live in the new ZIP based on street name and old ZIP ID. Make sure this finds multiple rows.
+
+Delete a customer, delete a company
+
+begin a tranaction, delete a customer and company then  rollback then query to see the changes
+run select to show there aren't any updated records
+begin trans, change a customer and company and commit then query to see changes
+run select to show updated records
+
+use subqueries to select all the people at one company
+
 create left outer join, right outer join, full outer join, self join
+select all the people who are not working
+select all the people who don't work for a particualr company
+
 compound where clauses
-grouping/having
-like
+select all the people who are a particular position in a particular state
+
+grouping/having - select counts by state, counts by company
+
+
 order by
--->
+
