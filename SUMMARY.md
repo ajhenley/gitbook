@@ -208,7 +208,7 @@
    * Creating SQL Scripts
    * [Inserting Data](inserting_data.md)
    * querying_data
-   * Querying Data
+   * [Querying Data](querying_data.md)
 * [HTML,CSS and Javascript](htmlcssand_javascript.md)
    * [HTML Assignment](htmlassignment.md)
    * [Create a web page](create_a_web_page.md)
