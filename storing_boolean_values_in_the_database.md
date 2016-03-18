@@ -26,5 +26,10 @@ Oracle doesn't have a data type called boolean for storing true/false or yes/no 
 ```sql
 create table tblBoolean (bool char check (bool in (0,1));
 insert tblBoolean tbool values(0);
-insert into tblBoolean values(1);`
+insert into tblBoolean values(1);
 ```
+
+####Converting data
+```to_char(expr,fmt)``` will convert the expression expr to varchar2 with an optional format specifier, fmt
+```to_number(expr,fmt)``` will convert the expression expr to number type with an optional format specifier, fmt
+```to_data(expr, fmt)``` will convert the expression expr to date type with an optional format specifier, fmt
