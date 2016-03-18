@@ -208,7 +208,7 @@
    * [Java University](javauniversity.md)
    * [Connecting with Application Express](connectingwith_application_express.md)
    * Creating SQL Scripts
-   * The data model of the customers database
+   * [The data model of the customers database](the_data_model_of_the_customers_database.md)
    * More SQL Commands
 * [HTML,CSS and Javascript](htmlcssand_javascript.md)
    * [HTML Assignment](htmlassignment.md)
