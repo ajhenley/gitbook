@@ -207,7 +207,6 @@
    * [Connecting with Application Express](connectingwith_application_express.md)
    * Creating SQL Scripts
    * [Inserting Data](inserting_data.md)
-   * querying_data
    * [Querying Data](querying_data.md)
 * [HTML,CSS and Javascript](htmlcssand_javascript.md)
    * [HTML Assignment](htmlassignment.md)
