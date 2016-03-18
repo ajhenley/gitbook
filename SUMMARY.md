@@ -197,6 +197,7 @@
    * [Visual_Explanation_of_SQL_Joins](visualexplanation_of_sql_joins.md)
    * [Import Customers Table](importcustomers_table.md)
    * [More SQL Commands](more_sql_commands.md)
+   * [The data model of the customers database](the_data_model_of_the_customers_database.md)
    * [JDBC](jdbc.md)
    * [Working with the Customers Table](workingwith_the_customers_table.md)
    * [Bonus Project - Movie Titles Part 2](bonusproject_-_movie_titles_part_2.md)
@@ -209,7 +210,6 @@
    * [Java University](javauniversity.md)
    * [Connecting with Application Express](connectingwith_application_express.md)
    * Creating SQL Scripts
-   * [The data model of the customers database](the_data_model_of_the_customers_database.md)
 * [HTML,CSS and Javascript](htmlcssand_javascript.md)
    * [HTML Assignment](htmlassignment.md)
    * [Create a web page](create_a_web_page.md)
