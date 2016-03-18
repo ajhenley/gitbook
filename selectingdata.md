@@ -1,5 +1,3 @@
-# Selecting Data
-
 Out of the CRUD matrix we have only covered "Create". You can create tables and you can create rows in those tables. I'll now show you how to "Read" or in the case of SQL, SELECT:
 
 SELECT * FROM person;
