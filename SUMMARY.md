@@ -196,6 +196,7 @@
    * [Data types in the database](storing_boolean_values_in_the_database.md)
    * [Visual_Explanation_of_SQL_Joins](visualexplanation_of_sql_joins.md)
    * [Import Customers Table](importcustomers_table.md)
+   * [Working with the Customers Table](workingwith_the_customers_table.md)
    * [JDBC](jdbc.md)
    * [Bonus Project - Movie Titles Part 2](bonusproject_-_movie_titles_part_2.md)
    * [Java Bank Database](java_bank_database.md)
@@ -204,7 +205,6 @@
    * [Pair Assignment Part Deux](pairassignment_part_deux.md)
    * [Oracle Date Formats](oracledate_formats.md)
    * [Autoincrement with Oracle](autoincrementwith_oracle.md)
-   * [Working with the Customers Table](workingwith_the_customers_table.md)
    * [Java University](javauniversity.md)
    * [Connecting with Application Express](connectingwith_application_express.md)
    * Creating SQL Scripts
