@@ -27,6 +27,8 @@ CREATE TABLE Book (
 ####The Primary key
 The primary key is an indicator that tells the database which field will uniquely identify each record. This makes the database operate more efficiently. Data in the primary key is most often numeric and must be unique to each record (row).
 
+####Indexes
+Like the index in your book, 
 
 
 
