@@ -42,7 +42,7 @@ The schema is the collection of database objects. Schemas are associated with a 
 
 
 ####Your assignment
-You've just been hired as a developer at Dalton Used Car Emporium. They keep all their data in an Excel workbook. They would like to move their system to a database for many reasons. 
+You're hired! Now you're a developer at Dalton Used Car Emporium. They keep all their data in an Excel workbook. 
 * List some reasons why a database would be a better option than Excel (feel free to use the internet to search for reasons)
 * List the different fields you think you would need for the data
 * Organize the fields by the tables you think they would need

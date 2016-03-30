@@ -1,4 +1,7 @@
-<!--djw_done-->
+<!--djw_done
+todo: need scripts to create the test tables
+
+-->
 ###What is Structured Query Language (SQL)?
 SQL (pronounced as the letters SQL or sequel) is an abbreviation for Structured Query Language. It is a specialized database language that consists of statements that are very close to English. It has one purpose: to communicate with a database.
 

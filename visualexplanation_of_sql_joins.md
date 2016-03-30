@@ -51,8 +51,9 @@ null  null       3     Darth Vader
 null  null       5     Han
 </pre>
 
-<hr />
-####Full outer join  
+####Full outer join
+
+
 Returns a set that contains of all the records in ```Table A``` and ```Table B```. Records that both table have in common are also returned once. If ```Table B``` contains a record that is not in ```Table 
 B``` then the missing value will contain '```null```.
 

@@ -1,16 +1,16 @@
 <!--djw:done-->
 ###Import Customers Table
-This assignment has a lot of steps. But I'll walk you through them. And after that you will be an Oracle-SQL-Database Ninja. 
+ This assignment has a lot of steps. But I'll walk you through them. And after that you will be an Oracle-SQL-Database Ninja. 
 
 Do you know what the most common database in business is? Think Excel. It seems every computer has a copy. It seems everybody uses it. Most people use it for the wrong stuff. Despite that it often works. In business, doing what works is more important than doing what's best.
 
 In this exercise, you will be importing the data. Then you will follow a process that known as **Normalizing the Database**. There are a million ways to normalize your database.  You're going to import a spreadsheet full of data. Then divide it into different tables. This is a realistic scenario. It plays out everyday throughout corporate America. Clients send you data. The data is a mess. You need that data in a database.
 
 ####Instructions for obtaining the customers.xlsx file
-You can download the customers.xlsx file from the website.
+ You can download the customers.xlsx file from the website.
 
 ####Here are the steps we will follow
-1. Download the customers.xlsx file. It's an Excel file containing 30,000 rows of data. 
+1. Download the customers.xlsx file. It's an Excel file containing fake data about customers, addesses,companies and jobs.
 2. Import the customers file into Oracle.
 3. Write a query to find the number of unique companies in the table.
 4. Create a new table for companies and move that data to the new table. Only move the unique companies. Then add a column to your customers table and update the the new column which is called CompanyID.

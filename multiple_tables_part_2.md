@@ -1,3 +1,4 @@
+<!--djw: done -->
 ###Multiple Tables, Part 2
 In the last example we had two tables, authors and books. Each record in the book table contained a field for an authorID. This allowed you to find the corresponding author for that book. But there's a problem. If a book has two authors then where do you store the second author?
 
