@@ -3,12 +3,12 @@
 Congratulations for making it this far. You've learned a lot! You know how to create object-oriented Java applications and even some HTML. Now you're going to combine that knowledge to develop a true enterprise application.
 
 ####What is an enterprise application? 
-Software developed for business that lots of people depend on is an enterprise application. It's unlikely in business that you'll create a lot of desktop applications. That's why this course is focusing on developing enterprise applications. Businesses want software that is scalable, distributed and mission-critical. Most of all they want software to work. All the time. That's why we'll focus on not only developing software but also testing it.
+Software developed for business that lots of people depend on is an enterprise application. It's unlikely in business that you'll create a lot of desktop applications. That's why this course is focusing on developing web applications. Businesses want software that is scalable, distributed and mission-critical. Most of all they want software to work. All the time. That's why we focus on not only developing software but also testing it.
 
 Web applications can meet these requirements. When you think of enterprise software think websites. The format solves a lot of problems for which desktop software is unsuitable. Websites have one code-base on the server. When it's updated then every user is also updated. Users with different versions are a thing of the past.
 
 ####How to create a dynamic web project in Eclipse. 
-1. From the Eclipse menu, select on File | New | Dynamic Web Project
+1. From the Eclipse menu, select File | New | Dynamic Web Project
 2. On the window that pops up, type in a project name
 3. Select 'Apache Tomcat v. 7.0' for the target runtime
 4. Click Next twice. Then click Finish.
@@ -16,14 +16,14 @@ Web applications can meet these requirements. When you think of enterprise softw
 6. Right-click on the project name and select Build Path | Configure Build Path
 The Properties window will open and you should select the Libraries tab. Click the button to Add External JARs. Browse for the ojdbc6.jar file. You can browse to the .jar you placed in WEB-INF/lib or the one on your computer. Do not select a jar file on the network. Eclipse has trouble finding those.
 
-* Your servlet code files will  be placed under Java Resources | src folder. You can create subfolders under that if you like.
+* Your servlet code will  be placed under Java Resources | src folder. You can create subfolders under that if you like.
 * Your html and jsp code will be placed under the WebContent folder. Again, you can create subfolders as necessary. For example, you'll probably have subfolders for images and javascript.
 
 Next, you'll create a servlet that sends it's output to a web page.
 
 ####The components of the dynamic web project
 * JavaServer Pages (JSP) - web pages that integrate Java code with HTML or XML. You can use JSP technology to create dynamically generated web pages. 
-* Servlets - a small Java program that runs within a web server. The servlet actually extends the webserver giving it the abiltiy to return a customized response to a request. The Java servlets in this course will generally send their output to the JSP.
+* Servlets - a small Java program that runs within a web server. The servlet actually extends the web server so it can return a customized response to a request. The Java servlets in this course will generally send their output to the JSP.
 
 ####Create an index.html page
 The entry point for many websites is index.html. That is the page the user first sees upon visiting your site and will be the page that sends the user to other pages within the site.
@@ -34,7 +34,7 @@ The entry point for many websites is index.html. That is the page the user first
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Greeting Servlet Web Page</title>
 </head>
 <body>
 <form action="greetingServlet" method="post">
@@ -49,7 +49,7 @@ The entry point for many websites is index.html. That is the page the user first
 ####Create your first servlet
 The ```action``` attribute of index.html tells the web server to direct the form's output to the ```greetingServlet```. The servlet will process the form data from index.html and return it to the output.jsp page.
 
-The form data was submitted using the post method so the method ```doPost()``` is executed. In this method the servlet retrieves the posted data. Next, the servlet sets the name attribute and redirects the response to the jsp page.
+The form data is submitted using the post method so the ```doPost()``` method responds. In this method the servlet retrieves the posted data. Next, the servlet sets the name attribute and redirects the response to the jsp page.
 
 {%ace edit=true, lang='java'%}
 //FormProcessor.java goes in the /scr folder
@@ -97,7 +97,7 @@ The JSP will accept the attribute from the servlet and set its value to the name
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Greeting Servlet</title>
 </head>
 <body>
 <h1>Welcome,${name}</h1>
