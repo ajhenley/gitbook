@@ -2,7 +2,6 @@
 ###Example of a Servlet
 You will be creating each servlet as a Java class in a Dynamic Web Application in Eclipse. Here is an example of the code for a simple servlet. It simply prints Hello, World! to the browser.
 
-
 ```java
 package servlet;
 
@@ -42,10 +41,8 @@ public class Hello extends HttpServlet {
     }
 }
 ```
-
-
 ####Description
-We notice two methods in this class: <code>doGet()</code> and <code>doPost()</code>. The first one anwsers by HTTP to the reception of a GET request, the second to the reception of a POST request. As we want that in the both cases the servlet processes the request, <code>doPost()</code> forwards to <code>doGet()</code>.
+We notice two methods in this class: <code>doGet()</code> and <code>doPost()</code>. The first one anwsers by HTTP to the reception of a GET request. The second to the reception of a POST request. As we want that in the both cases the servlet processes the request, <code>doPost()</code> forwards to <code>doGet()</code>.
 
 ####Call the servlet from the browser
 http://localhost:999/webTest/Greeting
@@ -59,8 +56,9 @@ Hello, World!
 With Tomcat v. 7.0 and later you can use the @WebServlet annotation to map a servlet to a URL pattern. Simply code the URL pattern in parenthesis following the annotation, ```@WebServlet("/Hello")```.
 
 ####Decomposition of the URL
-Calling the servlet's URL from the browser will request the servlet. You can also call the servlet from a link or formon a web page.
-The URL is composed of the following parts:
+Calling the servlet's URL from the browser will request the servlet. You can also call the servlet from a link or a form on a web page.
+
+**The URL parts of the URL**:
 Protocol: http or https
 Domain: somedomain.com
 Port (optional): the port which the servlet listens to
