@@ -1,10 +1,10 @@
-<!--djw:done-->
+<!--djw:done
+cleaned up 04.02.16
+-->
 ###Example of a Servlet
 You will be creating each servlet as a Java class in a Dynamic Web Application in Eclipse. Here is an example of the code for a simple servlet. It simply prints Hello, World! to the browser.
 
 ```java
-package servlet;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -30,7 +30,7 @@ public class Hello extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         try {
-            out.println("Hello, World!");
+            out.println("<h1>Hello, World!</h1>");
         } finally {
             out.close();
         }
