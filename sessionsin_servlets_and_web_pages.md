@@ -1,35 +1,34 @@
 <!--djw:done-->
 ###Sessions in Servlets and Web Pages
-Session tracking enables you to track a user's progress over multiple servlets or HTML pages. A session is defined as a series of related browser requests that come from the same client during a certain time period. Session tracking ties together a series of browser requests. Think of these requests as pages that may have some meaning as a whole, such as a shopping cart application.
+Session tracking enables you to track a user's data over multiple servlet or HTML page requests. A session is a series of related requests that come from the same client (browser) during a given period. These requests may represent pages that have some meaning as a whole, such as a shopping cart application.
 
-HTTP is a "stateless" protocol.  This means each time a client retrieves a Web page, the client opens a separate connection to the Web server. The server does not keep any record of previous client request.
+HTTP is a "stateless" protocol.  This means each time a browser retrieves a Web page, the browser opens an unrelated connection to the Web server. The server does not keep a record of previous client requests.
 
-There are three ways to maintain session between web client and web server:
+There are three ways to remember the data that is passed between servlets and pages even though the requests for each are separate transactions.
 
 **Cookies**  
-A webserver can assign a unique session ID as a cookie to each web client and for subsequent requests from the client they can be recognized using the received cookie.
+A webserver can assign a unique session ID as a cookie to each web client. Subsequent requests from that client can be recognized using the received cookie.
 
-This may not be an effective way because many time browser does not support a cookie, so I would not recommend to use this procedure to maintain the sessions.
+There is a drawback. Sometimes browsers do not support cookies. 
 
 **Hidden Form Fields**  
 A web server can send a hidden HTML form field along with a unique session ID as follows:
 
 <input type="hidden" name="sessionid" value="12345">
 
-This entry means that, when the form is submitted, the specified name and value are automatically included in the GET or POST data. Each time when web browser sends request back, then session_id value can be used to keep the track of different web browsers.
+When the form gets submitted, the input's name and value are included in the GET or POST data. Each time the web browser sends a request back, the session_id can be used to keep the track of different requests.
 
-This could be an effective way of keeping track of the session but clicking on a regular (<A HREF...>) hypertext link does not result in a form submission, so hidden form fields also cannot support general session tracking.
+This could be an effective to keep track of the session. However, clicking on a (<a Hhref="mysite.com/mypage.jsp">Click Here</a>) hypertext link does not result in a form submission. 
 
 **URL Rewriting**  
-You can append some extra data on the end of each URL that identifies the session, and the server can associate that session identifier with data it has stored about that session.
+You can append extra data to the end of each URL. This could identify the session. The server can associate that session identifier with data it has stored about that session.
 
-For example, with http://tutorialspoint.com/file.htm;sessionid=12345, the session identifier is attached as sessionid=12345 which can be accessed at the web server to identify the client.
+For example, with ```http://mysite.com/index.jsp?sessionid=12345```, the session identifier is attached as sessionid=12345. This can be accessed by the the web server to identify the client.
 
-URL rewriting is a better way to maintain sessions and works for the browsers when they don't support cookies but here drawback is that you would have generate every URL dynamically to assign a session ID though page is simple static HTML page.
-
+URL rewriting is a better way to maintain sessions and works for the browsers when they don't support cookies. The disadvantage is you have generate every URL dynamically to assign a session ID. You can't do this with a static HTML page.
 
 ###The HttpSession Object
-Apart from the above mentioned three ways, servlet provides HttpSession Interface which provides a way to identify a user across more than one page request or visit to a Web site and to store information about that user.
+Fortunately, the servlet provides the HttpSession Interface. This gives you a way to identify a user across more than one page request or visit to a Web site.
 
 The servlet container uses this interface to create a session between an HTTP client and an HTTP server. The session persists for a specified time period, across more than one connection or page request from the user.
 
