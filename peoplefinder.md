@@ -1,5 +1,5 @@
 <!--djw:done-->
-###People Finder: A Dynammic Web Application with a Search Form
+###A Dynammic Web Application with a Search Form
 Prerequisite: Complete the SQL Bonus Practice. You will be using the tables created in that project for this one. You must create a database with multiple tables in order to get credit for this application.
 
 Create a dynamic web application. This project must be it's own dynamic web application. It may not be a part of another application.
