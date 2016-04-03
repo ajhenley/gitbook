@@ -8,7 +8,7 @@
 	],
 	"pluginsConfig": {
 		"pdf": {
-			"fontSize": 15
+			"fontSize": 11
 		}
 	}
 }
