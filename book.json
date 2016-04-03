@@ -1,14 +1,14 @@
 {
-    "plugins": [
-        "emphasize",
-        "comment",
-        "ace",
-        "sectionx",
-        "-fancybox"
-    ],
-    "pluginsConfig": {}
-    {
-    "pdf": [
-        "fontSize": 15
-    ]
+	"plugins": [
+		"emphasize",
+		"comment",
+		"ace",
+		"sectionx",
+		"-fancybox"
+	],
+	"pluginsConfig": {
+		"pdf": {
+			"fontSize": 15
+		}
+	}
 }
