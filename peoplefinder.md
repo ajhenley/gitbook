@@ -13,7 +13,6 @@ So to find all users named Smith use the following SQL statement:
 ``sql
 select firstname,lastname from customers where lastname like 'Smith%'
 ```
-
 Once the user is found, display a page with the user's details.
 
 Before you submit the project make sure your are closing the database connection. If you don't it will remain allocated. After running your project a number of times Eclipse will run out of memory and you'll get an error message from Oracle.
