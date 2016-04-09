@@ -1,6 +1,4 @@
-<!--
-todo: find get/post example app
--->
+<!--djw:done-->
 ####What happens when you submit a form?
 The example application below will show you the results of submitting a form via Get and via Post. The index page contains two forms. The only difference between the two forms is one sends its data via get and the other via post. Create this project in Eclipse. Once you run it you will get a better understanding of get and post and the Request object which comes from the browser. 
 
