@@ -1,3 +1,5 @@
-<!--djw: done but make sure we have discussed submitting html forms, getting Parameters in the servlet first -->
-###Servlet Assignment
-Create a NEW Dynamic Web application. It should contain a servlet that will output a basic bootstrap web page. The web page will be a static html page called index.html. It should allow the user to enter the Fahrenheit  temperature. A form with a submit button will pass the temperature to the servlet. The servlet will calculate the Celcius temperature. The Celcius temperature will be output to a second JSP page, called output.jsp. The output JSP must also use Bootstrap to return a nicely formatted page.
+<!--djw: done -->
+The Deputy Administrator of NOAA (the National Oceanic and Atmospheric Administration) has contacted you. They need you to develop an important application for their service. It seems that they are planning to go metric and heard you know how to convert temperatures from Fahrenheit to Celcius.
+
+####Your Assignment
+Create a NEW Dynamic Web application. It should contain an index.html page, a servlet and a JSP page. The starting page for your application will be index.html. This should allow the user to enter the Fahrenheit temperature. A form with a submit button will pass the temperature to the servlet. The servlet will calculate the Celcius temperature. The Celcius temperature will be output to a second JSP page, called output.jsp. The output JSP will display both the Fahrenheit and the Celcius temperature. It must also use Bootstrap to return a nicely formatted page.
