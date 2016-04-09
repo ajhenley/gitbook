@@ -241,7 +241,6 @@
    * [Example of a Servlet](example_of_a_servlet.md)
    * [Create a Dynamic Web Application in Eclipse](create_a_dynamic_web_application_in_eclipse.md)
    * [Servlet Assignment](servletassignment.md)
-   * [How web forms communicate with servlets](how_web_forms_communicate_with_servlets.md)
    * [Get and Post Details](getand_post_details.md)
    * [Create an HTML Form](create_an_html_form.md)
    * [Simple HTML Form and Servlet](simplehtml_form_and_servlet.md)
