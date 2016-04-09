@@ -43,7 +43,7 @@ The entry point for many websites is index.html. That is the page the user first
 </body>
 </html>
 {%endace%}
-
+<div style="page-break-after: always;"></div>
 ####Create your first servlet
 The ```action``` attribute of index.html tells the web server to direct the form's output to the ```greetingServlet```. The servlet will process the form data from index.html and return it to the output.jsp page.
 
@@ -83,7 +83,7 @@ public class FormProcessor extends HttpServlet {
 
 }
 {%endace%}
-
+<div style="page-break-after: always;"></div>
 ####Create your first JavaServer Page (JSP)
 The JSP will accept the attribute from the servlet and set its value to the name.
 
