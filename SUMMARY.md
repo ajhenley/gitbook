@@ -256,7 +256,7 @@
    * [Big Gulp!](biggulp.md)
    * [MVC: Model View Controller](mvc_model_view_controller.md)
    * Strongheim Revisited
-   * Passing parameters
+   * [Passing parameters](passing_parameters.md)
 * [JPA and JPQL](jpaand_jpql.md)
    * [What is JPQL?](whatis_jpql.md)
    * [Creating a JPA Project from Scratch](creatinga_jpa_project_from_scratch.md)
