@@ -1,4 +1,7 @@
-Shiny College needs to create a website for its students to view their transcripts. Create a series of pages which Shiny College students and faculty can use.
+Shiny College needs to create a website for its students to view their transcripts. 
+
+####Your Assignment
+Create a series of pages which Shiny College students and faculty can use. The College president would like to see a demo tomorrow morning. Your name was suggested as someone who would not disappoint.
 
 **There needs to be at least**
 * Transcript Page
