@@ -1,11 +1,7 @@
-<!--djw: done
-04.02.16 cleaned up
--->
-###Create an HTML Form
-
+<!--djw: done-->
 ####An HTML5 document looks like this:
 
-```html
+{%ace edit=false, lang='html'%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +14,7 @@
 ...
 </body>
 </html>
-```
+{%endace%}
 Within that document you can create a form to submit data to the web server. The form goes between the <body> and </body> tags. Our web server is Tomcat. A servlet is a program which extends Tomcat. The servlet gives Tomcat the ability to handle the url in the @WebServlet annotation at the top of your servlet code file.
 
 The form can send its data via either GET or POST. Those are the only two choices.  GET sends the data in the URL. POST sends the data as the body of the request packet. The above application illustrates the difference.
