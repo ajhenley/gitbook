@@ -104,10 +104,11 @@ The JSP will accept the attribute from the servlet and set its value to the name
 {%endace%}
 
 ####Your Assignment
-Create a new dynamic web application with a web page and a servlet. It should display your name.
-1. Create a new dynamic web project
-2. Copy the code above to the file locations indicated by the comment on the first line
-3. Run your project. Since you want to start with the index.html page it helps to select index.html from the project explorer in Eclipse. Right-click on this file. Select Run As | Run on Server from the pop-up menu.
+Create a new dynamic web application with a web page and a servlet. It should display your name. Copy the code above to the file locations indicated by the comment on the first line.
+Run your project. Since you want to start with the index.html page you should select index.html from the project explorer in Eclipse. Right-click on this file. Select Run As | Run on Server from the pop-up menu.
+
+####Improve your application
+Modify your JSP page to include Bootstrap
 
 
 
