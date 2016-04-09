@@ -22,7 +22,7 @@ Next, you'll create a servlet that sends it's output to a web page.
 ####The components of the dynamic web project
 * JavaServer Pages (JSP) - web pages that integrate Java code with HTML or XML. You can use JSP technology to create dynamically generated web pages. 
 * Servlets - a small Java program that runs within a web server. The servlet actually extends the web server so it can return a customized response to a request. The Java servlets in this course will generally send their output to the JSP.
-
+<div style="page-break-after: always;"></div>
 ####Create an index.html page
 The entry point for many websites is index.html. That is the page the user first sees upon visiting your site and will be the page that sends the user to other pages within the site.
 
