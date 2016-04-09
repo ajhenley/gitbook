@@ -241,6 +241,7 @@
    * [Example of a Servlet](example_of_a_servlet.md)
    * [Create a Dynamic Web Application in Eclipse](create_a_dynamic_web_application_in_eclipse.md)
    * [Servlet Assignment](servletassignment.md)
+   * How web forms communicate with servlets
    * [Get and Post Details](getand_post_details.md)
    * [Create an HTML Form](create_an_html_form.md)
    * [Simple HTML Form and Servlet](simplehtml_form_and_servlet.md)
@@ -256,7 +257,6 @@
    * [Big Gulp!](biggulp.md)
    * [MVC: Model View Controller](mvc_model_view_controller.md)
    * Strongheim Revisited
-   * How web forms communicate with servlets
 * [JPA and JPQL](jpaand_jpql.md)
    * [What is JPQL?](whatis_jpql.md)
    * [Creating a JPA Project from Scratch](creatinga_jpa_project_from_scratch.md)
