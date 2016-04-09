@@ -1,9 +1,10 @@
-# Cash Money Carousel
-
+<!--djw
+todo: add bootstrap code from class example with cars
+-->
 You've reached this point because you're fast and efficient. Congratulations. 
 
-Now, modify your Shiny Bank Home page to include a carousel of money or riches (or both!).
+Now, use your efficiency to make changes to your Shiny Bank Home page. Make it include a Bootstrap carousel of money or riches (or both!).
 
-You can find instructions for the carousel online: http://www.w3schools.com/bootstrap/bootstrap_carousel.asp (Links to an external site.) (Links to an external site.)
+The following example shows how to create a Bootstrap carousel. Please include at least four pictures. You can find pictures online and save them locally. Or link to the URL. Also include captions on each slide.
 
-Please include at least four pictures. Also include captions on each slide.
+
