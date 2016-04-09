@@ -3,7 +3,7 @@ Bootstrap is the most popular HTML, CSS, and JS framework for developing respons
 It is an html, css, javascript framework that you can use as basis for creating web sites or web applications.
 
 ####Including Bootstrap in your JSP
-
+{%ace edit=false, lang='html'%}
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -12,12 +12,10 @@ It is an html, css, javascript framework that you can use as basis for creating 
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+{%endace%}
 <div style="page-break-after: always;"></div>
-
-
 ####A basic Bootstrap page
-
+{%ace edit=false, lang='html'%}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -46,3 +44,4 @@ It is an html, css, javascript framework that you can use as basis for creating 
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
+{%endace%}
