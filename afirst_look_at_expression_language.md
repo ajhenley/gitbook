@@ -15,17 +15,18 @@ Create a JSP page. When the above code executes it will populate the user class 
 Hello ${sessionScope.user.firstName}
 {%endace%}
 
-The above code fragment is and example of Expression Language. It's a shortcut notation your JSP pages can use to display objects stored in the session. The word ```sessionScope``` is optional. The woud ```user``` is the name of the attribute from the servlet. It contains an instance of a User object which is in the session. The word firstName is formed by removing the word get from the getter, getFirstName(), and changing the case of the starting letter. It is also the same as the private variable in the User class but it actually comes from the getter.
+The above code fragment is and example of Expression Language. It's a shortcut notation your JSP pages can use to display objects stored in the session. The word ```sessionScope``` is optional. The woud ```user``` is the name of the attribute from the servlet. It contains an instance of a User object which is in the session. The word firstName is formed by removing the word 'get' from the getter, ```getFirstName()```, and changing the case of the starting letter. It is also the same as the private variable in the User class but it actually comes from the getter.
 
 <div style="page-break-after: always;"></div>
 ####Your first Java Bean
-The User class in this example is a Java Bean. It's a class that meets the following criteria: all instance varibles are private and they are available through public getters and setters. It also must serializable. 
+The User class in this example is a JavaBean. We use JavaBeans to pass data between servlets and JSP pages.  It's a class that meets the following criteria: instance varibles are private. They are available through public getters and setters. The class must implement serializable. And contain a no-argument constructor.
 
 
 ####Here's the code for the User class:
 {%ace edit=false, lang='java'%}
 public class PersonBean implements java.io.Serializable {
     private String name = null;
+    public PersonBean(){}
     public String getName(){
         return name;
     }
