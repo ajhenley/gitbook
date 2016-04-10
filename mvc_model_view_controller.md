@@ -1,6 +1,4 @@
 <!--djw:done-->
-###MVC: Model View Controller
-
 **Model–view–controller (MVC)** is a software architectural pattern. It divides an application into three interconnected parts. This allows you to separate internal representations of information from the ways that information is presented to (or accepted from) the user. This architecture has become extremely popular for designing web applications.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg)
