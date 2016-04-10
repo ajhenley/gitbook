@@ -1,3 +1,5 @@
+<!--djw-->
+<!--todo: need assignment for cookies-->
 You can pass data between servlets and JSP pages with objects stored in the session. You can also use cookies.
 
 ####How to create and access a cookie
