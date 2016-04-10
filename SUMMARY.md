@@ -271,7 +271,7 @@
    * [Shopping Cart Application](shoppingcart_application.md)
    * [Deluxe Shopping Cart](deluxeshopping_cart.md)
    * [Aggregate Functions](aggregatefunctions.md)
-   * How to Work with Cookies
+   * [How to Work with Cookies](how_to_work_with_cookies.md)
 * [JavaServer Pages Standard Tag Library (JSTL)](javaserverpages_standard_tag_library_jstl.md)
    * [What is JSTL?](what_is_jstl.md)
    * [How JSTL Works](howjstl_works.md)
