@@ -1,5 +1,5 @@
 <!-- this is the tutorial slowly I turned -->
-There are a number of steps to create a JPA project. Follow along with this walkthorugh and pretty soon you'll have a good idea how to create a JPA project. You can create a JPA project for a Java project or for a Dynamic Web Project.
+There are a number of steps to create a JPA project. Follow along with this walkthorugh and pretty soon you'll have a good idea how to create a JPA project. Due to differences in Eclipse versions, your screens may differ slightly. You can create a JPA project for a Java project or for a Dynamic Web Project.
 
 1) First Create a New Java Project….
 
