@@ -273,7 +273,6 @@
    * [Deluxe Shopping Cart](deluxeshopping_cart.md)
    * [Aggregate Functions](aggregatefunctions.md)
 * [JavaServer Pages Standard Tag Library (JSTL)](javaserverpages_standard_tag_library_jstl.md)
-   * [What is JSTL?](what_is_jstl.md)
    * [How JSTL Works](howjstl_works.md)
    * [Tell me About Expression Language](tell_me_about_expression_language1.md)
    * [Super Shopping Cart](supershopping_cart.md)
