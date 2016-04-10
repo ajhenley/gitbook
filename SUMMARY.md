@@ -252,10 +252,10 @@
    * [Ms Mackleberry's Gradebook Assignment](msmackleberrys_gradebook_assignment.md)
    * [Strongheim Revisited](strongheimrevisited.md)
    * [People Finder](peoplefinder.md)
+   * [MVC: Model View Controller](mvc_model_view_controller.md)
    * [Gulp! Assignment](gulpassignment.md)
    * [Sessions in Servlets and Web Pages](sessionsin_servlets_and_web_pages.md)
    * [Big Gulp!](biggulp.md)
-   * [MVC: Model View Controller](mvc_model_view_controller.md)
    * Strongheim Revisited
 * [JPA and JPQL](jpaand_jpql.md)
    * [What is JPQL?](whatis_jpql.md)
