@@ -10,7 +10,7 @@ Hello, <%=request.getParameter("visitor")%>
 ```
 EL offers a clearer way to navigate nested beans. Consider some beans:
 
-```java
+{%ace edit=false, lang='java'%}
 class Person {
    String name;
    // Person nests an organization bean.
@@ -19,23 +19,23 @@ class Person {
    public String getName() { return this.name; }
    public Organization getOrganization() { return this.organization; }
 }
-```
+{%endace%}
 
-```java
+{%ace edit=false, lang='java'%}
 class Organization {
    String name;
    public String getName() { return this.name; }
 }
-```
+{%endace%}
 
 If an instance of Person was to be placed onto a request attribute under the name "person", the JSP would have:
-```html
+{%ace edit=false, lang='html'%}
  Hello, ${person.name}, of company ${person.organization.name}
-```
+{%endace%}
 
 Same as.
 
-```html
+{%ace edit=false, lang='html'%}
  Hello,
 <% Person p = (Person) request.getAttribute("person");
    if (p != null) {
@@ -46,4 +46,4 @@ Same as.
        out.print(p.getOrganization().getName());
    }
 %>
-```
+{%endace%}
