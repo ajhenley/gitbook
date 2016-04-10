@@ -1,5 +1,7 @@
 <!--djw:done-->
-###Ms Mackleberry's Gradebook Assignment
+Mrs Mackleberry needs a new grade book. She heard about the great job you did with Professor Strongheim's grade book and wants one of her own.
+
+Create a Dynamic Web Application (do not add to an existing project!) that allows multiple users to enter grades (0-100). Not only that. The user must be able to sign in and can view only his or her grades. Furthermore, the user must be able to edit grades as well. 
 Create a new Dynamic Web Application (do not add to an existing project!) that allows one user to enter grades (0-100).
 
 The grades entered should be added to a database table that should look like this:
