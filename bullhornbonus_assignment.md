@@ -1,5 +1,3 @@
-###Bullhorn Bonus Assignment
-
 The users love Bullhorn. They're going crazy. But they're also making new requests. Your project manager has listed the most requested features below. Your job now, as a vetern employee of the Bullhorn Website Company is to implement all these top requests.
 
 1. Extend your bullhorn application to allow the users to link to a photo that will display on their profile page. A smaller (24x24) version of this same image should appear next to each post by that user.
