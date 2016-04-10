@@ -1,13 +1,12 @@
 <!-- djw: done-->
-###What is JPQL?
-The Java Persistence Query Language (JPQL) is the query language defined by JPA. JPQL is similar to SQL  but operates on objects, attributes and relationships instead of tables and columns. JPQL can be used for reading (SELECT), as well as updates (UPDATE) and deletes (DELETE). This course will focus on creating dynamic queries using ```EntityManager.createQuery()```.
+The Java Persistence Query Language (JPQL) is the query language defined by JPA. JPQL is like SQL. JPQL operates on objects, attributes and relationships. SQL operates on tables and columns. JPQL can read (SELECT), as well as update (UPDATE) and delete (DELETE). In this course you will create dynamic queries using ```EntityManager.createQuery()```.
 
 JPQL defines queries for entities (your classes) and their persistent state (the database tables). The query language allows you to write queries that work for any database. An application that uses JPQL and Oracle does not have to change if the database changes to Microsoft SQL Server.
 
 ####Creating Queries Using the Java Persistence Query Language
 Select queries read objects from the database. They return a single object or data element, a list of objects or data elements, or an array of objects and data.
 
-The ```EntityManager.createQuery()``` method is called in your class to query the database using Java Persistence query language queries.  
+The ```EntityManager.createQuery()``` method queries the database using Java Persistence query language syntax.  
 
 
 ####Some example JPQL queries in a Java application
@@ -34,7 +33,7 @@ List<String> result4 = query.getResultList();
 Query query = em.createQuery("Select e.firstName, e.lastName FROM Employee e");
 List<Object[]> result5 = query.getResultList();
 ```
-
+<div style="page-break-after: always;"></div>
 ####Positional Parameters in Queries
 JPA defines named parameters and positional parameters. Named parameters can be specified in JPQL using the syntax :<name>. Positional parameters can be specified in JPQL using the syntax ? or ?<position>. Positional parameters start at position 1 not 0.
 
