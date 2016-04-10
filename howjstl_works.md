@@ -1,5 +1,5 @@
-###How JSTL Works
-
+<!--djw-->
+<!--todo: finish how JSTL works... need example how to escape output.-->
 The JSP Standard Tag Library (JSTL) provides tags for common tasks that need to be performed in JSPs.
 
 The steps you need to follow to implement JSTL are:
