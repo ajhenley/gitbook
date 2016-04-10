@@ -1,10 +1,9 @@
 <!--djw:done-->
 Mrs Mackleberry needs a new grade book. She heard about the great job you did with Professor Strongheim's grade book and wants one of her own.
 
-Create a Dynamic Web Application (do not add to an existing project!) that allows multiple users to enter grades (0-100). Not only that. The user must be able to sign in and can view only his or her grades. Furthermore, the user must be able to edit grades as well. 
-Create a new Dynamic Web Application (do not add to an existing project!) that allows one user to enter grades (0-100).
+Create a Dynamic Web Application (do not add to an existing project!). It should allow multiple users to enter grades (0-100). Users must be able to sign in. Each user can view his or her grades only. And the average of their grades. The user must be able to edit grades as well. 
 
-The grades entered should be added to a database table that should look like this:
+Your application should allow grades to be inserted to a database table. The table should look like this:
 
 **Grades Database**
 
@@ -12,8 +11,7 @@ The grades entered should be added to a database table that should look like thi
 ---|---
 Assignment|Varchar
 Grade|numeric
-
  
-You will need a page with the form for entering a grade. You will alson need a page to show the grades entered so far. And a page for displaying the current average.
+You will need a page with the form for entering a grade. You will also need a page to show the grades entered so far. And a page for displaying the current average.
 
-Don't over-think the assignment. Use Bootstrap.
+Don't over-think the assignment. Use Bootstrap to make it look nice.
