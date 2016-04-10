@@ -1,7 +1,7 @@
 <!--djw:done-->
 Prerequisite: Complete the SQL Bonus Practice. You will be using the tables created in that project for this one. You must create a database with multiple tables.
 
-####Create a dynamic web application
+####Create a dynamic web application to search by last name
 Create a search form that will allow users to enter a name in a text box and find all the matching last names. If the user enters partial text the application finds all last names that contain that text. So Smith will find users named Smith and Smithman.
 
 To search for a partial term in SQL use the ```LIKE`` operator with the wildcard character ```%```. The percent sign will match any number of letters. Note that our installation of Oracle is case-sensitive. So 'smith' will not match 'Smith'.
