@@ -243,6 +243,7 @@
    * [Servlet Assignment](servletassignment.md)
    * [Get and Post Details](getand_post_details.md)
    * [Create an HTML Form](create_an_html_form.md)
+   * [Passing parameters](passing_parameters.md)
    * [Simple HTML Form and Servlet](simplehtml_form_and_servlet.md)
    * [Database Servlet Assignment](database_servlet_assignment.md)
    * [Looping Database Servlet Assignment](loopingdatabase_servlet_assignment.md)
@@ -256,7 +257,6 @@
    * [Big Gulp!](biggulp.md)
    * [MVC: Model View Controller](mvc_model_view_controller.md)
    * Strongheim Revisited
-   * [Passing parameters](passing_parameters.md)
 * [JPA and JPQL](jpaand_jpql.md)
    * [What is JPQL?](whatis_jpql.md)
    * [Creating a JPA Project from Scratch](creatinga_jpa_project_from_scratch.md)
