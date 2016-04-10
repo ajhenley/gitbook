@@ -1,6 +1,6 @@
 ###JPA Database Utilities
 
-Make a class out of the following code to insert and update from the database.
+Make a class out of the following code to insert and update from the database. This will make your life easier as a programmer because you'll be able to reuse this code in any  application that uses JPA.
 
 ```java
 import java.util.List;
