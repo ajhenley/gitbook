@@ -1,6 +1,5 @@
 <!--djw:done-->
 <!--todo: remove the url / replace with file download link -->
-###Gulp! Assignment
 You are hired by a new start-up to help them write their application, Gulp! (think Yelp! without pictures or maps).
 
 You need to write an application that allows users to rate and/or review their favorite restaurants. 
