@@ -256,7 +256,6 @@
    * [Gulp! Assignment](gulpassignment.md)
    * [Sessions in Servlets and Web Pages](sessionsin_servlets_and_web_pages.md)
    * [Big Gulp!](biggulp.md)
-   * [Strongheim Revisited](strongheim_revisited.md)
 * [JPA and JPQL](jpaand_jpql.md)
    * [What is JPQL?](whatis_jpql.md)
    * [Creating a JPA Project from Scratch](creatinga_jpa_project_from_scratch.md)
