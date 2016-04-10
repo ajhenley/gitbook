@@ -1,18 +1,17 @@
 <!--djw:done-->
-**Model–view–controller (MVC)** is a software architectural pattern. It divides an application into three interconnected parts. This allows you to separate internal representations of information from the ways that information is presented to (or accepted from) the user. This architecture has become extremely popular for designing web applications.
+**Model–view–controller (MVC)** is a commonly used software architectural pattern. It divides an application into three interconnected parts as described below.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg)
-
 ####Components
-**The model** directly manages the data, logic and rules of the application.
+**The model** directly manages the data, logic and rules of the application. The model is represented in your application by Oracle and any data-management related classes.
 
-**A view** can be any output representation of information, such as a chart or a diagram. Multiple views of the same information are possible, such as a bar chart for management and a tabular view for accountants. In applications you will create the view will be the web page.
+**A view** can be any output representation of information, such as a chart or a diagram. Multiple views of the same information are possible. For example, you might show a bar chart to management and a tabular view to accountants. The web page in the browser represents the view in applications created for this course.
 
-**The controller** accepts input and converts it to commands for the model or view. The controller can also manage the logic and rules of the application. 
+**The controller** accepts input and converts it to commands for the model or view. The controller can also manage the logic and rules of the application. The servlet represents the controller in applications created for this course.
 
 ####Interactions between the components
-* A controller can send commands to the model to update the model's state (e.g. editing a document). It can also send commands to its associated view to change the view's presentation of the model (e.g. by scrolling through a document).
-* A model stores data that is retrieved according to commands from the controller and displayed in the view.
+* A controller sends commands to the model. These commands can update the model's state (e.g. editing a document). The controller also sends commands to its associated view. This changes the view's presentation of the model.
+* A model stores the data. Commands from the controller retrieve the data and display it in the view.
 * A view generates an output presentation to the user based on changes in the model.
 
 ####How this affects you
