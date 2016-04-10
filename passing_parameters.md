@@ -19,6 +19,7 @@ You probably want to set it to a variable as in <br/>
 Now your servlet can work with it.
 
 ####Sending your values from the servlet to the output page
+
 Now you have a variable in your servlet called userName. You want to send that to output.jsp. Simply add a tag to output.jsp that looks like this:<br/>
 ```${message}``` and replace the message tag in the jsp with the following line of code:<br/>
 {%ace edit=false, lang='java'%}
