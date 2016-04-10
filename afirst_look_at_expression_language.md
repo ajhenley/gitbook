@@ -1,3 +1,4 @@
+<!--djw:done-->
 Create a new dynamic web application that contains a class for a user. You do not have to connect to the database for this example. Simply create a user class and a servlet.
 
 Once you create a user and populate the name and some other values then put that user object in the session.
