@@ -5,10 +5,10 @@ The JavaServer Pages Standard Tag Library (JSTL) is a collection of four custom-
 ####Usage of JSTL 1.1
 As for the use of  JSTL 1.1 the JSP-EL  is required, a servlet-container has to be conform to at least  the JSP-2.0 specifications in order to be be used on this. The reference implimentation is made up of two JAR – archives **standard.jar** and **jstl.jar**. In most containers  they usually need to be located in the lib-path of the web application only. To ensure  backwards compatibility the JSTL 1.1 is referenced by the URI *http://java.sun.com/jsp/jstl/fmt*  whereas *http://java.sun.com/jstl/fmt*  is used for JSTL 1.0.
 
-
+<div style="page-break-after: always;"></div>
 ####Example JSP-page in XML-notation (JSPX):
 
-```xml
+{%ace edit=false, lang='html'%}
 <?xml version="1.0" encoding="utf-8" ?>
 <jsp:root
   xmlns:jsp="http://java.sun.com/JSP/Page"
@@ -37,7 +37,7 @@ version="2.0">
 </body>
 </html>
 </jsp:root>
-```
+{%endace%}
 
 ####Code-Explanations:
 
