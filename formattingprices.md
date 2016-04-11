@@ -1,5 +1,5 @@
 <!--ajh:done-->
-The **NumberFormat** class helps you to format and parse numbers or currency values. Since it's an abstract class you must call the getInstance method or some variation of that method.
+The **NumberFormat** class helps you to format and parse numbers or currency values. Since it's an abstract class you must call the ```getInstance()``` method or some variation of that method.
  
 {%ace edit=false, lang='java'%}
 myString = NumberFormat.getInstance().format(myNumber);
