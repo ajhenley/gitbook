@@ -1,7 +1,5 @@
 <!--djw: not sure if this is original or not???-->
 <!--ajh: original enough????-->
-
-###Boolean Expressions
 So far we have only seen three types of variables:
 
 **int**
