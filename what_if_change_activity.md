@@ -1,7 +1,5 @@
 <!-- djw:done-->
 <!-- ajh:done-->
-###What if change activity
-
 The following program is used by your school to process student records. Students enrolled for 12 or more credits are considered fulltime, so change the program so that it only outputs student records for student that are "fulltime".
 
 {%ace edit=false, lang='java'%}
