@@ -1,8 +1,6 @@
 <!-- djw: done -->
 <!--ajh:done-->
-###Special characters assignment
-
-This application doesn't work...
+Sadly, this application doesn't work... but you're the person who can fix it.
 
 {%ace edit=false, lang='java'%}
 public class SpecialCharacterProgram {
