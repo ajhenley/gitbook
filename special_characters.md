@@ -1,6 +1,5 @@
 <!--djw: done -->
-###Escape sequences
-A character preceded by a backslash (\) is an escape sequence and has special meaning to the compiler. The following table shows the Java escape sequences. 
+A character preceded by a backslash (\) is an **escape sequence** and has special meaning to the compiler. The following table shows the Java escape sequences. 
 Note: Each escape sequence represents one character entity. 
 
 Escape Sequence|Description
