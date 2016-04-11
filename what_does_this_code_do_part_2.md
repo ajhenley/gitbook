@@ -1,4 +1,3 @@
-
 Original program is below:
 {%ace edit=false, lang='java'%}
 import java.util.Scanner;
