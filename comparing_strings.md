@@ -1,5 +1,5 @@
 <!--djw:done-->
-###Comparing strings
+<!--todo: add ace tags -->
 In Java ```ObjectA == ObjectB``` returns true when both objects share the same memory location. ```ObjectA.equals(ObjectB)``` also returns true when both objects share the same memory location. However, ```StringA.equals(StringB)``` returns true when the VALUE of ```StringA``` is the same as the VALUE of ```StringB```, regardless of memory location.
 
 ####Strings are different
