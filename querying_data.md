@@ -1,3 +1,5 @@
+###Querying data
+
 Once you get data in your database you'll use SQL to query it and return a summary of your data. Run these two SQL statements to see how to get data out of your database.
 
 You'll actually want to run each SQL statement one at a time. You can just highlight the statement you're interested in and press ```CTRL``` + ```Enter```.
