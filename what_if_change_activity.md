@@ -1,5 +1,7 @@
 <!-- djw:done-->
 <!-- ajh:done-->
+###What is change activity
+
 The following program is used by your school to process student records. Students enrolled for 12 or more credits are considered fulltime.
 
 ####Your Assignment
