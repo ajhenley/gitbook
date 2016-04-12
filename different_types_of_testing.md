@@ -1,6 +1,4 @@
-# Different types of testing
 
-Different types of testing:
 **Unit tests** - used to check that your classes and methods function as expected. The more tests you run the more certain your code works as you've intended. Unit tests are easy to create and even easier to run so you can check your application frequently. External objects such as a database can be simulated. Use mock objects to make your tests independent of the larger system and easy to run.
 
 **Customer's tests** are functional, system, and acceptance tests. They check the behavior of the system as a whole as expected by the customer. 
