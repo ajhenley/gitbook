@@ -1,5 +1,7 @@
 <!--djw:done-->
 <!--ajh:done-->
+###String completion assignment
+
 The following code is supposed to ask the user their pet's name, breed and age. Add the 3 lines necessary to make this work...
 
 {%ace edit=false, lang='java'%}
