@@ -1,4 +1,6 @@
-Youy just created a table. But it contains no data. You can insert data by entering it into the table from SQL Developer or by running some SQL statements. Run the following SQL statements to insert some book data into your table.
+###Inserting data
+
+You just created a table. But it contains no data. You can insert data by entering it into the table from SQL Developer or by running some SQL statements. Run the following SQL statements to insert some book data into your table.
 
 {%ace edit=true, lang='sql'%}
 INSERT INTO BOOK (BookID, SKU, TITLE, AUTHOR, DESCRIPTION, PRICE, UnitsInStock) VALUES (1, 'Book1', 'Fellowship of the Zombies', 'Charles Buckminster', 'A book about Zombies', '19.95', 150);
