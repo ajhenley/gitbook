@@ -1,4 +1,6 @@
 <!--djw:done-->
+###Introduction to Oracle
+
 The Oracle database engine is available in 4 editions: Enterprise Edition (EE), Standard Edition (SE), Standard Edition One (SE One) and Express Edition (XE). The last-mentioned is the community edition and is sufficient for the purpose of this course. http://www.oracle.com/technetwork/indexes/downloads/.
 
 SQL-Developer is an IDE with an Eclipse-like look-and-feel and offers access to the database engine. http://www.oracle.com/technetwork/developer-tools/sql-developer/overview/
