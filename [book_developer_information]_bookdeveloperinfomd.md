@@ -8,7 +8,8 @@ Here's the git details for gitbook: https://help.gitbook.com/build/push.html
 
 Using git I cloned the book:
 ```
-#git clone https://git.gitbook.com/javateach/javaee.git
+#git clone https://dave45678@git.gitbook.com/javateach/javaee.git
+
 ```
 now I can create media wiki formatted files and save them and the images locally in the git folder 
 
