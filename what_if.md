@@ -1,6 +1,8 @@
 <!-- djw:done-->
 <!-- ajh:we need to talk about the difference between blocks and lines in if-statements. -->
 <!-- djw:fixed and now you have a bread song playing in your head. Sorry.-->
+###What if
+
 Here is the next Java program you'll enter, which introduces you to the if statement. Type this in, make it run exactly right and then we'll see if your practice has paid off.
 
 The if statement lets us make decisions and control program flow. In the program below, only one line prints but there are 7 ```System.out.print``` statements. The ```if``` statement ensures that only the correct one is executed.
