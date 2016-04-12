@@ -1,5 +1,7 @@
 <!-- djw:done --> 
 <!-- ajh:done I am concerned that this topic is weak... -->
+###Getting and storing user input
+
 The Scanner object allows people to input data. It captures all the input on a standard input (like the keyboard) and delivers it to a variable.  
   
 A Scanner scans the input by tokens using a delimiter pattern. The default delimiter is a space. The scanner reads the input token by token. The resulting tokens may be converted into values of different types using various methods. 
