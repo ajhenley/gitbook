@@ -1,4 +1,5 @@
 <!--djw:done-->
+###Creating new data types in Java
 So far we've seen eight primitive data types. These have determined the type of data our programs can store and work with. We can work with integers, floating point numbers, Boolean values, Strings and others. 
 
 What if you have data you want to store that is more complex than numbers or letters? What if you want to work with a Date? You want to be get the number of days in a month. And calculate if the year is a leap year. And other programmers should be able to use our code to do the same. But you want the data type to figure all that out for you. After all, we have more important things to program and don't want to start over each time.
