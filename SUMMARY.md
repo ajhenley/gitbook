@@ -198,7 +198,6 @@
    * [Import Customers Table](importcustomers_table.md)
    * [More SQL Commands](more_sql_commands.md)
    * [Select, add, edit and delete data with JDBC](select,_add,_edit_and_delete_data_with_jdbc.md)
-   * [The data model of the customers database](the_data_model_of_the_customers_database.md)
    * [JDBC](jdbc.md)
    * [Working with the Customers Table](workingwith_the_customers_table.md)
    * [Bonus Project - Movie Titles Part 2](bonusproject_-_movie_titles_part_2.md)
