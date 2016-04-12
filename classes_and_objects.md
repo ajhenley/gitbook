@@ -1,6 +1,4 @@
 <!--djw:done-->
-###Classes and Objects
-
 First there was functional or top-down programming. All programs had a single entry point and worked their way down, line by line, to a single exit point. They could jump around with various routines and go-to statements but all code was basically one large file. And it got cumbersome.
 
 Division of labor
