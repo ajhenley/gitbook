@@ -1,3 +1,5 @@
+###What does this code do? (Part 2)
+
 Original program is below:
 {%ace edit=false, lang='java'%}
 import java.util.Scanner;
