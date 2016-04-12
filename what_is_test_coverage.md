@@ -1,5 +1,3 @@
-# What is test coverage?
-
 Coverage works like this: Print your code. Using a highlighter mark all the methods that your unit tests have checked. They're covered. Any methods that are still white aren't covered. Write a test for them. Private methods count as covered when the public method that calls them is tested.
 
 It's not good enough to have just one test per method. You may need three, five or more. You should cover all the possibilities. What about the user passing a zero-length password? What about one with only one character? Or starts with a number? Or starts with a space? Or one that's 75 words long? That's five unit tests and we haven't even considered the normal eight character password.
