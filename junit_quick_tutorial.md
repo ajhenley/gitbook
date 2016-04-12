@@ -1,5 +1,3 @@
-# Junit Quick Tutorial
-
 ###How does JUnit work?
 
 JUnit is a library packed in a jar file. Among other things it contains a tool (called test runner) to run your test files. It is not an automated testing tool: you still have to write your test files by hand. JUnit does give you some support so that you can write those test files more conveniently.
