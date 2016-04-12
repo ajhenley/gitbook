@@ -1,4 +1,6 @@
 <!-- djw: done -->
+###More printing
+
 Let's get used to printing. Write a program that prints and ATM receipt for Java Bank. An example is below. Your can look slightly different but try to line up the borders and the margins of the text as much as possible
 
 The borders of the receipt are made up of the dash which is between the ```0``` and ```=``` keys. And the ```|``` pipe character which is above the ```[Enter]``` key. You create a ```|``` by holding ```[shift]``` + ```\```.
