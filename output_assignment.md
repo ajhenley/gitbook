@@ -1,5 +1,7 @@
 <!--djw:done-->
 <!--ajh:done-->
+###Output assignment
+
 Change the following application so that it outputs the values of name,age, height and gpa to the console.
 {%ace edit=false, lang='java'%}
 import java.util.Scanner;
