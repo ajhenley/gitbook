@@ -1,8 +1,7 @@
 <!--djw:done
 03.09.16 updated with minor modifications to text
 -->
-###Create book class
-Congratulations. You've been hired to develop an application to manage an inventory of books.
+Congratulations. For your next assignment, you'll develop an application to manage an inventory of books.
 
 Create a new project in Eclipse called BookApplication.
 Right-click on your project and add a class.
