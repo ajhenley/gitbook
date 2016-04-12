@@ -1,5 +1,4 @@
 <!--djw: done-->
-###Create an abstract vehicle class
 Modify your Car Class application. Now you will create an abstract class for a Vehicle. The Vehicle can run, stop and accelerate. However the abstract class can not fly like a plane or float like a boat. Nor can it haul 10 tons of gravel like the dump truck that just dinged my windshield. Specific implementations are created by inheriting your abstract class. 
 
 ####How to inherit an abstract class
