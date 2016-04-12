@@ -1,5 +1,7 @@
 <!--djw:done-->
 <!--ajh:done-->
+###String formatting example
+
 The program below is self-explanatory. It shows how to format a string in Java using the format method of the String class and System.out.printf. Enter the program below in Eclipse and observe what it does. You can use this page as a reference for formatting strings in future assignments.
 
 {%ace edit=false, lang='java'%}
