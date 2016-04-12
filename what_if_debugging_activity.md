@@ -1,5 +1,7 @@
 <!-- djw:done-->
 <!-- ajh:done-->
+###What if debugging activity
+
 This program has some errors please fix it so that it runs properly.
 {%ace edit=false, lang='java'%}
 import java.util.Scanners;
