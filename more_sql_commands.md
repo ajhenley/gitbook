@@ -1,3 +1,5 @@
+###More SQL commands
+
 It's time to explore SQL further. I'll give you several SQL statements which you can explore by runing against your newly created Customers table. You will need to type the SQL statements into SQL Developer and click the run icon to execute them. Each statement should end with semi-colon to separate it from the next statement you enter.
 
 Your customer database consists of multiple tables. You should have the following tables:
