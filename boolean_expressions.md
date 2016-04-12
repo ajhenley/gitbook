@@ -1,5 +1,7 @@
 <!--djw:done-->
 <!--ajh:needs to be after if is introduced-->
+###Boolean decisions
+
 A boolean variable can hold one of two values: true or false. A boolean expression is an expression that can return one of two values: true or false. 
 
 Boolean expressions are often used when making decisions. This means you'll want to be comfortable using boolean expressions in if-statements. To do this, you test the value of an expression. You can use that value to determine where your program goes.
