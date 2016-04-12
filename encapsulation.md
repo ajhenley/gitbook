@@ -1,6 +1,7 @@
 <!--djw:done for now
 djw 03.10.16 massive rewrite
 -->
+###Encapsulation
 Sometimes your class has some internal business to attend to.
 
 For example, your class may contains a method called save which takes as its argument the filename.
