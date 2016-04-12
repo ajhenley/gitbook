@@ -1,5 +1,7 @@
 <!-- djw:done-->
 <!-- ajh:done-->
+###Variables
+
 Programs would be pretty boring if the only thing you could do was print things on the screen. We would like our programs to be interactive. Variables enable our program to save and retrieve data while the program is being used.
 
 * A variable stores a value that can change as a program executes.
