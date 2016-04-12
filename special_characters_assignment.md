@@ -1,5 +1,7 @@
 <!-- djw: done -->
 <!--ajh:done-->
+###Special characters assignment
+
 Sadly, this application doesn't work... but you're the person who can fix it.
 
 {%ace edit=false, lang='java'%}
