@@ -65,7 +65,7 @@ The practitioner of literate programming can be regarded as an essayist, whose m
 */
 import java.util.Random;
 import java.util.Scanner;
-public class Main
+public class RandomComments
 {
     public static void main(String[] args)
     {
