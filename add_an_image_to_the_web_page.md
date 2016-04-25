@@ -1,4 +1,11 @@
-####Add an Image to the Web Page
+####HTML Attributes: 
+* Attributes provide further information about an element
+* Attributes are a name-value pair and the value must be in quotes
+* There should be no space on either side of the equal sign for attributes
+* Attributes are always specified in the start tag
+
+
+####Add a linked image and some attributes to the Web Page
 Images can make your page more interesting and your content more clear. Let's add an image of a crab or crab cake to the new crab cake recipe recipe.
 
 First, find an image. You can use Google images, take one with your camera or copy the link here from Wikipedia. 
@@ -19,11 +26,10 @@ Add the crab image to your crab cake recipe page. Change the size settings to yo
 
 Add another attribute to your anchor tag. It should be called target and the value should be "_blank": ```target="_blank"```. How does that change your page?
 
-####Reminders: 
-* Attributes are a name-value pair. The value must be in quotes
-* HTML5 tags must come in pairs or be self-closing like ```<br/>```
-* HTML5 tags must be in lower case
-* There should be no space on either side of the equal sign for attributes
+
+
+
+
 
 
 
