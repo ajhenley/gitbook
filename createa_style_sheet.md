@@ -14,6 +14,6 @@ To view the html of a web page, right-click and select View Source. Look for the
 Your page can find it's style in one of three places: In the page, in the tag or in the link.
 
 ####Your assignment
-Create a style sheet to show the <h1> tag as blue and the background as some other color.
+Create a style sheet to show the ```<h1>``` tag as blue and the background as some other color.
 Resources for creating style sheets can be found here:
 http://www.w3schools.com/css/default.asp
