@@ -17,12 +17,13 @@ Your image could link to another page. Let's make it link to the Wikipedia artic
 ####Your Assignment
 Add the crab image to your crab cake recipe page. Change the size settings to your liking. Make the image click through to the wikipedia article at **https://en.wikipedia.org/wiki/Crab_cake**. Now when you click on the image you'll be redirected.
 
-Add another attribute to your anchor tag. It should be called target and the value should be "_new": ```target="_blank"```. How does that change your page?
+Add another attribute to your anchor tag. It should be called target and the value should be "_blank": ```target="_blank"```. How does that change your page?
 
 ####Reminders: 
-* Attributes are a name-value pair. The value must be in quotes.
-* HTML5 tags must come in pairs or be self-closing like ```<br/>```.
+* Attributes are a name-value pair. The value must be in quotes
+* HTML5 tags must come in pairs or be self-closing like ```<br/>```
 * HTML5 tags must be in lower case
+* There should be no space on either side of the equal sign for attributes
 
 
 
