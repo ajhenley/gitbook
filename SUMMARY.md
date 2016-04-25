@@ -213,6 +213,7 @@
 * [HTML,CSS and Javascript](htmlcssand_javascript.md)
    * [HTML Assignment](htmlassignment.md)
    * [Create a web page](create_a_web_page.md)
+   * Add an Image to the Web Page
    * [Create HTML Table](createhtml_table.md)
    * [Create an HTML Form](createan_html_form.md)
    * [create a style sheet](createa_style_sheet.md)
@@ -235,7 +236,6 @@
    * [Shiny Web Online Bank Bootstrap Assignment](shinyweb_online_bank_bootstrap_assignment.md)
    * [Cash Money Carousel](cashmoney_carousel.md)
    * [SCOTS - Shiny College Online Transcript System](shinycollege_online_transcript_system.md)
-   * Add an Image to the Web Page
 * [Servlets and Enterprise Application Development](servletsand_enterprise_application_development.md)
    * [JavaServer Pages (JSP)](javaserver_pages_jsp.md)
    * [Example of a Servlet](example_of_a_servlet.md)
