@@ -213,7 +213,7 @@
 * [HTML,CSS and Javascript](htmlcssand_javascript.md)
    * [HTML Assignment](htmlassignment.md)
    * [Create a web page](create_a_web_page.md)
-   * [Add an Image to the Web Page](add_an_image_to_the_web_page.md)
+   * [HTML5 Attributes with Images](add_an_image_to_the_web_page.md)
    * [Create HTML Table](createhtml_table.md)
    * [Create an HTML Form](createan_html_form.md)
    * [create a style sheet](createa_style_sheet.md)
