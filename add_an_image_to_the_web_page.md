@@ -1,4 +1,4 @@
-####HTML Attributes: 
+####HTML5 Attributes: 
 * Attributes provide further information about an element
 * Attributes are a name-value pair and the value must be in quotes
 * There should be no space on either side of the equal sign for attributes
