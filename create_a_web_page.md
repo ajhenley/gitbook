@@ -1,6 +1,8 @@
 <!--djw:done-->
-Create a simple web page to display the following recipe. 
+####Your Assignment
+Let's create a simple web page to display the following recipe. For this page we need to display a heading ```<h1> ... </h1>```, a subheading, ```<h2> ... </h2>``` and a list. The list starts with ```<ul>``` and ends with ```</ul>```. In between are the list items. Each is denoted between list item tags, ```<li> ... </li>``` We'll also need some paragraphs, ```<p> ... </p>```. You don't need a paragraph return after the heading tags. The closing heading tag includes that. If you want to start a new line without a paragraph break then use the break self-closing tag, ```<br/>```.
 
+```html
 Crabcake Recipe
 
 Ingredients:
@@ -33,3 +35,4 @@ Heat a small amount of butter or olive oil in a skillet and saute the cakes, tur
 Serve at once with tartar sauce, mustard, or cocktail sauce on the side.
 
 Serves 6 people
+```
