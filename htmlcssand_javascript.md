@@ -1,10 +1,10 @@
 HTML (HyperText Markup Language) is the primary markup language used in web pages. Web pages consist of content like text and images as well as markup (tags). The markup is a series of tags. The browser renders the tags to control how the contents get displayed.  HTML was originally designed as a language for describing scientific documents. It has since adapted to describe other types of documents and even applications.
 
-HTML is used in most pages of the World Wide Web. HTML files contain both the primary text content and additional formatting markup, i.e. sequences of characters that tell web browsers how to display and handle the main content. The markup can specify which parts of text should be bold, where the headings are, or where tables, table rows, and table cells start and end. Though most commonly displayed by a visual web browser, HTML can also be used by browsers that generate audio of the text, by braille readers that convert pages to a braille format, and by accessory programs such as email clients.
+HTML formats the layout of most web pages. It can specify how headings, paragraphs, tables and lists should display. The markup can specify which parts of text should be bold, italic or underlined. It can specify font colors and settings.  HTML files contain both the content (primary text) and formatting (markup). 
 
 ####Before we start
 
-To author and test HTML pages, you will need an editor and a web browser. HTML can be edited in any plain text editor. Ideally, use one that highlights HTML markup with colors to make it easier to read. Common plain text editors include Notepad (or Notepad++) for Microsoft&reg; Windows, TextEdit for Mac, and Kate, Gedit, Vim, and Emacs for Linux.
+To create and test HTML pages, you will need an editor and a web browser. HTML can be edited in any plain text editor. Ideally, use one that highlights HTML markup with colors to make it easier to read. Common plain text editors include Notepad (or Notepad++) for Microsoft&reg; Windows, TextEdit for Mac, and Kate, Gedit, Vim, and Emacs for Linux.
 
 Many others editors exist with a wide range of features. While some offer WYSIWYG (''what you see is what you get'') functionality, that means hiding the markup itself and having to auto-generate it. WYSIWYG options are never as clean or transparent or as useful for learning compared with real code-based text editors.
 
