@@ -4,16 +4,12 @@ HTML formats the layout of most web pages. It can specify how headings, paragrap
 
 ####Before we start
 
-To create and test HTML pages, you will need an editor and a web browser. HTML can be edited in any plain text editor. Ideally, use one that highlights HTML markup with colors to make it easier to read. Common plain text editors include Notepad (or Notepad++) for Microsoft&reg; Windows, TextEdit for Mac, and Kate, Gedit, Vim, and Emacs for Linux.
+To create and test HTML pages, you only need a text editor and a web browser. Notepad++ or GEdit or Kate will work for our purposes because they highlight HTML markup with colors to make it easier to read. 
 
-Many others editors exist with a wide range of features. While some offer WYSIWYG (''what you see is what you get'') functionality, that means hiding the markup itself and having to auto-generate it. WYSIWYG options are never as clean or transparent or as useful for learning compared with real code-based text editors.
-
-To preview your documents, you'll need a web browser. To assure most viewers will see good results, ideally you will test your documents in several browsers. Each browser has slightly different rendering and particular quirks.
-
-The most common browsers include Microsoft Internet Explorer, Google Chrome, Mozilla Firefox, Safari, and Opera. To assure that your documents are readable in a text-only environment, you can test with Lynx.<!--Do not provide web link for Lynx only, so comment out:with a Windows version of Lynx is available at http://csant.info/lynx.htm.-->
+To preview your documents, you'll need a web browser. To assure most viewers will see good results, ideally you should test your documents in different browsers. Each browser has slightly different rendering and other quirks. The most common browsers include Google Chrome, Mozilla Firefox, Microsoft Internet Explorer, Safari, and Opera. 
 
 ####A simple document
-Let's start with a simple document. Write this code in your editor (or copy-and-paste it), and save it as "index.html" or "index.htm".  The file must be saved with the exact extension, or it will not be rendered correctly.
+Let's start with a simple document. Write this code in your editor (or copy-and-paste it), and save it as "index.html".  The file must be saved with the exact extension, or it will not be rendered correctly.
 
 <!--
  Please keep this example to the bare minimum needed to validate as HTML5.
@@ -28,6 +24,7 @@ Let's start with a simple document. Write this code in your editor (or copy-and-
     <title>Simple document</title>
   </head>
   <body>
+    <h1>This is my heading</h1>
     <p>This is some text in a paragraph that will be seen by viewers.</p>
   </body>
 </html>
