@@ -1,4 +1,11 @@
 <!--djw:done-->
+###HTML Tables
+
+The HTML table tag allows you to arrange data like text, images, links in rows and columns of cells. Tables begin with a ```<table>``` tag and end with a ```</table>``` tag. Each row is between ```<tr> ... </tr>```. Each cell or data point is between ```<td> ... </td>``` tags. If you want a table header for the first row then use ```<th> ... </th>``` instead of ```<td> ... </td>```.
+
+**Note: ** It is not considered appropriate to use tables to create rows and columns to render content layout. This is because screen readers assume tables contain data and read them row by row. Did you use tables for format your fabulous three column newsletter about wine? It will sound like you had to much of it to the person viewing your site with a screen reader. 
+
+####Your Assignment
 Create an HTML Table to display the following data:
 
 <table cellpadding="1" cellspacing="1">
