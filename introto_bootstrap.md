@@ -7,7 +7,7 @@ You have a secret weapon. Bootstrap is the most popular HTML, CSS, and JS framew
 
 Bootstrap allows you to create responsive web pages. Responsive web design provides optimal viewing and interaction experience on all devices. Without responsive design you would develop different pages for different devices. Bootstrap solves that problem and ends the madness.
 
-The place to get started for Bootstrap is http://getbootstrap.com/. So if you have any questions about Bootstrap try that site first.
+The place to get started for Bootstrap is http://getbootstrap.com/. If you have any questions about Bootstrap try that site first.
 
 ####Including Bootstrap in your JSP or HTML Page
 
