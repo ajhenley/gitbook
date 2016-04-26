@@ -24,8 +24,9 @@ Every tag must have a corresponding closing tag. Sometimes you'll see tags that 
 
 </html>
 ```
-
-####Create a Static Web Project in Eclipse
-You're going to work with static web projects now.
+####Your assignment
+You're going to work with web projects now. No more Java console applications.
 From Eclipse, follow the following menu items: File | New | Other | Web | Static Web Project.  On the next form that comes up in Eclipse enter the project name and select the target runtime. For the target runtime select HTTP Preview. You may have to click the New Runtime button to select HTTP Preview.
+
+In Eclipse create a new HTML page called index.html. Simply copy the above html code from above into this page. Also header just below the ```<body``` tag that says "Welcome". ```<h1>Welcome</h1>```. Copy that tag three times below the first one and change "h1" to "h2", "h3" and "h4". What happens?
 
