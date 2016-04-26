@@ -1,5 +1,6 @@
 <!--djw:done-->
-Let's create a simple web page to display the following recipe. For this page we need to display a heading ```<h1> ... </h1>```, a subheading, ```<h2> ... </h2>``` and a list. The list starts with ```<ul>``` and ends with ```</ul>```. In between are the list items. Each is denoted between list item tags, ```<li> ... </li>``` We'll also need some paragraphs, ```<p> ... </p>```. You don't need a paragraph return after the heading tags. The closing heading tag includes that. If you want to start a new line without a paragraph break then use the break self-closing tag, ```<br/>```.
+###Create a Web Page
+Let's create a simple web page to display the following recipe. For this page we need to display a heading ```<h1> ... </h1>```, a subheading, ```<h2> ... </h2>``` and a list. The list starts with ```<ul>``` and ends with ```</ul>```. In between are the list items. Each list item is denoted between list item tags, ```<li> ... </li>``` We'll also need some paragraphs, ```<p> ... </p>```. You don't need a paragraph return after the heading tags. The closing heading tag takes care of that. If you want to start a new line without a paragraph break then use the break self-closing tag, ```<br/>```.
 
 ####Your Assignment
 Copy the text below to a html page in Eclipse or an editor of your choice. Apply the HTML tags indicated above to mark-up the heading, list and paragraphs.
