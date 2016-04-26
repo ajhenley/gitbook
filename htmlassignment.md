@@ -1,6 +1,8 @@
 <!--djw
 todo: add steps to create dynamic web application in eclipse and to add, then view a web page 
 -->
+###A basic web page
+
 Create a basic web page with a title and a header tag that both say, "Hello World!"
 
 All well-designed HTML pages meets HTML5 standards. This means it has the basic structure shown below. The ```<!DOCTYPE>``` declaration the first thing in your HTML document. The ```<!DOCTYPE>``` declaration is not actually an HTML tag but rather an instruction to the  browser.
