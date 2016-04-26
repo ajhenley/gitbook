@@ -1,8 +1,12 @@
-Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.
 
-It is an html, css, javascript framework that you can use as basis for creating web sites or web applications.
+###Bootstrap
 
-####Including Bootstrap in your JSP
+Developers like yourself create code. Designers make the interface look nice. But not every project has a designer. Sometimes that job is also yours. Congratulations!
+
+You have a secret weapon. Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. Bootstrap is a framework. It uses  html, cascading style sheets and javascript. Bootstrap contains design templates for typography, forms, buttons, navigation and other interface components. 
+
+####Including Bootstrap in your JSP or HTML Page
+
 {%ace edit=false, lang='html'%}
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -13,6 +17,7 @@ It is an html, css, javascript framework that you can use as basis for creating 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 {%endace%}
+
 <div style="page-break-after: always;"></div>
 ####A basic Bootstrap page
 {%ace edit=false, lang='html'%}
