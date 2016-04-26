@@ -24,6 +24,7 @@ Every tag must have a corresponding closing tag. Sometimes you'll see tags that 
 
 </html>
 ```
+
 ####Your assignment
 You're going to work with web projects now. No more Java console applications.
 From Eclipse, follow the following menu items: File | New | Other | Web | Static Web Project.  On the next form that comes up in Eclipse enter the project name and select the target runtime. For the target runtime select HTTP Preview. You may have to click the New Runtime button to select HTTP Preview.
