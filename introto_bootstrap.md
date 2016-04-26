@@ -100,3 +100,5 @@ Note: You don't want a container inside a container since nesting containers is 
 </div>
 {%endace%}
 
+Add a Heading. But not just any heading. We're going to create a Jumbotron heading. Let them know we're here!
+
