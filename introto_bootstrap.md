@@ -92,7 +92,7 @@ Next, add a navigation bar to your page. Put it right below the body tag. Now us
 You need a another ```<div>``` tag below the navigation bar to denote the page container. 
 The container class sets the content's margins. This keeps the content together as screen size changes. The container class creates 'boxed' contents of your Bootstrap page.
 
-Note: You don't want a container inside a container since nesting containers is not the goal. Having multiple containers is fine. Alternatively, you could wrap the entire contents inside one container. Suit yourself.
+Note: You don't want a container inside a container since nesting containers is not the goal. Having multiple containers is fine. You may wish to wrap the entire contents inside one container. Suit yourself.
 
 {%ace edit=false, lang='html'%}
 <div class="container">
