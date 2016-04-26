@@ -1,13 +1,9 @@
-Create new dynamic web site for Java University.
+###Java University Web Pages
 
-Create three web pages for Java University. 
 
-Create a login page for Java University. It will prompt for the user's email and password. It will work until we hook it up.
 
-Once the user logs in they will be taken to the first page where they can enter the Student's Name, Course, Number, Credit Hours and Grade. Create this page as well.
-
-Add a button to the above page to go to the report page.
-
-Create a report web page for Java University which displays the Class, Credits and Grade as a table.
+####Your Assignment
+Create new dynamic web site for our new business, Java University. It should feature three web pages. A login page, a data entry page and a report page.
+The login page will allow the user to enter their email and password. Once the person logs in they will be taken to the first page where they can enter the Student's Name, Course Number, Course title, Credit Hours and Grade. They can submit their name, etc and add another course or go to the report page. The report web page shows the classes they have entered.
 
  
