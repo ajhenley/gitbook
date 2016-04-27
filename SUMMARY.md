@@ -211,7 +211,7 @@
    * [Connecting with Application Express](connectingwith_application_express.md)
    * Creating SQL Scripts
 * [HTML,CSS and Javascript](htmlcssand_javascript.md)
-   * [HTML Assignment](htmlassignment.md)
+   * [REMOVE HTML Assignment](htmlassignment.md)
    * [Create a Web Application in Eclipse](create_a_web_application_in_eclipse.md)
    * [Create a web page](create_a_web_page.md)
    * [HTML5 Attributes with Images](add_an_image_to_the_web_page.md)
