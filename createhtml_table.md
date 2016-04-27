@@ -5,6 +5,22 @@ The HTML table tag allows you to arrange data like text, images, links in rows a
 
 **Note: ** It is not considered appropriate to use tables to create rows and columns to render content layout. This is because screen readers assume tables contain data and read them row by row. Did you use tables for format your fabulous three column newsletter about wine? It will sound like you had to much of it to the person viewing your site with a screen reader. 
 
+Example table:
+```html
+<table border="1" style="width:100%"  cellpadding="1" cellspacing="1">
+  <thead>
+  <tr><th>Year</th><th>Make</th><th>Model</th><th>Color</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>1999</td><td>Chevy</td><td>Corvette (small)</td><td>Red</td></tr> 
+  <tr><td>1981</td><td>Renault</td><td>Barchetta</td><td>Red</td></tr> 
+  <tr><td>1981</td><td>GM</td><td>Cadillac</td><td>Pink</td></tr> 
+</tbody>
+</table>
+```
+
+
+
 ####Your Assignment
 Create an HTML Table to display the following data:
 
