@@ -218,7 +218,7 @@
    * [Create an HTML Form](createan_html_form.md)
    * [Create a Style Sheet](createa_style_sheet.md)
    * [Span and Div Tags](span_and_div_tags.md)
-   * Putting a Basic HTML Page Together
+   * [Putting a Basic HTML Page Together](putting_a_basic_html_page_together.md)
    * [What can JavaScript do?](whatcan_javascript_do.md)
    * [JavaScript Details](javascript_details.md)
    * [Java University Web Pages](javauniversity_web_pages.md)
