@@ -221,8 +221,8 @@
    * [Span and Div Tags](span_and_div_tags.md)
    * [Putting a Basic HTML Page Together](putting_a_basic_html_page_together.md)
    * [What can JavaScript do?](whatcan_javascript_do.md)
-   * JavaScript Examples
    * [JavaScript Details](javascript_details.md)
+   * JavaScript Examples
    * [Java University Web Pages](javauniversity_web_pages.md)
    * [Java University Web Pages Part Two](javauniversity_web_pages_part_two.md)
    * [First JavaScript Assignment](firstjavascript_assignment.md)
