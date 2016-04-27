@@ -1,11 +1,11 @@
 <!--djw:done-->
 ###The Difference Between CSS and HTML
 
-####CSS = Style
+####CSS -> Style & Formatting
 #####Cascading Style Sheets(CSS) define the look and feel
 Font size, font color, font type, styling around images, page layout, mouse-over effects and more are all determined by CSS.
 
-####HTML = Content
+####HTML -> Structured Content
 #####HyperText Markup Language(HTML) creates the structure
 HTML allows you to put images, text, videos, forms and other pieces of content together into a cohesive webpage. 
 
