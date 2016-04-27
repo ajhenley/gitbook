@@ -1,7 +1,7 @@
 
-###The results are in....
+###A complete page
 
-The entire page you've been working on should look something like this. In the next few assignments we will modify this to make it into something you actually want to show to other people.
+This is the complete page for the Junk Car Emporium example.  It may not look great but it works. Upcoming assignments will show you how to add to it.
 
 ```
 {%ace edit=true, lang='html'%} 
