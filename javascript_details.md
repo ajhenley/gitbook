@@ -22,6 +22,5 @@ For this reason some libraries have evolved to make JavaScript easier to those w
  Some things you can do with JavaScript
  * Select nodes by tag, id or class
  * Determine if a document has finished loading
- * Change the web page on the fly 
- * Validate user-entered text
- * 
+ * Change the web page after it has loaded
+ * Validate user-entered text before it returns to the server
