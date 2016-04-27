@@ -221,6 +221,7 @@
    * [Span and Div Tags](span_and_div_tags.md)
    * [Putting a Basic HTML Page Together](putting_a_basic_html_page_together.md)
    * [What can JavaScript do?](whatcan_javascript_do.md)
+   * JavaScript Examples
    * [JavaScript Details](javascript_details.md)
    * [Java University Web Pages](javauniversity_web_pages.md)
    * [Java University Web Pages Part Two](javauniversity_web_pages_part_two.md)
@@ -239,7 +240,6 @@
    * [Shiny Web Online Bank Bootstrap Assignment](shinyweb_online_bank_bootstrap_assignment.md)
    * [Cash Money Carousel](cashmoney_carousel.md)
    * [SCOTS - Shiny College Online Transcript System](shinycollege_online_transcript_system.md)
-   * JavaScript Examples
 * [Servlets and Enterprise Application Development](servletsand_enterprise_application_development.md)
    * [JavaServer Pages (JSP)](javaserver_pages_jsp.md)
    * [Example of a Servlet](example_of_a_servlet.md)
