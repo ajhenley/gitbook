@@ -216,7 +216,7 @@
    * [HTML5 Attributes with Images](add_an_image_to_the_web_page.md)
    * [Create HTML Table](createhtml_table.md)
    * [Create an HTML Form](createan_html_form.md)
-   * Show Me the Images
+   * [Show Me the Images](show_me_the_images.md)
    * [Create a Style Sheet](createa_style_sheet.md)
    * [Span and Div Tags](span_and_div_tags.md)
    * [Putting a Basic HTML Page Together](putting_a_basic_html_page_together.md)
