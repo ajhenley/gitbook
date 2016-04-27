@@ -1,6 +1,11 @@
-<p><span>JavaScript is most commonly used as a client side scripting language. This means that JavaScript code is written into an HTML page. When a user requests an HTML page with JavaScript in it, the script is sent to the browser and it's up to the browser to do something with it. The browser contains a JavaScript engine that processes the JavaScript so the server does not have to.</span></p>
-<p>One of the big issues with JavaScript is to make sure that your page works no matter what browser is being used.A great resource for checking browser compatibility is <a id="" class="" title="" href="http://browsershots.org/" target="">http://browsershots.org/</a>.</p>
-<p>The document object model (DOM) is a collection of nodes in the web browser's memory that represent the current web page. The nodes are organized as a hirearchy. When the DOM is changed the web browser immediately displays the results of the change.</p>
+###JavaScript
+
+JavaScript is a client side scripting language. JavaScript code is written into an HTML page. When a user requests an HTML page with JavaScript in it, the script included with the request. The browser contains a JavaScript engine that processes the JavaScript so the server does not have to.
+
+<p>One of the big issues with JavaScript is to make sure that your page works on any browser. A great resource for checking browser compatibility is <a id="" class="" title="" href="http://browsershots.org/" target="">http://browsershots.org/</a>.</p>
+
+<p>The document object model (DOM) is a collection of nodes in web browser's memory that represents the current page. Document nodes exist in a hirearchy. Modifications to the DOM are displayed immediately by the browser. Using JavaScript to change the DOM gives you great power over your web page.</p>
+
 <p>&nbsp;</p>
 <h3>JavaScript Can't ...</h3>
 <ul>
