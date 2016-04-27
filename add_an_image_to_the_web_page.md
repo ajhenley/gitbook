@@ -1,4 +1,10 @@
-###HTML5 Attributes: 
+###Elements have attributes
+* HTML elements consist of a start tag and an end tag. Often there is content in between the tags,  ```<tagname>content</tagname>```.
+* Use lower case for element names, attributes and other HTML markup
+* The HTML element is everything from the start tag to the end tag, ```<p>My first HTML paragraph.</p>```
+
+####HTML5 Attributes: 
+* Elements may have one or more attributes
 * Attributes provide further information about an element
 * Attributes are a name-value pair and the value must be in quotes
 * There should be no space on either side of the equal sign for attributes
