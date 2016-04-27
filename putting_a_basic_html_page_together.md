@@ -1,4 +1,4 @@
-
+The entire page you've been working on should look something like this.
 
 ```
 {%ace edit=true, lang='html'%} 
