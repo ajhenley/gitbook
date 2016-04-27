@@ -19,10 +19,11 @@ Span and Div are container tags that define parts of your document. They are gre
 </div>
 ```
 
-The &lt;span&gt; and &lt;div&gt; tags have no required attributes, but the three that are the most useful are:
+####Attributes
+The &lt;span&gt; and &lt;div&gt; tags have no *required* attributes but the most common attributes used are:
 * **style** - specifies a style that applies to all content and elements up to the end tag
 * **class** - specifies a CSS classs that applies to all content and elements up to the end tag
 * **id** - identifies the tag so you can select it with jQuery or JavaScript
 
-In general, use <code>id</code> whenever you want to refer to a specific element and <code>class</code> when you have a number of things that are all alike. 
+In general, use <code>id</code> whenever you want to refer to a specific element and <code>class</code> when you have a number of things that are alike. 
 
