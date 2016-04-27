@@ -15,5 +15,3 @@ Your page can find its style in one of three places: In the page, in the tag or 
 
 ####Your assignment
 Create a style sheet to show the ```<h1>``` tag as blue and the background as some other color.
-Resources for creating style sheets can be found here:
-http://www.w3schools.com/css/default.asp
