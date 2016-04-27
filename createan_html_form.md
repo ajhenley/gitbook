@@ -10,11 +10,14 @@ A compete, simple form that sends it's data to a servlet called ProcessForm look
 <input type="submit" value="Submit"/>
 </form>
 ```
-When the servlet processes this form it will receive the data in the format:<br/>
-```username=dave&userpassword=blue123```.
+When the servlet processes this form it will receive the data in the format:
+```html
+username=dave&userpassword=blue123```
 
-The <form> element can contain one or more of the form elements shown below. Every form element that passes data must contain a name attribute. 
-```<input>
+The ```<form&gt;``` element can contain one or more of the form elements shown below. Every form element that passes data must contain a name attribute.
+
+```html
+<input>
 <textarea>
 <button>
 <select>
