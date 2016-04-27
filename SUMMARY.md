@@ -218,6 +218,7 @@
    * [Create an HTML Form](createan_html_form.md)
    * [Create a Style Sheet](createa_style_sheet.md)
    * [Span and Div Tags](span_and_div_tags.md)
+   * Putting a Basic HTML Page Together
    * [What can JavaScript do?](whatcan_javascript_do.md)
    * [JavaScript Details](javascript_details.md)
    * [Java University Web Pages](javauniversity_web_pages.md)
@@ -237,7 +238,6 @@
    * [Shiny Web Online Bank Bootstrap Assignment](shinyweb_online_bank_bootstrap_assignment.md)
    * [Cash Money Carousel](cashmoney_carousel.md)
    * [SCOTS - Shiny College Online Transcript System](shinycollege_online_transcript_system.md)
-   * Putting a Basic HTML Page Together
 * [Servlets and Enterprise Application Development](servletsand_enterprise_application_development.md)
    * [JavaServer Pages (JSP)](javaserver_pages_jsp.md)
    * [Example of a Servlet](example_of_a_servlet.md)
