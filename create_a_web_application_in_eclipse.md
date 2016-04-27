@@ -24,5 +24,6 @@ Here's a simple example with a heading, a sub-heading and two paragraphs showing
 You'll be working with web projects now. No more Java console applications.
 * To create a web project from Eclipse, follow the following menu items: File | New | Other | Web | Dynamic Web Project.  
 * On the next form that comes up in Eclipse enter the project name and select the target runtime. For the target runtime select HTTP Preview. You may have to click the New Runtime button to select HTTP Preview.
-* Create a new HTML page called index.html in Eclipse. Copy the above html code from above into the new page. 
-* Feel free to modify the text. We'll be making more changes in the next few assignments.
+* Create a new HTML page called index.html in Eclipse. Copy the above html code from above into the new page.
+* To view your web page select it in the project explorer. Then right-click and select the option to run on the server. You may be prompted to install Tomcat at that point.
+* Feel free to modify the text. We'll be making more changes in the upcoming assignments.
