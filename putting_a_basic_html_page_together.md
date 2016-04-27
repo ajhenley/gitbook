@@ -1,4 +1,7 @@
-{%ace edit=true, lang='sql'%} 
+
+
+```
+{%ace edit=true, lang='html'%} 
 <html>
 <head>
   <title>Dalton Used Car Emporium</title>
@@ -31,3 +34,4 @@
 </body>
 </html>
 {%endace%} 
+```
