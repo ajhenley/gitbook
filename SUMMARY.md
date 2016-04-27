@@ -216,6 +216,7 @@
    * [HTML5 Attributes with Images](add_an_image_to_the_web_page.md)
    * [Create HTML Table](createhtml_table.md)
    * [Create an HTML Form](createan_html_form.md)
+   * Show Me the Images
    * [Create a Style Sheet](createa_style_sheet.md)
    * [Span and Div Tags](span_and_div_tags.md)
    * [Putting a Basic HTML Page Together](putting_a_basic_html_page_together.md)
@@ -238,7 +239,6 @@
    * [Shiny Web Online Bank Bootstrap Assignment](shinyweb_online_bank_bootstrap_assignment.md)
    * [Cash Money Carousel](cashmoney_carousel.md)
    * [SCOTS - Shiny College Online Transcript System](shinycollege_online_transcript_system.md)
-   * Show Me the Images
 * [Servlets and Enterprise Application Development](servletsand_enterprise_application_development.md)
    * [JavaServer Pages (JSP)](javaserver_pages_jsp.md)
    * [Example of a Servlet](example_of_a_servlet.md)
