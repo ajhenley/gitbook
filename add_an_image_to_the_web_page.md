@@ -8,7 +8,7 @@
 * Attributes provide further information about an element
 * Attributes are a name-value pair and the value must be in quotes
 * There should be no space on either side of the equal sign for attributes
-* Attributes are always specified in the start tag
+* Attributes are always specified in the start tag. Put them in the end tag? Then I don't know you.
 
 
 ####Add a linked image and some attributes to the Web Page
