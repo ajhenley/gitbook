@@ -217,7 +217,6 @@
    * [Create HTML Table](createhtml_table.md)
    * [Create an HTML Form](createan_html_form.md)
    * [Create a Style Sheet](createa_style_sheet.md)
-   * [What is CSS?](whatis_css.md)
    * [Span and Div Tags](span_and_div_tags.md)
    * [What can JavaScript do?](whatcan_javascript_do.md)
    * [JavaScript Details](javascript_details.md)
