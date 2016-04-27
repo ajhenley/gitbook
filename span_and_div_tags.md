@@ -1,4 +1,5 @@
 ###Span and Div Tags
+Span and Div are container tags that define parts of your document. They are great for applying styles to a section of text. They are also helpful for dividing your document into parts such as header, body and footer.
 * The &lt;span&gt; tag is used to group inline-elements in a document.
 * The &lt;span&gt; tag provides no visual change by itself.
 * The &lt;span&gt; tag provides a way to control the style of part of your document.
