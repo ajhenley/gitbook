@@ -15,11 +15,11 @@ Every tag must have a corresponding closing tag. Sometimes you'll see tags that 
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Title of the document</title>
+<title>Dalton Used Car Emporium</title>
 </head>
 
 <body>
-<p>Content of the document....</p>
+<p>Hello, World!</p>
 </body>
 
 </html>
