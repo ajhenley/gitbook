@@ -1,22 +1,20 @@
-HTML (HyperText Markup Language) is the primary markup language used in web pages. Web pages consist of content like text and images as well as markup (tags). The markup is a series of tags. The browser renders the tags to control how the contents get displayed.  HTML was originally designed as a language for describing scientific documents. It has since adapted to describe other types of documents and even applications.
+###HTML, CSS and JavaScript
 
-HTML formats the layout of most web pages. It can specify how headings, paragraphs, tables and lists should display. The markup can specify which parts of text should be bold, italic or underlined. It can specify font colors and settings.  HTML files contain both the content (primary text) and formatting (markup). 
+####Three languages all web developers must learn:
+   * **HTML** to define the content of web pages
+   * **CSS** to specify the layout of web pages
+   * **JavaScript** to program the behavior of web pages
+
+HTML (HyperText Markup Language) is the primary markup language used in web pages. Web pages consist of content (text and images) and markup (tags). The browser renders the tags to format the content.  
 
 ####Before we start
+To create and test HTML pages, you need a text editor and a web browser. Notepad++ or GEdit or Kate will work for our purposes because they highlight HTML markup with colors to make it easier to read. 
 
-To create and test HTML pages, you only need a text editor and a web browser. Notepad++ or GEdit or Kate will work for our purposes because they highlight HTML markup with colors to make it easier to read. 
-
-To preview your documents, you'll need a web browser. To assure most viewers will see good results, ideally you should test your documents in different browsers. Each browser has slightly different rendering and other quirks. The most common browsers include Google Chrome, Mozilla Firefox, Microsoft Internet Explorer, Safari, and Opera. 
+Use the web browser to preview your documents as you work. It's a good idea to test your documents in different browsers. Each browser has slightly different rendering and other quirks. The most common browsers are Google Chrome, Mozilla Firefox, Microsoft Internet Explorer, Safari, and Opera. 
 
 ####A simple document
-Let's start with a simple document. Write this code in your editor (or copy-and-paste it), and save it as "index.html".  The file must be saved with the exact extension, or it will not be rendered correctly.
+Let's start with a simple document. Write this code in your editor (or copy-and-paste it), and save it as "index.html".  Save the file with the correct extension so it displays as intended.
 
-<!--
- Please keep this example to the bare minimum needed to validate as HTML5.
- All element names should be in lowercase and all optional tags should be present.
- No attributes should be used.
- Additional features can be introduced in later sections.
--->
 ```html
 <!DOCTYPE html>
 <html>
