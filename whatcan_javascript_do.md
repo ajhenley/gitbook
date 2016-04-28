@@ -1,10 +1,10 @@
 ###JavaScript
 
-JavaScript is a client side scripting language. JavaScript code is written into an HTML page. When a user requests an HTML page with JavaScript in it, the script included with the request. The browser contains a JavaScript engine that processes the JavaScript so the server does not have to.
+JavaScript is a client side scripting language. JavaScript code, like CSS, is part of the page or a separate file. When a browser requests a page that includes JavaScript, the script and HTML return together to the browser. The browser contains a JavaScript engine that processes the JavaScript. 
 
-<p>One of the big issues with JavaScript is to make sure that your page works on any browser. A great resource for checking browser compatibility is <a id="" class="" title="" href="http://browsershots.org/" target="">http://browsershots.org/</a>.</p>
+JavaScript and CSS work differently on different browsers. A great resource for checking browser compatibility is ```http://browsershots.org```
 
-<p>The document object model (DOM) is a collection of nodes in web browser's memory that represents the current page. Document nodes exist in a hirearchy. Modifications to the DOM are displayed immediately by the browser. Using JavaScript to change the DOM gives you great power over your web page.</p>
+HTML pages consist of a collection of tags. This hierarchical collection of tags called the DOM (document object model). The power of JavaScript is that it can change the DOM in real time. 
 
 <p>&nbsp;</p>
 <h3>JavaScript Can't ...</h3>
