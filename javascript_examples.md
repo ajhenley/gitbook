@@ -1,6 +1,8 @@
 ###JavaScript is a real language
 
-JavaScript may be the most misunderstood programming language in the world. I combines simplicity with power and is often misused. JavaScript is growing in acceptance. It is finding its way into more and more high-profile applications.
+JavaScript ("JS" for short) is a full-fledged dynamic programming language. JavaScript provides dynamic interactivity on websites. JavaScript is compact but flexible. Many tools have been written on top of the JavaScript language allowing one to add functionality with minimal effort. 
+
+JavaScript may be the most misunderstood programming language in the world. It combines simplicity with power. It is often misused. JavaScript is finding its way into more and more high-profile applications and gaining acceptance.
 
 Let's try some JavaScript examples in the browser. You can save these examples to a web page in the body section. Refresh the page after each edit to see your changes. 
 
@@ -135,14 +137,13 @@ $("element")
 document.write($("element"));
 ```
 
-
-
-//making decisions
+Decision-making in JavaScript
+```html
 var a = 7
 if (a > 10){
-//
+// do something
 }else{
-//
+// do something else
 }
 //switch 287
 
