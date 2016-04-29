@@ -1,12 +1,23 @@
-###JavaScript Examples
-Let's try some JavaScript examples in the browser. You can save these examples to a web page in the body section. Refresh the page after each edit to see your changes. If you have Chrome or Firefox you can open the developer tools to view the console. You may wish to browse to a blank page so type "about:blank" in the address bar. If you need more information for using the developer tools in Chrome then visit ```https://developer.chrome.com/devtools``` or for Firefox visit ```https://developer.mozilla.org/en-US/docs/Tools```. 
+###JavaScript is a real language
 
-Type the following in the console. If you want to type it in a web page then it needs to be between ```<script> ... </script``` tags.
+JavaScript may be the most misunderstood programming language in the world. I combines simplicity with power and is often misused. JavaScript is growing in acceptance. It is finding its way into more and more high-profile applications.
+
+Let's try some JavaScript examples in the browser. You can save these examples to a web page in the body section. Refresh the page after each edit to see your changes. 
+
+If you are using Chrome or Firefox (as you should be) you can open the developer tools. From there you can view the console. You may wish to browse to a blank page so type "about:blank" in the address bar. 
+
+Do you need information about using the developer tools?
+* Chrome: ```https://developer.chrome.com/devtools``` 
+* Firefox: ```https://developer.mozilla.org/en-US/docs/Tools```
+
+####JavaScript Reference
+
+Type the following in the developer tools console. If you are working form a web page then the JavaScript code needs to be between ```<script> ... </script>``` tags. The script tags can go inside the body. 
 ```html
 document.write('hello, world!');
 ```
 
-A variable is has a name and contains a value. Use the var keyword followed by the name. Do not define a type. JavaScript will determine the type once you give it data. Until then it will be undefined.
+A variable has a name and contains a value. Use the ```var``` keyword followed by the name. Do not define a type. JavaScript will determine the type once you give it data. Until then it will be undefined.
 ```html
 //this is a comment. It will not be executed
 var myVar = 5;
@@ -18,8 +29,9 @@ JavaScript uses the ```+``` to concatenate strings.
 
 ```html
 var words = "This sentence ends in a";
-var moreWords = "proposition.";
+var moreWords = " preposition.";
 var sentence = words + moreWords;
+//go to the next line
 document.write(sentence + '<br/>');
 ```
 You need to escape quotes inside strings ...
@@ -33,50 +45,56 @@ s = "A string that's double quoted"
 document.write(s);
 document.write("<br/>")
 ```
-
-//strings have properties
+Since JavaScript strings are objects they have properties you can use.
+```html
 document.write(sentence.length);
 document.write("<br/>")
-//strings have methods
+```
+Strings also have methods
+```html
 document.write(sentence.substring(2,5);
+```
+The JavaScript Array object is a global object that is used in the construction of arrays; which are high-level, list-like objects.
 
-//arrays  
-var a = new Array[7];
-a[0] = 'cat';
-a[1] = 'dog';
-a[2] = 95;
-a[3] = true;
-
-//or you can use a different notation
+Declare an array and print the first item
+```html
 var simpsons = ['homer','marge','lisa','bart'];
-document.write("There are " + simpsons.length + " Simpsons");
 document.write("<br/>")
 document.write(simpsons[0]);
 document.write("<br/>")
+```
 
-//sort the array
+Sort an array and display it
+```html
 simpsons.sort();
 //display the array
 for (var i = 0; i < simpsons.length; i++){
 	document.write(simpsons[i]);
 }
+```
 
-//add elements to an array 
-a[4] = 'new value';
+Access the last item
+```html
+var last = simpsons[simpsons.length - 1];
+document.write(last);//bart
+```
+Add a new item, then remove it
+```html
+var donnie = simpsons.push('Donnie');
+document.write(simpsons);
+simpsons.pop();
+```
 
-//display the array
-for (var i = 0; i < a.length; i++){
-	document.write(a[i])
-}
-
-//remove element at a specific index 
+Remove element at a specific index 
+```html
 delete a[4];
 //display the array
 for (var i = 0; i < a.length; i++){
 	document.write(a[i])
 }
-
-//populating an array from a for loop 
+```
+Populate an array from a for loop 
+```html
 var numbers = [];
 for (var i = 0; i < 10; i++){
 	numbers[i] = i + 1;
@@ -85,26 +103,33 @@ for (var i = 0; i < 10; i++){
 for (var i = 0; i < 10; i++){
 	document.write(numbers[i]+"<br/>");
 }
+```
 
-
-//define your own functions with the keyword, function
-//good idea to put the function in the head tags to keep things organized
+JavaScript lets you define your own functions with the keyword, function. 
+It's a good idea to put the function in the head tags to keep things organized
+```html
 function sayAnything(what){
 	document.write(what);
 }
-
 //call the function
 sayAnything("anything");
+```
 
-//you can also assign a function to a variable
+JavaScript allows you to assign a function to a variable so calling the variable is like calling the function.
+```html
 var say = saySomething();
+```
 
-//sometimes functions are assigned to a $
+Sometimes functions are assigned to a the '$' which is a valid character for variable names. JQuery does this as you'll see.
+
+```html
 <input type="text" id="element"></input>
 var $ = function (id){
     return document.getElementById(id);
 }
-//set the value of the element by the function
+```
+
+You can set the value of the element by the function
 $("element")
 //return an element by id
 document.write($("element"));
@@ -200,7 +225,7 @@ console.log(isPalindrome("ingirumimusnocteetconsumimurigni"));
 
 </script>
 
-Javascript uses scope chains to establish the scope for a given function. There is typically one global scope, and each function defined has its own nested scope. Any function defined within another function has a local scope which is linked to the outer function. It's always the position in the source that defines the scope.
+JavaScript uses scope chains to establish the scope for a given function. There is typically one global scope, and each function defined has its own nested scope. Any function defined within another function has a local scope which is linked to the outer function. It's always the position in the source that defines the scope.
 
 An element in the scope chain is basically a Map with a pointer to it's parent scope.
 
