@@ -128,11 +128,13 @@ var $ = function (id){
     return document.getElementById(id);
 }
 ```
-
-You can set the value of the element by the function
+You can set the value of the element by the function. If the element was a paragraph this function would return a reference to it.
+```html
 $("element")
 //return an element by id
 document.write($("element"));
+```
+
 
 
 //making decisions
