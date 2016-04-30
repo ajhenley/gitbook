@@ -147,7 +147,7 @@ $("element")
 document.write($("element"));
 ```
 
-Decision-making in JavaScript
+####Decision making in JavaScript
 ```html
 var a = 7
 if (a > 10){
