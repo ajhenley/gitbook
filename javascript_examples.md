@@ -12,14 +12,12 @@ Do you need information about using the developer tools?
 * Chrome: ```https://developer.chrome.com/devtools``` 
 * Firefox: ```https://developer.mozilla.org/en-US/docs/Tools```
 
-####JavaScript Reference
-
-Type the following in the developer tools console. If you are working form a web page then the JavaScript code needs to be between ```<script> ... </script>``` tags. The script tags can go inside the body. 
+Type the following in the developer tools console. If you are working from a web page then the JavaScript code needs to be between ```<script> ... </script>``` tags. The script tags can go inside the body. You'll have to save and refresh the page with every change. 
 ```html
 document.write('hello, world!');
 ```
 
-A variable has a name and contains a value. Use the ```var``` keyword followed by the name. Do not define a type. JavaScript will determine the type once you give it data. Until then it will be undefined.
+Let's start with variables. A variable has a name and contains a value. Use the ```var``` keyword followed by the name. Do not define a type. JavaScript will determine the type once you give it data. Until then it will be undefined. 
 ```html
 //this is a comment. It will not be executed
 var myVar = 5;
@@ -36,7 +34,8 @@ var sentence = words + moreWords;
 //go to the next line
 document.write(sentence + '<br/>');
 ```
-You need to escape quotes inside strings ...
+JavaScript needs you to escape quotes inside strings. So use the ```\``` to escape the single quote. If your string has double-quotes then you don't have to escape a single quote inside of it.
+
 ```html
 //using double or single quotes
 var s = 'A string that\'s single quoted'
@@ -47,7 +46,8 @@ s = "A string that's double quoted"
 document.write(s);
 document.write("<br/>")
 ```
-Since JavaScript strings are objects they have properties you can use.
+Since JavaScript strings are objects they have properties and methods you can access. Here is an example of returning the length property or executing the substring method. For documentation about these and other string properties and methods refer to any of the various online sources. I recommend ```https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/About```.
+
 ```html
 document.write(sentence.length);
 document.write("<br/>")
@@ -56,9 +56,13 @@ Strings also have methods
 ```html
 document.write(sentence.substring(2,5);
 ```
+
+####JavaScript Arrays
+
 The JavaScript Array object is a global object that is used in the construction of arrays; which are high-level, list-like objects.
 
-Declare an array and print the first item
+Here's how you declare an array and print the first item:
+
 ```html
 var simpsons = ['homer','marge','lisa','bart'];
 document.write("<br/>")
@@ -66,7 +70,7 @@ document.write(simpsons[0]);
 document.write("<br/>")
 ```
 
-Sort an array and display it
+Now sort the array and display it:
 ```html
 simpsons.sort();
 //display the array
@@ -74,13 +78,15 @@ for (var i = 0; i < simpsons.length; i++){
 	document.write(simpsons[i]);
 }
 ```
+The length property of the array returns a count of the number of items it contains. Since arrays are zero-based the last item will have an index value of one less than the length. Access the last item as shown below:
 
-Access the last item
 ```html
 var last = simpsons[simpsons.length - 1];
 document.write(last);//bart
 ```
-Add a new item, then remove it
+
+In the next example I show you how to use push to add a new item. The opposite of push is pop which will remove it.
+
 ```html
 var donnie = simpsons.push('Donnie');
 document.write(simpsons);
@@ -95,7 +101,8 @@ for (var i = 0; i < a.length; i++){
 	document.write(a[i])
 }
 ```
-Populate an array from a for loop 
+Just like in many other programming languages, you can populate an array from a for loop.
+
 ```html
 var numbers = [];
 for (var i = 0; i < 10; i++){
@@ -107,8 +114,11 @@ for (var i = 0; i < 10; i++){
 }
 ```
 
+####JavaScript Functions
+
 JavaScript lets you define your own functions with the keyword, function. 
-It's a good idea to put the function in the head tags to keep things organized
+It's a good idea to put the function in the head tags to keep things organized.
+
 ```html
 function sayAnything(what){
 	document.write(what);
