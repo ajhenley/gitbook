@@ -1,25 +1,20 @@
 <!-- need an image showing DOM nodes -->
-# Explore the DOM with JavaScript
+###Explore the DOM (Document Object Model) with JavaScript
+![](https://upload.wikimedia.org/wikipedia/commons/8/8b/Simpe_HTML_page_DOM.svg)
 
-With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
+JavaScript can access and change all the elements of an HTML document. With that power you can make your web page dynamic. The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
 
-When a web page is loaded, the browser creates a Document Object Model of the page.
+####What is the DOM?
+The browser creates a Document Object Model of your web page.  The DOM model is  a tree of Objects. It defines:
+ * The HTML elements as objects
+ * The properties of all HTML elements
+ * The methods to access all HTML elements
+ * The events for all HTML elements
 
-The HTML DOM model is constructed as a tree of Objects:
+Add the following script between the ```<head> ... </head>``` tags of the last web page you created. When you click on the button the script will list all the elements in the DOM for your web page. Add elements to your page and run the script again. You will see the new elements listed.
 
-The HTML DOM is a standard object model and programming interface for HTML. It defines:
-
-The HTML elements as objects
-The properties of all HTML elements
-The methods to access all HTML elements
-The events for all HTML elements
-In other words: The HTML DOM is a standard for how to get, change, add, or delete HTML elements.
-
-Add the following script to your crabcake web page. When you click on the button the script will list all the elements in the DOM for your web page. Add another tag and run the script again. You should see your new tag.
-
-The script should be placed between the <head> and </head> tags.
-
-<script language="JavaScript">
+```html
+<script>
 <!--
 function listTags()
 {
@@ -36,6 +31,8 @@ function listTags()
 </script>
  
 
-Also, add the following button to your page so the function will run when the button is clicked.
-
+Also, add the following button to your page so the function will run when the user clicks the button.
+ 
+```html
 <button onclick="listTags()">List my Tags</button>
+```
