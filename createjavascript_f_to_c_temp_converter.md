@@ -1,4 +1,4 @@
-# Create JavaScript F to C Temp converter
+###Create JavaScript F to C Temp converter
 
 <p>Create a single page web-application to convert temperatures from Fahrenheit to Celsius and from Celsius to Fahrenheit.</p>
 <p>Show an appropriate image from google images or whatever source you can find to go with the selected temperature. For example, if the temperature is below freezing then display a coat or a snowflake or something. You'll modify your image tag as follows:</p>
