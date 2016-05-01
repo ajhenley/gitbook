@@ -226,7 +226,6 @@
    * [JavaScript Examples](javascript_examples.md)
    * [Java University Web Pages](javauniversity_web_pages.md)
    * [Java University Web Pages Part Two](javauniversity_web_pages_part_two.md)
-   * [First JavaScript Assignment](firstjavascript_assignment.md)
    * [Explore the DOM with JavaScript](explorethe_dom_with_javascript.md)
    * [Sales Tax Calculator](salestax_calculator.md)
    * [Create JavaScript F to C Temp converter](createjavascript_f_to_c_temp_converter.md)
