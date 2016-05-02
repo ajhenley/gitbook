@@ -85,6 +85,51 @@ Name: <input type="text"/><br/>
 </html>
 
 ```
+####Add a Function to the Button Click Event
+A button on a web page exposes some properties and methods. One of these is the click event. You can use jQuery to add code to execute when the click event fires. In the example we define a function that contains two lines of code. It sets the html or text of div tag that has an id of results. The first button sets the text value, the second sets the html value. It is not uncommon to see jQuery scripts which accept a function as a parameter. 
+
+```html
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        var testText = $("#test").text();
+        $("#results").text(testText);
+    });
+    $("#btn2").click(function(){
+        var testHTML = $("#test").html()
+        $("#results").html(testHTML);
+    });
+});
+```
 
 ####Get or Set Content
+Here's an example where you can get content based on the element id. 
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#btn1").click(function(){
+        var testText = $("#test").text();
+        $("#results").text(testText);
+    });
+    $("#btn2").click(function(){
+        var testHTML = $("#test").html()
+        $("#results").html(testHTML);
+    });
+});
+</script>
+</head>
+<body>
+
+<p id="test">This is some <b>bold</b> text in a paragraph.</p>
+
+<button id="btn1">Show Text</button><br/>
+<button id="btn2">Show HTML</button><br/>
+Show the results:<br/>
+<div id="results"></div>
+</body>
+</html>
+```
