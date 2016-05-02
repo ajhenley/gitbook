@@ -8,6 +8,7 @@ What can you do with jQuery?
  * Effects and animations
 
 ####Include jQuery in your web page
+Add the following script tag within the head section of your web page to include all the jQuery code in your page.
 ```html
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 ```
