@@ -7,7 +7,7 @@ Copy this code to a Bootstrap enabled page to add a large callout to the top of 
 {%ace edit=false, lang='html'%}
 <div class="jumbotron">
   <h1 class="display-3">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <p class="lead">This is your featured message that you want the world to see when they first come to your web page.</p>
   <hr class="m-y-2">
   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
   <p class="lead">
