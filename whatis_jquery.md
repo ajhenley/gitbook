@@ -9,7 +9,7 @@ What can you do with jQuery?
 
 ####Include jQuery in your web page
 ```html
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 ```
  
 ####$( document ).ready()
@@ -38,3 +38,16 @@ $j(document).ready(function() {
     $j( "div" ).hide();
 });
 ```
+In the code above, the $ will revert back to its meaning in original library. You'll still be able to use the full function name jQuery as well as the new alias $j in the rest of your application. The new alias can be named anything you'd like: jq, $J, awesomeQuery, etc.
+
+####What can jQuery do?
+Use the $ to make it easy to refer to elements
+
+jQuery makes it easy to hide and show a section of your page. Simply wrap that section in a Div tag and use the tag's id attribute to access it. The show/hide that tag and all hte code it contains.
+
+Show and Hide a Section of Your Page
+
+Get or Set Content
+
+Modify the CSS
+
