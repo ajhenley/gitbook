@@ -26,6 +26,8 @@ $( document ).ready(function() {
 ####Putting jQuery Into No-Conflict Mode
 When you put jQuery into no-conflict mode, you have the option of assigning a new variable name to replace the $ alias. By default, jQuery uses $ as a shortcut for jQuery. Thus, if you are using another JavaScript library that uses the $ variable, you can run into conflicts with jQuery. In order to avoid these conflicts, you need to put jQuery in no-conflict mode immediately after it is loaded onto the page and before you attempt to use jQuery in your page.
 
+
+In the example below, the prototype.js library is another framework that also uses the $ as an alias. That means both prototype and jQuery are using the $ alias. To prevent conflicts, add the jQuery library last and assign another variable which jQuery will use to instead of the $. In the example below we use $j as an alias.
 ```html
 <!-- Putting jQuery into no-conflict mode. -->
 <script src="prototype.js"></script>
@@ -39,13 +41,15 @@ $j(document).ready(function() {
     $j( "div" ).hide();
 });
 ```
-In the code above, the $ will revert back to its meaning in original library. You'll still be able to use the full function name jQuery as well as the new alias $j in the rest of your application. The new alias can be named anything you'd like: jq, $J, awesomeQuery, etc.
+In the code above, the $ will retain its meaning in original library. You'll still be able to use the full function name jQuery as well as the new alias $j in the rest of your application. The new alias can be named anything you'd like: jq, $J, awesomeQuery, etc.
 
 ####What can You do with jQuery?
 
 jQuery makes it easy to hide and show a section of your page. Wrap that section in a Div tag and use the tag's id attribute to access it. Then show/hide that tag and all the code it contains. We'll try this now by adding a button to control the toggle and wrapping a contact form around some div tags. jQuery also makes it easy to set content. We'll have jQuery 
 
 ####Show and Hide a Section of Your Page
+
+
 
 ####Get or Set Content
 
