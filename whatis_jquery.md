@@ -40,14 +40,13 @@ $j(document).ready(function() {
 ```
 In the code above, the $ will revert back to its meaning in original library. You'll still be able to use the full function name jQuery as well as the new alias $j in the rest of your application. The new alias can be named anything you'd like: jq, $J, awesomeQuery, etc.
 
-####What can jQuery do?
-Use the $ to make it easy to refer to elements
+####What can You do with jQuery?
 
-jQuery makes it easy to hide and show a section of your page. Simply wrap that section in a Div tag and use the tag's id attribute to access it. The show/hide that tag and all hte code it contains.
+jQuery makes it easy to hide and show a section of your page. Wrap that section in a Div tag and use the tag's id attribute to access it. Then show/hide that tag and all the code it contains. We'll try this now by adding a button to control the toggle and wrapping a contact form around some div tags. jQuery also makes it easy to set content. We'll have jQuery 
 
-Show and Hide a Section of Your Page
+####Show and Hide a Section of Your Page
 
-Get or Set Content
+####Get or Set Content
 
-Modify the CSS
+####Make Changes to the CSS
 
