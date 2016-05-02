@@ -14,5 +14,5 @@ Create a series of pages which Shiny College students and faculty can use. The C
 
 Use the Bootstrap navbar to allow users to move around the site. Also include the instructors image on their page and the student's image on their page.  
 
-This site is a mockup for a working application. It doesn't actually need to function. It is just to show what the pages will look like during a demo to the College president.
+This site is a mockup for a working application. The links should work to move you between pages. Otherwise, it doesn't actually need to function. It is just to show what the pages will look like during a demo to the College president.
 
