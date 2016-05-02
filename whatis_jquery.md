@@ -48,10 +48,43 @@ In the code above, the $ will retain its meaning in original library. You'll sti
 jQuery makes it easy to hide and show a section of your page. Wrap that section in a Div tag and use the tag's id attribute to access it. Then show/hide that tag and all the code it contains. We'll try this now by adding a button to control the toggle and wrapping a contact form around some div tags. jQuery also makes it easy to set content. We'll have jQuery 
 
 ####Show and Hide a Section of Your Page
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hideById").click(function(){
+        $("#hideme").hide();
+    });
+    $("#hideContactForm").click(function(){
+        $(".hideByClass").hide();
+    });
+});
+</script>
+</head>
+<body>
 
+<h2>jQuery Example</h2>
 
+<p>This paragraph will not be hidden when you click the button.</p>
+<p id="hideme">This paragraph will be hidden when you click the button.</p>
+<div class="hideByClass">
+Contact Us:<br/>
+<form action="" method="post">
+Name: <input type="text"/><br/>
+<input type="password"/><br/>
+<input type="submit" value="Submit"/>
+</form>
+</div>
+<button id="hideById">Click to Hide the Paragraph</button>
+
+<button id="hideContactForm">Click to Hide the Contact Form</button>
+</body>
+</html>
+
+```
 
 ####Get or Set Content
-
-####Make Changes to the CSS
 
