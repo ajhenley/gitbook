@@ -71,7 +71,7 @@ protected type name(type name, ..., type name) {
 {%endace%}
 
 A protected field or method is useful for allowing selective access to the inner class implementation. A protected field or method can be seen/called only by:
-* the class itself i
+* the class itself
 * its subclasses
 * other classes in the same "package" (packages will be discussed later)
 
