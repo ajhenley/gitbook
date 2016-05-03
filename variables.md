@@ -14,16 +14,16 @@ Programs would be pretty boring if all they did was print things on the screen. 
 
 ####Variables in Java have four major differences from math variables:
 * Variable names can (and should) be more than one letter long
-* Variables can hold more than just numbers; they can hold text or any Java data type
-* You choose the type of values the variable will hold when declaring the variable
+* Variables can store numbers, text or any Java data type
+* You set the type of data the variable will hold when declaring it
 * The value of a variable can (and often will) change. The data type will not change
 
 ####The Eight Primitive Data Types
-Use a data type that is appropriate for the data you're storing. Primitive data type names are written using lower-case.
+Use a data type that is appropriate for the data you're storing. Write primitive data type names using lower-case.
 
 |Type|Bytes|Use|
 |---|---|---|
-|byte|1|Very short integers from -128 to 127.|
+|byte|1|Short integers from -128 to 127.|
 |short|2|Short integers from -32,768 to 32,767.|
 |int|4|Integers from -2,147,483,648 to 2,147,483,647|
 |long|8|Long integers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
