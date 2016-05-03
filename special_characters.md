@@ -16,7 +16,7 @@ Escape Sequence|Description
 \\	|Insert a backslash character in the text at this point.
 
 
-####Write a Java program to print a box, an oval, or a diamond (choose one) using asterisks.
+####Write a Java program to print a box using asterisks.
 
 ```
 ********
@@ -25,22 +25,10 @@ Escape Sequence|Description
 *      *
 *      *
 ********
-
-  ***  
- *   *
-*     *
-*     *
- *   *
-  ***
-  
-   *
-  * *
- *   *
-  * *
-   *
 ```
 
-
+<!--
+djw: removed this section to print a cat
 ####Write a Java program to print a picture of my cat:
 ```java
   |\_/|       
@@ -49,7 +37,7 @@ Escape Sequence|Description
  `>>x<<´     
  /  O  \       
 ```
-
+-->
 ####What does the following print?
 ```java
 System.out.print("*");
@@ -74,13 +62,11 @@ TOTAL:      12      $4,400.00
 
 ####Write a Java program to print the escape sequences table below to the console.
 ```
-\t	Insert a tab in the text at this point.
-\b	Insert a backspace in the text at this point.
-\n	Insert a newline in the text at this point.
-\r	Insert a carriage return in the text at this point.
-\f	Insert a formfeed in the text at this point.
-\'	Insert a single quote character in the text at this point.
-\"	Insert a double quote character in the text at this point.
-\\	Insert a backslash character in the text at this point.
+\t	Insert a tab in the text.
+\n	Insert a newline in the text.
+\r	Insert a carriage return.
+\'	Insert a single quote character.
+\"	Insert a double quote character.
+\\	Insert a backslash character.
 ```
 
