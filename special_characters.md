@@ -37,7 +37,6 @@ djw: removed this section to print a cat
  `>>x<<´     
  /  O  \       
 ```
--->
 ####What does the following print?
 ```java
 System.out.print("*");
@@ -45,7 +44,7 @@ System.out.println("***");
 System.out.print("****");
 System.out.println("*");
 ```
-
+-->
 ####What does the following line of code print?
 ```java
 System.out.printf("%s\n%s\n%s\n","@","@@","@@@");
