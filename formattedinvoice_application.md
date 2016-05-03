@@ -3,12 +3,13 @@
 <!--djw: has some text formatting issues-->
 ####The NumberFormat class
 
-```java.text.NumberFormat```
-
+```java
+java.text.NumberFormat
+```
 
 ####Three static methods of the NumberFormat class
 
-```
+```java
 getCurrencyInstance()
 getPercentInstance()
 getNumberInstance()
@@ -16,7 +17,8 @@ getNumberInstance()
 
 ####Three methods of a NumberFormat object
 
-```format(anyNumberType)
+```java
+format(anyNumberType)
 setMinimumFractionDigits(int)
 setMaximumFractionDigits(int)
 ``` 
