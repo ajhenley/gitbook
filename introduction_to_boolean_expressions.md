@@ -4,15 +4,17 @@
 
 So far we have only seen three types of variables:
 
-**int**
+####int
 integers, hold numbers (positive or negative) with no fractional parts
-**double**
+####double
 “double-precision floating-point” numbers (positive or negative) that could have a fractional part
-**String**
+####String
 a string a characters, hold words, phrases, symbols, sentences, whatever
 
 But in the words of Yoda: “There is another.” 
-A “Boolean” variable (named after the mathematician George Boole) cannot hold numbers or words. It can only store one of two values: true or false. That’s it. We can use them to perform logic. To the code!
+
+####boolean
+A “Boolean” variable (named after the mathematician George Boole) cannot hold numbers or words. It stores one of two values: true or false. That’s it. We can use them to perform logic. To the code!
 
 {%ace edit=false, lang='java'%}
 import java.util.Scanner;
