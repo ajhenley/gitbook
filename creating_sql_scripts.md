@@ -1,2 +1,0 @@
-# Creating SQL Scripts
-
