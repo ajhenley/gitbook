@@ -26,12 +26,9 @@ Name|Description
 ---|---
 Product|Represents a Product object.
 ProductDB|Provides a getProduct method that retrieves the Product object for a specified product code.
-Validator|Provides methods that accept and validate user 
-input.
-LineItem|Represents an invoice line item, which includes 
-a Product object, a quantity, and a total.
-Invoice	Represents a single invoice. The line items are 
-represented by an array list.
+Validator|Provides methods that accept and validate user input.
+LineItem|Represents an invoice line item, which includes a Product object, a quantity, and a total.
+Invoice|Represents a single invoice. The line items are stored in an array list.
 InvoiceApp|Contains the main method for the Invoice application.
 
 ####Invoice Class Information
