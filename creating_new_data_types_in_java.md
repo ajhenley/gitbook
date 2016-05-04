@@ -1,4 +1,6 @@
-<!--djw:done-->
+<!--djw:done
+enhancement: create date utility class
+-->
 ###Creating new data types in Java
 So far we've seen eight primitive data types. These have determined the type of data our programs can store and work with. We can work with integers, floating point numbers, Boolean values, Strings and others. 
 
