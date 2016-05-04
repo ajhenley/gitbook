@@ -13,7 +13,7 @@ Here's what each of these lines does:
 
 The first SQL statement says to "select all columns from person and return all rows." 
 
-The format for SELECT is SELECT <which fields> FROM <which tables> WHERE <criteria>. The WHERE clause is optional. The '*' (asterisk) character tells the SQL statement to return all the columns.
+The format for a SELECT statement is ```SELECT <which fields> FROM <which tables> WHERE <criteria>```. The WHERE clause is optional. The '*' (asterisk) character tells the SQL statement to return all the columns.
 
 In this one I'm only asking for two columns name and age from the pet table. It will return all rows.
 line:5
