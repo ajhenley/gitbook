@@ -203,7 +203,6 @@
    * [Bonus Project - Movie Titles Part 2](bonusproject_-_movie_titles_part_2.md)
    * [Java Bank Database](java_bank_database.md)
    * [Java Bank Reports](java_bank_reports.md)
-   * [Evil Corp Reports Pair Activity](evilcorp_reports_pair_activity.md)
    * [Pair Assignment Part Deux](pairassignment_part_deux.md)
    * [Oracle Date Formats](oracledate_formats.md)
    * [Autoincrement with Oracle](autoincrementwith_oracle.md)
