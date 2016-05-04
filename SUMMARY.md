@@ -207,7 +207,6 @@
    * [Oracle Date Formats](oracledate_formats.md)
    * [Autoincrement with Oracle](autoincrementwith_oracle.md)
    * [Java University](javauniversity.md)
-   * [Connecting with Application Express](connectingwith_application_express.md)
    * Creating SQL Scripts
 * [HTML,CSS and Javascript](htmlcssand_javascript.md)
    * [Create a Web Application in Eclipse](create_a_web_application_in_eclipse.md)
