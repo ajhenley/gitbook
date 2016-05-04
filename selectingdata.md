@@ -11,9 +11,10 @@ SELECT name, age FROM pet WHERE dead = 0;
 SELECT * FROM person WHERE first_name != 'Dave';
 Here's what each of these lines does:
 
-line:1
-This says "select all columns from person and return all rows." The format for SELECT is SELECT what FROM tables(s) WHERE (tests) and the WHERE clause is optional. The '*' (asterisk) character is what says you want all columns.
-line:3
+The first SQL statement says to "select all columns from person and return all rows." 
+
+The format for SELECT is SELECT <which fields> FROM <which tables> WHERE <criteria>. The WHERE clause is optional. The '*' (asterisk) character tells the SQL statement to return all the columns.
+
 In this one I'm only asking for two columns name and age from the pet table. It will return all rows.
 line:5
 Now I'm looking for the same columns from the pet table but I'm asking for only the rows where dead = 0. This gives me all the pets that are alive.
