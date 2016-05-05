@@ -1,5 +1,9 @@
 <!--djw:done-->
-**Model–view–controller (MVC)** is a commonly used software architectural pattern. It divides an application into three interconnected parts as described below.
+###Model–view–controller (MVC)
+
+A commonly used software architectural pattern, MVC divides an application into three interconnected parts.
+
+Keeping these three components separate ensures each one is independent of the others. Changes made to one will not affect changes to the others. The web interface can be updated with a new look without impacting the database or the business rules in the controller.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a0/MVC-Process.svg)
 ####Components
