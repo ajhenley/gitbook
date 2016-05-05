@@ -1,6 +1,9 @@
 <!--djw: done-->
-Sometimes you need to know if a particular record exists in the database. For example, does the customer with an ID of 2 exist? Here's how you can query the database using JPQL.
+###JPA: See if a Customer Exists
 
+Sometimes you need to know if a particular record exists in the database. For example, does the customer with an ID of 2 exist? 
+
+####How to query the database using JPQL
 The JPQL statement below will always return a single number. If the customer does not exist then the query will return 0. Otherwise it will return a count of the number of times the customer does exist. You retrieve the count in the total variable. Compare the value of the variable to determine your next action.
 
 {%ace edit=false, lang='java'%}
