@@ -5,8 +5,9 @@ todo: add instructions to work with 12
 
 ####Oracle doesn't include an autoincrement type...
 
-Here's an example how to add a sequence in Oracle 11g. If you're working with Oracle 12 the process has been simplified though this will work as well. 
+Here's an example how to add a sequence in Oracle 11g. If you're working with Oracle 12c the process has been simplified though this will work as well. 
 
+####Create a table
 {%ace edit=true, lang='sql'%}
 CREATE TABLE MYTABLE (
   ID NUMBER NOT NULL,
@@ -23,7 +24,7 @@ INCREMENT BY 1
 CACHE 10;
 {%endace%}
 
-####And a trigger
+####And create a trigger for the sequence
 {%ace edit=true, lang='sql'%}
 CREATE OR REPLACE TRIGGER T_MYTABLE_ID
 BEFORE INSERT
