@@ -21,4 +21,4 @@ select firstname,lastname from customers where lastname like 'Smith%'
 Before you submit the project make sure you arer are closing the database connection. If you don't it will remain allocated. After running your project a number of times Eclipse will run out of memory. You'll get an error message from Oracle.
 
 ####Submit SQL Scripts in GitHub 
-When submitting database projects to GitHub. include your SQL Scripts. You can create a folder in your project and they will be submitted to GitHub. That way if you need to rebuild your database you have the latest version under source control.
+When submitting database projects to GitHub. include your SQL Scripts. Create a folder in your project. That folder will be uploaded to GitHub. If you need to rebuild your database you have the latest version under source control.
