@@ -1,4 +1,6 @@
 <!--djw:done-->
+###Back to Professor Strongheim
+
 It seems that Professor Strongheim can't easily compute GPAs accurately. The professor needs to store the relative weights of the different types of assignments in a database table. This should allow him to change the weights at will and then recompute the grades of his students.
 
 ####Example
