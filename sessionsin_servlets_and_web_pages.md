@@ -1,4 +1,6 @@
 <!--djw:done-->
+###Saving State with Sessions
+
 Session tracking enables you to track a user's data over multiple servlet, JSP or HTML page requests. A session is a series of related requests that come from the same client (browser) during a given period. These requests may represent pages that have some meaning as a whole, such as a shopping cart application.
 
 HTTP is a "stateless" protocol.  This means each time a browser retrieves a Web page, the browser opens an unrelated connection to the Web server. The server does not keep a record of previous client requests.
