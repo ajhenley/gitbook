@@ -1,8 +1,8 @@
 ###Tell Me About These Beans
 
-> A Java Bean is just a class that meets the following criteria
-* instance varibles are private
-* Instance variables can be access through public getters and setters. 
+> > **Java Bean** a class that meets the following criteria:
+* Instance varibles are private
+* Instance variables are accessed through public getters and setters 
 * The bean class must implement serializable
 * The bean class must contain a no-argument constructor
 
