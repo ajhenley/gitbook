@@ -1,5 +1,7 @@
 <!--djw:done-->
-Mrs Mackleberry needs a new grade book. She heard about the great job you did with Professor Strongheim's grade book and wants one of her own.
+###Ms. Mackleberry's Gradebook
+
+Ms. Mackleberry needs a new grade book. She heard about the great job you did with Professor Strongheim's grade book and wants one of her own.
 
 Create a Dynamic Web Application (do not add to an existing project!). It should allow multiple users to enter grades (0-100). Users must be able to sign in. Each user can view his or her grades only. And the average of their grades. The user must be able to edit grades as well. 
 
