@@ -7,7 +7,8 @@
 * The bean class must contain a no-argument constructor
 
 ####Your first Java Bean
-The User class in this example is a JavaBean. We use JavaBeans to pass data between servlets and JSP pages.  
+The User class in this example is a JavaBean. 
+We use JavaBeans to pass data between servlets and JSP pages.  
 
 ####Here's the code for the User class:
 {%ace edit=false, lang='java'%}
