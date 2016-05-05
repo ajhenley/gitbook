@@ -1,3 +1,6 @@
+<!--djw
+todo: is this unique enough? Add Generic implementation
+-->
 ###JPA Database Utilities
 
 Make a class out of the following code to insert and update from the database. This will make your life easier as a programmer because you'll be able to reuse this code in any  application that uses JPA.
@@ -8,8 +11,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 import javax.persistence.NoResultException;
 import javax.persistence.TypedQuery;
-
-
 
 public class CustomerDB {
 
