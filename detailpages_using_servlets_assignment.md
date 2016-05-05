@@ -1,5 +1,7 @@
 <!--djw:done-->
-Take the application that you created for the last assignment. While it's fine to list the customers we'd like to see the details about each customer when the user clicks on the customer's name.
+###Showing Customer Details
+
+Take the application that you created for the last assignment. A list of customers is helpful. But we'd like to see the details about each customer. The details should show when the user clicks on the customer's name.
 
 ####Your Assignment
 1. Add a servlet that will show the detail information for one customer
