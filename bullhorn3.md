@@ -8,6 +8,4 @@ There's more work to do. Make your Bullhorn application complete with user profi
   * The profile includes the name, motto, and join date of the poster 
   * This page should also have a list of their posts. 
 * Display the posts in reverse chronological order 
-* Allow the user to search the posts
-
-Test your application with multiple users each with multiple posts.
+* Test your application with three different users each with five to seven posts.
