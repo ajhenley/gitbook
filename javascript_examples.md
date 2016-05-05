@@ -4,9 +4,10 @@ JavaScript ("JS" for short) is a full-fledged dynamic programming language. Java
 
 JavaScript may be the most misunderstood programming language in the world. It combines simplicity with power. It is often misused. JavaScript is finding its way into more and more high-profile applications and gaining acceptance.
 
+####Developer Tools
 Let's try some JavaScript examples in the browser. You can save these examples to a web page in the body section. Refresh the page after each edit to see your changes. 
 
-If you are using Chrome or Firefox (as you should be) you can open the developer tools. From there you can view the console. You may wish to browse to a blank page so type "about:blank" in the address bar. 
+If you are using Chrome or Firefox  you can open the developer tools. From there you can view the console. You may wish to browse to a blank page so type "about:blank" in the address bar. 
 
 Do you need information about using the developer tools?
 * Chrome: ```https://developer.chrome.com/devtools``` 
@@ -34,7 +35,7 @@ var sentence = words + moreWords;
 //go to the next line
 document.write(sentence + '<br/>');
 ```
-JavaScript needs you to escape quotes inside strings. So use the ```\``` to escape the single quote. If your string has double-quotes then you don't have to escape a single quote inside of it.
+JavaScript needs you to escape quotes inside strings. Use the ```\``` to escape the single quote. If your string has double-quotes then you don't have to escape a single quote inside of it.
 
 ```html
 //using double or single quotes
@@ -243,6 +244,7 @@ JavaScript uses scope chains to establish the scope for a given function. There 
 An element in the scope chain is basically a Map with a pointer to it's parent scope.
 
 When resolving a variable, javascript starts at the innermost scope and searches outwards.
+```html
 <script>
 // a globally-scoped variable
 var a=1;
@@ -332,3 +334,4 @@ function guessNumber() {
 //dom scripting 425
 
 </script>
+```
