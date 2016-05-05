@@ -1,3 +1,9 @@
+###JPA & JPQL
+
+>JPA stands for Java Persistence API<br/>
+>JPQL stands for Java Persistence Query Language
+
+
 JPA is the latest of several Java persistence specifications. The Java Persistence API (JPA) is a Java specification for accessing, persisting, and managing data between Java objects (classes) and a relational database. JPA is considered the standard industry approach for Object to Relational Mapping (ORM).
 
 JPA itself is just a specification, not a product; it cannot perform persistence or anything else by itself. JPA is a set of interfaces, and requires an implementation. There are open-source and commercial JPA implementations. JPA also requires a database.
