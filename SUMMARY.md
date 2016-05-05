@@ -272,7 +272,7 @@
    * [Shopping Cart Application](shoppingcart_application.md)
    * [Deluxe Shopping Cart](deluxeshopping_cart.md)
    * [Aggregate Functions](aggregatefunctions.md)
-   * Tell Me About These Beans
+   * [Tell Me About These Beans](tell_me_about_these_beans.md)
 * [JavaServer Pages Standard Tag Library (JSTL)](javaserverpages_standard_tag_library_jstl.md)
    * [How JSTL Works](howjstl_works.md)
    * [Tell me About Expression Language](tell_me_about_expression_language1.md)
