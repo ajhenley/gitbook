@@ -1,6 +1,6 @@
 ###Tell Me About These Beans
 
-> **Java Bean** a class that meets the following criteria:
+> **Java Bean**: a class that meets the following criteria:
 * Instance varibles are private
 * Instance variables are accessed through public getters and setters 
 * The bean class must implement serializable
