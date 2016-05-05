@@ -1,4 +1,6 @@
 <!--djw:done-->
+###Professor Strongheim's Gradebook
+
 Professor Strongheim needs help. He lost his paper gradebook and his department chair has demanded that he moves his grading to an electronic means.
 
 Build an application that records the Student ID, Assignment name, type (homework, quiz, test, or project), date and grade (0-100).
