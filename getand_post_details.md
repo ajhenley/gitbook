@@ -4,7 +4,7 @@ The example application below will show you the results of submitting a form via
 
 The GET method sends form information via the URL. When using the GET method the 3rd section of the request packet, the request body, remains empty.
 
-The POST method is used when you create an HTML form, and request method=POST as part of the tag. The POST method allows the client to send form data to the server in the request body section of the request. The data is encoded and is formatted similar to the GET method. The data is sent to the server via standard input.
+The servlet receives form data in the request packet when you create an HTML form and request ```method=POST``` is part of the tag. The POST method allows the client to send form data to the server in the request body section of the request. The data is encoded and is formatted similar to the GET method. The data is sent to the server through the URL.
 
 Let's see this actually work. Create the following form in a page called index.html.
 {%ace edit=true, lang='html'%}
