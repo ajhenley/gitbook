@@ -1,4 +1,4 @@
-# Deluxe Shopping Cart
+###Deluxe Shopping Cart
 
 Your client, Dave and Alton, have thought of something else for their application. This happens all the time. 
 
