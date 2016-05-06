@@ -11,7 +11,7 @@ Think about code reuse. Most of the functionality for this application already e
 
 Think about design FIRST. Get the database working before you start writing code. Make sure you understand the database before you code. It also helps to enter some test data before starting your project.
 
-Use GitHub to share code. If you have database files to exchange then create scripts and exchange them through GitHub as well.
+>Use GitHub to share code. If you have database files to exchange then create scripts and exchange them through GitHub as well.
 
 Work with your group to create an application that will provide the following:
 * Allow new users to sign up and create their own accounts
