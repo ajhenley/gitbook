@@ -1,4 +1,4 @@
-# Aggregate Functions
+###Aggregate Functions
 
 How to call an aggregate function in JPA:
 
