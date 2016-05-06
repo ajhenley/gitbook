@@ -1,4 +1,6 @@
 <!--djw:done-->
+###Expression Language (EL) 
+
 The Expression Language (EL) is a faster/easier way to display parameter values. It is part of the JSP Specification. Expression Language is helpful for web designers. They may have limited Java knowledge yet still have the need to send and receive data from servlets or other Java objects. EL does this by encoding tags in the JSP. It is possible to use scriptlet tags ```<%``` and``` %>``` to accomplish the same task but EL simplifies this process.
 
 ```html
