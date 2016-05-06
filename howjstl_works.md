@@ -11,10 +11,12 @@ The steps you need to follow to implement JSTL are:
 
 ####Make the JSTL JAR files available
 Before you can use JSTL tags within an application, you must make the *jstl-impl.jar* and *jstl-api.jar* files available to the application. You can add them to the build path just like you add any other external jar file to the build path in your project. You can retrieve the files from here:
-
-
-```javax.servlet.jsp.jstl-api-1.2.1.jar```
-```taglibs-standard-impl-1.2.5.jar```
+```
+javax.servlet.jsp.jstl-api-1.2.1.jar
+```
+```
+taglibs-standard-impl-1.2.5.jar
+```
 
 
 ####Code the taglib directive
