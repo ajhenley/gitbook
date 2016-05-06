@@ -1,3 +1,5 @@
+###Super Shopping Cart
+
 This assignment builds on the completed shopping cart application. You should be using JPA and JSTL for this project. You will be creating users, including the Admin user, adding regular users, making your application follow the principles of Model View Controller (MVC) and displaying a nice user interface.
 
 ####Your Assignment:
