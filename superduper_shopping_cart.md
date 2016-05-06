@@ -6,6 +6,7 @@ The shopping cart applications are looking great! Now let's add some new feature
 
 >Once you complete the Super Shopping Cart post it to GitHub.
 
+####Branching in Git
 You will need to create a branch in your project to work on the next set of features. As you finish a feature then merge the branch with the Master branch and commit your project. This way each feature is its own branch and doesn't break the master branch. 
 
 Test each branch with unit tests. Merge to master once your branch works.
