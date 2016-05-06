@@ -1,5 +1,7 @@
 <!--djw-->
 <!--todo: finish how JSTL works... need example how to escape output.-->
+###How to Work with JSTL
+
 The JSP Standard Tag Library (JSTL) provides tags for common tasks that need to be performed in JSPs.
 
 The steps you need to follow to implement JSTL are:
@@ -7,14 +9,15 @@ The steps you need to follow to implement JSTL are:
 2. Code the tag lib directive
 3. Code the JSTL tag
 
-####How to make the JSTL JAR files available to your application
+####Make the JSTL JAR files available
 Before you can use JSTL tags within an application, you must make the *jstl-impl.jar* and *jstl-api.jar* files available to the application. You can add them to the build path just like you add any other external jar file to the build path in your project. You can retrieve the files from here:
 
-javax.servlet.jsp.jstl-api-1.2.1.jar
 
-taglibs-standard-impl-1.2.5.jar
+```javax.servlet.jsp.jstl-api-1.2.1.jar```
+```taglibs-standard-impl-1.2.5.jar```
 
-####How to code the taglib directive
+
+####Code the taglib directive
 At the top of your JSP page you must code a taglib directive to specify the URI and prefix for the JSTL library. You will mostly use the Core and Formatting libraries shown below:
 
 ####The primary JSTL libraries
