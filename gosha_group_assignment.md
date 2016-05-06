@@ -1,3 +1,5 @@
+###Gosh! An Online Retailer
+
 Gosh! is a online retailer that used to sell their crafts on Etsy. Due to a contract dispute they are no longer Etsy and they are now losing $1,500 a day in lost sales.
 They need you to create a new online marketplace for them. One like Etsy, but their own.
 
