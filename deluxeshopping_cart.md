@@ -8,6 +8,6 @@ Your client, Dave and Alton, have thought of something else for their applicatio
 
 3. The background color of the application should be different for a logged in user than for a user who is just browsing.
 
-4. Once the order is placed then save the shopping cart to the database.  
+4. Once the user places the order you application should save the shopping cart to the database.  
 
  5. Create at least five unit tests and a test suite to run them all. 
