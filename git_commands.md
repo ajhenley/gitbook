@@ -1,20 +1,20 @@
 # Git Commands
 
-From Eclipse locate the Project directory by right-clicking on the project folder
-and selecting Properties from the menu
+From Eclipse locate the Project directory by right-clicking on the project folder and then selecting Properties from the menu.
 
 1. sign into github.com
 2. create new repository: MyFirstProject
 3. open the terminal on your pc and change to the project directory
-4. run the following commands at the prompt (indicated by #)
-
-\#git init
-\#git remote add origin https://dave45678@github.com/dave45678/MyFirstProject
-\#git config -l
-\#git add --all
-\#git commit -m "commit message"
-\#git push -u origin master
-\#git status
+4. run the following commands at the prompt 
+```bash
+git init
+git remote add origin https://dave45678@github.com/dave45678/MyFirstProject
+git config -l
+git add --all
+git commit -m "commit message"
+git push -u origin master
+git status
+```
 
 The project files should now be on github
 
