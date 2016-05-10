@@ -8,26 +8,26 @@ and selecting Properties from the menu
 3. open the terminal on your pc and change to the project directory
 4. run the following commands at the prompt (indicated by #)
 
-#git init
-#git remote add origin https://dave45678@github.com/dave45678/MyFirstProject
-#git config -l
-#git add --all
-#git commit -m "commit message"
-#git push -u origin master
-#git status
+\#git init
+\#git remote add origin https://dave45678@github.com/dave45678/MyFirstProject
+\#git config -l
+\#git add --all
+\#git commit -m "commit message"
+\#git push -u origin master
+\#git status
 
 The project files should now be on github
 
 After you make changes to your project:
-#git add --all
-#git commit -m "commit message"
-#git push
-#git status
+\#git add --all
+\#git commit -m "commit message"
+\#git push
+\#git status
 
 
 Notes:
 if origin already exists then use
-#git remote set-url origin https://dave45678@github.com/dave45678/MyFirstProject (Links to an external site.)
+\#git remote set-url origin https://dave45678@github.com/dave45678/MyFirstProject (Links to an external site.)
 
  
 
