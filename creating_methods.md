@@ -4,7 +4,7 @@
 
 A method is a program's way of outsourcing the work to some other block of code. 
 
-Water runs out of my sink. The problem is the water is supposed to run into the drain, not the cabinet. I *could* fix this problem myself but I won't. I'm a programmer. My theory is there's nothing more dangerous than a plumber writing code. The opposite holds as well, I'm sure. I'm not taking chances. 
+Water runs out of my sink. The water should go down the drain not into the cabinet. I *could* fix this problem myself but I won't. I'm a programmer. My theory is there's nothing more dangerous than a plumber writing code. The opposite holds as well, I'm sure. I'm not taking chances. 
 
 I call Gary and he comes over, fixes it in fifteen minutes and tells me how easy it was. The ```MyWifeSaysFixIt``` class below doesn't care how the method ```callPlumber``` works just that it does. 
 
