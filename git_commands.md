@@ -19,19 +19,20 @@ and selecting Properties from the menu
 The project files should now be on github
 
 After you make changes to your project:
-\#git add --all
-\#git commit -m "commit message"
-\#git push
-\#git status
-
+```bash
+git add --all
+git commit -m "commit message"
+git push
+git status
+```
 
 Notes:
 if origin already exists then use
-\#git remote set-url origin https://dave45678@github.com/dave45678/MyFirstProject (Links to an external site.)
+```bash
+git remote set-url origin https://dave45678@github.com/dave45678/MyFirstProject (Links to an external site.)
+``` 
 
- 
-
-You can create a file in your project directory called .gitignore
+You can create a file in your project directory called ```.gitignore```
 
 You can copy an example of .gitignore from http://bit.ly/GitIgnore (Links to an external site.) and use that
 
