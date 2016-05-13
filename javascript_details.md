@@ -10,13 +10,14 @@
 > - Douglas Crockford, JavaScript: The Good Parts
 
 
-JavaScript is a good language but it doesn't follow all the rules that you would expect. For example, if you don't add a semicolon to the end of a statement JavaScript may do it for you causing unexpected results.
+JavaScript is a good language but it doesn't follow all the rules that you would expect. For example, if you don't add a semicolon to the end of a statement JavaScript may do it for you. When this happens it causes unexpected results.
 
-Some libraries have evolved to make JavaScript easier for those who don't know all the details of the language. JQuery and Bootstrap make your life easier.
+Some libraries have evolved to simplify using JavaScript. This allows those who don't know all the details of the language to use it in a masterful way. JQuery and Bootstrap make your life easier.
 
 ####What can you do with JavaScript
  * Select nodes by tag, id or class
  * Determine if a document has finished loading
  * Change the web page after it has loaded
  * Validate user-entered text before it returns to the server
+ * Create functions that run on the client (in the browser)
 
