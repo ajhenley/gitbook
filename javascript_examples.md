@@ -156,16 +156,28 @@ if (a > 10){
 }else{
 // do something else
 }
-//switch 287
+```
 
-//repetition/looping
-//for loop 295
+###repetition/looping
+```html
 for(i=0;i<5;i++){
-document.write("this is iteration " + i + "<br/>");
+document.write("this is iteration number " + i + "<br/>");
 }
+```
+```html
+while (c < 10) {
+  c += 1;
+  // …
+}
+```
+```html
+while (c < 10) {
+  c += 1;
+  // …
+}
+```
 
-//while 291
-//do while 293
+
 //break statement 297
 
 //getting input from user
