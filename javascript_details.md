@@ -9,8 +9,12 @@
 > "JavaScript is the only programming language people attempt to use before they know anything about it". 
 > - Douglas Crockford, JavaScript: The Good Parts
 
+In C-like languages, the semicolon denotes the end of a statement. Unlike other C-like languages, JavaScript does not always enforce the use of a semicolon at the end of a statement. Rather, a carriage return may be "understood" as a missing semicolon, resulting in different semantics.
 
-JavaScript is a good language but it doesn't follow all the rules that you would expect. For example, if you don't add a semicolon to the end of a statement JavaScript may do it for you. When this happens it causes unexpected results.
+In JavaScript, a semicolon is automatically inserted when
+* two statements are separated by a line terminator
+* two statements are separated by a closing brace ```}```
+* a line terminator follows a ```break```, ```continue```, ```return```, or ```throw```.
 
 Some libraries have evolved to simplify using JavaScript. This allows those who don't know all the details of the language to use it in a masterful way. JQuery and Bootstrap make your life easier.
 
