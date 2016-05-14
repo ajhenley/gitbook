@@ -200,7 +200,7 @@ alert (msg);
 </script>
 
 ```
-
+<!-- todo: javascript: cut items to be added back later
 //date
 
 //modifying the DOM
@@ -236,16 +236,13 @@ alert (msg);
 //how to find the end of the month 271
 
 
-
-</script>
-
 <hr/>
 <script>
-var cody = new Object();
-cody.living = true;
-cody.age = 33;
-cody.gender = 'male';
-cody.getGender = function () { return cody.gender; };
+var cujo = new Object();
+cujo.living = true;
+cujo.age = 8;
+cujo.gender = 'male';
+cujo.getGender = function () { return cody.gender; };
 console.log(cody.getGender()); // Logs 'male'.
 </script>
 
@@ -363,3 +360,5 @@ function guessNumber() {
 
 </script>
 ```
+//end of cut code
+-->
