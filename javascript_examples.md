@@ -177,12 +177,13 @@ while (c < 10) {
 }
 ```
 
+####Getting input from user
+You can read an element with that contains user-entered text as follows:
+```var text=document.getElementById('input1').value;```
 
-//break statement 297
+You can display a message or set the text of an element:
+```document.getElementById("message").innerHTML = "some text";```
 
-//getting input from user
-
-//alert - prompting user
 
 //date
 
