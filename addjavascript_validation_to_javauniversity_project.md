@@ -1,4 +1,4 @@
-# Add JavaScript validation to JavaUniversity project
+###Add JavaScript validation to JavaUniversity project
 
 The onSubmit event of a Form tag can stop a form from processing. If onSubmit calls a function that returns false then the form will not be submitted to the Action. To see an example of this concept copy the following code to a new page and run it. If the input equals the word google then the form will be submitted to the action which is the google website. Otherwise the form will not be submitted.
 
