@@ -1,4 +1,4 @@
-# Understand the CSS box model
+###Understand the CSS box model
 <p><strong>Every element in web design is a rectangular box.</strong></p>
 <p>&nbsp;</p>
 <p><strong><img src="https://css-tricks.com/wp-content/csstricks-uploads/thebox.png" alt="" /></strong></p>
