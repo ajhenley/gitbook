@@ -2,7 +2,7 @@
 cleaned up 04.02.16
 -->
 ###Example of a Servlet
-You will be creating each servlet as a Java class in a Dynamic Web Application in Eclipse. Here is an example of the code for a simple servlet. It simply prints Hello, World! to the browser.
+You will be creating each servlet as a Java class in a Dynamic Web Application in Eclipse. Here is an example of the code for a simple servlet. It prints 'Hello, World!' to the browser.
 
 ```java
 import java.io.IOException;
