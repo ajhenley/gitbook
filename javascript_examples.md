@@ -184,6 +184,22 @@ You can read an element with that contains user-entered text as follows:
 You can display a message or set the text of an element:
 ```document.getElementById("message").innerHTML = "some text";```
 
+You can also prompt the user with an alert. The script below could go into a function to be called on a button click event.
+<!--todo: add code to show how to attach a function to a button and redirect to a servlet if user chooses true.-->
+```html
+<script>
+var response = confirm("Are you sure you want to send a payment?");
+if (response == true) {
+    msg = "Payment sent!";
+    //redirect to another page
+} else {
+    msg = "Payment cancelled!";
+    //stay on current page
+}
+alert (msg);
+</script>
+
+```
 
 //date
 
