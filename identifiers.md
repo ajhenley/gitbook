@@ -2,7 +2,7 @@
 <!--ajh: done-->
 ###How to create identifiers
 
-As you write a Java program, you need to create and use <em>identifiers</em>. These are the names of things that you create inside your program. Everything you create has a name, so everything you create has an identifier, or a name.
+As you write a Java program, you need to create and use <em>identifiers</em>. These are the names of things that you create inside your program. Everything you create has a name, so everything you create has an identifier.
 
 ####The rules for identifiers are simple:
 * You must start each identifier with a letter, underscore or a dollar sign
@@ -32,7 +32,6 @@ As you write a Java program, you need to create and use <em>identifiers</em>. Th
 
 
 |boolean|if|interface|class|true|
-|-|-|-|-|-|
 |char|else|package|volatile|false|
 |byte|final|switch|while|throws|
 |float|private|case|return|native|
