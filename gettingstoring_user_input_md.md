@@ -4,7 +4,7 @@
 
 The Scanner object allows people to input data. It captures all the input on a standard input (like the keyboard) and delivers it to a variable.  
   
-A Scanner scans the input by tokens using a delimiter pattern. The default delimiter is a space. The scanner reads the input token by token. The resulting tokens may be converted into values of different types using various methods. 
+A Scanner scans the input by tokens using a delimiter pattern. The default delimiter is a space. This means that scanner assumes that each time it sees a space it is getting ready to start a new input. So if you want to capture an input that should contain spaces (like a book title, or someone's full name), you have to use a special command ```nextLine```.The scanner reads the input token by token. The resulting tokens may be converted into values of different types using various methods. 
 
 ####To include the Scanner class in your program 
 Add the following declaration to the top of your code: 
