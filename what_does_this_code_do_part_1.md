@@ -3,7 +3,7 @@ djw: bug: it doesn't account for spaces or punctuation. I left the bug and added
 djw:done-->
 ###What does this code do? (Part 1)
 
-When programmers develop a program or some code they spend some amount of time creating it. The code then goes into production and may be run for weeks, months, years, or decades. The IRS is still using programs developed in the early 1970's. Those programs have changed since their first inception. Imagine the number of new tax laws that have to be added to the IRS program's code each year. Estimates vary but in general you can assume that over 80% of you code's lifetime will be spent in maintenance. That means you should give your variables meaningful names. And use comments generously. This will make it easier for the next person to maintain your program.
+When programmers develop a program or some code they spend some amount of time creating it. The code then goes into production and may be run for weeks, months, years, or decades. The IRS is still using programs developed in the early 1970's. Those programs have changed since their first inception. Imagine the number of new tax laws that have to be added to the IRS program's code each year. Estimates vary, but over 80% of your code's lifetime will be spent in maintenance. That means you should give your variables meaningful names. It also means you should use comments generously. This will make it easier for the next person to maintain your program.
 
 Here's an example of a well-written program. You should find it easy to follow the intent of the programmer.
 
@@ -56,6 +56,6 @@ public class PalindromeTester {
 {%endace%}
 
 ####Bonus
-After creating this example I noticed there exists a minor bug. It should be easy to fix since the program is otherwise well-written. Can you spot the bug? Try running the program with the phrase: "A man a plan a canal panama" and then try "A man, a plan, a canal: Panama!" Now you should see the bug.
+After creating this example I noticed it has a minor bug. It should be easy to fix since the program is  well-written. Can you spot the bug? Try running the program with the phrase: "A man a plan a canal panama" and then try "A man, a plan, a canal: Panama!" Now you should see the bug.
 
 Make a comment in the program that this bug exists. If you're really ambitious then fix the bug. and update your comment to note that you fixed it.
