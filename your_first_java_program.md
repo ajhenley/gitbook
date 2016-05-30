@@ -77,7 +77,7 @@ Below is a sample answer to what we asked you to do above. Don't just read the b
 <button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
 
 <!--sec data-title="Answer" data-id="section1" data-show=false ces-->
-{%ace edit=false, lang='java'%}
+{%ace edit=false, lang='java', theme='coffee' %}
 public class HelloWorld
  {
     public static void main( String[] args )
