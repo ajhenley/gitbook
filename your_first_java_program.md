@@ -6,13 +6,13 @@ A journey of a thousand miles begins with a single step.
    - Laozi
 </blockquote>
 
-It is time to write your first Java program. Your program will display a message to the screen. Your program will follow in the tradition of great programmers everywhere. The "Hello, World!" program is a computer program that outputs "Hello, World!" on a display device. Being a very simple program in most programming languages, it is often used to illustrate to programmers the basic syntax for constructing a working program.
+It is time to write your first Java program. This program will display a message to the screen. The "Hello, World!" program is a computer program that outputs "Hello, World!" on a display device. Being a very simple program in most programming languages, it is often used to illustrate to programmers the basic syntax for constructing a working program.
 
-Entering instructions for a computer to follow is not easy. You must be very specific. Typos are not tolerated. Many people find this frustrating.
+Entering instructions for a computer to follow is not easy. You must be very specific. Typographic errors (typos) are not tolerated. Most people find this frustrating, but you will get used to it after a while.
 
-The computer doesn't think. That's your job. It follows the instructions you give it. Exactly.
+The computer doesn't think. Thinking is your job. It follows the instructions you give it. Exactly.
 
-This exercise teaches you to enter a program. It also teaches you to execute that program properly. 
+This exercise teaches you to enter a program. It also teaches you to run, or execute, that program properly. 
 
 ####Let's get started...
 Open Eclipse. Create a Java Project called MyFirstJavaProgram. Now create a new class named HelloWorld. In this class, type the following code. It is important to enter the code exactly as written, including capitalization and indentation. I'll explain it line by line.
@@ -29,6 +29,7 @@ public class HelloWorld
 {%endace%}
  
 ```public class HelloWorld```
+
 The first line starts with the word ```public``` followed by a single space then the word ```class``` followed by a single space and then the class name, ```HelloWorld```. The first letter of the class name is capitalized. The class name is made up of multiple words that are not separated by spaces. Each new word starts with a capital letter. Class names always start with a capital letter in Java.
 
 ```{``` The second line is just a single character: a “brace”. This character is to the right of the 'P'. Hold Shift while pressing the '[' key.
