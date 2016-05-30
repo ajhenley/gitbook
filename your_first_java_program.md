@@ -30,17 +30,17 @@ public class HelloWorld
  
 ```public class HelloWorld```
 
-The first line starts with the word ```public``` followed by a single space then the word ```class``` followed by a single space and then the class name, ```HelloWorld```. The first letter of the class name is capitalized. The class name is made up of multiple words that are not separated by spaces. Each new word starts with a capital letter. Class names always start with a capital letter in Java.
+The first line starts with the word ```public``` followed by the word ```class``` followed by the class name, ```HelloWorld```. The first letter of the class name is capitalized. It is always capitalized in Java. This is one of the conventions about Java that you will need to remember. The class name is made up of multiple words that are not separated by spaces. Each new word starts with a capital letter. This kind of capitalization is called camel case.
 
-```{``` The second line is just a single character: a “brace”. This character is to the right of the 'P'. Hold Shift while pressing the '[' key.
+```{``` The second line is just a single character: a “brace”. On your keyboard, you can find this character to the right of the 'P'. Hold Shift while pressing the '[' key.
 
 
 ```public static void main( String[] args )```
-The third line is the name of the method, main. Methods begin with lower case letters. If a method contains multiple words then begin each word with a capital letter and don't separate them with spaces. Main is the only method that you can't name on your own. For all other methods you'll make up a meaningful name. By convention, main is the starting point for all Java programs. You should have only one main method in your program. 
+The third line is the name of the method, main. Methods begin with lower case letters. If a method contains multiple words then begin each word with a capital letter and don't separate them with spaces(camel case again). Main is the only method that you can't name on your own. For all other methods you'll make up a meaningful name. By convention, main is the starting point for all Java programs. You should have only one main method in your program. 
 
-```[``` and ```]``` are called “brackets”, but many programmers call them “square brackets” to make sure there’s no confusion. In Java, parentheses and square brackets are not interchangeable. Brackets come in pairs and they are called “left bracket” or “open bracket” and “right bracket” or “close bracket”.
+```[``` and ```]``` are called “brackets”, but many programmers call them “square brackets” to make sure there’s no confusion with the ```{``` and ```}```, which are called curly braces. In Java, parentheses and square brackets are not interchangeable. Brackets come in pairs and they are called “left bracket” or “open bracket” and “right bracket” or “close bracket”.
 
-Parenthesis, braces and brackets always come in pairs. When you create your program you should line up matching parenthesis, braces and brackets. Notice in the above program how I have them lined up after each metnod of the class name.
+Parenthesis, braces and brackets always come in pairs. When you create your program you should line up matching parenthesis, braces and brackets. Notice in the above program how I have them lined up after each metnod of the class name. It doesn't make or break the program to do this, but it does make it easier for you or someone else to know where the matching close is for each open.
 
 
 ```{``` and ```}``` are called “braces” or “curly braces”. They are used to group lines of code into a single block of code. 
@@ -71,6 +71,8 @@ Hello, World!
 Today is July 19, 2015. I am alive!
 My name is Alton.
 ```
+
+Below is a sample answer to what we asked you to do above. Don't just read the book straight through. Actually try to write each application we are asking you to. Only check the answer when you are sure you are done, or you are sure you are stuck. You can only learn to program, by actually writing programs yourself.
 
 <button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
 
