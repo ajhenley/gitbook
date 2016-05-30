@@ -87,5 +87,5 @@ The percent sign (%) is used to mean &lsquo;modulus&rsquo;, which is essentially
 * Why is 1.1 times 1.1 equal to 1.2100000000000002 instead of just 1.21?
 <blockquote>
 Why is 0.333333 + 0.666666 equal to 0.999999 instead of 1.0? Sometimes with math we get repeating decimals, and most computers convert numbers into binary before working with them. It turns out that 1.1 is a repeating decimal in binary. <p>
-Remember what I said in the last exercise: the problem with doubles is limited precision. You will mostly be able to ignore that fact in this book, but I would like you to keep in the back of your mind that double variables sometimes give you values that are <em>slightly</em> different than you&rsquo;d expect.
+Remember what I said in the last exercise: the problem with doubles is limited precision. You will mostly be able to ignore that fact in this book, but I would like you to keep in the back of your mind that double variables sometimes give you values that are <em>slightly</em> different than you&rsquo;d expect. Generally, it is a difference that is washed away by rounding up.
 </blockquote>
