@@ -4,8 +4,7 @@
         "comment",
         "ace",
         "sectionx",
-        "-fancybox",
-        "-theme-official"
+        "-fancybox"
     ],
     "pluginsConfig": {}
 }
