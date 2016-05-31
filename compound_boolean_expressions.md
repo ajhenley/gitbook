@@ -2,8 +2,10 @@
 <!-- todo: need an assignment for this-->
 ###Compound boolean expressions
 
-Sometimes we want to use logic more complicated than just &ldquo;less than&rdquo; or &ldquo;equal to&rdquo;. Project managers are constantly asking for software to be developed. And they want it to be done quickly, for minimal cost and at the highest quality. 
-The rule is: **We can make it fast, cheap or good. Pick two**.
+Sometimes we want to use logic more complicated than just &ldquo;less than&rdquo; or &ldquo;equal to&rdquo;. 
+
+For example, project managers are constantly asking programmers to write new software. And they want it done fast, cheap and perfect. 
+However, any good programmer will tell you that the rule is: **We can make it fast, cheap or good. Pick two**.
 
 {%ace edit=true, lang='java'%}
 import java.util.Scanner;
