@@ -43,11 +43,11 @@ public class MowingAssignment
 		lawnArea = (yardLength * yardWidth) - (houseLength * houseWidth); 
 
 		//convert time from minutes to hours 
-		lawnTimeHrs= (lawnArea * lawnTimeRate) / 60;
+		lawnTimeHrs= (lawnArea / 40 * lawnTimeRate) / 60;
 
 		System.out.println("The area of the lawn that needs to be mowed is " + lawnArea + " sq yar. It will take "+ lawnTimeHrs + 
 		" hours to finish the mowing and will cost " + currency.format((float)(lawnTimeHrs * lawnCostRate)) + ".");
-		System.out.println("If Bob charges $45 per hour, then the new cost will be: " + currency.format((float)(lawnTimeHrs * 45)));
+		System.out.println("If Bob charges $45 per lawn, then the profit will be: " + currency.format((float)(45 - lawnTimeHrs * 45)));
 		keyboard.close();
     }
 }
