@@ -14,7 +14,7 @@ Now write a program that will select the perfect gift based on the table below. 
 |Weekend Getaway|Female|High|
 |Wine|Female|Low|
 |Selfie Stick|Female|Low|
-|Purfume|Female|Medium|
+|Perfume|Female|Medium|
 |Sweater|Female|Medium|
 |Smart TV|Male|High|
 |Apple Watch|Male|High|
