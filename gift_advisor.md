@@ -2,7 +2,7 @@
 <!--ajh: this should be a bonus activity, I think it might be too much for the average person at this point -->
 ###Gift Advisor
 
-Everybody wants to give a unique gift that will be remembered year-round. Yet, when that special occasion comes around our minds go blank and we forget what our recipients want. Thus we end up giving ties, scarves and candles that eventually get re-gifted.
+Everybody wants to give a unique gift that will be remembered year-round. Yet, when that special occasion comes our minds go blank and we forget what our recipients want. Thus we end up giving ties, scarves and candles that inevitably get re-gifted.
 
 Your task is to develop a program that will prompt the user for the recipient's gender. You'll also ask for the giver's price range. Use high, medium or low.
 
@@ -24,7 +24,7 @@ Now write a program that will select the perfect gift based on the table below. 
 |Playstation|Male|Medium|
 
 
-Bonus:
+**Bonus:**
 Add a column to the list for age and change your program to prompt for the age (adult,teen, child) of the recipient. You'll need to add more gift ideas if this is the case. You should also handle the possibility that you have no gift ideas. In which case just say... get him/her a gift certificate.
 
 
