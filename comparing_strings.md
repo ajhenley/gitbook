@@ -1,5 +1,5 @@
 <!--djw:done-->
-<!--todo: add ace tags -->
+<!-- ajh:done -->
 ###Comparing things
 
 In Java, ```primitiveA == primitiveB``` returns true if both primitive variables contain the same value. However, ```ObjectA == ObjectB``` returns true when both objects share the same **memory location**. It basically boils down to the difference between an object data type and a primitive data type, and we aren't going to cover that until a later chapter. So why am I telling you now? Well, its because Strings are objects not primitives.
