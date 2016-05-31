@@ -5,7 +5,7 @@
         "ace",
         "sectionx",
         "-fancybox",
-        "theme-official"
+        "-theme-official"
     ],
     "pluginsConfig": {}
 }
