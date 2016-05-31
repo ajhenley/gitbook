@@ -14,8 +14,6 @@ if (booleanExpression) {
 }else{
     System.out.println("The else block is optional");
     System.out.println("The else block runs if the booleanExpression is false");
-    
-    
 }
 
 if (x > 5) {
