@@ -25,7 +25,7 @@ public class MowingTime
   
     lawnArea = length * width;
 
-    System.out.println("The are of the lawn is " + lawnArea + " sq yard, and Bob can mow it in "+ (lawnArea * 2) + " minutes.");
+    System.out.println("The are of the lawn is " + lawnArea + " sq yard, and Bob can mow it in "+ (lawnArea / 40 * 2) + " minutes.");
 
     keyboard.close();
   }
