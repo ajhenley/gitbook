@@ -18,7 +18,7 @@ Fix the following program so it works. Note: You should be getting comfortable w
 Add a line to print "You should stay inside" if the response is "stormy".
 
 ```java
-    public static void main(String []args){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         
         System.out.println("How is the weather?");
@@ -35,7 +35,34 @@ Add a line to print "You should stay inside" if the response is "stormy".
      }
 ```
 
+<button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
 
+<!--sec data-title="Answer" data-id="section1" data-show=false ces-->
+{%ace edit=false, lang='java'%}
+import java.util.Scanner;
+
+public class MyWeatherMan {
+
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("How is the weather?");
+        String answer = sc.nextLine();
+        
+        if (answer.equals("rain"))
+            System.out.println("Take your umbrella!");
+        else if (answer.equals("windy"))
+            System.out.println("Wear your jacket!");
+        else if (answer.equals("snow") )
+            System.out.println("Wear a coat and take a shovel!");
+        else if (answer.equals("stormy")
+            System.out.println("Stay Inside!");
+        else
+            System.out.println("Enjoy your day!");
+     }
+}
+{%endace%}
+<!--endsec-->
 
 
 
