@@ -9,9 +9,9 @@ integers, hold numbers (positive or negative) with no fractional parts
 ####double
 “double-precision floating-point” numbers (positive or negative) that could have a fractional part
 ####String
-a string a characters, hold words, phrases, symbols, sentences, whatever
+a string of characters, whole words, phrases, symbols, sentences, whatever
 
-But in the words of Yoda: “There is another.” 
+But in the words of Yoda: “There is another...” 
 
 ####boolean
 A “Boolean” variable (named after the mathematician George Boole) cannot hold numbers or words. It stores one of two values: true or false. That’s it. We can use them to perform logic. To the code!
