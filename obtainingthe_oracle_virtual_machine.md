@@ -17,30 +17,21 @@ Still trying to become a Java developer using old hardware? It can be done. Inst
 Ok, so you just don't have a laptop... there's still hope. Check out C9.io or http://www.tutorialspoint.com/codingground.htm. 
 
 ###Back to Oracle
-Follow this link to download the Oracle EE Developer machine. It comes all set up with everything you need to get stated except git and Eclipse. Instructions for installing Eclipse are in the section of this book called "Developing with Eclipse". 
+Follow the link below to download the Oracle Developer machine. It comes all set up with everything you need to get stated except git and Eclipse. Instructions for installing Eclipse are in the section of this book called "Developing with Eclipse". 
+
+The developer machine is almost 8 Gb large. Use a download manager to avoid downloading it multiple times.
 
 ###Link to download the Database App Developer Virtual Machine
 http://www.oracle.com/technetwork/database/enterprise-edition/databaseappdev-vm-161299.html
 
 
 Oracle wants you to know this virtual machine is appliance is for testing purposes only, as such it is unsupported and should not to be used in production environment. This virtual machine contains:
+ * Oracle Linux 7 (based on Redhat)
+ * Oracle Database 12c Release 1 Enterprise Edition (12.1.0.2 with In-Memory Option)
+ * Oracle SQL Developer 4.1.3
+ * Oracle Application Express 5.0
 
-Oracle Linux 7
-Oracle Database 12c Release 1 Enterprise Edition (12.1.0.2 with In-Memory Option)
-Oracle XML DB
-Oracle SQL Developer 4.1.3
-Oracle Application Express 5.0
+####After the download is complete and VirtualBox has been installed
+Import your VM: File > Import Appliance to launch Appliance Import Wizard. ClickChoose... to browse to the directory you re-assembled all the files in and select the OTN_Developer_Day_VM.ova then click Next> to begin importing the virtual machine. It will prompt you to agree to the appropriate developer licenses while importing. You will see 'Oracle Developer Days (Powered Off)' when it is finished importing.
 
-Step 1. Download and install Oracle VM VirtualBox on your host system.
-
-Step 2. Download the files (the use of a download manager is highly recommended):
-
-Oracle DB Developer VM 7,749,586,944 bytes, md5sum:f0f98fb33ad7c0317fd3bf4c94e3abbf)
-
-
-
-
-
-Step 3. Import your VM: File > Import Appliance to launch Appliance Import Wizard. ClickChoose... to browse to the directory you re-assembled all the files in and select theOTN_Developer_Day_VM.ova then click Next> to begin importing the virtual machine. It will prompt you to agree to the appropriate developer licenses while importing. You will see 'Oracle Developer Days (Powered Off)' when it is finished importing.
-
-Step 4. Test your VM: Once the import has completed, double-click the OTN Developer Days VM. Click OK to close the Virtualbox Information dialogs. When you get to the Enterprise Linux 6 screen you can now login. (Username and password is oracle.) Allow the process to complete; it is ready when you see a terminal window, which you can close. Once you are finished working in the guest VM you can shut it down via System > Shut Down; this will return the guest VM to the Powered Off state.
+Finally, Test your VM: Once the import has completed, double-click the OTN Developer Days VM. Click OK to close the Virtualbox Information dialogs. When you get to the Enterprise Linux 6 screen you can now login. (Username and password is oracle.) Allow the process to complete; it is ready when you see a terminal window, which you can close. Once you are finished working in the guest VM you can shut it down via System > Shut Down; this will return the guest VM to the Powered Off state.
