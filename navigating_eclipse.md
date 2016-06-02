@@ -1,12 +1,11 @@
 ## Navigating Eclipse
 
-The best way to learn Eclipse is to use Eclipse. Let's walk-through the creation of a Hello World application.
+The best way to learn Eclipse is to use Eclipse. 
 
-Click on Help then Cheat Sheets and select the option for Create a Hello World application. This will open a window in Eclipse which guides you through creating a basic Java application.
+Eclipse helps you walk-through the creation of a Hello World application. Click on Help then Cheat Sheets and select the option for Create a Hello World application. This will open a window in Eclipse which guides you through creating a basic Java application.
 
 ###Perspectives
 Eclipse has perspectives you can change to correspond with the type of project you are developing. You can change the perspective from the ```Window | Open perspective``` menu option.
-
 
 ###Creating Java Projects
 Before creating a class for your project you need a project. In the main toolbar, click on the New Java Project button, or select File | New | Java project from the menu bar. You'll need to give each project a unique name. Please choose a name that will help you remember the project you're creating. At the end of the class you'll have a workspace full of projects and may wish to refer to code from previous projects. 
@@ -21,3 +20,8 @@ After you create a Java Project you need to create classes to add to that projec
 ####Packages
 A Java package is a technique for organizing Java classes into namespaces similar to the file folders on your computer. While not required, developers recommend packages to organize your code. If you include a package name then you will need to also use that package name to refer to the class elsewhere in your application.
 
+###Saving your changes
+Please save your changes early and often. Really. I'll repeat this in case you weren't listening: Save changes early and often. There, I've just saved you an hour of rework at some point in the future. You can use the Save menu item in the File menu or click the Save icon on the toolbar.
+
+##Running your Application
+To run your application, right-click on your class in the Package Explorer and select ```Run As | Java Application```. The Console view should appear at the bottom and display the output.
