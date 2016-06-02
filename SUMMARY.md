@@ -39,7 +39,6 @@
    * [Obtaining Eclipse](obtainingeclipse.md)
    * [Installing and updating Eclipse](installingand_updating_eclipse.md)
    * [Navigating Eclipse](navigating_eclipse.md)
-   * [Using the Eclipse Debugger](usingthe_eclipse_debugger.md)
 * [Using Git](using_git.md)
    * [Git Overview](git_overview.md)
    * [Git Walkthrough](git_walkthrough.md)
