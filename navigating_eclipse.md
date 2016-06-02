@@ -21,7 +21,7 @@ After you create a Java Project you need to create classes to add to that projec
 A Java package is a technique for organizing Java classes into namespaces similar to the file folders on your computer. While not required, developers recommend packages to organize your code. If you include a package name then you will need to also use that package name to refer to the class elsewhere in your application.
 
 ###Saving your changes
-Please save your changes early and often. Really. I'll repeat this in case you weren't listening: Save changes early and often. There, I've just saved you an hour of rework at some point in the future. You can use the Save menu item in the File menu or click the Save icon on the toolbar.
+Please save your changes often. I'll repeat this in case you weren't listening: Save changes often. There, I've just saved you an hour of rework at some point in the future. You can use the Save menu item in the File menu or click the Save icon on the toolbar.
 
 ##Running your Application
 To run your application, right-click on your class in the Package Explorer and select ```Run As | Java Application```. The Console view should appear at the bottom and display the output.
