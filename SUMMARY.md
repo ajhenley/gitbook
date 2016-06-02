@@ -119,7 +119,6 @@
    * [What is unit testing?](what_is_unit_testing.md)
    * [When do I write unit tests?](when_do_i_write_unit_tests.md)
    * [What is test coverage?](what_is_test_coverage.md)
-   * [Annotations and Assertions](annotations_and_assertions.md)
    * [Show me a complete example (with Eclipse)](show_me_an_complete_example_with_eclipse.md)
    * [Creating a parameterized test](creating_a_parameterized_test.md)
    * [How to run unit tests from the command line](how_to_run_unit_tests_from_the_command_line.md)
