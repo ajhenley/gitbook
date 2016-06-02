@@ -10,5 +10,3 @@ Eclipse doesn't come with the JRE (Java Runtime Environment). You probably have 
 
 After you have downloaded and installed the JRE, you may then download the Eclipse IDE. You'll find the latest version of Eclipse at [https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/).  
 
-###Installing Eclipse
-Installing Eclipse is simple. It just involves unzipping the downloaded file into a directory. After unzipping the Eclipse IDE is ready to run. You may wish to create a shortcut to the executable on your desktop to simplify starting Eclipse.
