@@ -2,17 +2,12 @@
 
 References: https://en.wikibooks.org/wiki/Java_Programming/API/java.lang.String
 -->
-# Comparing classes
-
-
+##Comparing classes
+<!--
 ###Comparing classes
 Why does ```assertEquals(ClassA,ClassB)``` always return false?
-
-
-
 ###Comparing dates
-
-
+-->
 ###Comparing strings
 Why does ```StringA == StringB``` always return false?
 
