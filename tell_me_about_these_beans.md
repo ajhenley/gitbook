@@ -11,7 +11,7 @@ The User class in this example is a JavaBean.
 We use JavaBeans to pass data between servlets and JSP pages.  
 
 ####Here's the code for the User class:
-{%ace edit=false, lang='java'%}
+```java
 public class PersonBean implements java.io.Serializable {
     private String name = null;
     public PersonBean(){}
@@ -21,7 +21,7 @@ public class PersonBean implements java.io.Serializable {
     public String setName(String value){
         name = value;
     }
-{%endace%}
+```
 
 ####Your Assignment
 1. Create another JSP page.
