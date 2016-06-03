@@ -7,7 +7,7 @@ When programmers develop a program or some code they spend some amount of time c
 
 Here's an example of a well-written program. You should find it easy to follow the intent of the programmer.
 
-{%ace edit=true, lang='java'%}
+```java
 /*
  * PalindromeTester.java
  * 
@@ -53,9 +53,4 @@ public class PalindromeTester {
 		
 	}
 }
-{%endace%}
-
-####Bonus
-After creating this example I noticed it has a minor bug. It should be easy to fix since the program is  well-written. Can you spot the bug? Try running the program with the phrase: "A man a plan a canal panama" and then try "A man, a plan, a canal: Panama!" Now you should see the bug.
-
-Make a comment in the program that this bug exists. If you're really ambitious then fix the bug. and update your comment to note that you fixed it.
+```
