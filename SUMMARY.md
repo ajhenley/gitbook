@@ -275,6 +275,14 @@
    * [Super Shopping Cart](supershopping_cart.md)
    * [Super Duper Shopping Cart](superduper_shopping_cart.md)
    * [Gosh! A group assignment](gosha_group_assignment.md)
-* [Exercise Answers](exercises.md)
-   * [Basic Java Answers](basic_java_answers.md)
+* [Exercise Solutions](exercises.md)
+   * [Basic Java Solutions](basic_java_answers.md)
+   * Exception Handling Solutions
+   * Unit Testing Solutions
+   * Object-Oriented Solutions
+   * Database Design Solutions
+   * HTML, CSS and JS Solutions
+   * Servlets and Enterprise Development Solutions
+   * JPA and JPQL Solutions
+   * JSTL Solutions
 
