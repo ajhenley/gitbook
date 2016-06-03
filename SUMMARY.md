@@ -93,7 +93,6 @@
    * [Randomness change activity](randomness_change_activity.md)
    * [Randomness completion activity](randomnesscompletion_activity_md.md)
    * [Repeating yourself with the while loop](repeatingyourselfwith_the_while_loop_md.md)
-   * [Working with files](working_with_files.md)
    * [Finding words with the do-while loop](finding_words_with_the_do-while_loop.md)
    * [Guessing game](guessinggame.md)
    * [For loops](for_loops.md)
@@ -105,6 +104,7 @@
    * [Switch statements](switchstatements.md)
    * [A first look at arrays](afirst_look_at_arrays.md)
    * [An array to remember](an_array_to_remember.md)
+   * [Working with files](working_with_files.md)
    * [Invoice application](invoiceapplication.md)
    * [Bonus assignment](bonusassignment.md)
    * [Multidimentional Arrays](multidimentional_arrays.md)
@@ -275,14 +275,6 @@
    * [Super Shopping Cart](supershopping_cart.md)
    * [Super Duper Shopping Cart](superduper_shopping_cart.md)
    * [Gosh! A group assignment](gosha_group_assignment.md)
-* [Exercise Solutions](exercises.md)
-   * [Basic Java Solutions](basic_java_answers.md)
-   * Exception Handling Solutions
-   * Unit Testing Solutions
-   * Object-Oriented Solutions
-   * Database Design Solutions
-   * HTML, CSS and JS Solutions
-   * Servlets and Enterprise Development Solutions
-   * JPA and JPQL Solutions
-   * JSTL Solutions
+* [Exercise Answers](exercises.md)
+   * [Basic Java Answers](basic_java_answers.md)
 
