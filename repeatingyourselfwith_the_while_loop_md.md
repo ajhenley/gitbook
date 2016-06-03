@@ -4,23 +4,23 @@ You are going to learn how to make sections of your code repeat. This will give 
 
 The while loop is good when you don't know how many times a block of code should repeat. The while loop will continue as long as some condition it true. It looks like this:
 
-{%ace edit=false, lang='java'%}
+```java
 while (expression) {
  // do you thing as long as the expression is true
 }
-{%endace%}
+```
 
 The while loop will never run if the expression isn't true. There are lots of times when the while loop may not even run.
 
-{%ace edit=false, lang='java'%}
+```java
 bool run = false;
 while (run){
     //this code would never run
 }
-{%endace%}
+```
 
 
-{%ace edit=true, lang='java'%}
+```java
 import java.util.Scanner;
 
 public class KeepGuessing {
@@ -45,7 +45,7 @@ public class KeepGuessing {
 		keyboard.close();
 	}
 }
-{%endace%}
+```
 
 
 ####Your assignment
@@ -53,37 +53,3 @@ The while loop will continue until the test condition is true. You can also brea
 
 
 
-<button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
-
-<!--sec data-title="Answer" data-id="section1" data-show=false ces-->
-{%ace edit=false, lang='java'%}
-import java.util.Scanner;
-
-public class KeepGuessing {
-	public static void main(String[] args) {
-		Scanner keyboard = new Scanner(System.in);
-		int secretNumber, guess = 0;//guess is initialized to 0
-		
-		secretNumber = 123;
-		
-		System.out.println("I'm thinking of a number between 1 and 1000");
-		System.out.print("Enter the number:");
-		guess = keyboard.nextInt();
-		
-		while ( guess != secretNumber )
-		{
-			System.out.println("\nYou are wrong. Try again.");
-			System.out.println("Enter the number: ");
-			guess = keyboard.nextInt();
-			if (guess==5)
-			{
-				break;
-			}
-		}
-		
-		System.out.println("You are correct. You win a prize!");
-		keyboard.close();
-	}
-}
-{%endace%}
-<!--endsec-->
