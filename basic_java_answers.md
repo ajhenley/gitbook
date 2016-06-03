@@ -307,3 +307,143 @@ public class MowingTime
   }
 }
 ```
+
+
+##More Mowing Time
+
+```java
+import java.text.NumberFormat;
+import java.util.Scanner;
+
+public class MowingAssignment
+{
+	public static void main( String[] args )
+	{
+		Scanner keyboard = new Scanner(System.in);
+		NumberFormat currency = NumberFormat.getCurrencyInstance();
+
+		//keep the rates as constants to make updates and changes easier
+		final int lawnTimeRate= 2;
+		final int lawnCostRate = 12 ;
+
+		double yardLength, yardWidth, houseLength, houseWidth, lawnArea, lawnTimeHrs;
+
+		System.out.print( "What is the yard length? " );
+		yardLength = keyboard.nextDouble();
+
+		System.out.print( "What is the yard width?" );
+		yardWidth = keyboard.nextDouble();
+
+		System.out.print( "What is the house length? " );
+		houseLength = keyboard.nextDouble();
+
+		System.out.print( "What is the yard width?" );
+		houseWidth = keyboard.nextDouble();
+
+		lawnArea = (yardLength * yardWidth) - (houseLength * houseWidth); 
+
+		//convert time from minutes to hours 
+		lawnTimeHrs= (lawnArea / 40 * lawnTimeRate) / 60;
+
+		System.out.println("The area of the lawn that needs to be mowed is " 
+          + lawnArea + " sq yar. It will take "+ lawnTimeHrs + 
+          " hours to finish the mowing and will cost " + 
+          currency.format((float)(lawnTimeHrs * lawnCostRate)) + ".");
+          
+		System.out.println("If Bob charges $45 per lawn, " + 
+          "then the profit will be: " + 
+          currency.format((float)(45 - lawnTimeHrs * 45)));
+          
+		keyboard.close();
+    }
+}
+```
+
+
+##What If Change Activity
+
+```java
+import java.util.Scanner;
+
+public class StudentRecordReader {
+	public static void main(String[] args) {
+		String fname, lname, status;
+		double gpa;
+		int hours;
+	
+		Scanner keyboard = new Scanner(System.in);
+	
+		System.out.print( "Student's First Name? " );
+		fname = keyboard.next();
+	
+		System.out.print( "Student's Last Name? " );
+		lname = keyboard.next();
+	
+		System.out.print( "Student's GPA? " );
+		gpa = keyboard.nextDouble();
+	
+		System.out.print( "Student's Current Course Load? " );
+		hours = keyboard.nextInt();
+	
+		if (hours >= 12)
+		{
+			System.out.println();
+			System.out.println("Student Name :" + fname + " " + lname);
+			System.out.println("Student GPA :" + gpa);
+			if (gpa >= 3)
+			{
+				System.out.println("This student is in good standing.");
+			} else if (gpa >= 2)
+			{
+				System.out.println("This student needs to study more.");
+			} else if (gpa >= 1)
+			{
+				System.out.println("This student is on academic probation.");
+			} else
+			{
+				System.out.println("This student has been expelled.");
+			}
+		}
+	}
+}
+```
+
+
+##What if debugging activity
+
+```java
+import java.util.Scanner;
+
+public class StudentRecordReader {
+
+	public static void main(String[] args) {
+		String fname, lname;
+		double gpa;
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.print( "Student's First Name? " );
+		fname = keyboard.next();
+		
+		System.out.print( "Student's Last Name? " );
+		lname = keyboard.next();
+
+		System.out.print( "Student's GPA? " );
+		gpa = keyboard.nextDouble();
+		
+		System.out.println();
+		System.out.println("Student Name :" + fname + " " + lname);
+		System.out.println("Student GPA :" + gpa);
+		if (gpa >= 3)
+		{
+			System.out.println("This student is in good standing.");
+		} else if (gpa >= 1)
+		{
+			System.out.println("This student is on academic probation.");
+		} else
+		{
+			System.out.println("This student has been expelled.");
+		}
+	}
+}
+```
