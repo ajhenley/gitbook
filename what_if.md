@@ -8,7 +8,7 @@ Here is the next Java program you'll enter, which introduces you to the if state
 The if statement lets us make decisions and control program flow. In the program below, only one line prints but there are 7 ```System.out.print``` statements. The ```if``` statement ensures that only the correct one is executed.
 
 ####The format of an if statment
-{%ace edit=true, lang='java'%}
+```java
 if (booleanExpression) {
     System.out.println("This line is inside the if statement");
 }else{
@@ -23,7 +23,7 @@ if (x > 5) {
     y = 4;
     z = 5;
 }
-{%endace%}
+```
 
 ####When do I need braces in my if statement?
 An if statement with only one line of code to run will not require braces```{..}``. However, you must use braces when you want the if statement (or else clause) to execute multiple lines of code.
@@ -31,7 +31,7 @@ An if statement with only one line of code to run will not require braces```{..}
 ####A bad practice
 Can you spot the bad practice below? No, it's not naming your class after a cheesy 1970's song by Bread (although that shouldn't be permitted). The bad practice is to not use the braces. Is the intent of the programmer to only change z when x is 7? Use braces to make it clear.
 
-{%ace edit=true, lang='java'%}
+```java
 public class IfAPicturePaintsAThousandWords {
 
 	public static void main(String[] args) {
@@ -47,7 +47,7 @@ public class IfAPicturePaintsAThousandWords {
 	}
 
 }
-{%endace%}
+```
 
 ####Hurricane wind speed chart
 |Category|Wind Speed (mph)|
@@ -59,7 +59,7 @@ public class IfAPicturePaintsAThousandWords {
 |5|155 and above|
 
 
-{%ace edit=false, lang='java'%}
+```java
 public class Hurricane {
 
 	public static void main(String[] args) {
@@ -88,7 +88,7 @@ public class Hurricane {
         }
 	}
 }
-{%endace%}
+```
 
 <!--
 ####Your assignment
