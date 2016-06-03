@@ -1,7 +1,7 @@
 ###What does this code do? (Part 2)
 
 Original program is below:
-{%ace edit=false, lang='java'%}
+```java
 import java.util.Scanner;
 
 public class Mortgage {
@@ -52,7 +52,7 @@ public class Mortgage {
 		return result;
 	}
 }
-{%endace%}
+```
 
 
 ###What does this code do? Part 2
@@ -62,7 +62,7 @@ This code is poorly commented. Actually, it has no comments at all. To make matt
 Clean up the following code by adding comments where appropriate. If you read the program carefully you should be able to follow it. Also, rename variables and methods to be meaningful and consistent.
 
 
-{%ace edit=true, lang='java'%}
+```java
 import java.util.Scanner;
 
 public class Calculator {
@@ -105,5 +105,4 @@ public class Calculator {
 		return result;
 	}
 }
-
-{%endace%}
+```
