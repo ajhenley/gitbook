@@ -530,3 +530,152 @@ public class PairProject {
 	}
 }
 ```
+
+##What If activity
+
+```java
+import java.util.Scanner;
+
+public class SalesRecord {
+	public static void main(String[] args) {
+		String custnum, name, taxcode;
+		double salesamt;
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.print("Customer Number : ");
+		custnum = keyboard.next();
+		
+		System.out.print("Name : ");
+		name = keyboard.next();
+		
+		System.out.print("Sales amount : $");
+		salesamt = keyboard.nextDouble();
+		
+		System.out.print("Tax Code : ");
+		taxcode = keyboard.next();
+		
+		if (taxcode.equals("NRM"))
+			System.out.println("Total (with tax) : $" + (salesamt * 1.06));
+		else if (taxcode.equals("NPF"))
+			System.out.println("Total (with tax) : $" + (salesamt * 1));
+		else if (taxcode.equals("BIZ"))
+			System.out.println("Total (with tax) : $" + (salesamt * 1.04555));
+	}
+}
+```
+
+
+##Randomness Debugging Activity
+
+```java
+import java.util.Random;
+
+public class RandomGenerator{
+    public static void main(String[] args)
+    {
+        output("Generate 10 random integers between 1 and 6");
+
+        Random rnd = new Random();
+        
+        for (int i = 1; i <= 10; ++i)
+        {
+          int randomInt = 1 + rnd.nextInt(6);
+          output("Generated number: " + randomInt);
+        }
+    
+        output("Done.");
+    }
+  
+  private static void output(String aMessage)
+  {
+    System.out.println(aMessage);
+  }
+}
+```
+
+
+##Randomness Change Activity
+
+```java
+import java.util.Random;
+
+public class RandomGenerator{
+    public static void main(String[] args)
+    {
+        System.out.println("Generate 10 random integers between 5 and 95");
+
+        Random rnd = new Random();
+        
+        for (int i = 1; i <= 10; ++i)
+        {
+          int randomInt = 5 + rnd.nextInt(91);
+          System.out.println("Generated number: " + randomInt);
+        }
+    
+        System.out.println("Done.");
+    }
+}
+```
+
+
+##Randomness completion activity
+
+```java
+import java.util.Random;
+
+public class DiceRoller
+ {
+    public static void main( String[] args )
+    {
+        int dienumber;
+        Random rnd = new Random();
+        
+        dienumber = 1 +rnd.nextInt(6);
+        
+        System.out.println("Your die roll was : " + dienumber);
+    }
+ }
+```
+
+
+##Repeating yourself with the while loop
+
+```java
+import java.util.Scanner;
+
+public class KeepGuessing {
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		int secretNumber, guess = 0;//guess is initialized to 0
+		
+		secretNumber = 123;
+		
+		System.out.println("I'm thinking of a number between 1 and 1000");
+		System.out.print("Enter the number:");
+		guess = keyboard.nextInt();
+		
+		while ( guess != secretNumber )
+		{
+			System.out.println("\nYou are wrong. Try again.");
+			System.out.println("Enter the number: ");
+			guess = keyboard.nextInt();
+			if (guess==5)
+			{
+				break;
+			}
+		}
+		
+		System.out.println("You are correct. You win a prize!");
+		keyboard.close();
+	}
+}
+```
+
+##Working with Files
+
+```java
+
+```
+
+
