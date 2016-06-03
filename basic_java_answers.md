@@ -91,6 +91,7 @@ public class MathTwoProg {
 }
 ```
 
+
 ##Change Program
 ```java
 public class ChangeProgram {
@@ -107,6 +108,7 @@ public class ChangeProgram {
     }
 }
 ```
+
 
 ##Getting and Storing User Input
 ```java
@@ -128,3 +130,154 @@ public class GettingInput {
 	}
 }
 ```
+
+
+##String Completion Assignment
+```java
+import java.util.Scanner;
+
+public class PetQuestions {
+	public static void main(String[] args) {
+        String name;
+        String breed;
+        int age;
+
+        Scanner keyboard = new Scanner(System.in);
+        
+        System.out.print( "Greetings. What is your pet's name? " );
+        name = keyboard.next();
+ 
+        System.out.print( "What kind of animal is " + name + "? " );
+        breed =keyboard.next();
+        
+        System.out.print( "How old is " + name + "? ");
+        age = keyboard.nextInt();
+        
+        System.out.println( name + " is your " + breed + " and it is " + age );
+	}
+}
+```
+
+
+##String Assignment
+```java
+public class StringAssignment {
+	public static void main(String[] args) {
+		String name = "Alton";
+		System.out.print(name);
+	}
+}
+```
+
+
+##Special Characters Assignment
+
+```java
+public class SpecialCharacters {
+	public static void main(String[] args) {
+	    String message1, message2;
+
+	    message1 ="message1 = \\/\\/\\/\\/\\/\\r\\t\\b ";
+	    message2 = "\nmessage2 = \";";
+
+	    System.out.println(message1 + message2);
+	}
+}
+```
+
+Need it explained? Then watch the video walkthrough...<br />
+[Video Walkthrough - http://links.learningbycoding.com/specialchars](https://ajhenley.wistia.com/medias/hgvfnibluf)
+
+
+##Output Assignment
+
+```java
+import java.util.Scanner;
+
+public class SomethingAboutYou
+{
+	public static void main( String[] args )
+	{
+		Scanner sc = new Scanner(System.in);
+
+		String firstName;
+		int age;
+		String height;
+		double gpa;
+
+		System.out.print( "What is your first name? " );
+		firstName = sc.next();
+		
+		System.out.print( "How old are you? " );
+		age = sc.nextInt();
+
+		System.out.print( "How tall are you? " );
+		height = sc.next();
+
+		System.out.print( "What is your GPA? " );
+		gpa = sc.nextDouble();
+
+		System.out.println("You are " + firstName);
+		System.out.println("You are " + age + " years old.");
+		System.out.println("Your height is: " + height);
+		System.out.print("Your awesome gpa is: " + gpa);
+		
+		sc.close();
+     }
+}
+```
+
+##Input Output Debugging Assignment
+
+```java
+import java.util.Scanner;
+
+public class AskingQuestions
+{
+	public static void main( String[] args )
+	{
+		Scanner keyboard = new Scanner(System.in);
+
+		int num1, num2, num3;
+
+		System.out.print( "First integer? " );
+		num1 = keyboard.nextInt();
+
+		System.out.print( "Second integer? " );
+		num2 = keyboard.nextInt();
+
+		System.out.print( "Third integer? " );
+		num3 = keyboard.nextInt();
+		
+		System.out.println("The total is : " + (num1 + num2 + num3));
+    }
+}
+```
+
+
+##Input Output Change Assignment
+
+```java
+import java.util.Scanner;
+
+public class AskingQuestions
+{
+	public static void main( String[] args )
+		Scanner keyboard = new Scanner(System.in);
+
+		int num1, num2, num3;
+
+		System.out.print( "First temperature? " );
+		num1 = keyboard.nextInt();
+
+		System.out.print( "Second temperature? " );
+		num2 = keyboard.nextInt();
+
+        System.out.println("The max value is : " + (num1 + num2) / 2);
+    }
+}
+```
+
+
+#Mowing Time Programming Activity
+
