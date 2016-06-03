@@ -12,15 +12,7 @@ Create a program that allows the user enter a sales record (which includes custo
  
 
 The program should output a total that includes the tax owed (if any).
-
-
-
-
-
-<button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
-
-<!--sec data-title="Answer" data-id="section1" data-show=false ces-->
-{%ace edit=false, lang='java'%}
+```java
 import java.util.Scanner;
 
 public class SalesRecord {
@@ -50,5 +42,4 @@ public class SalesRecord {
 			System.out.println("Total (with tax) : $" + (salesamt * 1.04555));
 	}
 }
-{%endace%}
-<!--endsec-->
+```
