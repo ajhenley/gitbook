@@ -281,3 +281,29 @@ public class AskingQuestions
 
 #Mowing Time Programming Activity
 
+```java
+import java.util.Scanner;
+
+public class MowingTime
+{
+  public static void main( String[] args )
+  {
+    Scanner keyboard = new Scanner(System.in);
+    double length, width, lawnArea;
+
+    System.out.print( "Lawn length? " );
+    length = keyboard.nextDouble();
+
+    System.out.print( "Lawn width? " );
+    width = keyboard.nextDouble();
+  
+    lawnArea = length * width;
+
+    System.out.println("The are of the lawn is " + lawnArea + 
+      " sq yard, and Bob can mow it in "+ (lawnArea / 40 * 2) + 
+      " minutes.");
+
+    keyboard.close();
+  }
+}
+```
