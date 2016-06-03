@@ -277,5 +277,5 @@
    * [Super Duper Shopping Cart](superduper_shopping_cart.md)
    * [Gosh! A group assignment](gosha_group_assignment.md)
 * [Exercise Answers](exercises.md)
-   * Basic Java Answers
+   * [Basic Java Answers](basic_java_answers.md)
 
