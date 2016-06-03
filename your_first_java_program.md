@@ -74,18 +74,4 @@ My name is Alton.
 
 Below is a sample answer to what we asked you to do above. Don't just read the book straight through. Actually try to write each application we are asking you to. Only check the answer when you are sure you are done, or you are sure you are stuck. You can only learn to program, by actually writing programs yourself.
 
-<button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
 
-<!--sec data-title="Answer" data-id="section1" data-show=false ces-->
-{%ace edit=false, lang='java', theme='coffee' %}
-public class HelloWorld
- {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello, World!" );
-        System.out.println("Today is July 19, 2015. I am alive!");
-        System.out.println("My name is Alton.");
-    }
- }
-{%endace%}
-<!--endsec-->
