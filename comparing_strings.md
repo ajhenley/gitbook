@@ -1,6 +1,6 @@
 <!--djw:done-->
 <!-- ajh:done -->
-###Comparing things
+###Comparing strings activity
 
 In Java, ```primitiveA == primitiveB``` returns true if both primitive variables contain the same value. However, ```ObjectA == ObjectB``` returns true when both objects share the same **memory location**. It basically boils down to the difference between an object data type and a primitive data type, and we aren't going to cover that until a later chapter. So why am I telling you now? Well, its because Strings are objects not primitives.
 
@@ -35,34 +35,7 @@ Add a line to print "You should stay inside" if the response is "stormy".
      }
 ```
 
-<button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
 
-<!--sec data-title="Answer" data-id="section1" data-show=false ces-->
-{%ace edit=false, lang='java'%}
-import java.util.Scanner;
-
-public class MyWeatherMan {
-
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        
-        System.out.println("How is the weather?");
-        String answer = sc.nextLine();
-        
-        if (answer.equals("rain"))
-            System.out.println("Take your umbrella!");
-        else if (answer.equals("windy"))
-            System.out.println("Wear your jacket!");
-        else if (answer.equals("snow") )
-            System.out.println("Wear a coat and take a shovel!");
-        else if (answer.equals("stormy")
-            System.out.println("Stay Inside!");
-        else
-            System.out.println("Enjoy your day!");
-     }
-}
-{%endace%}
-<!--endsec-->
 
 
 
