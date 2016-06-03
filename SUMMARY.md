@@ -85,7 +85,6 @@
    * [What if debugging activity](what_if_debugging_activity.md)
    * [Boolean decisions](boolean_expressions.md)
    * [Compound boolean expressions](compound_boolean_expressions.md)
-   * [Create the Rainfall Calculator](create_the_rainfall_calculator.md)
    * [Comparing strings](comparing_strings.md)
    * [What if completion activity](what_if_completion_activity.md)
    * [What if activity](what_if_activity.md)
