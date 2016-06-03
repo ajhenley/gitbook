@@ -41,3 +41,17 @@ public class PrintReceipt
   }
 }
 {%endace%}
+
+
+## A program for yourself
+
+{%ace edit=false, lang='java'%}
+public class MyProgram
+ {
+    public static void main( String[] args )
+    {
+        // My name is Alton
+        // I am 47 years old
+    }
+ }
+{%endace%}
