@@ -4,7 +4,7 @@
 
 The following code, our program from last time, generates a random number between 1 and 6, inclusive. Change the code to generate a random integer between 5 and 95.
 
-{%ace edit=false, lang='java'%}
+```java
 import java.util.Random;
 
 public class RandomGenerator{
@@ -23,7 +23,7 @@ public class RandomGenerator{
         System.out.println("Done.");
     }
 }
-{%endace%}
+```
 
 
 
