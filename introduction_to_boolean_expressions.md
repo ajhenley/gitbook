@@ -16,7 +16,7 @@ But in the words of Yoda: “There is another...”
 ####boolean
 A “Boolean” variable (named after the mathematician George Boole) cannot hold numbers or words. It stores one of two values: true or false. That’s it. We can use them to perform logic. To the code!
 
-{%ace edit=false, lang='java'%}
+```java
 import java.util.Scanner;
  
 public class BooleanExpressions
@@ -56,7 +56,7 @@ public class BooleanExpressions
     System.out.println( !(x >= y) + " " + (x < y) );
     }
 }
-{%endace%}
+```
 
 
 #####What You Should See
