@@ -1,5 +1,6 @@
 # Multidimentional Arrays
 
+```java
 public class MultiDimArrayDemo {
     public static void main(String[] args) {
     	
@@ -31,3 +32,4 @@ public class MultiDimArrayDemo {
         
     }
 }
+```
