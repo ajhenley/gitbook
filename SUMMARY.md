@@ -95,7 +95,7 @@
    * [Repeating yourself with the while loop](repeatingyourselfwith_the_while_loop_md.md)
    * [Guessing game](guessinggame.md)
    * [For loops](for_loops.md)
-   * For loop activity
+   * [For loop activity](for_loop_activity.md)
    * [Nested for loops](nested_for_loops.md)
    * Nested for loop activity
    * [Loop debugging activity](loop_debugging_activity.md)
