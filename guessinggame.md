@@ -18,14 +18,5 @@ Your guess: 6
 That's right! You're a good guesser.
 ```
 
-####Bonus
-Keep track of the number of guesses. Report back that number each time. If the number of guesses is 
-only one then make the program use the singular form of guess as shown below.
-```
-I have chosen a number between 1 and 10. Try to guess it.
-Your guess: 3
-That is incorrect. You've made 1 guess. Guess again.
-Your guess: 5
-That is incorrect. You've made 3 guesses. Guess again.
-```
+
 
