@@ -28,27 +28,3 @@ public class RandomGenerator{
 
 
 
-<button class="section" target="section1" show="Sample Answer" hide="Hide Answer"></button>
-
-<!--sec data-title="Answer" data-id="section1" data-show=false ces-->
-{%ace edit=false, lang='java'%}
-import java.util.Random;
-
-public class RandomGenerator{
-    public static void main(String[] args)
-    {
-        System.out.println("Generate 10 random integers between 5 and 95");
-
-        Random rnd = new Random();
-        
-        for (int i = 1; i <= 10; ++i)
-        {
-          int randomInt = 5 + rnd.nextInt(91);
-          System.out.println("Generated number: " + randomInt);
-        }
-    
-        System.out.println("Done.");
-    }
-}
-{%endace%}
-<!--endsec-->
