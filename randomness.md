@@ -5,19 +5,19 @@ You know what's cool? Having the computer randomly choose a number. This is the 
 To pick a random number, you first need to import ```java.util.Random;```
 Then, you must create a random-number generator object, like so:
 
-{%ace edit=false, lang='java'%}
+```java
 Random rnd = new Random();
-{%endace%}
+```
 
 Once that's finished, you can have the computer pick a random integer like this:
 
-{%ace edit=false, lang='java'%}
+```java
 int x = 1 + rnd.nextInt(100);
-{%endace%}
+```
 
 That picks a random number from 1 to 100 (inclusive) and store it into the variable x. Let's look at some code!
 
-{%ace edit=false, lang='java'%}
+```java
 import java.util.Random;
 
 public class RandomGenerator{
@@ -41,7 +41,7 @@ public class RandomGenerator{
     System.out.println(aMessage);
   }
 }
-{%endace%}
+```
 
 1. Delete the 1 + from the line that reads ```int randomInt = 1 + rnd.nextInt(100);```.Run the program to see what this does to the range of the random numbers.
 2. Change the 1 + from the line that read ```int randomInt = 1 + rnd.nextInt(100);``` to ```5 +```. What happens?
