@@ -447,3 +447,86 @@ public class StudentRecordReader {
 	}
 }
 ```
+
+
+##Comparing strings activity
+
+```java
+import java.util.Scanner;
+
+public class MyWeatherMan {
+
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("How is the weather?");
+        String answer = sc.nextLine();
+        
+        if (answer.equals("rain"))
+            System.out.println("Take your umbrella!");
+        else if (answer.equals("windy"))
+            System.out.println("Wear your jacket!");
+        else if (answer.equals("snow") )
+            System.out.println("Wear a coat and take a shovel!");
+        else if (answer.equals("stormy")
+            System.out.println("Stay Inside!");
+        else
+            System.out.println("Enjoy your day!");
+     }
+}
+```
+
+
+##What if completion activity
+
+```java
+import java.util.Scanner;
+
+public class PairProcess {
+	public static void main(String[] args) {
+		int num1, num2;
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.print( "First Number? :" );
+		num1 = keyboard.nextInt();
+		
+		System.out.print( "Last Number?  :" );
+		num2 = keyboard.nextInt();
+
+		System.out.println("sum     : " + (num1 + num2));
+		System.out.println("product : " + (num1 * num2));
+		System.out.println("average : " + (num1 + num2)/2 );
+	}
+}
+```
+
+###bonus question
+
+```java
+import java.util.Scanner;
+
+public class PairProject {
+	public static void main(String[] args) {
+		int num1, num2;
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.print( "First Number? :" );
+		num1 = keyboard.nextInt();
+		
+		System.out.print( "Last Number?  :" );
+		num2 = keyboard.nextInt();
+
+		if ((num1+num2) < 1000)
+		{
+			System.out.println("sum     : " + (num1 + num2) + "~");
+		} else
+		{
+			System.out.println("sum     : " + (num1 + num2) );
+		}
+		System.out.println("product : " + (num1 * num2));
+		System.out.println("average : " + (num1 + num2)/2 );
+	}
+}
+```
