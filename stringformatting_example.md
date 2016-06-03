@@ -4,7 +4,7 @@
 
 The program below is self-explanatory. It shows how to format a string in Java using the format method of the String class and System.out.printf. Enter the program below in Eclipse and observe what it does. You can use this page as a reference for formatting strings in future assignments.
 
-{%ace edit=false, lang='java'%}
+```java
 import java.util.Date;
 /**
  * Java program to demonstrate How to format String in Java by using
@@ -74,7 +74,7 @@ public class StringFormat{
     System.out.printf("Total %,d messages processed today", 10000000);
   }
 }
-{%endace%}
+```
 
 ####String formatting codes
 |**Format Code**|**Description**|
