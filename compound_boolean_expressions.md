@@ -7,7 +7,7 @@ Sometimes we want to use logic more complicated than just &ldquo;less than&rdquo
 For example, project managers are constantly asking programmers to write new software. And they want it done fast, cheap and perfect. 
 However, any good programmer will tell you that the rule is: **We can make it fast, cheap or good. Pick two**.
 
-{%ace edit=true, lang='java'%}
+```java
 import java.util.Scanner;
 
 public class ProjectManagerDecisionMaker {
@@ -49,7 +49,7 @@ public class ProjectManagerDecisionMaker {
 
 }
 
-{%endace%}
+```
 
 
 For complicated Boolean expressions you can use parentheses to group things, and you use the symbols &amp;&amp; to mean &ldquo;AND&rdquo; and the symbols || to mean &ldquo;OR&rdquo;.
