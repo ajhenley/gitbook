@@ -41,7 +41,7 @@ Let's print the first element of our array above:
 That should be enough talk about arrays... let's look at some things we can do with them.
 
 ####Things we can do with arrays
-{%ace edit=true, lang='java'%}
+```java
 import java.util.Random;
 
 public class ArrayDemo {
@@ -76,7 +76,5 @@ public class ArrayDemo {
 		//this line will generate an ArrayIndexOutOfBoundsException
 		System.out.println(scores[10]);
 	}
-
 }
-
-{%endace%}
+```
