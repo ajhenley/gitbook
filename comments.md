@@ -23,7 +23,7 @@ name and/or description of the program as well as the programmer's name and the
 date the program was written.
 
 ####Here's how you use comments in Java:
-{%ace edit=false, lang='java'%}
+```java
 /*
 *  Comments Example Program
 *  Dave Wolf
@@ -42,7 +42,7 @@ public class CommentsEverywhere
         System.out.println( "This line also prints just fine." );
     }
 }
-{%endace%}
+```
 
 
 Programs should be written for people to read. Your code will spend most of its life in maintenance mode. That means a lot of your coworkers - some who may not even be born yet - will have the pleasure of maintaining your program. It's up to you to make sure it's a pleasure.
