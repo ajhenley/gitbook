@@ -103,7 +103,7 @@
    * [A variation on the dice game Pig (move)](pigdice_md.md)
    * [Zork](zork.md)
    * [Switch statements](switchstatements.md)
-   * Switch statement activity
+   * [Switch statement activity](switch_statement_activity.md)
    * [A first look at arrays](afirst_look_at_arrays.md)
    * [An array to remember](an_array_to_remember.md)
    * [Working with files](working_with_files.md)
