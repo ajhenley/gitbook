@@ -44,7 +44,7 @@ int counter = 1;
 ```
 
 ####Examples:
-{%ace edit=false, lang='java'%}
+```java
 double price = 14.95;
 float interestRate = 8.125F;
 long numberOfBytes = 2000L;
@@ -55,12 +55,12 @@ char letter = 'A';
 char letter = 65;
 boolen valid = false;
 int x = 0, y = 0;
-{%endace%}
+```
 
 
 
 
-{%ace edit=false, lang='java'%}
+```java
 /* VariousVaribles - a program to teach us about variables
 */
 public class VariousVariables
@@ -98,7 +98,7 @@ public class VariousVariables
         System.out.println("The founder of Java is " + firstName + lastName );
     }
 }
-{%endace%}
+```
 
 ####What You Should See
 ```
