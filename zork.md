@@ -1,5 +1,8 @@
 <!--djw: done -->
 ###Zork
+
+#### Note: This is an advanced problem suitable for pairs, groups or talented individual students.
+
 Zork was an early interactive computer game. It was initially released in 1977.
 
 
