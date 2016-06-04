@@ -11,5 +11,4 @@ You roll: 5 and 3. Your score is 8.
 Press Y to roll again.
 ```
 
-####Bonus variation
-Pig is a 2 player game. The first player to reach 100 wins. Modify your solution above to add the computer as the second player. Show both scores after each roll.
+
