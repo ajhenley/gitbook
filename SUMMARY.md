@@ -97,7 +97,7 @@
    * [For loops](for_loops.md)
    * [For loop activity](for_loop_activity.md)
    * [Nested for loops](nested_for_loops.md)
-   * Nested for loop activity
+   * [Nested for loop activity](nested_for_loop_activity.md)
    * [Loop debugging activity](loop_debugging_activity.md)
    * [Loop completion activity](loopcompletion_activity.md)
    * [A variation on the dice game Pig (move)](pigdice_md.md)
