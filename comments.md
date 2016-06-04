@@ -59,7 +59,7 @@ The practitioner of literate programming can be regarded as an essayist, whose m
 * If you need information about Random or Scanner then search Oracle's online documentation. There you will find explanations about each.
 * Your next assignment is to continue adding comments to your programs as you complete this course
 
-{%ace edit=false, lang='java'%}
+```java
 /*
 *
 */
@@ -96,5 +96,5 @@ public class RandomComments
         } while (guessedNumber != randomNumber);
     }
 }
-{%endace%}
+```
 
