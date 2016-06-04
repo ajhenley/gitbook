@@ -1,4 +1,4 @@
-# Multidimentional Arrays
+# Multidimensional Arrays
 
 ```java
 public class MultiDimArrayDemo {
