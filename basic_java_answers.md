@@ -710,4 +710,130 @@ public class GuessingGame {
 ```
 
 
-##
+## For Loop Activity
+
+```java
+public class BottlesOfBeer {
+	public static void main(String[] args) {
+		for (int i = 100; i >= 1; i--)
+		{
+			System.out.printf("%d bottles of beer in the wall.", i);
+			System.out.println();
+			System.out.printf("%d bottles of beer.", i);
+			System.out.println();
+			System.out.println("If one of the bottles should happen to fall,");
+			System.out.printf("%d bottles of beer in the wall", i - 1);
+			System.out.println();
+			System.out.println();
+		}
+	}
+}
+```
+
+
+## Nested For Loop Activity
+
+```java
+public class NestedForLoops {
+	public static void main(String[] args) {
+		for (int i = 1; i<10; i++)
+		{
+			for (int j = 1; j <= i; j++)
+			{
+				System.out.print(i);
+			}
+			System.out.println();
+		}
+	}
+}
+```
+
+
+## Loop Debugging Activity
+
+```java
+import java.util.Scanner;
+
+public class StopSayingThat {
+	public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        
+        String userInput = "";
+        userInput = keyboard.next();
+        
+        while ( userInput != "" )
+        {
+            System.out.println(userInput);            
+        }
+	}
+}
+```
+
+
+##Loop Completion Activity
+
+```java
+import java.util.Scanner;
+
+public class GetIntegers {
+    public void main (String[] args)
+    {
+        Scanner keyboard = new Scanner(System.in);
+        
+        int num, total = 0;
+        
+        for (int i = 1; i <= 10; i++)
+        {
+          num = keyboard.nextInt();
+          total += num;
+        }
+        System.out.println("The total of all 10 numbers is " + total);
+    }
+}
+```
+
+
+##A variation of the dice game Pig
+
+```java
+import java.util.Random;
+import java.util.Scanner;
+
+public class Pig {
+
+	public static void main(String[] args) {
+		int die1, die2;
+		int score = 0;
+		Scanner keyboard = new Scanner(System.in);
+		
+		String again = "y";
+		Random rnd = new Random();
+		
+		while (again.equals("y"))
+		{
+			die1 = 1 + rnd.nextInt(6);
+			die2 = 1 + rnd.nextInt(6);
+			
+			if (die1 + die2 == 2)
+			{
+				score = score + 25;
+			} else if (die1 > 1 && die2 > 1){
+				score = score + die1 + die2;
+			} 
+			
+			System.out.printf("You roll: %d and %d. Your score is %d.\n", die1, die2, score);
+			
+			if (score < 100)
+			{
+				System.out.println("Press Y to roll again.");
+				again = keyboard.next();
+			} 
+				else
+			{
+				System.out.println("Game Over. You Win!");
+				again="n";
+			}
+		}
+	}
+}
+```
