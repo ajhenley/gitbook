@@ -30,9 +30,10 @@ The form can send its data to the servlet via either GET or POST. They are speci
 The hidden input below can helps the servlet determine which form the user submitted.
 The form below would go in the body of the html page, between the <body> and </body> tags.
 {%ace edit=false, lang='html'%}
-<form action="emailList" method="post">
+<h1>Subscribe to the Java Tips newsletter</h1>
+<form action="ProcessSubscriptions" method="post">
 <!-- hidden input to let servlet know which form was used -->
- <input type="hidden" name="hiddenAction" value="add_to_java_tips">
+ <input type="hidden" name="listName" value="Java Tips">
 <label>Email:</label>
  <input type="email" name="email" required><br>
  
@@ -43,7 +44,7 @@ The form below would go in the body of the html page, between the <body> and </b
  <input type="text" name="lastName" required><br>
 
 <label>&nbsp;</label>
-<input type="submit" value="Join Now" id="submit">
+<input type="submit" value="Subscribe Now" id="submit">
 </form>
 {%endace%}
 ####Your assignment
