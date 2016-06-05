@@ -109,7 +109,7 @@
    * [Working with files](working_with_files.md)
    * [Finding words with the do-while loop](finding_words_with_the_do-while_loop.md)
    * [Invoice application](invoiceapplication.md)
-   * [Multidimentional Arrays](multidimentional_arrays.md)
+   * [Multidimensional Arrays](multidimentional_arrays.md)
    * [Gift Advisor (move)](gift_advisor.md)
 * [Exception Handling](exceptionhandling.md)
    * [Exceptions](exceptions.md)
