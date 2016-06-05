@@ -32,7 +32,7 @@ The form below would go in the body of the html page, between the <body> and </b
 {%ace edit=false, lang='html'%}
 <form action="emailList" method="post">
 <!-- hidden input to let servlet know which form was used -->
- <input type="hidden" name="hiddenAction" value="add">
+ <input type="hidden" name="hiddenAction" value="add_to_java_tips">
 <label>Email:</label>
  <input type="email" name="email" required><br>
  
@@ -45,8 +45,6 @@ The form below would go in the body of the html page, between the <body> and </b
 <label>&nbsp;</label>
 <input type="submit" value="Join Now" id="submit">
 </form>
-</body>
-</html>
 {%endace%}
 ####Your assignment
 * Create a Dynamic Web Project which contains an HTML form to subscribe to your Java Tips email newsletter. 
