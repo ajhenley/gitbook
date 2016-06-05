@@ -1,5 +1,5 @@
 <!--djw: done-->
-###JPA: See if a Customer Exists
+###JPA: Check if a Customer Exists
 
 Sometimes you need to know if a particular record exists in the database. For example, does the customer with an ID of 2 exist? 
 
