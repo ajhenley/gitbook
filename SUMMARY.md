@@ -279,5 +279,5 @@
    * [Gosh! A group assignment](gosha_group_assignment.md)
 * [Exercise Answers](exercises.md)
    * [Basic Java Answers](basic_java_answers.md)
-   * Exception Handling Solutions
+   * [Exception Handling Solutions](exception_handling_solutions.md)
 
