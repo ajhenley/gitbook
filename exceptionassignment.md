@@ -3,7 +3,7 @@
 Create a new application using the code below.
 
 Add Exception Handling to the following code to handle if the user tries to enter zero as the second integer.
-{%ace edit=true, lang='java'%}
+```java
 import java.util.Scanner;
  
 class Division {
@@ -22,7 +22,7 @@ class Division {
   System.out.println("Result = " + result);
   }
 }
-{%endace%}
+```
 
 ```java
 import java.util.Scanner;
