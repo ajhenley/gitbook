@@ -2,6 +2,7 @@
 
 Alton and Dave have teamed up to create an online store.
 
+####Your assignment
 Your job is to find ten products for them to sell. Create a database for those products. 
 
 Next, create a dynamic web application using JPA to serve as a shopping cart for their online store.
