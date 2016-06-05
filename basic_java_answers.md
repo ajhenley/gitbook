@@ -1,4 +1,4 @@
-# Basic Java Answers
+# Basic Java Solutions
 
 ## Your first java program
 
