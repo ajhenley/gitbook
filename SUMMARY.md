@@ -265,7 +265,7 @@
    * [Bullhorn #2](bullhorn2.md)
    * [Bullhorn #3](bullhorn3.md)
    * [Bullhorn Bonus Assignment](bullhornbonus_assignment.md)
-   * [How to see if a customer exists](howto_seeif_a_customer_exists.md)
+   * [How to check if a customer exists](howto_seeif_a_customer_exists.md)
    * [A first look at Expression Language](afirst_look_at_expression_language.md)
    * [Tell Me About These Beans](tell_me_about_these_beans.md)
    * [Convert existing application to use JPA](convertexisting_application_to_use_jpa.md)
