@@ -1,6 +1,6 @@
 <!--djw:done-->
 ###Add Exception Handling To Existing App
-Add Exception handling to one of your existing applications. 
+Now it's time for you to freestyle for a bit. We want you to add Exception handling to one of your existing applications. 
 * Catch some exceptions other than the more general Exception
 * Include an example of using more than one catch clause in at least one of your examples
 * Use a finally clause in one of your examples
