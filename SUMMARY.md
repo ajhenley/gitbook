@@ -276,6 +276,9 @@
    * [Algorithms Final Project](algorithms_final_project.md)
    * [Measuring Complexity](measuring_complexity.md)
    * [Show Me Some Psuedocode!](show_me_some_psuedocode.md)
+* Appendix B - Using Git
+  * bob
+  
 * [Exercise Answers](exercises.md)
    * [Basic Java Answers](basic_java_answers.md)
    * [Exception Handling Solutions](exception_handling_solutions.md)
