@@ -6,11 +6,9 @@ Have you read the page called *Get and Post Details*? It explains how this works
 
 ####Your assignment
 1. For the form's action attribute you'll enter the name specified in your servlet's @WebServlet attribute.
-2. Create a servlet called ProcessForm.java. The servlet will retrieve the parameters from the form. It will then display them on a page called output.jsp.
+2. Create a servlet called ProcessSubscriptions.java. The servlet will retrieve the parameters from the form. It will then display them on a page called confirm.jsp.
 
-**DO NOT USE BOOTSTRAP**. Today you do not get points for beauty. Functionality is important here. The purpose of this project is to have you create a minimal servlet/form processor, not a fancy website. That comes later.
-
-####Your form MUST use each of the following HTML form elements:
+####Your form may use any of the following HTML form elements:
 {%ace edit=false, lang='html'%}
 <form> Defines an HTML form for user input. Be sure to set the action attribute to your servlet's ```@WebServlet``` annotation 
 <input> Defines an input control. It must have a type attribute. And a name attribute. 
