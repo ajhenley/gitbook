@@ -4,8 +4,6 @@
    * [About this course](aboutthis_course.md)
    * [Recommended Resources](recommendedresources.md)
    * [Obtaining the Oracle Virtual Machine](obtainingthe_oracle_virtual_machine.md)
-* [Program Design](chapter1.md)
-
 * [Developing with Eclipse](developingwith_eclipse.md)
    * [Obtaining Eclipse](obtainingeclipse.md)
    * [Installing and updating Eclipse](installingand_updating_eclipse.md)
