@@ -4,11 +4,11 @@ djw 03.10.16 massive rewrite
 ###Encapsulation
 Sometimes your class has some internal business to attend to.
 
-For example, your class may contains a method called save which takes as its argument the filename.
+For example, your class may contain a method called save which takes as its argument the filename.
 
 The class exposes (makes available) the save method.
 
-Once the user of your class calls the save method your class still has work to do. It must determine if the file exists. If the file doesn't exist then your class must create it on the disk. Then write the data. Finally, close the connection to the file.
+If you think about it, if your class can save its data to a file, there is a lot happening behind the scenes. Once the user of your class calls the save method your class still has work to do. It must determine if the file exists. If the file doesn't exist then your class must create it on the disk. Then write the data. Finally, close the connection to the file.
 
 
 > Encapsulation ensures that the user only knows about the save method and not every little detail required to make the save method work.
