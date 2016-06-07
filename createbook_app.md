@@ -7,7 +7,7 @@ Next: Add some code to display the title and author of the book to the console.
 
 What happens if you try to retrieve a SKU that doesn't exist? 
 
-{%ace edit=true, lang='java'%}
+```java
 public class BookApplication {
 
 	public static void main(String[] args) {
@@ -17,4 +17,4 @@ public class BookApplication {
 		myBook.setSKU(bookSKU);
 	}
 }
-{%endace%}
+```
