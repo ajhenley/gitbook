@@ -4,7 +4,8 @@
         "comment",
         "ace",
         "sectionx",
-        "-fancybox"
+        "-fancybox",
+        "addcssjs"
     ],
     "pluginsConfig": {}
 }
