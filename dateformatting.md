@@ -17,7 +17,7 @@ The following code will create a Gregorian calendar with a particular date.
 * Month is an integer from 0 to 11
 * Day must be an integer from 1 to 31
 
-{%ace edit=true, lang='java'%}
+```java
 GregorianCalendar gc = new GregorianCalendar(2010,2,15);
 
 System.out.println("Month:" + gc.get(Calendar.MONTH));
@@ -26,48 +26,48 @@ System.out.println("Month:" + gc.get(Calendar.MONTH));
 System.out.println("Month:" + months[gc.get(Calendar.MONTH)]);
 System.out.println("Day:" + gc.get(Calendar.DATE));
 System.out.println("Year:" + gc.get(Calendar.YEAR));
-{%endace%}
+```
 
 The day of the week is a numeric value from 1 to 7
 
-{%ace edit=true, lang='java'%}
+```java
 System.out.print("Day of Week: ");
 System.out.println(gc.get(Calendar.DAY_OF_WEEK));
-{%endace%}
+```
 
 <!-- we haven't discussed what a constructor is yet!!! -->>
 You can display the time if you pass the arguments for hours, minutes, seconds in the call to Gregorian Calendar.
-{%ace edit=true, lang='java'%}
+```java
 GregorianCalendar gc = new GregorianCalendar(2010,2,15,15,30,0);
  
 System.out.print("Time: ");
 System.out.print(gc.get(Calendar.HOUR)+":");
 System.out.print(gc.get(Calendar.MINUTE) + ":");
 System.out.println(gc.get(Calendar.SECOND));
-{%endace%}
+```
 
 How many days ago was the date?<br />
 To answer this question, you first get the milliseconds and then convert to the number of days.
 The number of milliseconds are from January 1, 1970. Java uses this as the epoch, or beginning of time. You can convert this to days as shown below.
 
-{%ace edit=false, lang='java'%}
+```java
  long DateInMS = gc.getTimeInMillis();
-{%endace%}
+```
 
 You can also get this from the Date class
 The Gregorian Calendar .getTime method returns a date object
 A date object is also the number of milliseconds since January 1, 1970.
 The Date class allocates a Date object and initializes it so that it represents the time at which it was allocated, measured to the nearest millisecond.
 
-{%ace edit=true, lang='java'%}
+```java
  Date myDate = gc.getTime();
  myDate.getTime();
-{%endace%}
+```
 
 Once you know the number of milliseconds you can convert them to the number of days
 
-{%ace edit=true, lang='java'%}
+```java
  long millisecondsPerDay = (24*60*60*1000);
  float numberOfDays = DateInMS/millisecondsPerDay;
-{%endace%}
+```
  
