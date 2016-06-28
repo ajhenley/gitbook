@@ -155,9 +155,9 @@ Now that you've seen how it's done, create a class that has private member varia
 
 Once you have created your classs. use it in the main the main routine of your program.  
 The following line should print the line below it:
-{%ace edit=true, lang='java'%}
+```java
 System.out.printf("My full name is %s and I am %d years old.",MyClass.fullName,MyClass.age);
-{%endace%}
+```
 
 ```My full name is Joe Programmer and I am 22 years old.```
 
