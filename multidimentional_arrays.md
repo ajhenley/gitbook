@@ -1,5 +1,7 @@
-# Multidimensional Arrays
-An array can not only contain elements but also each element of an array could be ... another array! You've actually seen this. Lots of times, I bet. Have you worked in Excel before? Think of the first array as being the rows. And each row contains an array of columns. So if you stored your Student Gradebook in an Excel worksheet you would have an array of records (each student) and each student would contain four columns: gender, major, state, average score.
+##Multidimensional Arrays
+> A multidimensional array is an array whose elements contain another array
+
+An array can not only contain elements but also each element of an array could be ... another array! You've actually seen this. Lots of times, I bet. Have your used a calendar? Have you worked in Excel before? Think of the first array as being the rows. And each row contains an array of columns. If you stored your Student Gradebook in an Excel worksheet you would have an array of records (each student) and each student would contain four columns: gender, major, state, average score.
 
 Your array would look like this:
 <table>
@@ -65,6 +67,7 @@ row 9 col 0	row 9 col 1	row 9 col 2	row 9 col 3	row 9 col 4
 row 10 col 0	row 10 col 1	row 10 col 2	row 10 col 3	row 10 col 4	
 row 11 col 0	row 11 col 1	row 11 col 2	row 11 col 3	row 11 col 4	
 ```
+
 ```
 1	2	3	4	5	6	7	8	9	10	11	12	
 2	4	6	8	10	12	14	16	18	20	22	24	
