@@ -1,7 +1,9 @@
-# Calendar and Date
-Date Formatting Example
-Formatting dates with the DateFormat class is a two-step process. First, you create a formatter with the getDateInstance method. Second, you invoke the format method, which returns a String containing the formatted date. The following example formats today's date by calling these two methods:
+##Calendar and Date
+Formatting dates with the DateFormat class is a two-step process. First, you create a formatter with the getDateInstance method. Second, you invoke the format method, which returns a String containing the formatted date. 
 
+The following example formats today's date by calling these two methods:
+
+```java
 Date today;
 String dateOut;
 DateFormat dateFormatter;
@@ -9,30 +11,30 @@ DateFormat dateFormatter;
 dateFormatter = DateFormat.getDateInstance(DateFormat.DEFAULT, currentLocale);
 today = new Date();
 dateOut = dateFormatter.format(today);
-
 System.out.println(dateOut + " " + currentLocale.toString());
- 
+```
 
- 
+Prior to JDK 1.1, the class Date had two additional functions. It allowed the interpretation of dates as year, month, day, hour, minute, and second values. It also allowed the formatting and parsing of date strings. 
+
+Use the Calendar class to convert between dates and time fields. Use the DateFormat class to format and parse date strings. Date is just a wrapper around a long milliseconds since 1970-01-01.
+
+To create a Gregorian calendar with a particular date:<br/>
+```GregorianCalendar gc = new GregorianCalendar(2010,2,15);```
+
+ * Year must be a four digit integer
+ * Month is an integer from 0 to 11
+ * Day must be an integer from 1 to 31
+
+
+```java 
 import java.util.*;
-
 public class DateActivity
 {
 	public static void main(String args[])
 	{
-		/*
-		 * Prior to JDK 1.1, the class Date had two additional functions. 
-		 * It allowed the interpretation of dates as 
-		 * year, month, day, hour, minute, and second values. 
-		 * It also allowed the formatting and parsing of date strings. 
-		 * Unfortunately, the API for these functions was not amenable to internationalization. 
-		 * As of JDK 1.1, the Calendar class should be used to convert between 
-		 * dates and time fields and the DateFormat class should be used to format and parse date strings. 
-		 * The corresponding methods in Date are deprecated.
-		 */
-		
-		//Date is just a wrapper around a long milliseconds since 1970-01-01
-		String months[] = {"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Dec"};
+	    String months[] = 
+       {"Jan","Feb","Mar","Apr","May","Jun",
+               "Jul","Aug","Sep","Oct","Dec"};
 		
 		int year;
 		//create a Gregorian calendar with a particular date
@@ -40,8 +42,10 @@ public class DateActivity
 		//Month is an integer from 0 to 11
 		//Day must be an integer from 1 to 31
 		GregorianCalendar gc = new GregorianCalendar(2010,2,15);
+        //Calendar.MONTH is an enumeration that tells gc.get what to return
 		System.out.println("Month:" + gc.get(Calendar.MONTH));
-		//show the month from the array
+		
+        //This will show the month from the array defined above
 		System.out.println("Month:" + months[gc.get(Calendar.MONTH)]);
 		System.out.println("Day:" + gc.get(Calendar.DATE));
 		System.out.println("Year:" + gc.get(Calendar.YEAR));
