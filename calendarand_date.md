@@ -26,7 +26,7 @@ To create a Gregorian calendar with a particular date:<br/>
  * Day must be an integer from 1 to 31
 
 
-```java 
+```java
 import java.util.*;
 public class DateActivity
 {
@@ -83,4 +83,6 @@ public class DateActivity
 		
 	}
 }
+```
+
 	
