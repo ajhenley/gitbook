@@ -1,4 +1,18 @@
 # Multidimensional Arrays
+An array can not only contain elements but also each element of an array could be ... another array! You've actually seen this. Lots of times, I bet. Have you worked in Excel before? Think of the first array as being the rows. And each row contains an array of columns. So if you stored your Student Gradebook in an Excel worksheet you would have an array of records (each student) and each student would contain four columns: gender, major, state, average score.
+
+Your array would look like this:
+<table>
+<tr><td>M</td><td>Econ</td><td>MD</td><td>99</td></tr>
+<tr><td>F</td><td>Mktg</td><td>VA</td><td>89</td></tr>
+<tr><td>F</td><td>Biology</td><td>NJ</td><td>100</td></tr>
+</table>
+
+*... continues for 97 more rows...*
+
+In Java, you could create this same structure as follows. This allows fast-progarmmatic access to your data using two dimensions. Think of the as the row index (or the index of the first array). And the column index (or the index of the second array).
+
+You can access the elements of a two-dimensional array with two nested for-loops.
 
 ```java
 public class MultiDimArrayDemo {
