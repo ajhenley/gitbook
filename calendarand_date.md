@@ -12,13 +12,7 @@ dateOut = dateFormatter.format(today);
 
 System.out.println(dateOut + " " + currentLocale.toString());
  
-Date Format
-https://docs.oracle.com/javase/tutorial/i18n/format/dateFormat.html (Links to an external site.)
- 
-Date creation and formatting (Good overview)
-https://www3.ntu.edu.sg/home/ehchua/programming/java/DateTimeCalendar.html (Links to an external site.)
- 
- 
+
  
 import java.util.*;
 
