@@ -124,3 +124,100 @@ public class Book {
 	    }
 	}
 ```
+
+##Create Book Class
+
+#### CarApplication.java
+```java
+public class CarApplication {
+
+	public static void main(String[] args) {
+		Car c = new Car();
+		
+		c.run();
+		c.accelerate();
+		c.stop();
+		
+		Car d = new Car("Green", "Dodge");
+		d.run();
+		d.accelerate();
+		d.accelerate();
+		d.stop();
+	}
+
+}
+```
+
+#### Vehicle.java
+```java
+public abstract class Vehicle {
+	public void accelerate(){
+		System.out.println("The vehicle speeds up");
+	}
+	
+	public void run(){
+		System.out.println("The vehicle begins running");
+	}
+	
+	public void stop(){
+		System.out.println("The vehicle stops");
+	}
+}
+```
+
+#### Car.java
+```java
+public class Car extends Vehicle {
+	private String color;
+	private String model;
+	private int speed;
+	
+	public Car(){
+		color = "Purple";
+		model = "Passat";
+		speed = 0;
+	}
+	
+	public Car(String color, String model){
+		this.color = color;
+		this.model = model;
+		speed = 0;
+	}
+	
+	public void setColor(String input){
+		color = input;
+	}
+	public String getColor(){
+		return color;
+	}
+	
+	public void setModel(String input){
+		model = input;
+	}
+	public String getModel(){
+		return model;
+	}
+	
+	public void setSpeed(int input){
+		speed = input;
+	}
+	public int getSpeed(){
+		return speed;
+	}
+	
+	public void run(){
+		System.out.println("The " + color + " " + model + " starts");
+	}
+	
+	public void accelerate(){
+		speed+=10;
+		System.out.println("The " + color + " " + model + " speeds up to " + speed + " mph");
+	}
+	
+	public void stop(){
+		speed = 0;
+		System.out.println("The " + color + " " + model + " stops");
+	}
+	
+}
+```
