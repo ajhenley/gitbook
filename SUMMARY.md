@@ -81,7 +81,6 @@
    * [Date formatting](dateformatting.md)
    * [Calendar and Date](calendarand_date.md)
    * [Date change activity](datechange_activity.md)
-   * [More about dates](moreabout_dates.md)
    * [Inheritance](inheritance.md)
    * [Inheritance debugging activity](inheritancedebugging_activity.md)
    * [Inheritance completion activity](inheritancecompletion_activity.md)
