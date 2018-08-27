@@ -1,8 +1,6 @@
-# Designing Programs Overview
-
 Programmers need to have a good understanding of the data to be processed. This includes the data variables, constants and literals. It also includes elementary data items, data structures, files and data validation.
 
-###Seven steps in program development
+###Steps in program development
 * Define the problem.
 * Outline the solution.
 * Develop the outline into an algorithm.
@@ -17,13 +15,13 @@ Programmers need to have a good understanding of the data to be processed. This 
 * data-driven program design.
 
 
-##Procedural programming
+###Procedural programming
 
-##Object-oriented programming
+###Object-oriented programming
 
-##Top-down development
+###Top-down development
 
-##Modular design
+###Modular design
 
 
 ###Algorithm
@@ -33,6 +31,7 @@ An algorithm is a set of detailed, unambiguous and ordered instructions develope
 Pseudocode is an English language-like way of representing the algorithm
 
 ####Advantages of Pseudocode
+Easy to read, write and test before you have committed to development of your program.
 
 ####Conventions for Pseudocode
 

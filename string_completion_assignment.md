@@ -1,11 +1,13 @@
-# String completion assignment
+<!--djw:done-->
+<!--ajh:done-->
+###String completion assignment
 
 The following code is supposed to ask the user their pet's name, breed and age. Add the 3 lines necessary to make this work...
 
-<pre>
+```java
  import java.util.Scanner;
   
- public class RudeQuestions
+ public class PetQuestions
  {
      public static void main( String[] args )
     {
@@ -13,9 +15,7 @@ The following code is supposed to ask the user their pet's name, breed and age. 
         String breed;
         int age;
 
-        
-
-        System.out.print( "Hello. What is your pet's name? " );
+        System.out.print( "Greetings. What is your pet's name? " );
         name = keyboard.next();
  
         System.out.print( "What kind of animal is " + name + "? " );
@@ -24,4 +24,5 @@ The following code is supposed to ask the user their pet's name, breed and age. 
         System.out.println( name + " is your " + breed + " and it is " + age );
      }
  }
- </pre>
+```
+

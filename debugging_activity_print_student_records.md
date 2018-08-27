@@ -1,4 +1,3 @@
-# Debugging Activity: Timesheet Records
 
 Chanchal is the project manager for a small software development project. Each week she wants a report of the employees who have worked on her project, separated by full-time and part-time.
 
@@ -7,9 +6,10 @@ She has developed the pseudocode below but since she is the project manager and 
 You had told her that she would need a DOWHILE loop to control the repetition
 And an IF statement to select &lsquo;FT&rsquo; records
 
-###Incorrect Results - find and fix the error
-<pre>Print_Hours_Billed_To_Project
-Print &lsquo;Employee Hours Billed to Project&lsquo; heading
+####Incorrect Results - find and fix the error
+```
+Print_Hours_Billed_To_Project
+Print "Employee Hours Billed to Project" heading
     Read timesheet record
     DOWHILE morerecords exist
         IF timesheet_status = &lsquo;FT&rsquo; THEN
@@ -18,10 +18,12 @@ Print &lsquo;Employee Hours Billed to Project&lsquo; heading
     ENDDO
     Read timesheet record
 END
-</pre>
+```
 
+```
 Employee Hours Billed to Project
 Full-Time employees
     10335 Finance    Smithers  $110.00/hour 24 hours
     21555 Marketing  Wiggims   $75.00/hour  10 hours
     31004 IT         Burns     $150.00/hour 20 hours
+```

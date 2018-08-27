@@ -1,5 +1,3 @@
-# Repetition Control Structures
-
 <p>There are three different ways that a set of instructions can be repeated, and each way is determined by where the decision to repeat is placed:&nbsp;</p>
 <ul>
 <li>at the beginning of the loop (leading decision loop)</li>
@@ -20,7 +18,7 @@
 <li>The only way to terminate the loop is to render the <strong>DOWHILE </strong>condition false.&nbsp;</li>
 </ol>
 <p>&nbsp;</p>
-<h3>Using DOWHILE to Repeat a Set of Instructions a Known Number of Times</h3>
+####Using DOWHILE to Repeat a Set of Instructions a Known Number of Times
 <p>When a set of instructions is repeated a specific number of times, a counter can be used in pseudocode.</p>
 <p>For this construct two actions must be indicated:</p>
 <ol>
@@ -28,7 +26,7 @@
 <li>The counter is incremented before the <strong>ENDDO</strong> statement.&nbsp;</li>
 </ol>
 <p>&nbsp;</p>
-<h3>Using DOWHILE to Repeat a Set of Instructions an Unknown Number of Times</h3>
+####Using DOWHILE to Repeat a Set of Instructions an Unknown Number of Times
 <p>Often, a trailer record or sentinel signifies the end of the data.&nbsp;</p>
 <p>This sentinel is a special record or value placed at the end of valid data to signify the end of that data.&nbsp;</p>
 <p>It must contain a value that is clearly distinguishable from the other data to be processed.&nbsp;</p>

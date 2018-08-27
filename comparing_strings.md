@@ -1,55 +1,41 @@
-# Comparing strings
+<!--djw:done-->
+<!-- ajh:done -->
+###Comparing strings activity
 
-Comparing Strings
-In this exercise we will see something that causes trouble for beginners trying to learn Java: the regular relational operators do not work with Strings, only numbers.
-```
-boolean a, b;
-a = ("cat" < "dog");
-b = ("horse" == "horse" );
-The second line doesn’t even compile! You can’t use < to see if a word comes before another word in Java. And in the third line, b does get set to the value true here, but not if you read the value into a variable like so:
+In Java, ```primitiveA == primitiveB``` returns true if both primitive variables contain the same value. However, ```ObjectA == ObjectB``` returns true when both objects share the same **memory location**. It basically boils down to the difference between an object data type and a primitive data type, and we aren't going to cover that until a later chapter. So why am I telling you now? Well, its because Strings are objects not primitives.
 
-String animal;
-animal = keyboard.next(); // the user types in "horse"
-b = ( animal == "horse" );
-b will always get set to the value false, no matter if the human types "horse" or not!
+####Strings are different
+Strings have a built-in method ```.equals()``` that compares itself to another String. The result is ```true``` if both strings contain the same content and ```false``` if they do not. Use the not operator ```!``` with the ```.equals()``` method to determine if two Strings are different.
 
-I don’t want to try to explain why this is. The creators of Java do have a good reason for this apparently weird behavior, but it’s not friendly for beginners and explaining it would probably only confuse you more at this point in your learning.
+If you test it, you will see that sometimes using == to compare strings gives you predictable results and sometimes it doesn't. Think you can ignore me on this? Do you like to bash your head against the wall while grinding your teeth and wailing uncontrollably? Then **don't EVER use == to compare Strings for equality**. It might actually work sometimes for reasons buried deep inside the internals of Java. But if you value your sanity then use the ```.equals()``` method to compare Strings. Your head and teeth will thank you.
 
-Do you remember when I warned you that Java is not a language for beginners?
+####Remember this:
+The regular relational operators do not work reliably with Strings. They only work on primitives.
 
-So there is a way to compare Strings for equality, so let’s look at it.
+####Do this:
+Fix the following program so it works. Note: You should be getting comfortable with what a normal java program looks like, so I am not giving you all the code. I just included enough for you to get the idea of the program. It's up to you to provide the rest.
 
- 1 import java.util.Scanner;
- 2 
- 3 public class WeaselOrNot
- 4 {
- 5     public static void main( String[] args )
- 6     {
- 7         Scanner keyboard = new Scanner(System.in);
- 8 
- 9         String word;
-10         boolean yep, nope;
-11 
-12         System.out.println( "Type the word \"weasel\", please." );
-13         word = keyboard.next();
-14 
-15         yep  =   word.equals("weasel");
-16         nope = ! word.equals("weasel");
-17 
-18         System.out.println( "You typed what was requested: " + yep );
-19         System.out.println( "You ignored polite instructions: " + nope );
-20     }
-21 }```
+Add a line to print "You should stay inside" if the response is "stormy".
 
-####What You Should See
-```
-Type the word "weasel", please.
-no
-You typed what was requested: false
-You ignored polite instructions: true
+```java
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("How is the weather?");
+        String answer = sc.nextLine();
+        
+        if (answer == "rain")
+            System.out.println("Take your umbrella!");
+        else if (answer == "windy")
+            System.out.println("Wear your jacket!");
+        else if (answer == "snow" )
+            System.out.println("Wear a coat and take a shovel!");
+        else
+            System.out.println("Enjoy your day!");
+     }
 ```
 
-So Strings have a built-in method named .equals() (“dot equals”) that compares itself to another String, simplifying to the value true if they are equal and to the value false if they are not. And you must use the not operator (!) together with the .equals() method to find out if two Strings are different.
 
-###Study Drills
-Try changing around the comparison on line 15 so that "weasel" is in front of the dot and the variable word is inside the parentheses. Make sure that "weasel" is still surrounded by quotes and that word is not. Does it work?
+
+
+

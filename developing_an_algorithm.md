@@ -1,10 +1,9 @@
-# Developing an Algorithm
 
-##Defining the Problem
+<blockquote>
+IF THE ALGORITHM IS NOT CORRECT, THE PROGRAM NEVER WILL BE
+</blockquote>
 
-
-**IF THE ALGORITHM IS NOT CORRECT, THE PROGRAM NEVER WILL BE**
-
+####Defining the Problem
 <p>To help with the initial analysis, the problem should be divided into three separate components:</p>
 <p>&nbsp;</p>
 <ol>
@@ -52,7 +51,7 @@
 </tbody>
 </table>
 <p>&nbsp;</p>
-<h3>Designing a Solution Algorithm</h3>
+####Designing a Solution Algorithm
 <p>Designing a solution algorithm is the most challenging task in the life cycle of a program. &nbsp;Once the problem has been properly defined, you usually begin with a rough sketch of the steps required to solve the problem.&nbsp;The first attempt at designing a particular algorithm usually does not result in a finished product.&nbsp;</p>
 <p>Pseudocode is useful in this trial-and-error process, since it is relatively easy to add, delete or alter an instruction.&nbsp;Note that the algorithm starts with a meaningful name and ends with an <strong>END</strong> statement.</p>
 <p>&nbsp;</p>

@@ -1,7 +1,9 @@
-# What if debugging activity
+<!-- djw:done-->
+<!-- ajh:done-->
+###What if debugging activity
 
 This program has some errors please fix it so that it runs properly.
-```
+```java
 import java.util.Scanners;
 
 public class StudentRecordReader {
@@ -35,4 +37,6 @@ public class StudentRecordReader {
 			System.in.println("This student has been expelled.");
 		}
 	}
-}```
+}
+```
+

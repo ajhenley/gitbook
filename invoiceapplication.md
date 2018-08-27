@@ -1,8 +1,12 @@
-# Invoice application
+<!--djw:done-->
+###Invoice reporting application
 
- <div class="description user_content teacher-version enhanced"><p>Create an application that allows the user to enter a tax rate followed by any number of prices. When the user enters a price of 0.0, the application should print out the list of prices entered followed by the subtotal, tax and grand total</p>
-<p>The program should run something like this:</p>
-<pre>Tax Rate ? : .05
+Create an application that allows the user to enter a tax rate followed by any number of prices. When the user enters a price of 0.0, the application should print out the list of prices entered followed by the subtotal, tax and grand total
+
+The program should run something like this:
+
+```console
+Tax Rate ? : .05
 Price # 1   : 2.34
 Price # 2  : 3.0
 Price # 3   : 5.50
@@ -17,5 +21,4 @@ Receipt
 10.84 subtotal
 .542  tax
 11.36  grand total
-
-</pre></div>
+```

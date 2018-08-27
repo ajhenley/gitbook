@@ -1,19 +1,25 @@
-# Output assignment
+<!--djw:done-->
+<!--ajh:done-->
+###Output assignment
 
-Change the following application so that it outputs the values of age, height and gpa to the console.
-```
+Change the following application so that it outputs the values of name,age, height and gpa to the console.
+```java
 import java.util.Scanner;
 
-public class AskingQuestions
+public class SomethingAboutYou
 {
 	public static void main( String[] args )
 	{
-		Scanner keyboard = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
+		String firstName;
 		int age;
 		String height;
 		double gpa;
 
+		System.out.print( "What is your first name? " );
+		firstName = sc.next();
+		
 		System.out.print( "How old are you? " );
 		age = keyboard.nextInt();
 
@@ -24,4 +30,7 @@ public class AskingQuestions
 		gpa = keyboard.nextDouble();
 
         }
-}```
+}
+```
+
+

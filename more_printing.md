@@ -1,28 +1,33 @@
-# More Printing
+<!-- djw: done -->
+<!-- ajh: done -->
+###More printing
 
-<p><span>Write a program that displays your name and address on the screen as if it were a letter. Your output should look something like that below.</span></p>
-<pre>+---------------------------------------------------------+
-|                                                    #### |
-|                                                    #### |
-|                                                    #### |
-|                                                         |
-|                                                         |
-|                              Bill Gates                 |
-|                              1 Microsoft Way            |
-|                              Redmond, WA 98104          |
-|                                                         |
-+---------------------------------------------------------+</pre>
-<h2>Frequently-Asked Questions</h2>
-<h6>Does my letter have to look exactly like yours?</h6>
-<p>No, but it does have to look roughly like a letter, including the box around the outside and the stamp.</p>
-<p><span>&nbsp;</span></p>
-<h6>Do I have to use my real address?</h6>
-<p>Of course not. But make sure your fake address takes up three lines.</p>
-<p><span>&nbsp;</span></p>
-<h6>How to I get a | to show up on the screen?</h6>
-<p>The | character is called a "pipe". Assuming you are using a normal US keyboard, it is Shift + backslash (\). The backslash key is usually located between the Backspace and Enter keys.</p>
-<p><span>&nbsp;</span></p>
-<h6>Why doesn't my letter line up when I run the program?!? Everything looks perfect in the code!</h6>
-<p>You probably used a mixture of tabs and spaces between the quotes in your println() statements. Many text editors / IDEs will only move the cursor 4 spaces when you press TAB. But when your program runs, any tabs embedded inside the quotes will take up 8 spaces, not 4. If you delete ALL the tabs between the quotes and replace them with spaces, things should look the same in your code and when you run the program.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+Let's get used to printing. Write a program that prints an ATM receipt for Java Bank. An example is below. Your output can look slightly different but try to line up the borders and the margins of the text as much as possible
+
+The borders of the receipt are made up of the dash which is between the ```0``` and ```=``` keys. And the ```|``` pipe character which is above the ```[Enter]``` key. You create a ```|``` by holding ```[shift]``` + ```\```.
+
+Your receipt will line up if you use only spaces. Tabs are handled differently by the editor (Eclipse) so just use spaces to make it easy on yourself. Eclipse will move the cursor 4 positions when you press ```[TAB]```. The tab character will be replaced by 8 spaces when the program executes. 
+
+
+<pre>
++--------------------------------------+
+|      Java Bank ATM Receipt           |
+|      Wednesday, December 2, 2015     |
+|      ATM Location # 123              |
+|                                      |
+|                                      |
+|      Account Number:      1234567    |
+|      Customer:     John Q. Public    |
+|      Transaction Type:    Deposit    |
+|      Transaction Amount:  $500.00    |
+|      Account Balance:   $1,500.00    |
+|                                      |
+|      Thank you for banking with us   |
+|            Have a coffee day         |
+|                                      |
++--------------------------------------+
+</pre>
+
+
+
+

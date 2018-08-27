@@ -1,5 +1,10 @@
 {
-    "plugins": ["emphasize"],
-    
+    "plugins": [
+        "emphasize",
+        "comment",
+        "ace",
+        "sectionx",
+        "-fancybox"
+    ],
     "pluginsConfig": {}
 }

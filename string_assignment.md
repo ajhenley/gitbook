@@ -1,3 +1,6 @@
-# String assignment
+<!--djw: done-->
+<!--ajh:done-->
+###String assignment
 
-Write a program that assigns your name to a variable and outputs to a console.
+Write a Java program that assigns your name to a variable and prints the variable to the console.
+

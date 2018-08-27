@@ -1,10 +1,8 @@
-# Choose your own adventure!
-
+###Choose your own adventure!
 Make a short "Choose Your Own Adventure" game. It should feature two options after the first page, two options for each of the two second-level pages, and two options for each of the four third-level pages, for a total of eight possible destinations.
 
 
-
-WELCOME TO MITCHELL'S TINY ADVENTURE!
+WELCOME TO <YOUR NAME HERE> ADVENTURE!
 
 <pre>
 You are in a creepy house!

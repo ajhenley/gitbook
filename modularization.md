@@ -1,5 +1,3 @@
-# Modularization
-
 Modular programming occurs when you organize your program(or algorithm) into separate modules. Modularization makes your program  collection of independent, reusable components. The process reduces redundant code. Each component contains just the code to perform its specific functionality. Each method of each module can be independently tested/verified with unit tests.
 
 When creating programs in Java modules will become either methods, classes or packages. A method, sometimes called a function, is a unit of code that performs one task. A method in Java will never exist outside of a class. A class generally contains fields and methods modeled after the behavior of an object. A package is a collection of related classes. 
@@ -14,10 +12,10 @@ Name each module by using a verb, followed by a one or two-word object. One modu
 This passes control the called module. When the called module terminates control is passed back to the calling module.
 
 ####The Main Routine - your starting point
-The main routine is the starting point for your program. The main routine ties all the modules together and coordinates their activity. The main routine contains the main processing functions, and the order in which they will execute. It also shows the flow of data and the major control structures. The main program should be easy to read, be of manageable length and show the logic structure of the program.</p>
+The main routine is the starting point for your program. The main routine ties all the modules together and coordinates their activity. The main routine contains the main processing functions, and the order in which they will execute. It also shows the flow of data and the major control structures. The main program should be easy to read, be of manageable length and show the logic structure of the program.
 
 The signature of the main routine in a Java program is:<br/>
-    <pre>public static void main(String args[])</pre>
+    ```public static void main(String args[])```
 
 
 ####Benefits of Modular Design

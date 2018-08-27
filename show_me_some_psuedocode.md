@@ -1,5 +1,3 @@
-# Show Me Some Psuedocode!
-
 Nothing teaches like an example, right?
 
 Here is a complete example of a modular program using pseudocode.

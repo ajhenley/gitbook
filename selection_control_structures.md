@@ -1,6 +1,3 @@
-# Selection Control Structures
-
-<p><strong>The Selection Control Structure</strong></p>
 <p>&nbsp;You can use the selection control structure in pseudocode to illustrate a choice between two or more actions, depending on whether a condition is true or false.&nbsp;</p>
 <p>&nbsp;</p>
 <p><span style="text-decoration: underline;">General Format:</span></p>
@@ -56,16 +53,14 @@
 <p>If the connector <strong>OR</strong> is used to combine two conditions, then <strong><u>only one</u></strong> of the conditions needs to be true for the combined condition to be considered true.</p>
 <p>&nbsp;</p>
 <p><span style="text-decoration: underline;">Examples:</span></p>
-<p><strong>IF</strong> Age &gt; 18 <strong>AND</strong> Gender = &ldquo;F&rdquo;</p>
-<p><strong>THEN</strong></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add 1 to Female-Adult-Count</p>
-<p><strong>ENDIF</strong></p>
-<p>&nbsp;</p>
-<p><strong>IF</strong> Age &lt; 12 <strong>OR</strong> Age &gt; 65</p>
-<p><strong>THEN</strong></p>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add 1 to Half-Price-Count</p>
-<p><strong>ENDIF</strong></p>
-<p>&nbsp;</p>
+
+```
+IF Gender = "M" THEN
+    Add 1 to Male-Count
+ELSE
+    Add 1 to Female-Count
+ENDIF
+```
 <h3>The NOT operator</h3>
 <p>The <strong>NOT</strong> operator can be used for the logical negation of a condition as follows:</p>
 <p>&nbsp;<strong>IF NOT</strong> (Record-Code = &rsquo;23&rsquo;)</p>

@@ -1,11 +1,12 @@
-# Checking Status
-
+<!--djw:done-->
 At any time in the Git directory you can type <pre>git status</pre> to check the status of your repository.
 
 Most of the time you'll see something like this:
-<pre>MyProject>git status
+```
+MyProject>git status
 # On branch master
-nothing to commit (working directory clean)</pre>
+nothing to commit (working directory clean)
+```
 
 When there are changes to your files or changes to be added to your repository you'll get messages about those as well. 
 

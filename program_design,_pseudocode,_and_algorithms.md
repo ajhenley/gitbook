@@ -1,13 +1,10 @@
-# Program Design, Pseudocode, and Algorithms
 
-###Objective
+####Objective
 * Define the problem by constructing an algorithm using pseudocode
 * Create an IPO diagram showing <strong>input, output, </strong>and<strong> processing steps</strong>
 * What control structures (sequence, selection and repetition) are required?
 * What variables are required?
 * Show a check of your solution with test data for at least two valid test cases
-
-
 
 ####1. Create a basic application
 Your 6 year old client needs an application that will receive an integer from the user banging on the keyboard, add 5 to it, double it, subtract 7 from it, and display the result to the screen.

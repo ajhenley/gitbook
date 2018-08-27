@@ -1,5 +1,3 @@
-# Fork a repository on GitHub
-
 <p>After using GitHub by yourself for a while, you may find yourself wanting to contribute to someone else&rsquo;s project. Or maybe you&rsquo;d like to use someone&rsquo;s project as the starting point for your own. This process is known as <em>forking.</em></p>
 <p>Creating a &ldquo;fork&rdquo; is producing a personal copy of someone else&rsquo;s project. Forks act as a sort of bridge between the original repository and your personal copy. You can submit <em>Pull Requests</em> to help make other people&rsquo;s projects better by offering your changes up to the original project. Forking is at the core of social coding at GitHub.</p>
 <p>For this tutorial, we&rsquo;ll be using <a href="https://github.com/octocat/Spoon-Knife">the Spoon-Knife project</a>, a test repository that&rsquo;s hosted on GitHub.com.</p>

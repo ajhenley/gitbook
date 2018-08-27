@@ -1,9 +1,6 @@
-# Change Activity: Process Student Records
+In true project manager fashion Chanchal has asked you to also print the part-time employees. But they should be separate from the full-time employees. The report she wants looks like this:
 
-
-In true project manager fashion Chanchal has asked you to also print the PT employees but they should be separate from the full-time employees. So, the report she wants looks like this:
-
-<pre>
+```
 Employee Hours Billed to Project
 Full-Time employees
     10335 Finance    Smithers  $110.00/hour 24 hours
@@ -11,20 +8,21 @@ Full-Time employees
     31004 IT         Burns     $150.00/hour 20 hours
 Part-Time employees
    20045 Finance     Flanders  $25.00/hour  10 hours
-</pre>
+```
 
 ###Incorrect Results - find and fix the error
-<pre>Print_Hours_Billed_To_Project
-Print &lsquo;Employee Hours Billed to Project&lsquo; heading
+```
+Print_Hours_Billed_To_Project
+Print "Employee Hours Billed to Project" heading
     Read timesheet record
     DOWHILE morerecords exist
-        IF timesheet_status = &lsquo;FT&rsquo; THEN
+        IF timesheet_status = "FT" THEN
             Print EmployeeID, Department, Billing Rate, Hours Worked
         ENDIF
     ENDDO
     Read timesheet record
 END
-</pre>
+```
    
 Alter the previous activity to print the report as shown above.
    

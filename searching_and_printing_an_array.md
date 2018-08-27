@@ -1,10 +1,10 @@
-# Searching and Printing an Array
 
-###Searching an array
-* A linear search of an array (look at each element starting with first)
+
 
 ###Linear search of an array
-<pre>Linear_search_of_an_array
+* A linear search of an array looks at each element starting with first
+```
+Linear_search_of_an_array
    Set max_num_elements to required value
    Set element_found to false
    Set index to 1
@@ -23,16 +23,17 @@
        Print &lsquo;value not found&rsquo;, input_value
    ENDIF
 END
-</pre>
+```
 
-###Binary search of an array
+####Binary search of an array
 * faster than linear search for arrays with &gt; 25 elements
 * first, sort elements into ascending sequence
 * next, locate the middle element
 * then determine if your element is in the first half or second
 * repeat the process with the selected half of the array
 
-<pre>Binary_search_of_an_array
+``
+Binary_search_of_an_array
 
    Set element_found to false
    Set low_element to 1
@@ -59,16 +60,17 @@ IF element_found THEN
        Print &lsquo;value not found&rsquo;, input_value
    ENDIF
 END
-</pre>
+```
 
-###Writing out contents of an array
+####Writing out contents of an array
 * use DO loop
 * start with first element
 * write each element until done
 
-<pre>Write_values_of_array
+```
+Write_values_of_array
      DO index = 1 to number_of_elements
           Print array(index)
      ENDDO
 END
-</pre>
+```

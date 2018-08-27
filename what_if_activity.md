@@ -1,4 +1,6 @@
-# What if activity
+<!--djw:done-->
+<!--ajh:done-->
+###What if activity
 
 Create a program that allows the user enter a sales record (which includes customer number, name, sales amount and a tax code).
 

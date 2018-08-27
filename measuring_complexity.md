@@ -1,6 +1,4 @@
-# Measuring Complexity
-
-##When is Efficiency Important?
+###When is Efficiency Important?
 Not every problem requires the most efficient solution available. For our purposes, the term efficient is concerned with the time and/or space needed to perform the task. When either time or space is abundant and cheap, it may not be worth it to pay a programmer to spend a day or so working to make a program faster.
 
 However, here are some cases where efficiency matters:
@@ -19,7 +17,7 @@ In short, it's important to save time when you do not have any time to spare.
 
 When is efficiency unimportant? Examples of these cases include prototypes that are used only a few times, cases where the input is small, when simplicity and ease of maintenance is more important, when the area concerned is not the bottle neck, or when there's another process or area in the code that would benefit far more from efficient design and attention to the algorithm(s).
 
-##Big-O notation
+###Big-O notation
 
 Big O notation is a method of expressing the complexity of an algorithm. But how does it work? It’s one of those things that sounds more complex than it really is. Let’s build up to it. I'll be using Python 3 for my examples.
 Idea 1: The easiest way to measure the execution time of a program across platforms is to count the measure of steps.

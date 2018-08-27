@@ -1,15 +1,27 @@
-# Formatting prices with two decimal places
+<!--ajh:done-->
+###Formatting prices with two decimals
 
-<h1 class="page-title">Formatting Prices with Two Decimal Places</h1>
-  
-    <pre class="lang-java prettyprint prettyprinted"><code><span class="typ">You can use the NumberFormat class from the Java API<br><br>NumberFormat</span><span class="pln"> nf</span><span class="pun">=</span><span class="pln"> </span><span class="typ">NumberFormat</span><span class="pun">.</span><span class="pln">getInstance</span><span class="pun">();</span><span class="pln">
-nf</span><span class="pun">.</span><span class="pln">setMaximumFractionDigits</span><span class="pun">(</span><span class="lit">2</span><span class="pun">);</span><span class="pln">
-nf</span><span class="pun">.</span><span class="pln">setMinimumFractionDigits</span><span class="pun">(</span><span class="lit">2</span><span class="pun">);</span><span class="pln">
-nf</span><span class="pun">.</span><span class="pln">setRoundingMode</span><span class="pun">(</span><span class="typ">RoundingMode</span><span class="pun">.</span><span class="pln">HALF_UP</span><span class="pun">);</span><span class="pln">
+The **NumberFormat** class helps you to format and parse numbers or currency values. Since it's an abstract class you must call the ```getInstance()``` method or some variation of that method.
+ 
+```java
+myString = NumberFormat.getInstance().format(myNumber);
+```
 
-</span><span class="typ">System</span><span class="pun">.</span><span class="pln">out</span><span class="pun">.</span><span class="pln">print</span><span class="pun">(</span><span class="pln">nf</span><span class="pun">.</span><span class="pln">format</span><span class="pun">(</span><span class="pln">decimalNumber</span><span class="pun">));<br><br>Or you can use String.format. This will also work with printf to print a formatted string.<br></span></code></pre>
-<pre class="lang-java prettyprint prettyprinted"><code><span class="kwd">double</span><span class="pln"> d </span><span class="pun">=</span><span class="pln"> yourDoubleValue</span><span class="pun">;</span><span class="pln">  
-</span><span class="typ">String</span><span class="pln"> formattedData </span><span class="pun">=</span><span class="pln"> </span><span class="typ">String</span><span class="pun">.</span><span class="pln">format</span><span class="pun">(</span><span class="str">"%.02f"</span><span class="pun">,</span><span class="pln"> d</span><span class="pun">);</span></code></pre>
-<pre class="lang-java prettyprint prettyprinted"><code><span class="pun">&nbsp;</span></code></pre>
-  
-</div>
+###Formatting prices with two decimal places
+You can use the NumberFormat class from the Java API
+
+```java
+NumberFormat nf = NumberFormat.getInstance();
+nf.setMaximumFractionDigits(2);
+nf.setMinimumFractionDigits(2);
+setRoundingMode(RoundingMode.HALF_UP);
+
+System.out.print(nf.format(decimalNumber));
+```
+
+Or you can use String.format. This will also work with printf to print a formatted string.
+
+```java
+double myDouble = 3.5;
+String formattedData = String.format("%.02f",myDouble);
+```

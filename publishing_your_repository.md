@@ -1,5 +1,3 @@
-# Publishing your repository
-
 ###What is a repository?
 A repository is a storage space where you can access your project, its files, and all the versions of its files that Git saves.
 

@@ -1,5 +1,4 @@
-# View your Git configuration
-
+<!--djw:done-->
 Configuration files are just simple text files.
 
 Use the ```git config``` command to manipulate the entries in your configuration file directly.
